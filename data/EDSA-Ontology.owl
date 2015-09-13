@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="www.edsa-project.eu/edsa#"
+     xml:base="www.edsa-project.eu/edsa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="www.edsa-project.eu/edsa"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="&xsd;date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#desiresSkill -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#desiresSkill">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:domain rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#fulfills -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#fulfills">
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:domain rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Training"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#hasSkill -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#hasSkill">
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:domain rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#User"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#offers -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#offers">
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Training"/>
+        <rdfs:domain rdf:resource="http://schema.org/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#prerequisites -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#prerequisites">
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:domain rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Training"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#requiresSkill -->
+
+    <owl:ObjectProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#requiresSkill">
+        <rdfs:range rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/baseSalary -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/baseSalary">
+        <rdfs:label rdf:datatype="&xsd;string">base salary</rdfs:label>
+        <rdfs:comment>The base salary of the job or of an employee in an EmployeeRole.</rdfs:comment>
+        <rdfs:range rdf:resource="&xsd;float"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/EmployeeRole"/>
+                    <rdf:Description rdf:about="http://schema.org/JobPosting"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/hiringOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/hiringOrganization">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">hiring organization</rdfs:label>
+        <rdfs:comment>Organization offering the job position.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="http://schema.org/Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/industry -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/industry">
+        <rdfs:label rdf:datatype="&xsd;string">industry</rdfs:label>
+        <rdfs:comment>The industry associated with the job position.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/jobLocation -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/jobLocation">
+        <rdfs:label rdf:datatype="&xsd;string">job location</rdfs:label>
+        <rdfs:comment>A (typically single) geographic location associated with the job position.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="http://schema.org/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/qualifications -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/qualifications">
+        <rdfs:label rdf:datatype="&xsd;string">qualifications</rdfs:label>
+        <rdfs:comment>Specific qualifications required for this role.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/responsibilities -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/responsibilities">
+        <rdfs:label rdf:datatype="&xsd;string">responsibilities</rdfs:label>
+        <rdfs:comment>Responsibilities associated with this role.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/salaryCurrency -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/salaryCurrency">
+        <rdfs:label rdf:datatype="&xsd;string">salary currency</rdfs:label>
+        <rdfs:comment>The currency (coded using ISO 4217, http://en.wikipedia.org/wiki/ISO_4217 ) used for the main salary information in this job posting or for this employee.</rdfs:comment>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://schema.org/EmployeeRole"/>
+                    <rdf:Description rdf:about="http://schema.org/JobPosting"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#lexicalValue -->
+
+    <owl:DatatypeProperty rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#lexicalValue">
+        <rdfs:domain rdf:resource="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/datePosted -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/datePosted">
+        <rdfs:label rdf:datatype="&xsd;string">date posted</rdfs:label>
+        <rdfs:comment>Publication date for the job posting.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="&xsd;date"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/employmentType -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/employmentType">
+        <rdfs:label rdf:datatype="&xsd;string">employment type</rdfs:label>
+        <rdfs:comment>Type of employment (e.g. full-time, part-time, contract, temporary, seasonal, internship).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/jobTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/jobTitle">
+        <rdfs:label rdf:datatype="&xsd;string">job title</rdfs:label>
+        <rdfs:comment>The job title of the person (for example, Financial Manager).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/skills -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/skills">
+        <rdfs:label rdf:datatype="&xsd;string">skills</rdfs:label>
+        <rdfs:comment>Skills required to fulfill this role.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill -->
+
+    <owl:Class rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Skill"/>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Training -->
+
+    <owl:Class rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#Training"/>
+    
+
+
+    <!-- file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#User -->
+
+    <owl:Class rdf:about="file:/Users/luisdanielibanesgonzalez/EDSADashboard/www.edsa-project.eu/www.edsa-project.eu/edsa#User"/>
+    
+
+
+    <!-- http://schema.org/EmployeeRole -->
+
+    <owl:Class rdf:about="http://schema.org/EmployeeRole"/>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+    <owl:Class rdf:about="http://schema.org/Intangible"/>
+    
+
+
+    <!-- http://schema.org/JobPosting -->
+
+    <owl:Class rdf:about="http://schema.org/JobPosting">
+        <rdfs:label rdf:datatype="&xsd;string">Job posting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment>A listing that describes a job opening in a certain organization.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:Class rdf:about="http://schema.org/Organization"/>
+    
+
+
+    <!-- http://schema.org/Place -->
+
+    <owl:Class rdf:about="http://schema.org/Place"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <owl:Class rdf:about="&xsd;float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <owl:Class rdf:about="&xsd;string"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
