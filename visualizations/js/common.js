@@ -65,3 +65,12 @@ function filterBySkillsPercentage(key, threshold, data) {
 
   return (!returnValue ? "" : returnValue);
 }
+
+
+function printOutLastSelection(output, divId) {
+  location.href = "#" + divId;
+
+  output = //"<p>&nbsp;</p><p style='font-size: 1.4em; margin-left: 1em;'>Last Selection</p>" +
+    "<span style='font-size: 1.3em; margin-left: 4em;'>" +  output + "</span>";
+  document.getElementById("" + divId + "").innerHTML = output;
+}
