@@ -1,11 +1,11 @@
 see http://people.kmi.open.ac.uk/dadzie/edsa_demand_analysis for pointers to screen shots and recordings
 
-* parallel coordinates plot is currently simply an output dump (csv files under data); additional interactivity TBD - one line per job post
+* parallel coordinates plot is currently simply an output dump (csv files under data/data_extraction/); additional interactivity TBD - one line per job post
   current functionality includes:
     - interchangeable axes 
     - dynamic sliders along each axis - click and drag along each to build visual AND query
     - mouseOver for summary and double-click to print detail to screen
-  
+* Java code for term parser to be uploaded
   
 * aster plots and timelines using ODI LinkedIn summaries 
 	- filters commented out to show a specific example - will build back in later
