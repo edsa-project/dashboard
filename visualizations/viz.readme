@@ -1,1 +1,17 @@
 see http://people.kmi.open.ac.uk/dadzie/edsa_demand_analysis for pointers to screen shots and recordings
+
+* parallel coordinates plot is currently simply an output dump (csv files under data); additional interactivity TBD - one line per job post
+  current functionality includes:
+    - interchangeable axes 
+    - dynamic sliders along each axis - click and drag along each to build visual AND query
+    
+  mouseOver for summary and double-click to print detail to screen
+  
+* aster plots and timelines using ODI LinkedIn summaries - pull data from https://github.com/davetaz/EDSA into data directory as:
+  data/harvester/
+  data/eu-country-languages.csv
+	data/eu-country-names.csv
+	data/jobs_short.csv
+  
+  
+
