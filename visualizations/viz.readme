@@ -7,11 +7,13 @@ see http://people.kmi.open.ac.uk/dadzie/edsa_demand_analysis for pointers to scr
     
   mouseOver for summary and double-click to print detail to screen
   
-* aster plots and timelines using ODI LinkedIn summaries - pull data from https://github.com/davetaz/EDSA into data directory as:
-  data/harvester/
-  data/eu-country-languages.csv
-	data/eu-country-names.csv
-	data/jobs_short.csv
-  
+* aster plots and timelines using ODI LinkedIn summaries 
+	- filters commented out to show a specific example - will build back in later
+	- pull data from https://github.com/davetaz/EDSA into data directory as:
+	  data/harvester/
+	  data/eu-country-languages.csv
+		data/eu-country-names.csv
+		data/jobs_short.csv
+	  
   
 
