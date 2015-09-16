@@ -4,8 +4,8 @@ see http://people.kmi.open.ac.uk/dadzie/edsa_demand_analysis for pointers to scr
   current functionality includes:
     - interchangeable axes 
     - dynamic sliders along each axis - click and drag along each to build visual AND query
-    
-  mouseOver for summary and double-click to print detail to screen
+    - mouseOver for summary and double-click to print detail to screen
+  
   
 * aster plots and timelines using ODI LinkedIn summaries 
 	- filters commented out to show a specific example - will build back in later
