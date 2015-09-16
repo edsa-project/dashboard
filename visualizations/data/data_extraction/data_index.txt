@@ -1,1 +1,3 @@
+detail_term_frequencies.csv files are using a '|' delimiter because quotation marks within the description text often breaks the "," delimiter. Do a replace-all for pipe with commas to create a true csv or edit the delimiter in the java code and rerun.
 
+TODO - include input and valid (based on required fields) posting count in output
