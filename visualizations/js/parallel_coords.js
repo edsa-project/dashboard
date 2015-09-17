@@ -11,10 +11,12 @@ var line = d3.svg.line(),
     background,
     foreground;
 
-var strokeWidth = 1.0;
+var strokeWidth = 1.0
+    defaultStrokeDasharray = 3;
+var lastPathSelected;
 var defaultPathColour = "steelblue",
     currentSelectionColour = "red",
-    lastSelectionColour = defaultPathColour;
+    lastSelectionColour = null;
 var opacity = 90;
 
 var svg = d3.select("#plot")
@@ -25,20 +27,13 @@ var svg = d3.select("#plot")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // @todo - extract from data
-var numericHeaders = [ "python","advanced computing", "programming", "computational systems", "coding", "cloud computing",
-                        "databases", "data management", "data engineering", "data mining", "data formats", "linked data",
-                        "information extraction", "stream processing", "enterprise process", "business intelligence",
-                        "data anonymisation", "semantics", "schema", "data licensing", "data quality", "data governance",
-                        "data science", "big data", "open data", "machine learning", "social network analysis", "inference",
-                        "reasoning", "process mining", "Linear algebra", "Calculus", "Mathematics", "Statistics", "Probability",
-                        "RStudio", "Data analytics", "Data analysis", "data visualisation", "infographics", "interaction",
-                        "data mapping", "data stories", "data journalism", "d3js", "tableau" ];
-
+var numericHeaders = [];
 var skillNotDefined = [];
 
-var summaries, advisorSummary, advisorMedian, parsedData;
-var medianLabel = "Median frequency",
-    totalsLabel = "Max frequency";
+var summaries = [],
+    termFrequencyMax, termFrequencyMedian;
+var medianFrequencyLabel = "Median frequency",
+    maxFrequencyLabel = "Max frequency";
 
 
 function drawParallelCoordinates(dataFile, skills) {
@@ -50,7 +45,6 @@ function drawParallelCoordinates(dataFile, skills) {
 
     highdData.sort(function(a, b) {
 //      return stringSort(a.Country, b.Country) // //-coords top-down...
-console.log(a.dataSourceId);
 
       // reverse chronological
       if (a.datePosted > b.datePosted)
@@ -81,6 +75,12 @@ console.log(a.dataSourceId);
 
 //  console.log("data: " + highdData);
 
+    Object.keys(skills).forEach(function (skillSet) {
+      skills[skillSet].forEach(function (skill) {
+        numericHeaders.push(skill);
+      });
+    });
+
     /////////////
 
     var colourCodesDomain = [];
@@ -91,6 +91,7 @@ console.log(a.dataSourceId);
         lastSeenEmpty = true;
     var minValidDate = Date.now(),
         maxValidDate = new Date(0);
+
 
     highdData.forEach(function (d, i) {
 
@@ -142,33 +143,52 @@ console.log(a.dataSourceId);
       try {
         formatDateDby(d.datePosted)
        } catch (error) {
-         console.log("ALERT - error in datePosted: " + d.identifier + ": " + d.title); // whichever date broke will be empty or null...
+//         console.log("ALERT - error in datePosted: " + d.identifier + ": " + d.title); // whichever date broke will be empty or null...
          d.datePosted = new Date(-1); //- new Date() === Date.now()
        }
 
       try {
         formatDateDby(d.firstSeen)
        } catch (error) {
-         console.log("ALERT - error in firstSeen: " + d.identifier + ": " + d.lastSeen + " - " + d.title); // whichever date broke will be null...
+//         console.log("ALERT - error in firstSeen: " + d.identifier + ": " + d.lastSeen + " - " + d.title); // whichever date broke will be null...
          d.firstSeen = new Date(-1);
        }
       try {
           formatDateDby(d.lastSeen)
       } catch (error) {
-            console.log("ALERT - error in lastSeen: " + d.identifier + ": " + d.firstSeen + " - " + d.title); // whichever date broke will be null...
+//            console.log("ALERT - error in lastSeen: " + d.identifier + ": " + d.firstSeen + " - " + d.title); // whichever date broke will be null...
         d.lastSeen = new Date(-1);
       }
 
+      minFrequency = Math.min(minFrequency, d.minValue);
+      maxFrequency = Math.max(maxFrequency, d.maxValue);
 
-      if (d.maxValue == 0) {
-        if (contains(numericHeaders, Object.keys(d)[i]))
-          skillNotDefined.push(Object.keys(d)[i]);
-      }
+      Object.keys(d).forEach(function(g) {
 
-       minFrequency = Math.min(minFrequency, d.minValue);
-       maxFrequency = Math.max(maxFrequency, d.maxValue);
+        if (!summaries[g]) {
+          summaries[g] = [];
+          summaries.push(summaries[g]);
+        }
+        if (contains(numericHeaders, g, true))
+          summaries[g].push(+d[g]); // need to eliminate text bleeding into first... // will cause problems - need to strip out all such entries...
+        else
+          summaries[g].push("");  // or breaks axis labels...
+      });
+
+    }); // end iteration through dataset
+
+    termFrequencyMedian = termFrequencyMax = [];
+    Object.keys(summaries).forEach(function(g) {
+      termFrequencyMedian[g] = d3.median(summaries[g]);
+      termFrequencyMax[g] = d3.max(summaries[g]);
+
+      if ((termFrequencyMax[g] === 0) && contains(numericHeaders, g, true))
+        skillNotDefined.push(g);
     });
 
+    termFrequencyMax.identifier = maxFrequencyLabel;
+    termFrequencyMax.dataSourceId = "";
+    highdData[highdData.length] = termFrequencyMax;
 
     colourCodesDomain = d3.set(colourCodesDomain).values();
 
@@ -182,22 +202,22 @@ console.log(a.dataSourceId);
                                     colorbrewer.Set3[12],
                                   ]);
 
-    if (skills) { // need to filter...
-     colourCodesDomain.forEach(function (d, i) {
-
-       if (contains(skills, d)) {
-         cRange.push(colourSelector[i]);
-         cDomain.push(colourCodesDomain[i]);
-
-       console.log(d + " :- " + colourSelector[i] + " - " + colourCodesDomain[i]);
-       }
-     }); // end forEach ...
-    } else {
+//    if (skills) { // need to filter...// no longer filtering on skills - need to set this to "filterVariable"
+//     colourCodesDomain.forEach(function (d, i) {
+//
+//       if (contains(skills, d)) {
+//         cRange.push(colourSelector[i]);
+//         cDomain.push(colourCodesDomain[i]);
+//
+//       console.log(d + " :- " + colourSelector[i] + " - " + colourCodesDomain[i]);
+//       }
+//     }); // end forEach ...
+//    } else {
 
       cRange = colourSelector;
       cDomain = colourCodesDomain;
 
-    } // end legend filter...
+//    } // end legend filter...
 
     colourCodesLib = d3.scale.ordinal()
                        .range(cRange)
@@ -215,7 +235,7 @@ console.log(a.dataSourceId);
             (lastSeenEmpty && (d === "lastSeen"))) )
         return false;
 
-      if (!contains(numericHeaders, d)) {
+      if (!contains(numericHeaders, d, true)) {
 //        if (d === "Skill") {
 //          return y[d] = d3.scale.ordinal()
 //                                    .domain(highdData.sort(function(a, b) {
@@ -263,11 +283,29 @@ console.log(a.dataSourceId);
                     .data(highdData)//, function(d) { return d.identifier; })
                     .enter().append("path")
                     .attr("d", path)
-  //          .attr("class", function(d) { return d.boolOptions; })
 
     // additional interaction elements...
-                    .attr("stroke", function(d) { return colourCodesLib(d.identifier); })
+                    .attr("stroke", function(d) {
+                      if (d.identifier === maxFrequencyLabel)
+                        return "magenta";
+                      return colourCodesLib(d.identifier);
+                    })
+                    .style("stroke-dasharray", function(d) {
+                      if (d.identifier === maxFrequencyLabel)
+                       return defaultStrokeDasharray;
+//                      return null;
+                    })
+                    .style("stroke-width", function(d) {
+                      if (d.identifier === maxFrequencyLabel)
+                        return strokeWidth * 3;
+//                      if (d.dataSourceId == maxFrequencyLabel)
+//                        return 0;
+                      return strokeWidth;
+                    })
                     .attr("title", function(d, i) {
+                      if (d.identifier === maxFrequencyLabel)
+                        return "Maximum term frequency trend line";
+
                       var info = "";
                       for (var key in highdData[i]) {
                         if ((key === "datePosted") || (key === "firstSeen") || (key === "lastSeen")) {
@@ -280,21 +318,57 @@ console.log(a.dataSourceId);
                                   (highdData[i][key] != "") && (highdData[i][key] != "0"))
                           info += "* " + key.replace(/_/g, " ") + ":\t" + highdData[i][key] + "\n";
                       }
-                      return info + "\n Double-click on entry to reveal more detail...";
+                      return info + "\n *** Double-click on entry to reveal more detail... ***";
                     })
                     .on("mouseout", function() {
                       d3.select(this)
-                        .style("stroke-width", strokeWidth)
+                        .style("stroke-width", function(d) {
+                          if (d.identifier === maxFrequencyLabel)
+                            return strokeWidth * 3;
+                          return strokeWidth;
+                        })
                         .style("stroke-opacity", opacity/100)
-                        .style("stroke", function(d) { return colourCodesLib(d.identifier); });
-                    })
+                        .style("stroke", function(d) {
+                          if (d.identifier === maxFrequencyLabel)
+                            return "magenta";
+                          return colourCodesLib(d.identifier);
+                        });
+
+                      if (lastPathSelected != null)
+                        lastPathSelected.style("stroke-width", strokeWidth * 3)
+                                         .style("stroke-opacity", 1.0)
+                                         .style("stroke-dasharray", 2)
+                                         .style("stroke", currentSelectionColour);
+                   })
                     .on("mouseover", function(d, i) {
                       d3.select(this)
                         .style("stroke-width", strokeWidth * 3)// + (strokeWidth/3))  // otherwise hidden if lying under another
                         .style("stroke-opacity", 1.0)
+                        .style("stroke-dasharray", function(d) {
+                          if (d.identifier === maxFrequencyLabel)
+                            return defaultStrokeDasharray;
+    //                      return null;
+                        })
                         .style("stroke", currentSelectionColour);
                     })
                     .on("dblclick", function(d, i) {
+                      if (d.identifier === maxFrequencyLabel)
+                        return;
+
+                      if (lastPathSelected != null)
+                        lastPathSelected.style("stroke-width", strokeWidth)
+                                         .style("stroke-opacity", opacity/100)
+                                         .style("stroke-dasharray", null)
+                                         .style("stroke", function(d) {
+                                           if (d.identifier === maxFrequencyLabel)
+                                             return "magenta";
+                                           return colourCodesLib(d.identifier);
+                                         });
+
+                      lastPathSelected = d3.select(this);  // reset
+                      lastSelectionColour = colourCodesLib(d.identifier);
+
+
 //                      if (d3.event.ctrlKey) { // @todo - complete - with next
                         var info = "<h3>Posting Detail & Term Frequency</h3>" +
                                       "(up to <a href=\"#plot\">plot</a>)<br />&nbsp;<br />" +
@@ -310,7 +384,7 @@ console.log(a.dataSourceId);
                           info += "<tr><td width=10%><b><i>" + key.replace(/_/g, " ") + "</i></b> </td><td width=65%>" + highdData[i][key] + "</td></tr>"
                         }
                         info += "</table>" +
-                                  "<br />&nbsp;<br />(back up to <a href=\"#plot\">plot</a><br />)";
+                                  "<br />&nbsp;<br />(back up to <a href=\"#plot\">plot</a>)<br />";
                         printOutLastSelection(info, "selectionDetail");
 //                      }
                     })
@@ -355,7 +429,7 @@ console.log(a.dataSourceId);
                   if ((d === "datePosted")|| (d === "firstSeen")|| (d === "lastSeen"))
                     d3.select(this).call(axis.scale(y[d])
                                               .tickFormat(formatDateby));
-                  if (contains(numericHeaders, d))
+                  if (contains(numericHeaders, d, true))
                     d3.select(this).call(axis.scale(y[d])
                                               .tickFormat(formatInteger));
                   else
@@ -363,7 +437,7 @@ console.log(a.dataSourceId);
                 })
                 .append("text")
                 .style("font-size", "12px")
-                .style("fill", function(d) { if (contains(skillNotDefined, d)) return "lightgrey"; })
+                .style("fill", function(d) { if (contains(skillNotDefined, d, true)) return "lightgrey"; })
                 .style("text-anchor", "start")
                 .attr("y", -9)
                 .attr("transform", function(d) { return "translate(10, -5) rotate(-65)"; })
@@ -372,8 +446,8 @@ console.log(a.dataSourceId);
     groupElement.append("g")
                 .attr("class", "brush")
                 .each(function(d) {
-                     d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
-                     })
+                  d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+                 })
                 .selectAll("rect")
                 .attr("x", -8)
                 .attr("width", 16);
@@ -412,6 +486,7 @@ function brushstart() {
   d3.event.sourceEvent.stopPropagation();
 }
 
+
 // Handles a brush event, toggling the display of foreground lines.
 function brush() {
   var actives = dimensions.filter(function(coordinate) { return !y[coordinate].brush.empty(); }),
@@ -420,7 +495,7 @@ function brush() {
   foreground.style("display", function(d) {
     return actives.every(function(coordinate, i) {
 
-      if (!contains(numericHeaders, coordinate)) // categorical/ordinal
+      if (!contains(numericHeaders, coordinate, true)) // categorical/ordinal
         return extents[i][0] <= y[coordinate](d[coordinate]) && y[coordinate](d[coordinate]) <= extents[i][1];
       else // linear
         return extents[i][0] <= d[coordinate] && d[coordinate] <= extents[i][1];
