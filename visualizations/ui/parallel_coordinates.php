@@ -274,7 +274,7 @@
 
       dataFile = "../data/data_extraction/detail_term_frequencies1441903172993.csv";
 
-      drawParallelCoordinates(dataFile);
+      drawParallelCoordinates(dataFile, skills);
       printOutput();
 
       var skillSelector;
