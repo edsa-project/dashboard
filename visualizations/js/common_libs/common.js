@@ -89,11 +89,13 @@ function sortOnProperty(elementA, elementB, propertyA, propertyB) {
 }
 
 
-function contains(dataStructure, searchElement) {
+function contains(dataStructure, searchElement, ignoreCase) {
   var i = dataStructure.length;
 
   while (i--) {
     if (dataStructure[i] === searchElement)
+      return true;
+    if (ignoreCase && (dataStructure[i].toLowerCase() === searchElement.toLowerCase()))
       return true;
   }
 
