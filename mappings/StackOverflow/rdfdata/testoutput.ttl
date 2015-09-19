@@ -1,0 +1,144 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.edsa-project.eu/edsa#> .
+@prefix ns3: <http://schema.org/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.edsa-project.eu/jobs/StackOverflow/1> ns3:datePosted "2015-08-05T21:08:27+00:00"^^xsd:Date ;
+    ns3:description "<p><span>Sharethrough is looking for engineers interested in building data products and infrastructure to power our business and provide insight to our customers. &nbsp;You'll be taking the lead on the design and implementation of a data warehousing infrastructure used by our product, engineering and operational teams.</span></p><br /><p><span>What You'll Be Doing:</span></p><br /><ul><br /><li><span>Greenfield architecture and construction of a modern data warehouse</span></li><br /><li><span>Working with new technologies such as Apache Spark and Amazon Redshift</span></li><br /><li><span>Deriving insight from large quantities of data, starting with our 500GB/day performance pipeline</span></li><br /><li><span>Collaborating with data science and business intelligence teams on visualization and data wrangling platforms such as Looker</span></li><br /></ul><br /><p><span>Let&rsquo;s talk if...</span></p><br /><ul><br /><li><span>You&rsquo;ve got experience with SQL, ETL, python/shell scripting, and MPP Data Warehousing</span></li><br /><li><span>You&rsquo;ve worked on or are interested in data integrity governance and semantic layer design</span></li><br /><li><span>You possess an intense curiosity about data and a strong commitment to practical problem solving</span></li><br /></ul>" ;
+    ns3:hiringOrganization "Sharethrough" ;
+    ns3:jobLocation "San Francisco, CA" ;
+    ns3:jobTitle "Data Analytics Engineer at Sharethrough (San Francisco, CA)" ;
+    ns3:url "http://careers.stackoverflow.com/jobs/55843/data-analytics-engineer-sharethrough" ;
+    ns2:Location <http://sws.geonames.org/5391959/> ;
+    ns2:requiresSkill <http://www.edsa-project.eu/skill/amazon-redshift>,
+        <http://www.edsa-project.eu/skill/apache-spark>,
+        <http://www.edsa-project.eu/skill/data-warehouse>,
+        <http://www.edsa-project.eu/skill/python>,
+        <http://www.edsa-project.eu/skill/sql> .
+
+<http://sws.geonames.org/5391959/> a ns1:Feature ;
+    ns1:alternateName "San Francisco"@af,
+        "سان فرانسيسكو"@ar,
+        "سان فرانسيسكو"@arz,
+        "San Francisco"@ast,
+        "San-Fransisko"@az,
+        "Горад Сан-Францыска"@be,
+        "Сан Франциско"@bg,
+        "সান ফ্রান্সিস্কো"@bn,
+        "སན་ཧྥུ་རན་སིས་ཁོ"@bo,
+        "সান ফ্রান্সিসকো কাউন্টি"@bpy,
+        "San Francisco"@bs,
+        "San Francisco"@ca,
+        "Сан-Франциско"@ce,
+        "سان فرانسیسکۆ"@ckb,
+        "San Francisco"@cs,
+        "Сан-Франциско"@cv,
+        "San Francisco"@cy,
+        "San Francisco"@da,
+        "San Francisco"@de,
+        "Σαν Φρανσίσκο"@el,
+        "San Francisco"@en,
+        "San Francisco"@eo,
+        "San Francisco"@es,
+        "San Francisco"@et,
+        "San Frantzisko"@eu,
+        "San Franciscu"@ext,
+        "سان فرانسیسکو"@fa,
+        "San Francisco"@fi,
+        "San Francisco"@fr,
+        "San Fransisko"@fy,
+        "San Francisco"@ga,
+        "舊金山"@gan,
+        "San Francisco"@gd,
+        "San Francisco"@gl,
+        "Khiu-kîm-sân"@hak,
+        "Kapalakiko"@haw,
+        "San Francisco"@hbs,
+        "סן פרנסיסקו"@he,
+        "सैन फ्रांसिस्को"@hi,
+        "San Francisco"@hu,
+        "Սան Ֆրանցիսկո"@hy,
+        "San Francisco"@id,
+        "San Francisco"@is,
+        "San Francisco"@it,
+        "サンフランシスコ"@ja,
+        "სან-ფრანცისკო"@ka,
+        "Сан Франсиско"@kk,
+        "샌프란시스코"@ko,
+        "Сан-Франциско"@krc,
+        "Franciscopolis"@la,
+        "San Fransiskas"@lt,
+        "Sanfrancisko"@lv,
+        "Сан-Франциско"@mhr,
+        "Сан Франциско"@mk,
+        "സാൻ ഫ്രാൻസിസ്കോ"@ml,
+        "Сан-Франциско"@mn,
+        "सॅन फ्रान्सिस्को"@mr,
+        "ဆန်ဖရန်စစ္စကိုမြို့"@my,
+        "San Francisco"@nds,
+        "स्यान फ्रान्सिस्को"@new,
+        "San Francisco"@nl,
+        "San Francisco"@nn,
+        "San Francisco"@no,
+        "Сан-Франциско"@os,
+        "ਸੈਨ ਫਰਾਂਸਿਸਕੋ"@pa,
+        "San Francisco"@pl,
+        "سان فرانسسکو"@pnb,
+        "São Francisco"@pt,
+        "Сан Франциско"@ro,
+        "Сан-Франциско"@ru,
+        "Сан Франсиско"@sah,
+        "San Franciscu"@scn,
+        "සැන් ෆ්‍රැන්සිස්කෝ"@si,
+        "San Francisco"@sk,
+        "San Francisco"@sl,
+        "San Francisco"@sq,
+        "Сан Франциско"@sr,
+        "San Francisco"@sv,
+        "சான் பிரான்சிஸ்கோ"@ta,
+        "శాన్ ఫ్రాన్సిస్కో"@te,
+        "ซานฟรานซิสโก"@th,
+        "Lungsod ng San Francisco"@tl,
+        "San Francisco"@tr,
+        "Сан-Франциско"@tt,
+        "San Fransisko"@ug,
+        "Сан-Франциско"@uk,
+        "سان فرانسسکو"@ur,
+        "San Fransisko"@uz,
+        "San Francisko"@vep,
+        "San Francisco"@vi,
+        "旧金山"@wuu,
+        "სან-ფრანცისკო"@xmf,
+        "סאן פראנציסקא"@yi,
+        "三藩市"@yue,
+        "旧金山"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5391959/san-francisco.html> ;
+    ns1:name "San Francisco" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5391959/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "805235" ;
+    ns1:postalCode "94136" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/San_Francisco> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5391959/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/San_Francisco> ;
+    ns4:alt "16" ;
+    ns4:lat "37.77493" ;
+    ns4:long "-122.41942" .
+
+<http://www.edsa-project.eu/skill/amazon-redshift> ns2:lexicalValue "amazon-redshift" .
+
+<http://www.edsa-project.eu/skill/apache-spark> ns2:lexicalValue "apache-spark" .
+
+<http://www.edsa-project.eu/skill/data-warehouse> ns2:lexicalValue "data-warehouse" .
+
+<http://www.edsa-project.eu/skill/python> ns2:lexicalValue "python" .
+
+<http://www.edsa-project.eu/skill/sql> ns2:lexicalValue "sql" .
+

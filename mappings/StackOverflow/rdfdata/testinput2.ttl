@@ -1,0 +1,140 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <http://www.edsa-project.eu/edsa#> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.edsa-project.eu/jobs/StackOverflow/2> ns2:description "<p>The&nbsp;Center for Data Intensive Science (CDIS) is looking for a Lead Software Engineer for the National Cancer Institute (NCI) <a href=\"http://sciencelife.uchospitals.edu/2014/12/02/transforming-cancer-research-the-genomic-data-commons/\" rel=\"nofollow\" rel=\"nofollow\" rel=\"nofollow\" rel=\"nofollow\" rel=\"nofollow\" rel=\"nofollow\" rel=\"nofollow\">Genomic Data Commons</a> (GDC) project. Alongside our team of experts, the Lead Software Engineer will develop the scalable and interoperable software stack for the GDC, supporting upwards of 5 petabytes of centralized and harmonized cancer genomic data.</p><br /><p>The GDC will provide a open source, scalable, modern informatics framework that uses community standards to make raw and processed genomic data broadly accessible. The GDC will harmonize and centralize existing petabyte-scale cancer genomics datasets through cutting edge approaches to data storage and analysis similar to what is used by successful companies. The GDC will eliminate a major chokepoint, streamlining access to data for researchers regardless of their institution's size or budget, effectively democratizing access to the material. It will also enable previously infeasible collaborative efforts between scientists. <br>The GDC serves as a key step toward the development of precision medicine, targeted treatments that are tailored to individual patients. Once fully developed, it will provide an interactive system for researchers and clinicians to upload genomics data and use it to identify the molecular subtype of cancer and potential therapeutic targets. Genetic data will be linked to extensive clinical information from patients and their response to treatment.</p><br /><p>The Lead Software Engineer in the Center for Data Intensive Science manages all aspects of programming projects, including requirements, design, implementation, deployment/delivery, and support. Leads team efforts and oversees the work of other software engineers. Provides technical oversight and develops standards, guidelines, and processes for applications. Reviews the design and code development of key architectural components. Contributes to decisions on project and infrastructure needs, including the evaluation of server technologies, languages, platforms, and frameworks. Develops timelines, technical diagrams, project plans, and resources allocation in an agile methodology. Works with cloud computing infrastructures including OpenStack, Amazon AWS and Google Cloud to design, develop, maintain, and evaluate software applications to meet business and technical requirements. Works in Linux-based systems primarily with Python and C/C++, with the ability to work with other programming languages as the need arises. Oversees code testing and ensures appropriate standards are met. Works with users, collaborators, and technical staff to resolve problems and respond to feedback regarding potential improvements and enhancements. Ensures appropriate documentation. Serves as a liaison with internal and external collaborators on multiple research projects.</p><br /><p>Research includes the full stack from systems to algorithms to user interfaces. Research projects span management, sharing, and provenance of large data sets; resource allocation and scheduling for cloud computing, large scale pipelining of next-generation sequence analysis, transfer programs/protocols for high-speed networks and resource visualization. <br>Perform other duties as assigned. <br><br><em>This position is grant supported and longevity of the position is dependent upon future funding. &nbsp;</em></p>" ;
+    ns2:hiringOrganization "The University of Chicago, Center for Data Intensive Science" ;
+    ns2:jobLocation "Chicago, IL" ;
+    ns2:jobTitle "Lead Software Engineer for the NIH/NCI Genomic Data Commons Project at The University of Chicago, Center for Data Intensive Science (Chicago, IL)" ;
+    ns2:url "http://careers.stackoverflow.com/jobs/92579/lead-software-engineer-for-the-nih-nci-genomic-the-university-of-chicago" ;
+    ns3:Location <http://sws.geonames.org/4887398/> ;
+    ns3:requiresSkill <http://www.edsa-project.eu/skill/bigdata>,
+        <http://www.edsa-project.eu/skill/bioinformatics>,
+        <http://www.edsa-project.eu/skill/cloud>,
+        <http://www.edsa-project.eu/skill/hpc>,
+        <http://www.edsa-project.eu/skill/python> .
+
+<http://sws.geonames.org/4887398/> a ns1:Feature ;
+    ns1:alternateName "ሺካጎ"@am,
+        "شيكاغو"@ar,
+        "ܫܝܩܓܘ"@arc,
+        "شيكاجو"@arz,
+        "Çikaqo"@az,
+        "Горад Чыкага"@be,
+        "Чикаго"@bg,
+        "শিকাগো"@bn,
+        "Chicago"@bs,
+        "Chicago"@ca,
+        "Чикаго"@ce,
+        "شیکاگۆ"@ckb,
+        "Chicago"@cs,
+        "Chicago"@cy,
+        "Chicago"@da,
+        "Chicago"@de,
+        "Σικάγο"@el,
+        "Chicago"@en,
+        "Ĉikago"@eo,
+        "Chicago"@es,
+        "Chicago"@et,
+        "Chicago"@eu,
+        "شیکاگو"@fa,
+        "Chicago"@fi,
+        "Chicago"@fr,
+        "芝加哥"@gan,
+        "Chicago"@gl,
+        "Chikago"@gn,
+        "𐍄𐍃𐌾𐌹𐌺𐌰𐌲𐍉"@got,
+        "Chi-kâ-kô"@hak,
+        "Kikako"@haw,
+        "Chicago"@hbs,
+        "שיקגו"@he,
+        "शिकागो"@hi,
+        "Chicago"@hr,
+        "Chikago"@ht,
+        "Chicago"@hu,
+        "Չիկագո"@hy,
+        "Chicago"@id,
+        "Chicago"@io,
+        "Chicago"@is,
+        "Chicago"@it,
+        "ᓰᖄᑯ"@iu,
+        "シカゴ"@ja,
+        "ჩიკაგო"@ka,
+        "Чикаго"@kk,
+        "시카고"@ko,
+        "Sicagum"@la,
+        "Čikaga"@lt,
+        "Čikāga"@lv,
+        "Чикаго"@mk,
+        "ഷിക്കാഗോ"@ml,
+        "Чикаго"@mn,
+        "शिकागो"@mr,
+        "Чикаго"@mrj,
+        "ရှီကာဂိုမြို့"@my,
+        "شیکاگو"@mzn,
+        "शिकागो"@ne,
+        "शिकागो"@new,
+        "Chicago"@nl,
+        "Chicago"@no,
+        "Chicago"@oc,
+        "Чикаго"@os,
+        "ਸ਼ਿਕਾਗੋ"@pa,
+        "Chicago"@pl,
+        "شکاگو"@pnb,
+        "Chicago"@pt,
+        "Chicago"@ro,
+        "Чикаго"@ru,
+        "Чикаго"@sah,
+        "Chicagu"@scn,
+        "Čėkaga"@sgs,
+        "Chicago"@sk,
+        "Chicago"@sl,
+        "Chicago"@sq,
+        "Чикаго"@sr,
+        "Chicago"@sv,
+        "சிகாகோ"@ta,
+        "చికాగో"@te,
+        "Чикаго"@tg,
+        "ชิคาโก"@th,
+        "Tsikago"@tl,
+        "Şikago"@tr,
+        "Çikago"@tt,
+        "Chikago"@ug,
+        "Чикаґо"@uk,
+        "شکاگو"@ur,
+        "Chicago"@vi,
+        "ჩიკაგო"@xmf,
+        "שיקאגא"@yi,
+        "Ṣìkágò"@yo,
+        "芝加哥"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4887398/chicago.html> ;
+    ns1:name "Chicago" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4887398/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "2695598" ;
+    ns1:postalCode "60623" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Chicago> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4887398/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Chicago> ;
+    ns4:alt "179" ;
+    ns4:lat "41.85003" ;
+    ns4:long "-87.65005" .
+
+<http://www.edsa-project.eu/skill/bigdata> ns3:lexicalValue "bigdata" .
+
+<http://www.edsa-project.eu/skill/bioinformatics> ns3:lexicalValue "bioinformatics" .
+
+<http://www.edsa-project.eu/skill/cloud> ns3:lexicalValue "cloud" .
+
+<http://www.edsa-project.eu/skill/hpc> ns3:lexicalValue "hpc" .
+
+<http://www.edsa-project.eu/skill/python> ns3:lexicalValue "python" .
+
