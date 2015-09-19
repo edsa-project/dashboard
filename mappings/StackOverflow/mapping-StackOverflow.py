@@ -1,51 +1,84 @@
-import sys
+import sys, argparse
 sys.path.append('../utils')
 
 from bs4 import BeautifulSoup
-from rdflib import Graph, Namespace, URIRef, BNode, Literal
+from rdflib import Graph, Namespace, URIRef, BNode, Literal, XSD
+import dateutil.parser as dtp
 import namespaces as ns
 import geonames as gn
+from URLdeduplicator import is_duplicate
+
+def args_process(argv):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("inputfile", help="XML input")
+    parser.add_argument("outputfile", 
+            help="Name of the output file")
+    parser.add_argument("current", help="RDF Graph to add the data into")
+    #parser.add_argument("errorfile", help="File for location errors")
+    parser.add_argument("--verbose",help="verbose output",action="store_true")
+    #TODO: check input validity
+    args = parser.parse_args()
+    return args
+
+def main(argv):
+    #TODO: This an RSS, there should be programatical ways to have an order to limit
+    # duplication
+    args = args_process(argv)
+
+    soup = BeautifulSoup(open(args.inputfile),'lxml')
+
+    currentbase = Graph()
+    currentbase.load(args.current, format='turtle')
+
+    g = Graph()
+    c = 0
+    for item in soup.find_all('item'):
+        c += 1
+        subject = URIRef("http://www.edsa-project.eu/jobs/StackOverflow/"+str(c))
+        #URL
+        url = Literal(item.guid.string)
+        if args.verbose:
+            print "Processing post " + url
+        if is_duplicate(currentbase,url):
+            if args.verbose:
+                print url +" identified as duplicate, skipping..."
+            continue
+        g.add((subject,ns.schema.url,url))
+        #Title
+        g.add((subject,ns.schema.jobTitle,Literal(item.title.string)))
+        #Description
+        g.add((subject,ns.schema.description,Literal(item.description.string)))
+        #PubDate
+        date = dtp.parse(item.pubdate.string)
+        g.add((subject,ns.schema.datePosted,
+            Literal(date.isoformat(),datatype=XSD.Date)))
+
+        for org in item.find_all('a10:name'):
+            #hiringOrganization
+            #TODO: Service to OpenCorporates to entity matching
+            # Low priority, maybe can be done with SILK later
+            g.add((subject,ns.schema.hiringOrganization,Literal(org.string)))
+        for cat in item.find_all('category'):
+            #skills
+            skill = URIRef("http://www.edsa-project.eu/skill/"+cat.string)
+            g.add((subject,ns.edsa.requiresSkill,skill))
+            g.add((skill,ns.edsa.lexicalValue,Literal(cat.string)))
+        if item.location is not None:
+            #location
+            g.add((subject,ns.schema.jobLocation,Literal(item.location.string)))
+            try:
+                tup = gn.find_location(item.location.string)
+                g.add((subject,ns.edsa.Location,URIRef(tup[0])))
+                g += tup[1]
+            except gn.NotFoundException as e:
+                #TODO: Redirect to an error file
+                print("%s in subject %s" % (e,subject))
+                print("problematic location %s" % item.location.string)
 
 
-#TODO: This an RSS, there should be programatical ways to have an order to limit
-# duplication
-#TODO: command line input
-soup = BeautifulSoup(open("StackOverflow-010915.xml"),'lxml')
-#soup = BeautifulSoup(open("smallinput.xml"),'lxml')
+    currentbase += g
+    g.serialize(destination=args.outputfile, format='turtle')
+    currentbase.serialize(destination=args.current, format='turtle')
 
-g = Graph()
-c = 0
-for item in soup.find_all('item'):
-    subject = URIRef("http://www.edsa-project.eu/jobs/StackOverflow/"+str(c))
-    #URL
-    #TODO: Check for duplicates by URL
-    g.add((subject,ns.schema.url,Literal(item.guid.string)))
-    #Title
-    g.add((subject,ns.schema.jobTitle,Literal(item.title.string)))
-    for org in item.find_all('a10:name'):
-        #hiringOrganization
-        #TODO: Service to OpenCorporates to entity matching
-        # Low priority
-        g.add((subject,ns.schema.hiringOrganization,Literal(org.string)))
-    for cat in item.find_all('category'):
-        #skills
-        skill = URIRef("http://www.edsa-project.eu/skill/"+cat.string)
-        g.add((subject,ns.edsa.requiresSkill,skill))
-        g.add((skill,ns.edsa.lexicalValue,Literal(cat.string)))
-    if item.location is not None:
-        #location
-        g.add((subject,ns.schema.jobLocation,Literal(item.location.string)))
-        try:
-            tup = gn.find_location(item.location.string)
-            g.add((subject,ns.edsa.Location,URIRef(tup[0])))
-            g += tup[1]
-        except gn.NotFoundException as e:
-            #TODO: Redirect to an error file
-            print("%s in subject %s" % (e,subject))
-            print("problematic location %s" % item.location.string)
-    #Description
-    g.add((subject,ns.schema.description,Literal(item.description.string)))
-    c = c+1
-
-#TODO: CommandLine output
-g.serialize(destination='stackOverflow-010915.ttl', format='turtle')
+if __name__ == "__main__":
+   main(sys.argv[1:])
