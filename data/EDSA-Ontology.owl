@@ -252,6 +252,15 @@
     
 
 
+    <!-- www.edsa-project.eu/edsa#date_expired -->
+
+    <owl:DatatypeProperty rdf:about="www.edsa-project.eu/edsa#date_expired">
+        <rdfs:domain rdf:resource="http://schema.org/JobPosting"/>
+        <rdfs:range rdf:resource="&xsd;date"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
