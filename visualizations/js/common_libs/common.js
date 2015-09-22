@@ -1,3 +1,4 @@
+var defaultDelimiter = "|";
 var output = "";
 
 
@@ -120,6 +121,22 @@ function truncate(str, maxLength, suffix) {
   return str;
 }
 
+function showHideRegion(link, label) {
+  var region = document.getElementById(link),
+      regionLabel = document.getElementById(label);
+  if (!region)
+    return true;
+
+  if (region.style.display == "none") {
+    region.style.display = "block";
+    regionLabel.style.display = "none";
+  } else {
+    region.style.display = "none";
+    regionLabel.style.display = "block";
+  }
+
+  return true;
+}
 
 /** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
   * ... every was added to the ECMA-262 standard in the 5th edition; as such it may not be present in other implementations of the standard...
