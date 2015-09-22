@@ -158,6 +158,16 @@
         /*width: 180px;*/
       }
 
+      .selector-box {
+        overflow: auto;
+        width: 200px;
+        max-height: 120px;
+//        min-height: 50px;
+        border: 5px solid #336699;
+        border-radius: 8px;
+        padding-left: 1px
+      }
+
 //      .tooltip {
 //        font-weight: normal;  // redundant...
 //      }
@@ -169,7 +179,17 @@
     <p id="output"></p>
 
     <div id="legend"></div>
-    <div id="plot"></div>
+    <div id="dashboard">
+      <table border=1>
+        <th></th>
+        <tr>
+          <td width="200"><div id="selectorPanel"
+                                style="overflow: auto; width: 200px; height: 800px; border: 3px solid #336699; padding-left: 5px"
+                                ></div</td>
+          <td><div id="plot"></div></td>
+        </tr>
+      </table>
+    </div>
 
     <div id="test" style="display: none;" >
       // display command ignored for scripting sections but even commented out works for php - but need to hide php comments...
@@ -190,6 +210,7 @@
 
     <script src="../js/common_libs/common.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/skill_set_selector.js"></script>
     <script src="../js/parallel_coords.js"></script>
 
 
@@ -198,8 +219,9 @@
 //    // need to force to top, above selectors within js or php files called
       appendToOutput("<div><h4 id='dataFilterHeader'></h4>" +
                         "<div id='dataFilter'></div><p>&nbsp;</p>" +
-                        "<div id='innerPageDataFilter'></div>" +
-                       "</div>");
+                        "<div id='innerPageDataFilter' ></div>" +
+//                              "style='overflow: auto; width: " + (2 * margin.left) + "px; height: " + height + "px; border: 1px solid #336699; padding-left: 5px'></div>" +
+                     "</div>");
 
       var parsedDirs =  JSON.parse('<?php echo str_replace('\"', "", json_encode(getDataFilesFromDefault($languageFilter))); ?>');
 //      console.log(JSON.stringify(parsedDirs, null, 3));
@@ -245,6 +267,8 @@
       d3.csv("", function(error, data) {/// not doing anything with this here but without it selector does not work...
         if (error)
           return console.error(error);  // @todo - really more useful to write to screen (body)...
+
+        buildSkillsetPanel("selectorPanel", skills);
 
 //        d3.select("#dataFilter")
 //          .append("text")
