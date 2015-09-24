@@ -1,62 +1,23 @@
+var skillSetCounts = skillCounts = [];
+var termFrequencyMedian = termFrequencyMax = termFrequencySum = [];
 
-//var skillSelector;
 
-/*
-function populateSkillset(selectedSkillSet) {
-buildSkillsetFilter("innerPageDataFilter", selectedSkillSet);
+function buildSkillsetPanel(divId, skillSets, initAllSelected, inputData) {
+  if (inputData)  // need to double-check this - breaks if not set, despite checks
+    setSkillSelectorMetadata(skillSets, inputData);
+  var skillCount;
+  var skillSetComplete;
 
-  if (!skillSelector) {
-
-    d3.select("#dataFilter")
-      .append("text")
-      .text("Select skills: ");
-
-    skillSelector = d3.select("#dataFilter")
-                          .append("select")
-                          .attr('class', 'selector');
-  }
-
-  skillSelector.selectAll("option")
-                .data(selectedSkillSet)
-                .enter()
-                .append("option")
-                .attr("value", function(d) { return d; } )
-                .text(function(d) { return d.replace(/_/g, " "); })
-                .on("click", function click(d) {  // this is working... or mouse, but not input :S - in firefox... but chrome also failing :S
-//                        indexOfInterest = d;  // there must be a more efficient way to do this... but can't find how to select  this object and get value...
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-                })
-                .on("input" , function click(d) {  // this is not working, nor change, nor focusout... nor input :S - in firefox...
-//                        indexOfInterest = d;
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-              });
-
-  d3.select("#dataFilter")
-    .selectAll("input")
-    .data(["Update chart"])
-    .enter()
-    .append("input")
-    .attr("type","button")
-    .attr("class","button")
-    .attr("value", function(d) { return d;}  )
-    .on("click", function click(d) {  // this is working... or mouse, but not input :S
-//            if (plotSvg)
-//              redrawDisplay(defaultDir, defaultFileSuffix, languageOfInterest, selectedSkill);
-    });
-} // end function populateSkillset
-*/
-
-function buildSkillsetPanel(divId, skillSet) {
  divId = "#" + divId;
 
   d3.select(divId)
     .append("text")
     .style("font-size", "14px")
-    .text("Skillsets".toUpperCase());
+    .text("SKILLSETS");
 
   d3.select(divId)
     .selectAll("div")
-    .data(Object.keys(skillSet)) // map - key: label; values: skills
+    .data(Object.keys(skillSets)) // map - key: label; values: skills
     .enter()
 
     // outer div used for show-hide
@@ -85,46 +46,128 @@ function buildSkillsetPanel(divId, skillSet) {
     .append("p")
     .each(function (d) {
 
+      skillSetComplete = initAllSelected;
+      if (inputData)
+        for (var k = 0; k < skillSets[d].length; k++) {
+          if ((skillCount = skillCounts[d][k]) == 0) {
+            skillSetComplete = false;
+            break;
+          }
+        }
+
       // skillSet label
       d3.select(this).append("span")
         .style("font-weight", "bold")
-        .text(function (d) { return "\u2009\u2014\u200A"; } )
-        .on("click", function (d) { // there's some pause... annoying...
-          showHideRegion("div_" + d, "div_label_" + d);
+        .text(function (j) { return "\u2009\u2014\u200A"; } )
+        .on("click", function (j) { // there's some pause... annoying...
+          showHideRegion("div_" + j, "div_label_" + j);
         });
       d3.select(this)
         .append("input")
         .attr("type", "checkbox")
-        .attr("id", function (d) { return d; } )
-//        .attr("checked", false) // doesn't recognise false... but this is default, anyway...
+        .attr("id", function (j) { return j; } )
+        .attr("checked", ((initAllSelected && skillSetComplete) ? true : null)) // doesn't recognise false...
         .attr("class", "skillSet")
-        .on("click", function (d, i) {
-          filterPlot(this, skillSet[d]);
+        .on("click", function (j) {
+          filterPlot(this, skillSets[j]);
         })
       d3.select(this).append("span")
         .style("font-weight", "bold")
-        .text(function (d) { return d.replace(/_/g, " ").toUpperCase(); } )
+        .text(function (j) { skillCount = d3.sum(skillSetCounts[j]);
+                              return (j.replace(/_/g, " ").toUpperCase() +
+                                    ((inputData && (skillCount > 0)) ? " (" + skillCount + ")": "")); } )
         .append("br");
 
       // and skills
-      for (var k = 0; k < skillSet[d].length; k++) {
+      for (var k = 0; k < skillSets[d].length; k++) {
+        if (inputData)
+          skillCount = skillCounts[d][k];
 
         d3.select(this)
           .append("input")
           .attr("type", "checkbox")
-          .attr("id", function (d) { return d + defaultDelimiter + skillSet[d][k]; } )
-  //            .attr("checked", false) // doesn't recognise false...
+          .attr("id", function (j) { return j + defaultDelimiter + skillSets[j][k]; } )
+          .attr("checked", ((initAllSelected && (skillCount > 0)) ? true : null)) // doesn't recognise false...
           .style("margin-left", "24px")
           .attr("class", "skill")
-          .on("click", function (d) {
+          .on("click", function (j) {
             filterPlot(this);
           });
         d3.select(this).append("span")
-          .style("color", "blue")
-          .text(function (d) { return skillSet[d][k].toLowerCase().replace(/_/g, " "); } )
+          .style("color", function (j) { return (((initAllSelected && !inputData) || (skillCount > 0)) ? "blue" : "grey"); })
+          .text(function (j) { return (skillSets[j][k].toLowerCase().replace(/_/g, " ") +
+                                       ((inputData && (skillCount > 0)) ? " (" + skillCount + ")": "")); } )
           .append("br");
       }
   });
+}
+
+function setSkillSelectorMetadata(skillSets, inputData) { // include metadata, e.g., counts on labels... - key: skill/skillset, value: metadata
+  var termFrequencyMedian = termFrequencyMax = termFrequencySum = [];
+
+  Object.keys(inputData).forEach(function(g) {
+    termFrequencyMedian[g] = d3.median(inputData[g]);
+    termFrequencyMax[g] = d3.max(inputData[g]);
+    termFrequencySum[g] = d3.sum(inputData[g]);
+  });
+
+  var skillLabel;
+  Object.keys(skillSets).forEach(function (skillSet) {
+    if (!skillSetCounts[skillSet])
+      skillSetCounts.push(skillSetCounts[skillSet] = []);
+
+    skills[skillSet].forEach(function (skill) {
+
+      if ((skillLabel = getContainedElement(Object.keys(termFrequencySum), skill, true)) != null) {
+        skillCounts[skill] = termFrequencySum[skillLabel];
+        skillSetCounts[skillSet].push(termFrequencySum[skillLabel]);
+      }
+//        console.log(skill + ": " + skillCounts[skill])
+    });
+
+//      console.log(skillSet + ": " + d3.sum(skillSetCounts[skillSet]))
+  });
+}
+
+function updateSkillSelectorMetadata(inputData) { // include metadata, e.g., counts on labels... - key: skill/skillset, value: metadata
+  var termFrequencyMedian = termFrequencyMax = termFrequencySum = [];
+
+  Object.keys(inputData).forEach(function(g) {
+    termFrequencyMedian[g] = d3.median(inputData[g]);
+    termFrequencyMax[g] = d3.max(inputData[g]);
+    termFrequencySum[g] = d3.sum(inputData[g]);
+  });
+
+  d3.selectAll(".skillSet").forEach(function (skillSetPanel) {
+
+    skillSetPanel.forEach(function (skillSet) {
+      if (!skillSetCounts[skillSet.id]) {
+        skillSetCounts[skillSet.id] = [];
+        skillSetCounts.push(skillSetCounts[skillSet.id]);
+      }
+
+      var g = d3.select(skillSet).node();
+      var g_skill = d3.select(g.parentNode)
+                      .selectAll(".skill");
+
+        g_skill.forEach(function (skillPanel) {
+
+          skillPanel.forEach(function(skill) {
+            var skillLabel = (skill.id).substring((skill.id).lastIndexOf(defaultDelimiter) + 1);
+
+            if ((skillLabel = getContainedElement(Object.keys(termFrequencySum), skillLabel, true)) != null) {
+              skillCounts[skill.id] = termFrequencySum[skillLabel];
+              skillSetCounts[skillSet.id].push(termFrequencySum[skillLabel]);
+
+              //@todo - update UI - skill counts
+            }
+
+          }); // end iterate over skills
+        }); // end iterate over skillPanels
+
+      //@todo - update UI - skillset counts
+   }); // end iterate over skillSets
+ });
 }
 
 function filterPlot(itemSelected, skillSet) {
@@ -146,7 +189,7 @@ function updateSelectorPanel(itemSelected, skillSet) {
       var set = d3.select(g).selectAll(".skill");
 //      set.each(function(d) {  // returns parent label
 
-      set.forEach(function(d) { // don't understand why need to iterate twice, but not till the second does it return the checkbox element with properties defined...
+      set.forEach(function(d) { // need to iterate twice - first into top-level array/holder, then to select individual elements
         var allSelected = true;
 
         d.forEach(function(k) {
@@ -159,6 +202,47 @@ function updateSelectorPanel(itemSelected, skillSet) {
     } else
       parent.property("checked", itemSelected.checked);  // should be false
   }
+}
+
+function updateSelectorPanelItem(selectedItemId, setSelected) {
+  var skillLabel;
+  var allInSkillSetSelected;
+  var parentSkillSet;
+  var g = d3.selectAll(".skillSet");
+
+  g.forEach(function(d) {
+    d.forEach(function(skillSet) {
+      if (skillSet.id.toLowerCase() === selectedItemId.toLowerCase())
+        d3.select(skillSet).property("checked", setSelected);
+
+      else if (parentSkillSet == null) {  // check children...
+        var set = d3.select(skillSet).node().parentNode;
+        set = d3.select(set).selectAll(".skill")
+
+        set.forEach(function(skills) {
+          allInSkillSetSelected = true;
+
+          skills.forEach(function(skill) {
+            skillLabel = skill.id;
+            skillLabel = skillLabel.substring(skillLabel.lastIndexOf(defaultDelimiter) + 1);
+
+            if (skillLabel.toLowerCase() === selectedItemId.toLowerCase()) {
+              d3.select(skill).property("checked", setSelected);
+
+              parentSkillSet = skillSet;
+            }
+             if (allInSkillSetSelected) // check only till switched...
+               allInSkillSetSelected = skill.checked;
+         });  // individual skill detail
+        }); // end - iteration through skill objects
+
+        if (parentSkillSet != null)  // cascade upward if need be...
+          d3.select(parentSkillSet).property("checked", allInSkillSetSelected);
+        // end update check
+
+      } // end if-else - check for skillSet label or skills contained
+    }); // end - iteration through skillSet labels
+  }); // end - (initial) iteration through skillSet container
 }
 
 // adapted from http://jsfiddle.net/zhanghuancs/cuYu8
