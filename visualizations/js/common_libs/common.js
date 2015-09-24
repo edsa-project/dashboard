@@ -112,6 +112,52 @@ function contains(dataStructure, searchElement, ignoreCase) {
   return false;
 }
 
+function containsAnyOf(dataStructure, searchElements, ignoreCase) {
+  var i = dataStructure.length;
+
+  while (i--) {
+    if (contains(searchElements, dataStructure[i], ignoreCase))
+      return true;
+  }
+}
+
+function getContainedElement(dataStructure, searchElement, ignoreCase) {
+  var i = dataStructure.length;
+
+  while (i--) {
+    if (dataStructure[i] === searchElement)
+      return dataStructure[i];
+    if (ignoreCase && (dataStructure[i].toLowerCase() === searchElement.toLowerCase()))
+      return dataStructure[i];
+  }
+
+  // don't get this - fails for 2nd instance of same element for which it previously passes...
+  //      dataStructure.forEach(function (element) {
+  //        if (element === searchElement) {
+  //          console.log("test = T: " + element + " - " + searchElement);
+  //
+  //          return true;
+  //      }
+  //      })
+  //
+  return null;
+}
+
+/*
+ * allow case-insensitive search...
+ */
+function indexOf(dataStructure, searchElement, ignoreCase) {
+  for (var i = 0; i < dataStructure.length; i++) {
+console.log("in: " + dataStructure[i])
+    if (dataStructure[i] === searchElement)
+      return i;
+    if (ignoreCase && (dataStructure[i].toLowerCase() === searchElement.toLowerCase()))
+      return i;
+  }
+
+  return -1;
+}
+
 function truncate(str, maxLength, suffix) {
   if(str.length > maxLength) {
     str = str.substring(0, maxLength + 1);
