@@ -268,7 +268,7 @@
         if (error)
           return console.error(error);  // @todo - really more useful to write to screen (body)...
 
-        buildSkillsetPanel("selectorPanel", skills);
+        //buildSkillsetPanel("selectorPanel", skills);
 
 //        d3.select("#dataFilter")
 //          .append("text")
