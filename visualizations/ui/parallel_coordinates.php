@@ -298,51 +298,9 @@
 
       dataFile = "../data/data_extraction/detail_term_frequencies1441903172993.csv";
 
-      drawParallelCoordinates(dataFile, skills);
+      var suppressedHeaders = [ "identifier", "description", "title" , "minValue", "maxValue" ];
+      drawParallelCoordinates(dataFile, "|", skills, suppressedHeaders);
       printOutput();
-
-      var skillSelector;
-      function populateSkillset(selectedSkillSet) {
-
-        if (!skillSelector) {
-
-          d3.select("#dataFilter")
-            .append("text")
-            .text("Select skills: ");
-
-          skillSelector = d3.select("#dataFilter")
-                                .append("select")
-                                .attr('class', 'selector');
-        }
-
-        skillSelector.selectAll("option")
-                      .data(selectedSkillSet)
-                      .enter()
-                      .append("option")
-                      .attr("value", function(d) { return d; } )
-                      .text(function(d) { return d.replace(/_/g, " "); })
-                      .on("click", function click(d) {  // this is working... or mouse, but not input :S - in firefox... but chrome also failing :S
-//                        indexOfInterest = d;  // there must be a more efficient way to do this... but can't find how to select  this object and get value...
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-                      })
-                      .on("input" , function click(d) {  // this is not working, nor change, nor focusout... nor input :S - in firefox...
-//                        indexOfInterest = d;
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-                    });
-
-        d3.select("#dataFilter")
-          .selectAll("input")
-          .data(["Update chart"])
-          .enter()
-          .append("input")
-          .attr("type","button")
-          .attr("class","button")
-          .attr("value", function(d) { return d;}  )
-          .on("click", function click(d) {  // this is working... or mouse, but not input :S
-//            if (plotSvg)
-//              redrawDisplay(defaultDir, defaultFileSuffix, languageOfInterest, selectedSkill);
-          });
-      }
 
     </script>
 
