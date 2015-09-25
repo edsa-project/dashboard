@@ -158,6 +158,16 @@
         /*width: 180px;*/
       }
 
+      .selector-box {
+        overflow: auto;
+        width: 200px;
+        max-height: 120px;
+//        min-height: 50px;
+        border: 5px solid #336699;
+        border-radius: 8px;
+        padding-left: 1px
+      }
+
 //      .tooltip {
 //        font-weight: normal;  // redundant...
 //      }
@@ -169,7 +179,17 @@
     <p id="output"></p>
 
     <div id="legend"></div>
-    <div id="plot"></div>
+    <div id="dashboard">
+      <table border=1>
+        <th></th>
+        <tr>
+          <td width="200"><div id="selectorPanel"
+                                style="overflow: auto; width: 200px; height: 800px; border: 3px solid #336699; padding-left: 5px"
+                                ></div</td>
+          <td><div id="plot"></div></td>
+        </tr>
+      </table>
+    </div>
 
     <div id="test" style="display: none;" >
       // display command ignored for scripting sections but even commented out works for php - but need to hide php comments...
@@ -190,6 +210,7 @@
 
     <script src="../js/common_libs/common.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/skill_set_selector.js"></script>
     <script src="../js/parallel_coords.js"></script>
 
 
@@ -198,8 +219,9 @@
 //    // need to force to top, above selectors within js or php files called
       appendToOutput("<div><h4 id='dataFilterHeader'></h4>" +
                         "<div id='dataFilter'></div><p>&nbsp;</p>" +
-                        "<div id='innerPageDataFilter'></div>" +
-                       "</div>");
+                        "<div id='innerPageDataFilter' ></div>" +
+//                              "style='overflow: auto; width: " + (2 * margin.left) + "px; height: " + height + "px; border: 1px solid #336699; padding-left: 5px'></div>" +
+                     "</div>");
 
       var parsedDirs =  JSON.parse('<?php echo str_replace('\"', "", json_encode(getDataFilesFromDefault($languageFilter))); ?>');
 //      console.log(JSON.stringify(parsedDirs, null, 3));
@@ -246,6 +268,8 @@
         if (error)
           return console.error(error);  // @todo - really more useful to write to screen (body)...
 
+        //buildSkillsetPanel("selectorPanel", skills);
+
 //        d3.select("#dataFilter")
 //          .append("text")
 //          .text("Select skillset: ");
@@ -274,51 +298,9 @@
 
       dataFile = "../data/data_extraction/detail_term_frequencies1441903172993.csv";
 
-      drawParallelCoordinates(dataFile, skills);
+      var suppressedHeaders = [ "identifier", "description", "title" , "minValue", "maxValue" ];
+      drawParallelCoordinates(dataFile, "|", skills, suppressedHeaders);
       printOutput();
-
-      var skillSelector;
-      function populateSkillset(selectedSkillSet) {
-
-        if (!skillSelector) {
-
-          d3.select("#dataFilter")
-            .append("text")
-            .text("Select skills: ");
-
-          skillSelector = d3.select("#dataFilter")
-                                .append("select")
-                                .attr('class', 'selector');
-        }
-
-        skillSelector.selectAll("option")
-                      .data(selectedSkillSet)
-                      .enter()
-                      .append("option")
-                      .attr("value", function(d) { return d; } )
-                      .text(function(d) { return d.replace(/_/g, " "); })
-                      .on("click", function click(d) {  // this is working... or mouse, but not input :S - in firefox... but chrome also failing :S
-//                        indexOfInterest = d;  // there must be a more efficient way to do this... but can't find how to select  this object and get value...
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-                      })
-                      .on("input" , function click(d) {  // this is not working, nor change, nor focusout... nor input :S - in firefox...
-//                        indexOfInterest = d;
-//                        skills[indexOfInterest] = filterSkills(parsedDirs, indexOfInterest, languageOfInterest);
-                    });
-
-        d3.select("#dataFilter")
-          .selectAll("input")
-          .data(["Update chart"])
-          .enter()
-          .append("input")
-          .attr("type","button")
-          .attr("class","button")
-          .attr("value", function(d) { return d;}  )
-          .on("click", function click(d) {  // this is working... or mouse, but not input :S
-//            if (plotSvg)
-//              redrawDisplay(defaultDir, defaultFileSuffix, languageOfInterest, selectedSkill);
-          });
-      }
 
     </script>
 

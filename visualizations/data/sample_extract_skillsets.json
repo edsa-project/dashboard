@@ -1,0 +1,256 @@
+{
+   "advanced_computing": {
+      "hu": [
+         "piton",
+         "fejlett számítástechnikai",
+         "programozás",
+         "számítógépes rendszerek",
+         "kódolás",
+         "Felhő alapú számítástechnika"
+      ],
+      "gb": [
+         "python",
+         "advanced computing",
+         "programming",
+         "computational systems",
+         "coding",
+         "Cloud computing"
+      ],
+      "fr": [
+         "python",
+         "l&#39;informatique de pointe",
+         "programmation",
+         "systèmes informatiques",
+         "codage",
+         "Cloud computing"
+      ],
+      "el": [
+         "Python",
+         "προηγμένη πληροφορική",
+         "προγραμματισμός",
+         "υπολογιστικά συστήματα",
+         "κωδικοποίησης",
+         "Το cloud computing"
+      ]
+   },
+   "data_skills": {
+      "hu": [
+         "adatbázisok",
+         "adatkezelés",
+         "adatok mérnöki",
+         "adatbányászat",
+         "adatformátumokról",
+         "kapcsolódó adatok",
+         "információkinyerési",
+         "stream feldolgozó"
+      ],
+      "gb": [
+         "databases",
+         "data management",
+         "data engineering",
+         "data mining",
+         "data formats",
+         "linked data",
+         "information extraction",
+         "stream processing"
+      ],
+      "fr": [
+         "bases de données",
+         "gestion des données",
+         "ingénierie de données",
+         "exploration de données",
+         "formats de données",
+         "données lié",
+         "l&#39;extraction de l&#39;information",
+         "traitement de flux"
+      ],
+      "el": [
+         "βάσεις δεδομένων",
+         "διαχείριση δεδομένων",
+         "μηχανικής δεδομένων",
+         "εξόρυξη δεδομένων",
+         "μορφές δεδομένων",
+         "που συνδέονται με τα δεδομένα",
+         "εξαγωγή πληροφοριών",
+         "επεξεργασία ρεύμα"
+      ]
+   },
+   "domain_expertise": {
+      "hu": [
+         "vállalati folyamat",
+         "üzleti intelligencia",
+         "adatok anonimitását",
+         "szemantika",
+         "séma",
+         "adatok engedélyezési",
+         "adatminőség",
+         "adatok kormányzás"
+      ],
+      "gb": [
+         "enterprise process",
+         "business intelligence",
+         "data anonymisation",
+         "semantics",
+         "schema",
+         "data licensing",
+         "data quality",
+         "data governance"
+      ],
+      "fr": [
+         "processus de l&#39;entreprise",
+         "business intelligence",
+         "anonymisation de données",
+         "sémantique",
+         "schéma",
+         "octroi de licences de données",
+         "la qualité des données",
+         "la gouvernance des données"
+      ],
+      "el": [
+         "διαδικασία της επιχείρησης",
+         "επιχειρηματικής ευφυΐας",
+         "ανωνυμοποίηση των δεδομένων",
+         "σημασιολογία",
+         "σχήμα",
+         "αδειοδότησης δεδομένων",
+         "της ποιότητας των δεδομένων",
+         "διακυβέρνηση δεδομένα"
+      ]
+   },
+   "general": {
+      "hu": [
+         "adatok tudomány",
+         "big adatok",
+         "nyílt adatok"
+      ],
+      "gb": [
+         "data science",
+         "big data",
+         "open data"
+      ],
+      "fr": [
+         "la science des données",
+         "Big Data",
+         "données ouvertes"
+      ],
+      "el": [
+         "επιστήμη δεδομένα",
+         "μεγάλο δεδομένα",
+         "ανοιχτών δεδομένων"
+      ]
+   },
+   "machine_learning": {
+      "hu": [
+         "A gépi tanulás",
+         "Szociális háló elemzés",
+         "következtetés",
+         "érvelés",
+         "folyamat bányászat"
+      ],
+      "gb": [
+         "Machine learning",
+         "Social network analysis",
+         "inference",
+         "reasoning",
+         "process mining"
+      ],
+      "fr": [
+         "Apprentissage automatique",
+         "Analyse des réseaux sociaux",
+         "inférence",
+         "raisonnement",
+         "l&#39;exploitation minière de processus"
+      ],
+      "el": [
+         "Μάθηση μηχανής",
+         "Η ανάλυση των κοινωνικών δικτύων",
+         "συμπέρασμα",
+         "συλλογισμός",
+         "εξόρυξης διαδικασία"
+      ]
+   },
+   "math_and_statistics": {
+      "hu": [
+         "Lineáris algebra",
+         "Számítás",
+         "Matematika",
+         "Statisztika",
+         "Valószínűség",
+         "RStudio",
+         "Adatelemzés",
+         "Adatelemzés"
+      ],
+      "gb": [
+         "Linear algebra",
+         "Calculus",
+         "Mathematics",
+         "Statistics",
+         "Probability",
+         "RStudio",
+         "Data analytics",
+         "Data analysis"
+      ],
+      "fr": [
+         "Algèbre linéaire",
+         "Calcul",
+         "Mathématiques",
+         "Statistiques",
+         "Probabilité",
+         "Rstudio",
+         "L&#39;analyse des données",
+         "L&#39;analyse des données"
+      ],
+      "el": [
+         "Γραμμική άλγεβρα",
+         "Λογισμός",
+         "Μαθηματικά",
+         "Στατιστική",
+         "Πιθανότητα",
+         "RStudio",
+         "Ανάλυση δεδομένων",
+         "ΑΝΑΛΥΣΗ ΔΕΔΟΜΕΝΩΝ"
+      ]
+   },
+   "visualisation": {
+      "hu": [
+         "adatvizualizáció",
+         "infographics",
+         "kölcsönhatás",
+         "adatmegfeleltetést",
+         "adatok történetek",
+         "adatok újságírás",
+         "d3js",
+         "csoportkép"
+      ],
+      "gb": [
+         "data visualisation",
+         "infographics",
+         "interaction",
+         "data mapping",
+         "data stories",
+         "data journalism",
+         "d3js",
+         "tableau"
+      ],
+      "fr": [
+         "visualisation de données",
+         "infographies",
+         "interaction",
+         "la cartographie des données",
+         "histoires de données",
+         "le journalisme de données",
+         "d3js",
+         "tableau"
+      ],
+      "el": [
+         "οπτικοποίηση δεδομένων",
+         "infographics",
+         "αλληλεπίδραση",
+         "χαρτογράφηση των δεδομένων",
+         "ιστορίες δεδομένα",
+         "δημοσιογραφία δεδομένων",
+         "d3js",
+         "ζώσα σκηνική εικών"
+      ]
+   }
+}

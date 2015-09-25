@@ -1,0 +1,7 @@
+
+d3 : http://d3js.org/d3.v3.min.js
+colorbrewer :  http://colorbrewer2.org, http://colorbrewer2.org/export/colorbrewer.js
+queue : http://d3js.org/queue.v1.min.js
+simple_statistics : https://raw.githubusercontent.com/tmcw/simple-statistics/master/src/simple_statistics.js
+
+underscore.js : http://underscorejs.org
