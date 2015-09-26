@@ -1,5 +1,6 @@
 import requests
 from rdflib import Graph 
+import namespaces as ns
 
 class NotFoundException(Exception):
     def __init__(self,value):
@@ -24,20 +25,38 @@ def find_location(textlocation):
 
     r = requests.get('http://api.geonames.org/searchRDF', params=payload)
 
-    g = Graph()
-    g.parse(data=r.text, format="xml")
+    result = Graph()
+    result.parse(data=r.text, format="xml")
 
     spquery= """
         SELECT DISTINCT ?iri WHERE {?iri gn:name ?y}
     """
-    qres = g.query(spquery)
+    qres = result.query(spquery)
     iri = ''
     for row in qres:
         iri = row.iri
     if iri == '':
         raise NotFoundException("Could not found "+textlocation)
-    else:
-        return (iri,g)
+    
+    #selectcountry= """
+        #SELECT ?country WHERE {?iri gn:parentCountry ?country}
+    #"""
+    #qres = result.query(spquery)
+    #country = ''
+    #for row in qres:
+        #country = row.country
+    return (iri,result)
+
+def is_inside(textplace,graph):
+    """Returns true if the place defined as "place,CC" is disambiguated in graph
+    returns false otherwise"""
+    askquery = prepareQuery(
+            """ASK {?iri schema:jobLocation ?place .
+                ?iri edsa:Location ?placeiri}""",
+                initNs = {"schema" : ns.schema , 
+                    "edsa" : ns.edsa})
+    return bool(graph.query(askquery,
+        initBindings={"place" : Literal(textplace)}))
 
 """
 TODO: A real unit test
