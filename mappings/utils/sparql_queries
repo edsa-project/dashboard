@@ -1,0 +1,37 @@
+@prefix geonames: <http://www.geonames.org/ontology#> 
+@prefix schema: <http://schema.org/> 
+@prefix edsa: <http://www.edsa-project.eu/edsa#> 
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+@prefix xml: <http://www.w3.org/XML/1998/namespace> 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+# Count jobs located in Europe
+
+
+SELECT (COUNT(?job) as ?numJobs)  WHERE
+{
+?job edsa:Location ?place .
+?place geonames:parentCountry ?country .
+?country geonames:parentFeature ?continent .
+?continent geonames:name "Europe"
+
+}
+
+# Get jobs located in Europe and the data on their locations 
+
+CONSTRUCT {?job ?y ?z . ?location ?y1 ?z1} WHERE
+{
+?job ?y ?z .
+?place ?y1 ?z1 .
+?job edsa:Location ?location .
+?place geonames:parentCountry ?country .
+?country geonames:parentFeature ?continent .
+?continent geonames:name "Europe"
+
+}
+
+# Construct graph with string values of the skills
+CONSTRUCT  WHERE { ?skill edsa:lexicalValue ?value}
