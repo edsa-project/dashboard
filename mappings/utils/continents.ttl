@@ -1,0 +1,391 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/6255146/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255146/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2014-10-13"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/6255147/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255147/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2015-04-24"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/6255148/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255148/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2014-11-20"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/6255149/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255149/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2014-03-18"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/6255150/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255150/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2015-04-24"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/6255151/about.rdf> a foaf:Document ;
+    cc:attributionName "GeoNames"^^xsd:string ;
+    cc:attributionURL <http://sws.geonames.org/6255151/> ;
+    cc:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dcterms:created "2006-06-15"^^xsd:date ;
+    dcterms:modified "2014-09-12"^^xsd:date ;
+    foaf:primaryTopic <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/6255146/> a gn:Feature ;
+    gn:alternateName "أفريقيا"@ar,
+        "Африка"@bg,
+        "Afrika"@bs,
+        "Àfrica"@ca,
+        "Afrika"@cs,
+        "Affrica"@cy,
+        "Afrika"@da,
+        "Afrika"@de,
+        "Αφρική"@el,
+        "Afriko"@eo,
+        "el Continente Negro"@es,
+        "Afrika"@eu,
+        "افریقا"@fa,
+        "Afrikka"@fi,
+        "Afrique"@fr,
+        "an Afraic"@ga,
+        "אפריקה"@he,
+        "अफ़्रीका"@hi,
+        "Afrika"@hu,
+        "Afrika"@id,
+        "Afríka"@is,
+        "アフリカ"@ja,
+        "Africa"@la,
+        "Afrika"@lt,
+        "Āfrika"@lv,
+        "Afrika"@nb,
+        "Afrika"@nl,
+        "Afrika"@no,
+        "Afryka"@pl,
+        "África"@pt,
+        "Африка"@ru,
+        "Afrihkká"@se,
+        "Afrika"@sv,
+        "แอฟริกา"@th,
+        "Afrika"@tr,
+        "Африка"@uk,
+        "Châu Phi"@vi,
+        "非洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255146/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255146/africa.html> ;
+    gn:name "Africa" ;
+    gn:officialName "Africa"@en,
+        "África"@es,
+        "Africa"@it,
+        "아프리카"@ko ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:population "1031833000" ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/Africa> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255146/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Africa> ;
+    wgs84_pos:lat "7.1881" ;
+    wgs84_pos:long "21.09375" .
+
+<http://sws.geonames.org/6255147/> a gn:Feature ;
+    gn:alternateName "آسيا"@ar,
+        "Азия"@bg,
+        "Azija"@bs,
+        "Àsia"@ca,
+        "Asie"@cs,
+        "Asia"@cy,
+        "Asien"@da,
+        "Asien"@de,
+        "Ασία"@el,
+        "Azio"@eo,
+        "Asia"@eu,
+        "Aasia"@fi,
+        "Asie"@fr,
+        "an Áise"@ga,
+        "אסיה"@he,
+        "एशिया महाद्वीप"@hi,
+        "Ázsia"@hu,
+        "Asia"@id,
+        "Asía"@is,
+        "Asia"@it,
+        "アジア"@ja,
+        "Asia"@la,
+        "Azija"@lt,
+        "Āzija"@lv,
+        "Asia"@nb,
+        "Asia"@no,
+        "Azja"@pl,
+        "Ásia"@pt,
+        "Ásia"@se,
+        "Asien"@sv,
+        "เอเชีย"@th,
+        "Asya"@tr,
+        "Азія"@uk,
+        "ایشیا"@ur,
+        "Châu Á"@vi,
+        "亚洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255147/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255147/asia.html> ;
+    gn:name "Asia" ;
+    gn:officialName "Asia"@en,
+        "Asia"@es,
+        "아시아"@ko,
+        "Azië"@nl,
+        "Азия"@ru ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:population "3812366000" ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/Asia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255147/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Asia> ;
+    wgs84_pos:lat "29.84064" ;
+    wgs84_pos:long "89.29688" .
+
+<http://sws.geonames.org/6255148/> a gn:Feature ;
+    gn:alternateName "أوروبا"@ar,
+        "Еўропа"@be,
+        "Европа"@bg,
+        "Evropa"@bs,
+        "Evropa"@cs,
+        "Ewrop"@cy,
+        "Europa"@da,
+        "Europa"@de,
+        "Ευρώπη"@el,
+        "Eŭropo"@eo,
+        "El viejo continente"@es,
+        "Europa"@eu,
+        "Eurooppa"@fi,
+        "Europe"@fr,
+        "an Eoraip"@ga,
+        "אירופה"@he,
+        "यूरोप"@hi,
+        "Európa"@hu,
+        "Eropa"@id,
+        "Evrópa"@is,
+        "Europa"@it,
+        "ヨーロッパ"@ja,
+        "Europa"@la,
+        "Europa"@lt,
+        "Eiropa"@lv,
+        "Europa"@nb,
+        "Europa"@no,
+        "Europa"@pl,
+        "Europa"@pt,
+        "Eurohpá"@se,
+        "Europa"@sv,
+        "ยุโรป"@th,
+        "Avrupa"@tr,
+        "Європа"@uk,
+        "Châu Âu"@vi,
+        "欧洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255148/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255148/europe.html> ;
+    gn:name "Europe" ;
+    gn:officialName "Europa"@ca,
+        "Europe"@en,
+        "Europa"@es,
+        "유럽"@ko,
+        "Europa"@nl,
+        "Europa"@ro,
+        "Европа"@ru ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/Europe> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255148/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Europe> ;
+    wgs84_pos:lat "48.69096" ;
+    wgs84_pos:long "9.14062" .
+
+<http://sws.geonames.org/6255149/> a gn:Feature ;
+    gn:alternateName "أمريكا الشمالية"@ar,
+        "Северна Америка"@bg,
+        "Sjeverna Amerika"@bs,
+        "Amèrica del Nord"@ca,
+        "Abya Yala"@cai,
+        "Severní Amerika"@cs,
+        "Gogledd America"@cy,
+        "Nordamerika"@da,
+        "Nordamerika"@de,
+        "Βόρεια Αμερική"@el,
+        "Nordameriko"@eo,
+        "América Septentrional"@es,
+        "Pohjois-Amerikka"@fi,
+        "Amérique du Nord"@fr,
+        "Meiriceá Thuaidh"@ga,
+        "אמריקה הצפונית"@he,
+        "उत्तरी अमरीका"@hi,
+        "Észak-Amerika"@hu,
+        "Amerika Utara"@id,
+        "Norður-Ameríka"@is,
+        "America settentrionale"@it,
+        "北アメリカ"@ja,
+        "Šiaurės Amerika"@lt,
+        "Ziemeļamerika"@lv,
+        "Nord-Amerika"@nb,
+        "Noord-Amerika"@nl,
+        "Nord-Amerika"@no,
+        "Ameryka Północna"@pl,
+        "América do Norte"@pt,
+        "Північна Америка"@ru,
+        "Davvi-Amerihkká"@se,
+        "Nordamerika"@sv,
+        "อเมริกาเหนือ"@th,
+        "Kuzey Amerika"@tr,
+        "Північна Америка"@uk,
+        "شمالی امریکہ"@ur,
+        "Bắc Mỹ"@vi,
+        "北美洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255149/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255149/north-america.html> ;
+    gn:name "North America" ;
+    gn:officialName "North America"@en,
+        "América del Norte"@es,
+        "북아메리카"@ko,
+        "Северная Америка"@ru ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:shortName "Norteamérica"@es ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/North_America> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255149/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/North_America> ;
+    wgs84_pos:lat "46.07323" ;
+    wgs84_pos:long "-100.54688" .
+
+<http://sws.geonames.org/6255150/> a gn:Feature ;
+    gn:alternateName "أمريكا الجنوبية"@ar,
+        "Южна Америка"@bg,
+        "Južna Amerika"@bs,
+        "Amèrica del Sud"@ca,
+        "Abya Yala"@cai,
+        "Jižní Amerika"@cs,
+        "De America"@cy,
+        "Sydamerika"@da,
+        "Südamerika"@de,
+        "Νότια Αμερική"@el,
+        "Sudameriko"@eo,
+        "América Meridional"@es,
+        "América del Sud"@es,
+        "Suramérica"@es,
+        "Hego-Amerika"@eu,
+        "Hegoamerika"@eu,
+        "Etelä-Amerikka"@fi,
+        "Amérique du Sud"@fr,
+        "Meiriceá Theas"@ga,
+        "אמריקה הדרומית"@he,
+        "दक्षिणी अमरीका"@hi,
+        "Dél-Amerika"@hu,
+        "Amerika Selatan"@id,
+        "Suður-Ameríka"@is,
+        "America meridionale"@it,
+        "南アメリカ"@ja,
+        "Pietų Amerika"@lt,
+        "Dienvidamerika"@lv,
+        "Sør-Amerika"@nb,
+        "Zuid-Amerika"@nl,
+        "Sør-Amerika"@no,
+        "Ameryka Południowa"@pl,
+        "América do Sul"@pt,
+        "Южная Америка"@ru,
+        "Lulli-Amerihkká"@se,
+        "Sydamerika"@sv,
+        "อเมริกาใต้"@th,
+        "Güney Amerika"@tr,
+        "Південна Америка"@uk,
+        "Nam Mỹ"@vi,
+        "南美洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255150/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255150/south-america.html> ;
+    gn:name "South America" ;
+    gn:officialName "South America"@en,
+        "América del Sur"@es,
+        "남아메리카"@ko ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:population "385742554" ;
+    gn:shortName "Sudamérica"@es ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/South_America> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255150/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/South_America> ;
+    wgs84_pos:lat "-14.60485" ;
+    wgs84_pos:long "-57.65625" .
+
+<http://sws.geonames.org/6255151/> a gn:Feature ;
+    gn:alternateName "أوقيانوسيا"@ar,
+        "Океания"@bg,
+        "Oceania"@ca,
+        "Oceánie"@cs,
+        "Oceania"@cy,
+        "Oceanien"@da,
+        "Ozeanien"@de,
+        "Ωκεανία"@el,
+        "Oceanio"@eo,
+        "Oseania"@fi,
+        "Océanie"@fr,
+        "an Aigéine"@ga,
+        "אוקיאניה"@he,
+        "ओशीनिया"@hi,
+        "Óceánia"@hu,
+        "Oceania"@id,
+        "Eyjaálfa"@is,
+        "Oceania"@it,
+        "オセアニア"@ja,
+        "Okeanija"@lt,
+        "Okeānija"@lv,
+        "Oseania"@nb,
+        "Oceanië"@nl,
+        "Oseania"@no,
+        "Oceania"@pl,
+        "Oceania"@pt,
+        "Oseania"@se,
+        "Oceanien"@sv,
+        "โอเชียเนีย"@th,
+        "Okyanusya"@tr,
+        "Океанія"@uk,
+        "Châu Đại Dương"@vi,
+        "大洋洲"@zh ;
+    gn:childrenFeatures <http://sws.geonames.org/6255151/contains.rdf> ;
+    gn:featureClass gn:L ;
+    gn:featureCode gn:L.CONT ;
+    gn:locationMap <http://www.geonames.org/6255151/oceania.html> ;
+    gn:name "Oceania" ;
+    gn:officialName "Oceania"@en,
+        "Oceanía"@es,
+        "오세아니아"@ko,
+        "Океания"@ru ;
+    gn:parentFeature <http://sws.geonames.org/6295630/> ;
+    gn:wikipediaArticle <http://en.wikipedia.org/wiki/Oceania> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6255151/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Oceania> ;
+    wgs84_pos:lat "-18.31281" ;
+    wgs84_pos:long "138.51562" .
+

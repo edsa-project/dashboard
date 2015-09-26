@@ -1,0 +1,506 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/102358/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1024031/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/1036973/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/1062947/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/1149361/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1168579/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1210997/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1218197/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1220409/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1227603/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1252634/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1269750/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1282028/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1282588/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1282988/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/130758/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1327865/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/146669/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/149590/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/1512440/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1522867/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1527747/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1546748/> ns1:parentFeature <http://sws.geonames.org/6255152/> .
+
+<http://sws.geonames.org/1547314/> ns1:parentFeature <http://sws.geonames.org/6255152/> .
+
+<http://sws.geonames.org/1547376/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1559582/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/1562822/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1605651/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/163843/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1643084/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1655842/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1668284/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1694008/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1733045/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/174982/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1814991/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1819730/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1820814/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1821275/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1831722/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1835841/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1861060/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1873107/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1880251/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/1899402/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/192950/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/1966436/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2017370/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2029969/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/203312/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2077456/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2078138/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2080185/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2081918/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2088628/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2103350/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2110297/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2110425/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2134431/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2139685/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2155115/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2186224/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2205218/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/2215636/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2233387/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/223816/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2245662/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2260494/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/226074/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2264397/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2275384/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2287781/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2300660/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2309096/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2328926/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2361809/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2363686/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2372248/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2378080/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2395170/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/239880/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2400553/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2403846/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2410758/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2411586/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/241170/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2413451/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2420477/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2434508/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2440476/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2453866/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2461445/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2464461/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/248816/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2510769/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2542007/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2562770/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2589581/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/2622320/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2623032/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2629691/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2635167/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2658434/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2661886/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/272103/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2750405/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2782113/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2802361/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/285570/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/286963/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/289688/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/290291/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/290557/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2921044/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/294640/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2960313/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/2963597/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/298795/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/2993457/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3017382/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3041565/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3042058/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3042142/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3042225/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3042362/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3057568/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3077311/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3144096/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3164670/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3168068/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3175395/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3190538/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3194884/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3202326/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3277605/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3351879/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3355338/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3370751/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3371123/> ns1:parentFeature <http://sws.geonames.org/6255152/> .
+
+<http://sws.geonames.org/3374084/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3374766/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3378535/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/337996/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/338010/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3381670/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3382998/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3424932/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3425505/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3437598/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3439705/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3469034/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3474414/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3474415/> ns1:parentFeature <http://sws.geonames.org/6255152/> .
+
+<http://sws.geonames.org/3489940/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3508796/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3562981/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3570311/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3572887/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3573345/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3573511/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3573591/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3575174/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3575830/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3576396/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3576468/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3576916/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3577279/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3577718/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3577815/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3578097/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3578421/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3578476/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3579143/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/357994/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3580239/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3580718/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3582678/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3585968/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3595528/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3608932/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3617476/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3624060/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3625428/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3658394/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/366755/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/3686110/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3703430/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3723988/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/3865483/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3895114/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/390903/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/3923057/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3932488/> ns1:parentFeature <http://sws.geonames.org/6255150/> .
+
+<http://sws.geonames.org/3996063/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/4030656/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4030699/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4030945/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4031074/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4032283/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4034749/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4034894/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4036232/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4041468/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/4043988/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/433561/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/453733/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/4566966/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/458258/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/4796775/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/49518/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/51537/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/5854968/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/587116/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/5880801/> ns1:parentFeature <http://sws.geonames.org/6255151/> .
+
+<http://sws.geonames.org/597427/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/607072/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/614540/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/617790/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/6251999/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/6252001/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/6254930/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/6290252/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/630336/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/660013/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/661882/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/6697173/> ns1:parentFeature <http://sws.geonames.org/6255152/> .
+
+<http://sws.geonames.org/690791/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/69543/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
+<http://sws.geonames.org/718075/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/719819/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/732800/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/7609695/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/7626836/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/7626844/> ns1:parentFeature <http://sws.geonames.org/6255149/> .
+
+<http://sws.geonames.org/783754/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/7909807/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/798544/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/798549/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/831053/> ns1:parentFeature <http://sws.geonames.org/6255148/> .
+
+<http://sws.geonames.org/878675/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/895949/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/921929/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/927384/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/932692/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/933860/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/934292/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/934841/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/935317/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/953987/> ns1:parentFeature <http://sws.geonames.org/6255146/> .
+
+<http://sws.geonames.org/99237/> ns1:parentFeature <http://sws.geonames.org/6255147/> .
+
