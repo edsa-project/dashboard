@@ -31,19 +31,21 @@ def main(argv):
     currentbase.load(args.current, format='turtle')
 
     g = Graph()
-    c = 0
     for item in soup.find_all('item'):
-        c += 1
-        subject = URIRef("http://www.edsa-project.eu/jobs/StackOverflow/"+str(c))
-        #URL
-        url = Literal(item.guid.string)
+        subject = URIRef(item.guid.string)
+        url = URIRef(item.guid.string)
+        #TODO: Check that with URL as subject, deduplication is not
+        # needed
         if args.verbose:
             print "Processing post " + url
         if is_duplicate(currentbase,url):
             if args.verbose:
                 print url +" identified as duplicate, skipping..."
             continue
+        #URL
         g.add((subject,ns.schema.url,url))
+        #Source
+        g.add((subject,ns.schema.source,Literal("StackOverflow")))
         #Title
         g.add((subject,ns.schema.jobTitle,Literal(item.title.string)))
         #Description
