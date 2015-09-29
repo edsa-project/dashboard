@@ -25,9 +25,9 @@ SELECT (COUNT(?job) as ?numJobs)  WHERE
 CONSTRUCT {?job ?y ?z . ?location ?y1 ?z1} WHERE
 {
 ?job ?y ?z .
-?place ?y1 ?z1 .
+?location ?y1 ?z1 .
 ?job edsa:Location ?location .
-?place geonames:parentCountry ?country .
+?location geonames:parentCountry ?country .
 ?country geonames:parentFeature ?continent .
 ?continent geonames:name "Europe"
 
@@ -35,3 +35,17 @@ CONSTRUCT {?job ?y ?z . ?location ?y1 ?z1} WHERE
 
 # Construct graph with string values of the skills
 CONSTRUCT  WHERE { ?skill edsa:lexicalValue ?value}
+
+# Generate csv for visualization
+# Note there is not continent filter here
+
+select ?job ?title ?locationName ?countryName (group_concat(?skillname;separator="|") as ?skills) where {
+  ?job schema:jobTitle ?title .
+  ?job edsa:Location ?location .
+  ?location geonames:name ?locationName .
+  ?location geonames:parentCountry ?country .
+  ?country geonames:name ?countryName .
+  ?job edsa:requiresSkill ?skill .
+  ?skill edsa:lexicalValue ?skillname
+}
+group by ?job ?title ?locationName ?countryName
