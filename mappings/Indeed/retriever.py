@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import requests
 import codecs
@@ -17,14 +18,38 @@ There are two shortcomings:
 #TODO: Abstract this to a class.
 URL="http://api.indeed.com/ads/apisearch"
 
-keywords = ['Data Science',
-    'Data Scientist',
-    'Data Analyst',
-    'Data Analysis',
-    'Data Engineer',
-    'Data Engineering',
-    'Data Mining',
-    'Data Miner']
+
+#keywords = ['Data Science',
+#    'Data Scientist',
+#    'Data Analyst',
+#    'Data Analysis',
+#    'Data Engineer',
+#    'Data Engineering',
+#    'Data Mining']
+
+#keywords = ['Ciencia de Datos',
+#    'Científico de datos',
+#    'Analista de datos',
+#    'análisis de datos',
+#    'Ingeniero de datos',
+#    'Ingeniería de datos',
+#    'Minería de datos',
+#    ]
+
+keywords = ['Science des données',
+    'Scientifique des données',
+    'Analyst des données',
+    'Analyse des données',
+    'Ingenieur des données',
+    'Ingenierie des données',
+    'Fouille des données'
+    ]
+countries = [
+         'at','be','cz','dk','fi','fr','de','gr','hu', 'gb',
+         'ie', 'it', 'lu', 'nl', 'pl', 'ro', 'es', 'se', 
+         'il', #H2020 partner
+         'ru', 'tr', 'no'
+        ]
 
 #countries = ['us', 'ca' #For comparison purposes
          #'at','be','cz','dk','fi','fr','de','gr','hu', 'gb'
@@ -33,12 +58,11 @@ keywords = ['Data Science',
          #'ru', 'tr', 'no' # Not europe, but close enough
         #]
 
-
 today = date.today()
 
 def get_pages(payload,outputfile):
     # do first call
-    r = requests.get(URL,payload)
+    r = requests.get(URL,params=payload)
     soup = BeautifulSoup(r.text, "xml")
     #get total results
     total = int(soup.totalresults.string)
@@ -48,7 +72,7 @@ def get_pages(payload,outputfile):
     for st in range(1,total,25):
         page = ''
         payload['start'] = st
-        r = requests.get(URL,payload)
+        r = requests.get(URL,params=payload)
         soup = BeautifulSoup(r.text, "xml", parse_only=only_results)
         outputfile.write(soup.prettify())
 
