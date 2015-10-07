@@ -1,5 +1,6 @@
 import requests
-from rdflib import Graph 
+from rdflib import Graph, Literal 
+from rdflib.plugins.sparql import prepareQuery
 import namespaces as ns
 
 class NotFoundException(Exception):
@@ -28,10 +29,11 @@ def find_location(textlocation):
     result = Graph()
     result.parse(data=r.text, format="xml")
 
-    spquery= """
+    spquery = """
         SELECT DISTINCT ?iri WHERE {?iri gn:name ?y}
-    """
-    qres = result.query(spquery)
+    """;
+    qres = result.query(spquery,initNs={"gn" : ns.geonames})
+    
     iri = ''
     for row in qres:
         iri = row.iri
@@ -48,23 +50,12 @@ def find_location(textlocation):
     return (iri,result)
 
 def is_inside(textplace,graph):
-    """Returns true if the place defined as "place,CC" is disambiguated in graph
+    """Returns true if the place defined as text is disambiguated in graph
     returns false otherwise"""
     askquery = prepareQuery(
             """ASK {?iri schema:jobLocation ?place .
                 ?iri edsa:Location ?placeiri}""",
                 initNs = {"schema" : ns.schema , 
                     "edsa" : ns.edsa})
-    return bool(graph.query(askquery,
-        initBindings={"place" : Literal(textplace)}))
-
-"""
-TODO: A real unit test
-tup = find_location("Southampton, UK")
-print("%s" % tup[0])
-try:
-    tup = find_location("dgdghl")
-except NotFoundException as e:
-    print e
-"""
+    return bool(graph.query(askquery, initBindings={"place" : Literal(textplace)}))
 
