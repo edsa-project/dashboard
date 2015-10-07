@@ -1,5 +1,5 @@
 import namespaces as ns
-from rdflib import Graph, Literal
+from rdflib import Graph, URIRef
 
 def is_duplicate(graph,url):
     """
@@ -8,7 +8,7 @@ def is_duplicate(graph,url):
     """
     #For the moment with RDFLib, this will be refactored when we have our
     #endpoint
-    if url is Literal:
+    if url is URIRef:
         return (None,ns.schema.url,url) in graph
     else:
-        return (None,ns.schema.url,Literal(url)) in graph
+        return (None,ns.schema.url,URIRef(url)) in graph

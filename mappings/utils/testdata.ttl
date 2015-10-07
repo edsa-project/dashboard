@@ -1,0 +1,154 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://www.edsa-project.eu/edsa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://gr.indeed.com/viewjob?jk=0634d8886845c8bb> ns1:datePosted "2015-09-14T13:50:39+01:00"^^xsd:Date ;
+    ns1:description """We are looking for an individual with deep skills in applied statistics who will assume a key role in the quality assurance and continuous improvement of data curation and advanced analytics within the highly entrepreneurial domain of shipping.
+
+
+If you have the capacity and aspiration to combine analytical, design and operational responsibilities, if you are well-organized and team-spirited, and if you possess the necessary academic and computing skills, then we would love to hear from you.
+
+
+As part of this role you will be joining our team in Athens and engaging, alongside other scientific, computing and operational staff, in the design, production, monitoring and continuous improvement of advanced analytics solutions. Everyday tasks may include:
+
+Devising statistical methods to ascertain the accuracy and other performance characteristics of analytics solutions
+Conceiving, creating, enriching and operating an automated analytics monitoring and metrics system
+Using above system and ad hoc analysis to detect/correct data issues and to suggest improvements throughout the analytics production process, i.e. data collection, ingestion, transformation, processing and visualization
+Back-testing new analytics versions before they are deployed to provide feedback on improvement achieved and assisting in the prioritization of new features before they are incorporated into new versions
+More generally, conducting ad hoc or regular modelling and statistical analysis to assist the company achieve its goals
+Raising awareness, presenting, coaching and training others on concepts, tools or methods
+Finding, capturing, transforming and managing data and databases, manually or programmatically
+Participating, administering or, possibly, managing projects (using SCRUM methodology)
+Producing and maintaining documentation
+
+You will be working and developing yourself amongst a young and highly-driven team, engaged in an innovative and ambitious business plan, and be deployed in a fun work environment.
+
+
+Strict adherence to Confidentiality, Intellectual Property and Non-Compete clauses is expected.
+
+
+Requirements
+You should:
+
+Have a doctorate (PhD) or master (MSc) degree in Statistics and the self-sufficient ability to apply relevant methods through the use of at least two (2) of the following technologies: MS SQL, Python, R, Tableau
+Have expert demonstrable skills in all of the following disciplines: Time Series Analysis & Back-Testing, Regression & Correlation analysis, Machine Learning
+Have the patience, self-organization, attention-to-detail and desire to work hands-on with data in the entrepreneurial domain
+Ideally, you should also:
+
+Have obtained your latest, relevant academic title after 2008
+Be familiar with econometrics and the statistical analysis of financial instruments
+Be in a position to explain, apply and coach others in at least three (3) of the following, additional scientific methods/fields: Bayesian Networks, Big Data, Classification, Clustering, Data Mining, Data Visualization, Deep Learning, Feature Engineering, Linear Regression, Logistic Regression, Map Reduce, Monte Carlo Simulation, Pattern Recognition, Probabilistic Graphical Models, Reinforcement Learning, Simulation, Supervised Learning, Transfer Learning, Support Vector Machines, Unsupervised Learning
+Benefits
+Competitive salary and up to 10 or 15% performance bonus/incentive
+Coverage under the company’s collective health insurance plan""" ;
+    ns1:hiringOrganization "Signal Maritime" ;
+    ns1:jobLocation "Αθήνα" ;
+    ns1:jobTitle "Data Scientist (Applied Statistician)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://gr.indeed.com/viewjob?jk=0634d8886845c8bb> ;
+    ns2:Location <http://sws.geonames.org/264371/> .
+
+<http://gr.indeed.com/viewjob?jk=949945a49631b6ed> ns1:datePosted "2015-09-14T14:27:23+01:00"^^xsd:Date ;
+    ns1:description """We are looking for an individual with deep skills in applied statistics who will assume a key role in the quality assurance and continuous improvement of data curation and advanced analytics within the highly entrepreneurial domain of shipping.
+
+
+If you have the capacity and aspiration to combine analytical, design and operational responsibilities, if you are well-organized and team-spirited, and if you possess the necessary academic and computing skills, then we would love to hear from you.
+
+
+As part of this role you will be joining our team in Athens and engaging, alongside other scientific, computing and operational staff, in the design, production, monitoring and continuous improvement of advanced analytics solutions. Everyday tasks may include:
+
+Devising statistical methods to ascertain the accuracy and other performance characteristics of analytics solutions
+Conceiving, creating, enriching and operating an automated analytics monitoring and metrics system
+Using above system and ad hoc analysis to detect/correct data issues and to suggest improvements throughout the analytics production process, i.e. data collection, ingestion, transformation, processing and visualization
+Back-testing new analytics versions before they are deployed to provide feedback on improvement achieved and assisting in the prioritization of new features before they are incorporated into new versions
+More generally, conducting ad hoc or regular modelling and statistical analysis to assist the company achieve its goals
+Raising awareness, presenting, coaching and training others on concepts, tools or methods
+Finding, capturing, transforming and managing data and databases, manually or programmatically
+Participating, administering or, possibly, managing projects (using SCRUM methodology)
+Producing and maintaining documentation
+
+You will be working and developing yourself amongst a young and highly-driven team, engaged in an innovative and ambitious business plan, and be deployed in a fun work environment.
+
+
+Strict adherence to Confidentiality, Intellectual Property and Non-Compete clauses is expected.
+
+
+Requirements
+
+
+You should:
+
+Have a doctorate (PhD) or master (MSc) degree in Statistics and the self-sufficient ability to apply relevant methods through the use of at least two (2) of the following technologies: MS SQL, Python, R, Tableau
+Have expert demonstrable skills in all of the following disciplines: Time Series Analysis & Back-Testing, Regression & Correlation analysis, Machine Learning
+Have the patience, self-organization, attention-to-detail and desire to work hands-on with data in the entrepreneurial domain
+Ideally, you should also:
+
+Have obtained your latest, relevant academic title after 2008
+Be familiar with econometrics and the statistical analysis of financial instruments
+Be in a position to explain, apply and coach others in at least three (3) of the following, additional scientific methods/fields: Bayesian Networks, Big Data, Classification, Clustering, Data Mining, Data Visualization, Deep Learning, Feature Engineering, Linear Regression, Logistic Regression, Map Reduce, Monte Carlo Simulation, Pattern Recognition, Probabilistic Graphical Models, Reinforcement Learning, Simulation, Supervised Learning, Transfer Learning, Support Vector Machines, Unsupervised Learning
+
+Benefits
+
+Competitive salary and up to 10 or 15% performance bonus/incentive
+Coverage under the company's collective health insurance plan""" ;
+    ns1:hiringOrganization "Signal Maritime" ;
+    ns1:jobLocation "Γλυφάδα" ;
+    ns1:jobTitle "Data Scientist (Applied Statistician)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://gr.indeed.com/viewjob?jk=949945a49631b6ed> ;
+    ns2:Location <http://sws.geonames.org/262036/> .
+
+<http://gr.indeed.com/viewjob?jk=fe422897ac25bc90> ns1:datePosted "2015-09-01T15:39:20+01:00"^^xsd:Date ;
+    ns1:description """We are looking for an Artificial Intelligence (AI) expert in the disciplines of Planning, Formal Languages and Machine Learning.
+
+
+If you are a well-organized, team-spirited individual, with strong academic qualifications and deep expertise in the application of the above scientific disciplines, and you are interested in joining an international start-up looking to apply these and similar techniques in the highly entrepreneurial domain of shipping, then we would love to hear from you.
+
+
+As part of this role you will be joining our Strategy team in Athens and engaging, alongside other data scientists, in research & development, data curation, modelling & analytics, coding and project management work. Everyday tasks may include:
+
+Following relevant academic advancements in AI, computer science, robotics and optimization
+Applying and/or adapting the corresponding scientific methods to help the company achieve its goals
+Raising awareness, presenting, coaching and training others on concepts, methods or analysis
+Modelling and conducting advanced data analysis in the context of the shipping industry
+Finding, capturing, transforming and managing data and databases, manually or programmatically
+Developing Software, i.e. gathering requirements, designing, coding, reviewing, testing, troubleshooting and maintaining computer programs with a focus on Data Analysis and Business Intelligence
+Participating, administering or, possibly, managing projects (using Scrum methodologies)
+Producing and maintaining documentation
+You will be working and developing yourself amongst a young and highly-driven team, engaged in an innovative and ambitious business plan, and be deployed in a fun work environment.
+
+
+Strict adherence to Confidentiality, Intellectual Property and Non-Compete clauses is expected.
+
+
+The interview process includes a short quiz to help us better appreciate your knowledge and the way you think.
+
+
+Requirements
+
+
+You should:
+
+Have a doctorate degree in AI or a relevant scientific field
+Have expert demonstrable skills in at least two (2) of the following scientific disciplines: Planning Algorithms, Formal Languages, Machine Learning, Optimization
+Have experience in at least two (2) of the following development technologies: MS SQL, C#.NET, Python, R, Tableau, Hadoop, NoSQL, PDDL-based or other AI planning language, CPEX or other mathematical programming language
+Have the patience, self-organization, attention-to-detail and desire to work hands-on with data in the entrepreneurial domain
+Ideally, you should also:
+
+Have obtained your latest, relevant academic title after 2008
+Be in a position to explain, apply and coach others in at least three (3) of the following, additional scientific methods/fields: Algorithmic Game Theory, Bayesian Networks, Big Data, Classification, Clustering, Combinatorial Optimization, Data Mining, Data Visualization, Deep Learning, Fast Fourier Transform, Feature Engineering, Game Theory, Genetic Algorithms, Graph Theory, Kalman Filtering, Linear Regression, Linear Temporal Logic, Logistic Regression, Map Reduce, Markov Decision Process, Markov Models, Partially Observable Markov Decision Process, Mixed Integer Optimization, Monte Carlo Simulation, Natural Language Processing, Neural Networks, Non-Linear Optimization, Operations Research, Pattern Recognition, Probabilistic Graphical Models, Queueing Models, Reinforcement Learning, Robust Optimization, Signal Processing, Simulated Annealing, Simulation, Statistics, Stochastic Optimization, Supervised Learning, Support Vector Machines, Time Series Analysis, Transportation Models, Unsupervised Learning
+
+Benefits
+
+Competitive salary and up to 15% performance bonus/incentive
+Coverage under the company's collective health insurance plan""" ;
+    ns1:hiringOrganization "Signal Maritime" ;
+    ns1:jobLocation "Γλυφάδα" ;
+    ns1:jobTitle "Artificial Intelligence / Data Scientist" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://gr.indeed.com/viewjob?jk=fe422897ac25bc90> ;
+    ns2:Location <http://sws.geonames.org/262036/> .
+

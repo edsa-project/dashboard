@@ -1,11 +1,11 @@
 import unittest
-from rdflib import Graph, Literal
+from rdflib import Graph, URIRef
 from URLdeduplicator import is_duplicate
 
-TESTGRAPH="testgraph.ttl"
+TESTGRAPH="testdata.ttl"
 g = Graph()
 g.parse(TESTGRAPH,format="turtle")
-URLTRUE="http://careers.stackoverflow.com/jobs/55843/data-analytics-engineer-sharethrough"
+URLTRUE="http://gr.indeed.com/viewjob?jk=0634d8886845c8bb"
 URLFALSE="http://careers.stackoverflow.com/jobs/000/work-at-joes"
 
 class TestURLDeduplicator(unittest.TestCase):
@@ -15,8 +15,8 @@ class TestURLDeduplicator(unittest.TestCase):
         self.assertFalse(is_duplicate(g,URLFALSE))
 
     def test_is_duplicate_literal(self):
-        self.assertTrue(is_duplicate(g,Literal(URLTRUE)))
-        self.assertFalse(is_duplicate(g,Literal(URLFALSE)))
+        self.assertTrue(is_duplicate(g,URIRef(URLTRUE)))
+        self.assertFalse(is_duplicate(g,URIRef(URLFALSE)))
 
 if __name__ == '__main__':
     unittest.main()
