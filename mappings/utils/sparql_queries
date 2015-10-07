@@ -39,8 +39,9 @@ CONSTRUCT  WHERE { ?skill edsa:lexicalValue ?value}
 # Generate csv for visualization
 # Note there is not continent filter here
 
-select ?job ?title ?locationName ?lat ?long ?countryName (group_concat(?skillname;separator="|") as ?skills) where {
+select ?job ?title ?hiringOrganization ?locationName ?lat ?long ?countryName (group_concat(?skillname;separator="|") as ?skills) where {
   ?job schema:jobTitle ?title .
+  ?job schema:hiringOrganization ?hiringOrganization .
   ?job edsa:Location ?location .
   ?location geonames:name ?locationName .
   ?location geonames:parentCountry ?country .
@@ -51,3 +52,4 @@ select ?job ?title ?locationName ?lat ?long ?countryName (group_concat(?skillnam
   ?location geo:long ?long 
 }
 group by ?job ?title ?locationName ?countryName
+order by ?countryName
