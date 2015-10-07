@@ -1,0 +1,1211 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://www.geonames.org/ontology#> .
+@prefix ns3: <http://www.edsa-project.eu/edsa#> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/2521086/> a ns2:Feature ;
+    ns2:countryCode "ES" ;
+    ns2:featureClass ns2:P ;
+    ns2:featureCode ns2:P.PPL ;
+    ns2:locationMap <http://www.geonames.org/2521086/beniel.html> ;
+    ns2:name "Beniel" ;
+    ns2:nearbyFeatures <http://sws.geonames.org/2521086/nearby.rdf> ;
+    ns2:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns2:population "10933" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2521086/about.rdf> ;
+    ns4:lat "38.04636" ;
+    ns4:long "-1.00233" .
+
+<http://sws.geonames.org/3108286/> a ns2:Feature ;
+    ns2:alternateName "Terrassa"@ca,
+        "Terrassa"@cs,
+        "Terrassa"@da,
+        "Terrassa"@de,
+        "Τεράσα"@el,
+        "Terrassa"@en,
+        "Terrassa"@es,
+        "Terrassa"@et,
+        "Terrassa"@eu,
+        "Terrassa"@fi,
+        "Terrassa"@fr,
+        "Terrassa"@gl,
+        "Terrassa"@id,
+        "Terrassa"@is,
+        "Terrassa"@it,
+        "テッラーサ"@ja,
+        "테라사"@ko,
+        "Terrassa"@nl,
+        "Terrassa"@no,
+        "Terrassa"@oc,
+        "Terrassa"@pl,
+        "Terrassa"@pt,
+        "Terrassa"@ro,
+        "Террасса"@ru,
+        "Terrassa"@sk,
+        "Terrassa"@sl,
+        "Terrassa"@sv,
+        "Terrassa"@tr,
+        "Terrassa"@ty ;
+    ns2:countryCode "ES" ;
+    ns2:featureClass ns2:P ;
+    ns2:featureCode ns2:P.PPL ;
+    ns2:locationMap <http://www.geonames.org/3108286/terrassa.html> ;
+    ns2:name "Terrassa" ;
+    ns2:nearbyFeatures <http://sws.geonames.org/3108286/nearby.rdf> ;
+    ns2:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns2:population "210941" ;
+    ns2:postalCode "08226" ;
+    ns2:wikipediaArticle <http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D1%80%D0%B0%D1%81%D1%81%D0%B0> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3108286/about.rdf> ;
+    ns4:lat "41.56667" ;
+    ns4:long "2.01667" .
+
+<http://sws.geonames.org/3110921/> a ns2:Feature ;
+    ns2:alternateName "سان أدريان دي بيزوس"@ar,
+        "Sant Adrià"@ca,
+        "Sant Adrià de Besòs"@en,
+        "Sant Adrià de Besòs"@es,
+        "Sant Adrià de Besòs"@eu,
+        "サント・アドリアー・ダ・バゾス"@ja,
+        "Sant Adrià de Besòs"@oc,
+        "San Adrián de Besós"@pl,
+        "Sant Adrià de Besós"@ro,
+        "Сант-Адріа-да-Базос"@uk,
+        "桑塔德里亚德韦索斯"@zh ;
+    ns2:countryCode "ES" ;
+    ns2:featureClass ns2:P ;
+    ns2:featureCode ns2:P.PPL ;
+    ns2:locationMap <http://www.geonames.org/3110921/sant-adria-de-besos.html> ;
+    ns2:name "Sant Adrià de Besòs" ;
+    ns2:nearbyFeatures <http://sws.geonames.org/3110921/nearby.rdf> ;
+    ns2:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns2:population "33761" ;
+    ns2:postalCode "08930" ;
+    ns2:wikipediaArticle <http://en.wikipedia.org/wiki/Sant_Adri%C3%A0_de_Bes%C3%B2s> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3110921/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Sant_Adri%C3%A0_de_Bes%C3%B2s> ;
+    ns4:lat "41.43073" ;
+    ns4:long "2.21855" .
+
+<http://www.indeed.es/viewjob?jk=0e0875ab90fcb2ec> ns1:datePosted "2015-09-25T14:11:59+01:00"^^xsd:Date ;
+    ns1:description """Obtener, realizar una valoración crítica y organizar la literatura científica y médica relativa a los productos internos y de la competencia (oncología), proporcionando información periódica actualizada que pueda ser de utilidad para su uso interno o externo, de acuerdo a la normativa local aplicable y procedimientos internos de compañía.
+
+
+* Realizar búsquedas bibliográficas y manejo de bases de datos de información médica y científica para conocer las últimas publicaciones, proporcionando el soporte bibliográfico y documental a los departamentos que lo requieran.
+
+* Valorar y analizar con detalle y de forma periódica la información o documentación médico- científica sobre los productos de la empresa y los productos de la competencia, reseñando los aspectos más relevantes y de interés para los departamentos interesados.
+
+* Remitir periódicamente al Medical Director, Head of Medical Affairs, Medical Managers, Medical Affairs Coordinators (MAC), Farmacovigilancia, Red de ventas y demás colectivos interesados (Profesionales sanitarios, pacientes) las alertas bibliográficas, publicaciones y artículos previamente analizados con los comentarios y resúmenes que sean de utilidad.
+
+* Organizar, registrar y archivar la documentación, bases de datos y publicaciones médicas y científicas más relevantes del área.
+
+* Responder a las consultas y solicitudes de información medico-científicas a nivel interno y externo sobre productos globales y locales de oncología
+
+* Ofrecer soporte bibliográfico y documental a los profesionales del área de Investigación Clínica durante la ejecución de l""" ;
+    ns1:hiringOrganization "Michael Page" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "MEDICAL INFORMATION OFFICER - ONCOLOGÍA" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0e0875ab90fcb2ec> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=456d8aaec2af1008> ns1:datePosted "2015-08-12T13:35:27+01:00"^^xsd:Date ;
+    ns1:description """Nombre de la empresa Solutia Global Health Solutions
+
+
+Titulación requerida Diplomatura en Biblioteconomía y Documentación
+(Documentalista científico)
+
+
+Requisitos específicos del - Grado-Licenciatura en Farmacia o Química, ó
+
+
+puesto Biblioteconomía y Documentación.
+- Imprescindible experiencia en la gestión
+
+
+documental científica en entorno farmacéutico,
+cosmético o afines.
+
+
+- Inglés avanzado (imprescindible en comprensión
+lectora).
+
+
+Funciones a desempeñar • Alimentar la BBDD corporativa con la información
+que localice o le sea enviada desde todas las áreas y
+filiales de la compañía.
+• Entender los requerimientos y necesidades de
+información de la Compañía y aplicarlos en sus
+actividades de catalogación. Participar en la
+creación de índices y glosarios de términos que
+ayuden a la mejora de la calidad de la BBDD
+corporativa.
+• Mantener al día la red de proveedores de
+información/documentación o servicios atendiendo
+a las necesidades de la compañía. Tramitar las
+adquisiciones de documentos.
+• Mantener el circuito de registro, lectura y
+almacén o expurgo de revistas. Crear una tabla de
+registro y préstamo de libros.
+• Asistir, dentro de lo posible, en la formación del
+personal interno de la Compañía para que pueda
+llevar a cabo sus propias búsquedas en la BBDD
+corporativa.
+
+
+Fecha inicio prevista Inmediata
+
+
+Horario Completo de lunes a viernes
+
+
+Lugar Barcelona
+
+
+Remuneración y tipo de Salario según convenio
+
+
+contrato
+Otros datos de interés Datos de contacto: eva.ramiro@solutiaghs.com
+
+
+Las personas interesadas en formar parte del proceso de selección deberán enviar su CV a la siguiente
+
+
+dirección electrónica (eva.ramiro@solutiaghs.com)""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Varias Titulaciones. Solutia Global Health Solutions . Barcelona" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=456d8aaec2af1008> ;
+    ns3:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=4cca37d6c0c72507> ns1:datePosted "2015-07-30T09:30:57+01:00"^^xsd:Date ;
+    ns1:description """OBJETIVO DEL PUESTO
+
+
+Dirigir y liderar el equipo médico de la Unidad, co-desarrollando e implementando con la BU estrategias y proyectos que se definirán en el plan estratégico de la Unidad.
+
+
+Gestionar el presupuesto correspondiente de cara a garantizar el cumplimiento de los objetivos.
+
+
+TAREAS Y RESPONSABILIDADES
+
+
+Ofrecer soporte estratégico a la Corporación con el objetivo de contribuir al desarrollo de los objetivos de la BU y de la organización.
+
+
+Diseño, elaboración y ejecución del Plan Médico Estratégico y del plan de Investigación clínica y de publicaciones, supervisando y gestionando las aportaciones de los diferentes miembros del departamento.
+
+
+Responsable de coordinar con GCO la línea de investigación de la Unidad de Negocio, de acuerdo con el plan estratégico global.
+
+
+Gestión de la actividad científica de la Unidad en lo que se refiere a contacto con KTL y Grupos Cooperativos, recepción de posibles iniciativas de investigación por su parte, valoración de la relevancia e idoneidad de las mismas en relación con la estrategia de la Unidad y de la Compañía. Responsable de la decisión sobre la realización de dichos estudios, y presentación en su caso al Comité Terapéutico y MARC.
+
+
+Elaboración, gestión y control del presupuesto asignado.
+
+
+Establecer acuerdos de funcionabilidad en las áreas de su responsabilidad.
+
+
+Gerenciar el trabajo llevado a cabo por los miembros del equipo médico de la Unidad que le reporten (MSL Coordinators/Medical Advisors).
+
+
+Colaboración activa con el equipo marketing para el desarrollo de materiales promocionales. Aprobación de los mismos. Presencia y comunicaciones en congresos.
+
+
+Colaboración activa con el equipo ventas para el desarrollo de interacciones científicas con KTLs. Presencia coordinada con MKT y Ventas en congresos y eventos.
+
+
+Colaboración activa con el equipo de Compliance para garantizar el cumplimiento de interacciones con KTLs. Administración de las herramientas de cumplimiento que estén asignadas al cargo (CLEAR).
+
+
+Responsable de coordinar la participación activa en todos los aspectos científicos y técnicos relevantes: respuesta a necesidades tanto del equipo de marketing como de ventas.
+
+
+Gestionar y desarrollar las actividades necesarias para garantizar y mantener el conocimiento tanto de productos comercializados como en desarrollo en el área terapéutica, y proveer del conocimiento técnico y del soporte necesario a los equipos funcionales de la Unidad.
+
+
+Establecer y mantener contacto directo con los líderes de opinión (KTL) y Grupos Cooperativos con el objetivo de complementar las estrategias de marketing con datos, formación y comunicación médica, así como la puesta en marcha de actividad de investigación. Soporte y desarrollo de programas de educación médica, desarrollo de ponentes, identificación de centros y oportunidades para estudios promocionados por la compañía o iniciativas de investigación.
+
+
+Responsable de incrementar la efectividad del medical-marketing facilitando toda la información necesaria para estudios, formación, información de producto y comunicación a los profesionales sanitarios.
+
+
+PERFIL DEL CANDIDATO: FORMACIÓN / IDIOMAS
+
+
+Médico preferentemente especialista en Neurología / Farmacólogo Clínico y/o experiencia demostrable en el área terapéutica.
+
+
+Se valorará formación en negocios, MBA o similar.
+
+
+Nivel alto de inglés hablado y escrito.
+
+
+Conocimiento del sistema de salud Español.
+
+
+Formación en Epidemiología / estadística o Economía de la Salud
+
+
+HABILIDADES PROFESIONALES Y EXPERIENCIA
+
+
+Mínimo 2 años de experiencia en “medical affairs” o en puesto similar en el entorno farmacéutico.
+
+
+Mínimo 3 años de experiencia en gestión de equipos.
+
+
+Mínimo 4 años de experiencia en práctica clínica/asistencial.
+
+
+OTROS
+
+
+Lugar de Trabajo: Madrid""" ;
+    ns1:hiringOrganization "Merck" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Medical Manager Neurology" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4cca37d6c0c72507> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=52d22d861aed23eb> ns1:datePosted "2015-09-06T07:14:15+01:00"^^xsd:Date ;
+    ns1:description """TÉCNICO DE REGULATORY (3846)
+Datos:
+
+
+Datos Adicionales:
+PARA EMPRESA DEL SECTOR FARMACÉUTICO,QUÍMICO Y DE LA
+ALIMENTACIÓNFUNCIONES-BÚSQUEDA Y DESARROLLO DE NUEVOS
+PRODUCTOS-GESTION BIBLIOGRAFÍA CIENTÍFICA-CONTACTO CON CENTROS DE
+INVESTIGACIÓN PARA LA REALIZACIÓNDE ESTUDIOS EXTERNOS-APOYO TÉCNICO AL
+DEPARTAMENTO DE VENTAS-REPORTAR INFORMACIÓN AL RESPONSABLE CIÉNTIFICO
+Y DE REGULATORY-APOYO EN ACTIVIDADES DE
+VALIDACIÓNREQUISITOS-LICENCIADO O GRADO EN QUÍMICA O
+SIMILAR-IMPRESCINDIBLE ALTO NIVEL DE INGLÉSSE OFRECE CONTRATO LABORAL
+INDEFINIDO-JORNADA COMPLETA-HORARIO DE MAÑANA Y TARDE.
+Datos de Contacto:
+Si está interesado/a y cumple los requisitos, envíe su currículum a la dirección de correo electrónico
+psoto@ferrer.comEL SEF PODRÁ MODIFICAR ORETIRAR ESTA OFERTA ANTES DE LA
+FECHA PREVISTA, GARANTIZANDO ÚNICAMENTE SU VIGENCIA SI HA ACCEDIDO A
+ELLA A TRAVÉS DEL PORTAL DEL SERVICIO REGIONAL DE EMPLEO Y FORMACIÓN
+www.sefcarm.es""" ;
+    ns1:jobLocation "Beniel, Murcia" ;
+    ns1:jobTitle "Técnico de regulatory" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=52d22d861aed23eb> ;
+    ns3:Location <http://sws.geonames.org/2521086/> .
+
+<http://www.indeed.es/viewjob?jk=59d0755a783be239> ns1:datePosted "2015-07-30T09:30:35+01:00"^^xsd:Date ;
+    ns1:description """OBJETIVO DEL PUESTO
+
+
+Dirigir y liderar el equipo médico de la Unidad, co-desarrollando e implementando con la BU estrategias y proyectos que se definirán en el plan estratégico de la Unidad.
+
+
+Gestionar el presupuesto correspondiente de cara a garantizar el cumplimiento de los objetivos.
+
+
+TAREAS Y RESPONSABILIDADES
+
+
+Ofrecer soporte estratégico a la Corporación con el objetivo de contribuir al desarrollo de los objetivos de la BU y de la organización.
+
+
+Diseño, elaboración y ejecución del Plan Médico Estratégico y del plan de Investigación clínica y de publicaciones, supervisando y gestionando las aportaciones de los diferentes miembros del departamento.
+
+
+Responsable de coordinar con GCO la línea de investigación de la Unidad de Negocio, de acuerdo con el plan estratégico global.
+
+
+Gestión de la actividad científica de la Unidad en lo que se refiere a contacto con KTL y Grupos Cooperativos, recepción de posibles iniciativas de investigación por su parte, valoración de la relevancia e idoneidad de las mismas en relación con la estrategia de la Unidad y de la Compañía. Responsable de la decisión sobre la realización de dichos estudios, y presentación en su caso al Comité Terapéutico y MARC.
+
+
+Elaboración, gestión y control del presupuesto asignado.
+
+
+Establecer acuerdos de funcionabilidad en las áreas de su responsabilidad.
+
+
+Gerenciar el trabajo llevado a cabo por los miembros del equipo médico de la Unidad que le reporten (MSL Coordinators/Medical Advisors).
+
+
+Colaboración activa con el equipo marketing para el desarrollo de materiales promocionales. Aprobación de los mismos. Presencia y comunicaciones en congresos.
+
+
+Colaboración activa con el equipo ventas para el desarrollo de interacciones científicas con KTLs. Presencia coordinada con MKT y Ventas en congresos y eventos.
+
+
+Colaboración activa con el equipo de Compliance para garantizar el cumplimiento de interacciones con KTLs. Administración de las herramientas de cumplimiento que estén asignadas al cargo (CLEAR).
+
+
+Responsable de coordinar la participación activa en todos los aspectos científicos y técnicos relevantes: respuesta a necesidades tanto del equipo de marketing como de ventas.
+
+
+Gestionar y desarrollar las actividades necesarias para garantizar y mantener el conocimiento tanto de productos comercializados como en desarrollo en el área terapéutica, y proveer del conocimiento técnico y del soporte necesario a los equipos funcionales de la Unidad.
+
+
+Establecer y mantener contacto directo con los líderes de opinión (KTL) y Grupos Cooperativos con el objetivo de complementar las estrategias de marketing con datos, formación y comunicación médica, así como la puesta en marcha de actividad de investigación. Soporte y desarrollo de programas de educación médica, desarrollo de ponentes, identificación de centros y oportunidades para estudios promocionados por la compañía o iniciativas de investigación.
+
+
+Responsable de incrementar la efectividad del medical-marketing facilitando toda la información necesaria para estudios, formación, información de producto y comunicación a los profesionales sanitarios.
+
+
+PERFIL DEL CANDIDATO: FORMACIÓN / IDIOMAS
+
+
+Médico preferentemente especialista en Oncología / Farmacólogo Clínico y/o experiencia demostrable en el área terapéutica.
+
+
+Se valorará formación en negocios, MBA o similar.
+
+
+Nivel alto de inglés hablado y escrito.
+
+
+Conocimiento del sistema de salud Español.
+
+
+Formación en Epidemiología / estadística o Economía de la Salud
+
+
+HABILIDADES PROFESIONALES Y EXPERIENCIA
+
+
+Mínimo 2 años de experiencia en “medical affairs” o en puesto similar en el entorno farmacéutico.
+
+
+Mínimo 3 años de experiencia en gestión de equipos.
+
+
+Mínimo 4 años de experiencia en práctica clínica/asistencial.
+
+
+OTROS
+
+
+Lugar de Trabajo: Madrid""" ;
+    ns1:hiringOrganization "Merck" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Medical Manager Oncology" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=59d0755a783be239> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=5e1ae6a4b6f09d88> ns1:datePosted "2015-09-30T10:25:32+01:00"^^xsd:Date ;
+    ns1:description """Nombre de la empresa PHARMACTIVE es una empresa dedicada a
+investigación, desarrollo, fabricación y
+comercialización de activos de origen natural para
+su aplicación en las industrias farmacéutica,
+nutracéutica (complementos de la dieta),
+alimentaria y cosmética
+
+
+Titulación requerida F. P. o Grado informática o Tecnologías de la
+información
+
+
+Requisitos específicos del Experiencia en los módulos siguientes:
+puesto
+
+
+- Gestión de clientes
+- Gestión de stocks e inventario
+- Fabricación
+- Facturación
+- Cuentas cobrar / pagar
+- Informes / reporting
+
+
+Funciones a desempeñar
+Implantación, customización, migración, gestión
+de sistemas de ERP en la nube (Web open source
+software).
+‐ Self implementation
+
+
+Fecha inicio prevista Noviembre
+
+
+Horario Por definir
+
+
+Lugar C/ Faraday, 7, (Parque Científico de Madrid-
+Universidad Cantoblanco)
+
+
+Remuneración y tipo de Jornada completa
+contrato
+
+
+Fecha límite de recepción de currículums:
+Otros datos de interés 31/10/2015
+
+
+Las personas interesadas en formar parte del proceso de selección deberán enviar su CV a la siguiente
+dirección electrónica (pmolina@pharmactive.eu /Patricia Molina García)""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "F.P Informática, ingeniería informática o Tecnologías de la información. PHARMACTIVE. Madrid." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=5e1ae6a4b6f09d88> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=6de016099d4d16f1> ns1:datePosted "2015-09-07T11:47:01+01:00"^^xsd:Date ;
+    ns1:description """OFERTAS DE EMPLEO – Consejo Superior de Investigaciones Científicas
+
+
+Fecha de publicación: 2 de Septiembre de 2015
+
+
+Oferta: CS_MAD_VATC_139:
+
+
+Titulación requerida: Licenciado en química
+
+
+Funciones del puesto: Promoción de las tecnologías del CSIC a través de
+
+
+la red europea Enterprise Europe Network y la participación en ferias
+
+
+tecnológicas internacional y brokerage events o negociaciones con
+
+
+empresas para establecer condiciones de licencia de tecnologías del
+
+
+CSIC a la empresa. Elaboración de acuerdos de confidencialidad (NDA) o
+
+
+acuerdos de transferencia de material (MTA).
+
+
+Oferta: CS_MAD_VATC_140
+
+
+Titulación requerida: Licenciado en física
+
+
+Funciones del puesto: Promoción de las tecnologías del CSIC a través de
+
+
+la red europea Enterprise Europe Network y la participación en ferias
+
+
+tecnológicas internacional y brokerage events o negociaciones con
+
+
+empresas para establecer condiciones de licencia de tecnologías del
+
+
+CSIC a la empresa. Elaboración de acuerdos de confidencialidad (NDA) o
+
+
+acuerdos de transferencia de material (MTA).
+
+
+Oferta: CS_MAD_VATC_141
+
+
+Titulación requerida: Licenciatura Química, Grado Ingeniería Química,
+
+
+Ingeniería Industrial, Ingeniería Materiales
+
+
+Funciones del puesto: Evaluación de patentabilidad e interés comercial
+
+
+y protección de resultados de investigación relacionados con materiales
+
+
+y nanotecnología.
+
+
+Lugar:
+
+
+Vicepresidencia Adjunta de Transferencia de Conocimiento, CSIC; Serrano, 142
+
+
+Madrid
+
+
+Otros datos de interés:
+
+
+Como requisito previo e imprescindible para poder participar en el presente
+
+
+proceso selectivo será necesario obtener la Resolución positiva de inscripción
+
+
+en el Fichero del Sistema Nacional de Garantía Juvenil.
+
+
+La selección de candidatos se realizará a lo largo del mes de septiembre de
+
+
+2015, la fecha límite para presentar solicitudes es el 21/09/2015.
+
+
+Ver convocatoria completa en: https://sede.csic.gob.es/garantia-juvenil-csic
+
+
+Interesados contactar con Javier Etxabe j.etxabe@orgc.csic.es""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Física, Química, Ingeniería. CONSEJO SUPERIOR DE INVESTIGACIONES CIENTÍFICAS. Madrid." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=6de016099d4d16f1> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=7a811dbd4d177de1> ns1:datePosted "2015-09-14T16:14:19+01:00"^^xsd:Date ;
+    ns1:description """Programación y Desarrollo de Aplicaciones informáticas en entornos Web y escritorio, con Microsoft ASP. NET, JavaScrip, C#, JQuery, CSS y BBDD SQL Server.
+
+Tipo de industria de la oferta
+Programas informáticos
+Categoría
+Informática y telecomunicaciones -
+Programación
+Nivel
+Empleado
+Personal a cargo
+0
+Número de vacantes
+1
+Horario
+08:00 a 15:00
+
+Requisitos
+Estudios mínimos
+Ingeniero Técnico - Técnico en Informática de Gestión
+Experiencia mínima
+Al menos 1 año
+Conocimientos necesarios
+ASP.NET (ASP+)
+C#
+HTML
+Inglés técnico
+JavaScript
+jQuery
+Microsoft Visual Studio
+SVN
+UML
+SQL Server
+Requisitos mínimos
+- Bases de Datos:
+
+Administración de servidor SQL Server.
+
+
+- Ingeniería del software:
+
+Diagramas Entidad-Relación de base de datos.
+
+Diagramas físicos de base de datos.
+
+Diagramas UML de clases.
+
+Comprensión de documentos de requisitos funcionales y especificaciones de proyectos.
+
+
+- Entornos de desarrollo y herramientas:
+
+Microsoft Visual Studio.
+
+Control de versiones mediante SVN.
+
+
+- Conocimientos y habilidades:
+
+Nivel Alto inglés científico-técnico, comprensión de manuales y documentación técnica.
+
+Capacidad de trabajo en grupo.
+
+Deseable conocimientos en controles DevExpress para ASP .NET.
+
+Deseable conocimientos de ORM DevExpress XPO y Microsoft Entity Framework.""" ;
+    ns1:hiringOrganization "TECNICA AUTOMATICA. S.A." ;
+    ns1:jobLocation "Elche, Alicante" ;
+    ns1:jobTitle "PROGRAMADOR APLICACIONES WEB Y ESCRITORIO" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7a811dbd4d177de1> ;
+    ns3:Location <http://sws.geonames.org/2518559/> .
+
+<http://www.indeed.es/viewjob?jk=7a9419e568f8572d> ns1:datePosted "2015-09-08T15:28:46+01:00"^^xsd:Date ;
+    ns1:description """Empresa de alta tecnología especializada en Instrumentación Científica, ubicada en Terrassa, necesita
+
+
+PROYECTISTA MECÁNICO
+
+
+En dependencia del Responsable de Producción, participará tanto en el desarrollo de nuevos productos como en la mejora de productos y procesos existentes.
+
+
+Perfil requerido: Formación técnica (preferiblemente ingeniería mecánica) con experiencia mínima de 2 años en diseño/rediseño de productos. Usuario avanzado en programas de diseño mecánico 3D (preferiblemente ProE/Creo). Se valorará experiencia en procesos de fabricación y herramientas de calidad (poka yoke, AMFE, 8D, etc.), y buenos conocimientos de inglés. Deberá ser una persona con alta capacidad analítica y de resolución de problemas, con iniciativa, flexible, proactiva y con capacidad para gestionar proyectos.
+
+
+Se incorporará a la Empresa con un proyecto profesional estable y una remuneración a acordar según valores aportados.
+
+
+Interesados/as enviar C.V al e-mail: info@selex.es.
+
+Los datos personales serán tratados conforme a la LOPD""" ;
+    ns1:hiringOrganization "SENSOFAR" ;
+    ns1:jobLocation "Terrassa, Barcelona" ;
+    ns1:jobTitle "PROYECTISTA MECÁNICO" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7a9419e568f8572d> ;
+    ns3:Location <http://sws.geonames.org/3108286/> .
+
+<http://www.indeed.es/viewjob?jk=82df7c3a2a0e991b> ns1:datePosted "2015-09-23T22:45:15+01:00"^^xsd:Date ;
+    ns1:description """Liderará el desarrollo, optimización y transferencia de procesos biotecnológicos, incluyendo la definición de la mejor estrategia de control de proceso. Será responsable asi mismo de la investigación de desviaciones de proceso o analíticas en las CMO's. Analizará y resumirá datos de proceso para su monitorización y mejora.
+
+Entre sus principales funciones están:
+
+Optimización, escalado y transferencia de procesos.
+Diseño de experimentos desde laboratorio hasta planta piloto.
+Trabajo con GMP, ICH Q9/Q10, PPQ, y control de procesos.
+Resolución de problemas, investigación de causas (root cause) y CAPA.
+Preparación y defensa de CMC frente a AEMPS, EMA, FDA.
+Alta cualificación científica y técnica, con alta capacidad de redacción técnica en inglés.
+Identificar y liderar la relación técnica con los proveedores (CMO's, etc).
+Diseñar y liderar la validación de procesos.
+Garantizar la existencia y emisión de los informes y documentación pertinente.
+Garantizar la producción de lotes clínicos en tiempo y calidad requeridos. - Ingeniería química, bioquímica, o licenciatura en química o biología con post-grado en ingeniería de bioprocesos.
+Experiencia superior a 5 años en desarrollo, escalado y validación de bioprocesos en entorno farmacéutico (amplio conocimiento de la normativa GMP).
+Imprescindible dominio del inglés.
+Se valorará un doctorado.
+Perfil de liderazgo, proactivo y polivalente.
+Disponibilidad para viajar a nivel nacional el 50% del tiempo.
+
+""" ;
+    ns1:hiringOrganization "Michael Page España" ;
+    ns1:jobLocation "Baix Llobregat, Barcelona" ;
+    ns1:jobTitle "RESPONSABLE DE BIOPROCESO CON INGLÉS" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=82df7c3a2a0e991b> ;
+    ns3:Location <http://sws.geonames.org/3110834/> .
+
+<http://www.indeed.es/viewjob?jk=8442e77be2e30b2d> ns1:datePosted "2015-09-23T13:06:00+01:00"^^xsd:Date ;
+    ns1:description """Científico de Datos / Consultor Data Quality
+Analiza las fuentes de datos disponibles y propone nuevas fuentes de datos con las que cruzar la información para el descubrimiento de correlaciones, patrones de causa-efecto, anomalías, clasificaciones no intuitivas a partir de las mismas.
+Dispone de conocimientos en proyectos de integración y calidad de datos con herramientas Quality Stage.""" ;
+    ns1:hiringOrganization "Ibermática" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "CONSULTOR" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=8442e77be2e30b2d> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=846c69d99c026ff4> ns1:datePosted "2015-09-29T16:58:22+01:00"^^xsd:Date ;
+    ns1:description """TE ENCARGARÁS DE:
+
+
+- Evolucionar las versiones de los productos según las peticiones de la Oficina de Proyectos y del Departamento de Consultoría
+
+
+- Mantenimiento adaptativo y correctivo de los productos según las peticiones del Departamento de Usuario
+
+
+- Evolucionar los productos según las peticiones internas del Departamento de Desarrollo.
+
+
+Experiencia: Mínimo 1 año.
+
+Tipo de industria de la oferta
+Programas informáticos
+Categoría
+Informática y telecomunicaciones -
+Programación
+Departamento
+desarrollo
+Nivel
+Empleado
+Personal a cargo
+0
+Número de vacantes
+1
+
+Requisitos
+Estudios mínimos
+Ingeniero Técnico - Técnico en Informática de Gestión
+Experiencia mínima
+Al menos 1 año
+Conocimientos necesarios
+C++
+Consultoría
+Informatica
+Investigación
+Mantenimiento
+MFC
+Optimización
+Programación orientada a objetos
+Silverlight
+Requisitos mínimos
+Carrera científica, Ingeniería Superior o Técnica con altos conocimientos de Ingeniería informática.
+
+
+- Programador con conocimientos en programación orientada a objetos en C++
+
+
+- Conocimiento de Base de Datos a nivel de consultas.
+
+
+- Conocimiento de Excel
+
+
+REQUISITOS DESEADOS:
+
+
+- Conocimientos de Optimización
+
+
+- Conocimientos de Silverlight
+
+
+- Conocimientos de investigación operativa
+
+
+- Manejo de MFC
+
+
+TE OFRECEMOS:
+
+
+Trabajar en una empresa única en España, líder en el mercado y absolutamente innovadora.
+
+
+Trabajar en contacto con profesionales brillantes, en proyectos internacionales en distintas culturas.
+
+
+Trabajo intelectualmente estimulante.
+
+
+Carrera Profesional.""" ;
+    ns1:hiringOrganization "Goal Systems" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "PROGRAMADOR C++ PARA ALGORITMOS DE OPTIMIZACIÓN" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=846c69d99c026ff4> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=9745ad39e1273533> ns1:datePosted "2015-08-24T20:16:07+01:00"^^xsd:Date ;
+    ns1:description """Se realizaran funciones de Back Office para la parte científica de Hewlet Packard tratando base de Datos.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Bachillerato
+
+
+Experiencia mínima:
+
+Al menos 1 año
+
+
+Conocimientos necesarios:
+
+Back office
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Conocimientos elevados de Office
+
+
+Nivel C de inglés
+
+
+Nivel nativo o Nivel C de Aleman""" ;
+    ns1:hiringOrganization "CRIT INTERIM ETT" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Back office Native German" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=9745ad39e1273533> ;
+    ns3:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=9d0d3d3a61e420c0> ns1:datePosted "2015-10-05T16:13:00+01:00"^^xsd:Date ;
+    ns1:description """About Us
+Tyco es una de las empresas más grandes del mundo, dedicada exclusivamente a la seguridad y protección contra incendios. Ayudamos a proteger a más de tres millones de clientes industriales, comerciales y residenciales en todo el mundo. Entre nuestros 69.000 empleados se incluyen diversos grupos de científicos, ingenieros, profesionales de ventas, técnicos y líderes de empresa.
+En más de 1000 ubicaciones en casi 50 países, en laboratorios de investigación y desarrollo, instalaciones de fabricación, centros de servicio y distribución, centros de supervisión y oficinas de ventas, los empleados de Tyco trabajan juntos para ofrecer soluciones de seguridad específica para cada sector a clientes de todo el mundo.
+En la actualidad, Tyco tiene más de tres millones de clientes que varían en tamaño desde grandes empresas incluidas en la lista Fortune 500 a clientes comerciales presentes en una única ubicación y clientes residenciales. La presencia de la empresa en mercados de crecimiento claves se está acelerando rápidamente, con un perfil de instalación y servicio global incomparable con sus competidores. A través de ventas directas, mayoristas, distribuidores, constructores y contratistas comerciales, Tyco ayuda a proteger
+
+
+The Role
+Tyco selecciona un ingeniero de Soporte para la división técnica de la compañía.
+La persona seleccionada deberá conocer los sistemas de implementación y redes de la compañía y tener un conocimiento mucho más extenso que el personal primario de apoyo técnico. Los ingenieros de soporte técnico deben sobresalir en la resolución de problemas y en la búsqueda de la mejora continua de las tecnologías
+
+
+Key Accountabilities
+Resolución de problemas
+Documentación de procedimientos
+Mantenimiento preventivo y correctivo de los sistemas.
+Elaboración y revisión procesos de bases de datos
+Asegurar la satisfacción del cliente, realizando un adecuado proceso de soporte: seguimiento, documentación, escalado, así como dar respuesta a las incidencias funcionales como a nivel de plataforma
+Ingeniería de diseño en grandes proyectos de integración de sistemas de seguridad y proyectos a medida del cliente.
+Control calidad de las instalaciones
+Apoyo a los distintos departamentos (técnico, comercial)
+Participación activa en los procesos de mejora del Servicio y desarrollo de nuevos sistemas.
+Impartición de formaciones técnicas internas y a clientes.
+
+
+Skills & Experience
+Ingeniería informática, Telecomunicaciones, etc.
+Experiencia mínima al menos dos años desarrollando funciones similares.
+CONOCIMIENTOS NECESARIOS
+BASES DE DATOS SQL
+Control de accesos
+CCTV
+CCTV de IP
+Sistema de detección de intrusiones
+Antihurto
+Conocimientos en los distintos sistemas de seguridad:
+
+•Instalaciones de circuito cerrado de televisión, analógico e IP.
+
+•Instalaciones de intrusión
+
+•Instalaciones de control de accesos
+
+•Instalaciones de detección de incendio
+
+•Instalaciones antihurto
+
+Other
+Buen nivel de Inglés
+Integración de sistemas""" ;
+    ns1:hiringOrganization "Tyco" ;
+    ns1:jobLocation "Las Rozas de Madrid, Madrid" ;
+    ns1:jobTitle "Ingeniero de Soporte Técnico" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=9d0d3d3a61e420c0> ;
+    ns3:Location <http://sws.geonames.org/3118848/> .
+
+<http://www.indeed.es/viewjob?jk=a67d9891bc31271a> ns1:datePosted "2015-09-08T18:28:56+01:00"^^xsd:Date ;
+    ns1:description """Funciones y tareas
+PARA IMPORTANTE ENTIDAD DEDICADA A LA INVESTIGACIÓN EN PROYECTOS PARA IMPULSAR EL CONOCIMIENTO CIENTÍFICO Y EL DESARROLLO TECNOLÓGICO EN EL SECTOR ENERGÉTICO. SE RESPONSABILIZARÁ DE LA CREACIÓN Y MANTENIMIENTO DE LA BASE DE DATOS. CREACIÓN Y MANTENIMIENTO DE BASE DE DATOS DE ARTÍCULOS CIENTÍFICOS
+Conocimientos Informática
+- Aplicación, Aplicaciones ofimáticas, Microsoft office
+- Aplicación, Aplicaciones y servidores de mensajería, Sap Business Suite
+- Aplicación, Aplicaciones ofimáticas, Uso de bases de datos
+Idiomas
+Inglés: Comprensión auditiva - Alto, Comprensión lectora - Alto, Expresión escrita - Alto, Expresión oral - Alto
+Experiencia laboral
+Tiempo experiencia: Más de 3 meses
+
+
+Se valorará también experiencia en los siguientes campos: : Administradores de base de datos, Ayudantes de documentalista, Documentalistas, Documentalistas, materias tecnicas, Tecnicos superiores en documentacion sanitaria
+
+
+Otros aspectos a considerar
+CONTRATO UN AÑO (POSIBILIDADES INDEFINIDO)
+HORARIO: DE 9:00H A 18:30H (DESCANSO COMIDA)
+MUY VALORABLE FORMACIÓN Y EXPERIENCI RELACIONADA EN LA GESTION DE BASES DE DATOS, DOCUMENTACION O BIBLIOTECONOMIA.
+SOLO SE VALORARAN CANDIDATURAS CON NIVEL ALTO DE IDIOMA INGLES.
+VALORABLE CONOCIMIENTOS EN EL PROGRAMA SAP BUSINESS ONE (SBO)""" ;
+    ns1:hiringOrganization "FSC Inserta" ;
+    ns1:jobLocation "Sant Adrià de Besòs, Barcelona" ;
+    ns1:jobTitle "BIBLIOTECONOMIA Y DOCUMENTACION (discapacidad)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=a67d9891bc31271a> ;
+    ns3:Location <http://sws.geonames.org/3110921/> .
+
+<http://www.indeed.es/viewjob?jk=c37e7876e25c4326> ns1:datePosted "2015-08-12T13:35:45+01:00"^^xsd:Date ;
+    ns1:description """Nombre de la empresa LIFE LENGTH
+
+
+Titulación requerida Ambientales/ Física / Química
+
+
+Requisitos específicos del Puesto: Lab Manager
+-Ph.D in Biotechnology, Molecular Biology, Biochemistry, or
+
+
+puesto closely related discipline and/or at least 4
+years of experience working in an academic laboratory
+supervisory position.
+
+
+Experience in an industrial biotechnology laboratory
+setting. (Knowledge of GMP and GLP a plus).
+
+
+Experience organizing, coordinating, and planning
+laboratory activities.
+
+
+Experience with some or all of the following; HT-Q-FISH,
+protein extraction, RT-qPCR, Southern blot,
+cell culture and cell bank maintenance.
+
+
+Experience with Sales Force
+
+
+Funciones a desempeñar
+The Laboratory Manager provides supervisory and technical
+work and is responsible for managing Life
+Length´s laboratories. The manager is responsible for
+significant management and technical duties and must
+execute the work under his/her own initiative with minimal
+supervision. In addition, the work involves the
+preparation, set up and organization of routine sample
+testing; maintenance and enforcement of laboratory
+safety rules and regulations and providing support when
+needed to rest of the laboratory staff. Other duties
+include but are not limited to:
+
+
+Oversee workflow and sample processing to meet timeline
+for reporting results to clients.
+
+
+Monitor and oversee laboratory budget, prepare reports,
+work with vendors, and maintain accurate
+records.
+
+
+Ensure all safety regulations are appropriately
+implemented.
+
+
+Remain up to date on trends of telomere biology
+methodologies, assist in design and implementation of
+new laboratory protocols.
+
+
+Write SOP's and other documents.
+
+
+Prepare media and chemical solutions.
+
+
+Coordinating with other laboratory staff to plan activities
+and ensure smooth daily operations of sample
+testing, maintaining strong attention to detail and high level
+of accuracy.
+
+
+Prioritizing and assigning work, conducting performance
+evaluations, leave and time sheets, training,
+and hiring related documentation.
+
+
+Ensure equipment maintenance and associated software
+applications.
+
+
+Oversee and maintain laboratory inventory of equipment,
+supplies, and chemicals.
+
+
+Oversee handling and disposal of potentially hazardous
+substances.
+
+
+Attend all R&D meetings.
+
+
+Fecha inicio prevista Inmediata
+
+
+Horario Jornada completa
+
+
+Lugar Parque científico de Madrid
+
+
+Remuneración y tipo de A convenir/ Indefinido
+contrato
+
+
+Experiencia:
+A minimum of three years of experience working in an
+
+
+Otros datos de interés
+academic or industry setting performing laboratory
+duties or setting up laboratories.
+
+
+Fluent written and spoken English.
+
+
+Bachelor's degree in Biotechnology, Molecular Biology,
+Biochemistry, or closely related discipline, or a
+combination of education, training, and experience providing
+understanding of the field of telomere biology.
+
+
+Experience supervising various levels of staff including
+prioritizing and assigning work, conducting
+performance evaluations.
+
+
+Experience managing all aspects of the daily operations of
+a laboratory, providing technical assistance
+and participating in the maintenance and use of equipment,
+computers, and related software.
+
+
+Experience preparing and administering a laboratory
+budget and with inventory of materials and
+supplies.
+
+
+Knowledge, training, and experience with current
+laboratory safety practices, procedures, and hazardous
+materials to ensure applicable rules, regulations, policies,
+procedures and practices are followed.
+
+
+Experience problem solving, monitoring facility usage and
+preparing reports.
+
+
+Experience working independently and in a team
+environment.
+
+
+Experience with cell culture and aseptic technique.
+
+
+Experience operating, maintaining and troubleshooting
+basic laboratory equipment.
+
+
+Self-starter, team player and problem solver. Willing to
+learn new technologies.
+
+
+Excellent written and verbal communication skills, strong
+MS Office skills.
+
+
+Las personas interesadas en formar parte del proceso de selección deberán enviar su CV a la siguiente
+dirección electrónica (info@lifelength.com/ Ana López)""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Ambientales, Física, Química. LIFE LENGTH. Madrid." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=c37e7876e25c4326> ;
+    ns3:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=e6c10203f19abf52> ns1:datePosted "2015-10-01T12:18:55+01:00"^^xsd:Date ;
+    ns1:description """AYUDANTE DE PELUQUERÍA (4757)
+Datos:
+
+
+Datos Adicionales:
+PARA PELUQUERÍA SITUADA EN EL BARRIO DE LA FLOTAFUNCIONESLAVADO SECADO
+Y CORTE DE PELO,APLICACIÓN DE TINTES,PEINADOS
+ETC...REQUISITOS-IMPRESCINDIBLE EXPERIENCIA EN PUESTO SIMILAR-SE VALORARÁ
+CONOCIMIENTOS DE ESTÉTICASE OFRECE-CONTRATO LABORAL TEMPORAL-JORNADA
+PARCIAL DE MIÉRCOLES A SÁBADO CON POSIBILIDAD DE COMPLETA.
+Datos de Contacto:
+Si está interesado y cumple requisitos puede acudir con su curriculum actualizado a "Peluquería KUKI
+GARCIA"CL PASEO CIENTÍFICO GABRIEL CISCAR Nº2 BAJO,LA FLOTA.""" ;
+    ns1:jobLocation "Murcia, Murcia" ;
+    ns1:jobTitle "Ayudante de peluquería" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=e6c10203f19abf52> ;
+    ns3:Location <http://sws.geonames.org/2513416/> .
+
+<http://www.indeed.es/viewjob?jk=f47438a321d6dbc1> ns1:datePosted "2015-10-06T13:41:28+01:00"^^xsd:Date ;
+    ns1:description """El trabajo consistirá en la preparación de materiales de investigación en euskera, castellano, e inglés dando soporte a los investigadores del centro.
+
+Dentro de las líneas de investigación (Lenguaje, lectura y trastornos del desarrollo; multilingüismo y aprendizaje de una segunda lengua; neurodegeneración, daño cerebral y envejecimiento saludable), las funciones básicas serán:
+
+
+Preparación de frases en euskera, castellano e inglés siguiendo las indicaciones y requisitos lingüísticos de los investigadores.
+Creación y clasificación de grupos de palabras.
+Traducción de textos técnicos del inglés y castellano al euskera.
+Asesoramiento en la creación de estímulos para los experimentos.
+Preprocesado de datos obtenidos en los laboratorios.
+Labores de apoyo a la actividad científica del centro.
+Pasación de experimentos relacionados con el lenguaje.
+
+""" ;
+    ns1:hiringOrganization "Basque Center on Cognition, Brain and Language" ;
+    ns1:jobLocation "Guipúzcoa" ;
+    ns1:jobTitle "Lingüista (asistente de proyectos de investigación)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=f47438a321d6dbc1> ;
+    ns3:Location <http://sws.geonames.org/3533512/> .
+
+<http://www.indeed.es/viewjob?jk=fe34c8e5aca976e9> ns1:datePosted "2015-10-01T15:51:24+01:00"^^xsd:Date ;
+    ns1:description """LA FUNDACIÓN PÚBLICA ANDALUZA PARA LA INVESTIGACIÓN DE MÁLAGA EN BIOMEDICINA Y SALUD (FIMABIS) PRECISA CONTRATAR UN DATA MANAGER PARA COLABORAR EN PROYECTO DE INVESTIGACIÓN
+
+Tocolísis de mantenimiento en pacientes con APP recurrente y alto riesgo de parto prematuro. Estudio de cohortes retrospectivas
+
+
+Investigador Principal: Ernesto González Mesa
+
+
+Lugar de Realización: Hospital Materno Infantil – Hospital Regional de Málaga
+
+
+Funciones a Desarrollar
+
+Recogida de datos de la historia clínica de los pacientes
+Recogida de datos mediante entrevistas con las pacientes
+Recogida de cuestionarios
+Informatización de los datos recogidos
+Colaboración en la elaboración de presentaciones
+Colaboración en la redacción de la metodología
+Entrevista con pacientes
+Mantenimiento y depuración de la matriz de datos
+Requisitos Mínimos
+
+Titulación mínima requerida: Bachillerato Superior rama Sanitaria
+Nivel certificado de inglés (B1 mínimo). Conocimientos acreditados de conocimientos de inglés sanitario
+Conocimientos de informática y manejo de programas de Microsoft Office y SPSS v 15 y/o superiores
+Disponibilidad de horario mañana-tarde
+Experiencia acreditada en el diseño de trabajos científicos obstetricia (estudios de cohortes)
+Experiencia acreditada en trato directo con pacientes obstétricas
+Requisitos Valorables
+
+Capacidad de expresión y comunicación
+Experiencia laboral relacionada con la especialidad
+Capacidad de trabajo en equipo
+Datos Contrato
+
+Jornada : parcial(8 horas semanales)
+Presentación de Candidaturas Presentación de candidaturas y expresión de interés indicando claramente la referencia de esta convocatoria en el asunto del mensaje a: rrhh@fimabis.org (indicar en el asunto REF: EGMLDTM0110 ) PLAZO : recepción de candidaturas hasta 8 de octubre de 2015 a las 15:00 horas.
+
+
+Proceso de selección
+
+
+Tras un periodo de revisión en el que se seleccionarán los candidatos cuyo currículum se adapte mejor a los criterios establecidos, se pondrá en marcha una segunda fase consistente en una entrevista personal.""" ;
+    ns1:hiringOrganization "Fimabis" ;
+    ns1:jobLocation "Málaga, Málaga" ;
+    ns1:jobTitle "Data Manager" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=fe34c8e5aca976e9> ;
+    ns3:Location <http://sws.geonames.org/2514256/> .
+

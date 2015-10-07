@@ -1,0 +1,5219 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://www.edsa-project.eu/edsa#> .
+@prefix ns3: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ns4: <http://www.geonames.org/ontology#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/2516326/> a ns4:Feature ;
+    ns4:alternateName "Xerez de la Frontera"@an,
+        "شريش"@ar,
+        "Горад Херэс-дэ-ла-Франтэра"@be,
+        "Херес де ла Фронтера"@bg,
+        "Jerez de la Frontera"@da,
+        "Jerez de la Frontera"@de,
+        "Jerez de la Frontera"@en,
+        "Ĥerezo"@eo,
+        "Jerez de la Frontera"@es,
+        "Jerez de la Frontera"@fi,
+        "Xérès"@fr,
+        "חרס דה לה פרונטרה"@he,
+        "Jerez de la Frontera"@it,
+        "ヘレス・デ・ラ・フロンテーラ"@ja,
+        "헤레스데라프론테라"@ko,
+        "Xeresium"@la,
+        "Cheres de la Frontera"@lt,
+        "Jerez de la Frontera"@nl,
+        "Jerez de la Frontera"@no,
+        "Xerès"@oc,
+        "Jerez de la Frontera"@pl,
+        "جیراز دی لا فرونتیرا"@pnb,
+        "Jerez de la Frontera"@pt,
+        "Jerez de la Frontera"@ro,
+        "Херес-де-ла-Фронтера"@ru,
+        "Херез де ла Фронтера"@sr,
+        "Jerez de la Frontera"@sv,
+        "Jerez de la Frontera"@tr,
+        "Херес-де-ла-Фронтера"@uk,
+        "赫雷斯-德拉弗龙特拉"@zh ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/2516326/jerez-de-la-frontera.html> ;
+    ns4:name "Jerez de la Frontera" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/2516326/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "207532" ;
+    ns4:postalCode "11595" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Jerez_de_la_Frontera> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2516326/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Jerez_de_la_Frontera> ;
+    ns3:lat "36.68645" ;
+    ns3:long "-6.13606" .
+
+<http://sws.geonames.org/2516395/> a ns4:Feature ;
+    ns4:alternateName "جيان"@ar,
+        "Jaén"@ca,
+        "Jaén"@de,
+        "Jaén"@en,
+        "Ĥaeno"@eo,
+        "Jaén"@es,
+        "Jaen"@eu,
+        "Jaén"@fi,
+        "Jaén"@fr,
+        "Xaén - Jaén"@gl,
+        "Jaén"@it,
+        "ハエン"@ja,
+        "Jaén"@lb,
+        "Jaén"@nl,
+        "Jaén"@pl,
+        "Jaén"@pt,
+        "Хаэн"@ru,
+        "Jaén"@tr ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA2 ;
+    ns4:locationMap <http://www.geonames.org/2516395/jaen.html> ;
+    ns4:name "Jaén" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/2516395/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "116557" ;
+    ns4:postalCode "23080" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Ja%C3%A9n,_Spain> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2516395/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ja%C3%A9n%2C_Spain> ;
+    ns3:lat "37.76922" ;
+    ns3:long "-3.79028" .
+
+<http://sws.geonames.org/2517367/> a ns4:Feature ;
+    ns4:alternateName "Gandia"@ca,
+        "Gandia"@en,
+        "Gandía"@es,
+        "Gandie"@fr,
+        "Gandia"@it,
+        "Gandia"@nl,
+        "Gandia"@oc,
+        "Gandia"@pt,
+        "Гандия"@ru ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/2517367/gandia.html> ;
+    ns4:name "Gandia" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/2517367/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "80020" ;
+    ns4:postalCode "46703" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2517367/about.rdf> ;
+    ns3:lat "38.96667" ;
+    ns3:long "-0.18333" .
+
+<http://sws.geonames.org/2520833/> a ns4:Feature ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/2520833/bormujos.html> ;
+    ns4:name "Bormujos" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/2520833/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "18590" ;
+    ns4:postalCode "41930" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Bormujos> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2520833/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Bormujos> ;
+    ns3:lat "37.37358" ;
+    ns3:long "-6.07233" .
+
+<http://sws.geonames.org/3110101/> a ns4:Feature ;
+    ns4:alternateName "Sant Quirze del Vallès"@ca,
+        "San Quirico de Tarrasa"@es ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/3110101/sant-quirze-del-valles.html> ;
+    ns4:name "Sant Quirze del Vallès" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/3110101/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "18462" ;
+    ns4:postalCode "08192" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3110101/about.rdf> ;
+    ns3:lat "41.53333" ;
+    ns3:long "2.08333" .
+
+<http://sws.geonames.org/3120211/> a ns4:Feature ;
+    ns4:alternateName "Chaca"@an,
+        "Хака"@bg,
+        "Jaca"@ca,
+        "Jaca"@da,
+        "Jaca"@de,
+        "Jaca"@en,
+        "Ĥako"@eo,
+        "Jaca"@es,
+        "Jaka"@eu,
+        "Jaca"@fr,
+        "Jaca"@it,
+        "ハカ"@ja,
+        "하카"@ko,
+        "Jaca"@nl,
+        "Jaca"@pl,
+        "Jaca"@pt,
+        "Хака"@ru,
+        "Хака"@sr,
+        "Хака"@uk,
+        "哈卡"@zh ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/3120211/jaca.html> ;
+    ns4:name "Jaca" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/3120211/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "13396" ;
+    ns4:postalCode "22700" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Jaca> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3120211/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Jaca> ;
+    ns3:lat "42.56898" ;
+    ns3:long "-0.54987" .
+
+<http://sws.geonames.org/3121456/> a ns4:Feature ;
+    ns4:alternateName "Girona"@ca,
+        "Girona"@de,
+        "Girona"@en,
+        "Ĝirono"@eo,
+        "Girona"@es,
+        "Girona"@et,
+        "Girona"@eu,
+        "Girona"@fi,
+        "Gérone"@fr,
+        "Girona"@it,
+        "ジローナ"@ja,
+        "Girona"@lmo,
+        "Gerona"@nl,
+        "Girona"@oc,
+        "Girona"@pl,
+        "Girona"@pt,
+        "Girona"@ro,
+        "Жерона"@ru,
+        "Girona"@sv,
+        "Girona"@ty ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA2 ;
+    ns4:locationMap <http://www.geonames.org/3121456/girona.html> ;
+    ns4:name "Girona" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/3121456/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "96188" ;
+    ns4:postalCode "17080" ;
+    ns4:wikipediaArticle <http://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D0%BE%D0%BD%D0%B0> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3121456/about.rdf> ;
+    ns3:lat "41.98311" ;
+    ns3:long "2.82493" .
+
+<http://sws.geonames.org/3121519/> a ns4:Feature ;
+    ns4:alternateName "Gavà"@ca,
+        "Gavà"@es,
+        "Гава"@ru ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/3121519/gava.html> ;
+    ns4:name "Gavà" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/3121519/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "45994" ;
+    ns4:postalCode "08850" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3121519/about.rdf> ;
+    ns3:lat "41.30605" ;
+    ns3:long "2.00123" .
+
+<http://sws.geonames.org/3130753/> a ns4:Feature ;
+    ns4:countryCode "ES" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA3 ;
+    ns4:locationMap <http://www.geonames.org/3130753/ajalvir.html> ;
+    ns4:name "Ajalvir" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/3130753/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns4:population "3096" ;
+    ns4:postalCode "28864" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Ajalvir> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3130753/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ajalvir> ;
+    ns3:lat "40.53205" ;
+    ns3:long "-3.47841" .
+
+<http://www.indeed.es/viewjob?jk=032a91117b87d76b> ns1:datePosted "2015-10-06T05:07:55+01:00"^^xsd:Date ;
+    ns1:description """Empleador Begoña A.
+
+Mensaje de la familia:
+Se busca profesor particular. persona que ayude a mi hija de 15 años, de 4º ciencias de secundaria, a preparar el apartado de ciencias sociales de la prueba de excelencia de educación secundaria de la comunidad de madrid.
+
+Datos de la oferta de empleo:
+
+Profesores particulares, Externo (sin alojamiento) en Alcalá de Henares (Madrid)
+Ofrece Trabajo permanente desde 15/10/2015
+Salario por hora: € 15,00
+Salario mensual: Salario negociable
+Tareas imprescindibles a realizar:
+Ayudar con los deberes (ESO)
+Horario: Por horas.
+
+Datos de la familia:
+
+2 adultos
+1 hijos de 15 años
+Tipo de casa: Piso
+Fuman en casa: No
+
+""" ;
+    ns1:jobLocation "Alcalá de Henares, Madrid" ;
+    ns1:jobTitle "Profesores particulares, Externo (sin alojamiento) en Alcalá de Henares (Madrid)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=032a91117b87d76b> ;
+    ns2:Location <http://sws.geonames.org/3130616/> .
+
+<http://www.indeed.es/viewjob?jk=049f13712408f66d> ns1:datePosted "2015-07-27T14:08:35+01:00"^^xsd:Date ;
+    ns1:description """Perfil del Candidato:
+
+Capgemini, consultora multinacional líder en el sector IT, ofrece formación en nuevas tecnologías a titulados superiores en Informática, Telecomunicaciones, Industriales (Organización Industrial), ADE, Económicas, Matemáticas...con buen nivel de inglés. Las personas que superen con éxito dicha formación tendrán la posibilidad de incorporarse a la compañía.
+
+Buscamos profesionales que, además de reunir una serie de competencias técnicas, sean entusiastas, con alta motivación y ganas de aprender, así como con capacidad para el trabajo en equipo.
+
+Si consideras que éstos son también tus valores personales, ésta es tu oportunidad.
+
+BUSCAMOS:
+
+- Recién titulados en ingeniería (informática, telecomunicaciones) o ciencias orientadas a la tecnología (física, matemáticas, etc.); con o sin experiencia e interesados en trabajar en Valencia.
+
+- Candidatos con nivel alto del idioma inglés (imprescindible), valorando muy positivamente un nivel medio o superior de francés.
+
+- Personas apasionadas por la tecnología que deseen desarrollar su carrera profesional en grandes compañías del sector IT en general, y en Capgemini en particular.
+
+OFRECEMOS:
+
+· Formación técnica a cargo de Capgemini en entornos de desarrollo Java o SAP
+
+· Conocer la cultura y el ámbito de trabajo de Capgemini basado en la colaboración, tanto dentro de nuestros equipos como con nuestros clientes.
+
+· Posibilidad de incorporación a plantilla una vez superado el periodo de formación para continuar su formación tanto tecnológica como en habilidades personales, metodológicas y de gestión, así como acceder a programas de certificaciones oficiales.
+
+· Posibilidad de participar en proyectos innovadores en las principales compañías nacionales e internacionales de diferentes sectores de actividad, integrándose en un equipo de profesionales altamente cualificados.
+
+
+Tecnología:
+
+Java Sap
+
+
+Funciones:
+
+Programador
+
+
+Provincia:
+
+Valencia - España
+
+
+Datos del Puesto:
+
+- Recién titulados en ingeniería (informática, telecomunicaciones) o ciencias orientadas a la tecnología (física, matemáticas, etc.); con o sin experiencia e interesados en trabajar en Valencia.
+
+- Candidatos con nivel alto del idioma inglés (imprescindible), valorando muy positivamente un nivel medio o superior de francés.
+
+- Personas apasionadas por la tecnología que deseen desarrollar su carrera profesional en grandes compañías del sector IT en general, y en Capgemini en particular.
+
+
+Formación Mínima:
+
+Ingeniero Tecnico
+
+
+Experiencia:
+
+Sin Experiencia
+
+
+Nivel Profesional:
+
+Empleado
+
+
+Tipo contrato:
+
+A determinar
+
+
+Jornada:
+
+Jornada completa
+
+
+Incentivos:
+
+Beneficios sociales""" ;
+    ns1:hiringOrganization "Capgemini" ;
+    ns1:jobLocation "Valencia, Valencia" ;
+    ns1:jobTitle "Recién Titulados Con Inglés" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=049f13712408f66d> ;
+    ns2:Location <http://sws.geonames.org/2509954/> .
+
+<http://www.indeed.es/viewjob?jk=084b655498b50b28> ns1:datePosted "2015-09-22T11:19:44+01:00"^^xsd:Date ;
+    ns1:description """TECNICO EN RELACIONES LABORALES
+
+
+Datos:
+
+
+Datos de Contacto:
+OFERTA 7113. TECNICO RELACIONES LABORALES. DIPLOMATURA O LICENCIATURA EN
+RELACIONES LABORALES, CIENCIAS DEL TRABAJO O DERECHO. IMPRECINDIBLE
+EXPERIENCIA DEDOS AÑOS EN ASESORIAS LABORALES REALIZANDO GESTION DE
+NOMINAS, SEGUROS SOCIALES Y CONTRATACION DE TRABAJADORES. CONTRATO
+INDEFINIDO A JORNADA COMPLETA. IMPRESCINDIBLE NIVEL ALTO DE INGLÉS,
+PROGRAMA DE GESTION DE NOMINAS Y PAQUETE OFFICE. ENVIAR CV A
+ofertas.azca@madrid.org INDICANDO REF. 7113 EN EL ASUNTO YNº DE DNI/NIE EN EL
+MENSAJE.""" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Tecnico en relaciones laborales" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=084b655498b50b28> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=0a401f46791ed63f> ns1:datePosted "2015-10-06T12:46:19+01:00"^^xsd:Date ;
+    ns1:description """Descripción de la empresa:
+Importante compañía del sector gran consumo, situada en Barcelona, requiere de un profesional con experiencia en fiscalidad.
+
+Funciones:
+En dependencia del Director Financiero, se responsabilizará de la preparación y presentación de liquidaciones tributarias trimestrales y anuales (IVA, IRPF, retenciones, impuestos de sociedades, etc.), dará soporte a las inspecciones de diversas administraciones tributarias, además de la gestión y administración de las diversas modalidades de seguros, utilizando los procedimientos adecuados para asegurar la correcta contratación, producción, tramitación de siniestros y gestión de datos.
+
+Perfil del puesto
+
+Requisitos / Se requiere:
+
+5 años de experiencia desarrollando funciones similares, tanto en Gestorías como en Dptos. Financieros /administrativos.
+Formación superior en Administración y Dirección de Empresas, Economía, Ciencias Empresariales o similar.
+Valorable un buen nivel de inglés.
+Profesional autónomo, resolutivo, metódico y polivalente.
+
+Se ofrece:
+
+Incorporación en sólida compañía con retribución acorde con la experiencia y valía aportada.
+
+Si está interesado en esta oferta, mándenos su CV al correo talentsearch@adqualis.com e indique el nº de referencia en el asunto de su mensaje.""" ;
+    ns1:hiringOrganization "AdQualis Talent Search" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "TÉCNICO ÁREA FISCAL - SEGUROS" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0a401f46791ed63f> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=0ad994dd6982b8e6> ns1:datePosted "2015-10-06T08:11:25+01:00"^^xsd:Date ;
+    ns1:description """
+Proceso de nómina, IRPF, contabilidad, Liquidaciones Seguros Sociales Cálculos y pagos de finiquitos.
+Análisis, revisión y aplicación de estructura de salarios y de la normativa laboral vigente
+Implantación de nuevas empresas en la aplicación de nómina
+Puesta en marcha y aplicación de nuevas herramientas de trabajo establecidas por la organización
+Administración de personal (Altas, Bajas, Variaciones de datos, Contratos de trabajo) Licenciatura en Ciencias del Trabajo /Diplomatura Relaciones Laborales
+
+Imprescindible nivel alto manejo Meta4 People Net
+Nivel medio de ingles
+Office nivel alto
+Experiencia previa de 4 años en servicios de RRHH
+Deseable Experiencia procedimiento Liquidación Directa Creta""" ;
+    ns1:hiringOrganization "TEMPOTEL" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Técnico de nóminas, Meta 4 People Net, baja por maternidad" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0ad994dd6982b8e6> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=0d9ae236490e76b4> ns1:datePosted "2015-09-22T03:43:54+01:00"^^xsd:Date ;
+    ns1:description """Buscamos estudiante en prácticas para el departamento de PA-ATMO2-MAT por un período de 6 meses, a jornada completa a partir del 16 de noviembre de 2015.
+
+
+Funciones:
+
+
+. Obtener visión general de los procesos de MAT y ATMO2
+
+. Preparar Documentación de aportaciones de material a proveedores de mecanizado
+
+. Hacer entradas almacén
+
+. Realizar recuentos de inventario
+
+. Confirmar y perseguir fechas de entrega de pedidos de mecanizado
+
+. Actualizar nuevas condiciones de pago en SAP
+
+. Preparar comparación de ofertas de proveedores de mecanizado
+
+. Negociar y adjudicar pedidos de mecanizado
+
+. Realizar archivo físico de pedidos
+
+. Recopilar, emitir y enviar a proveedores de mecanizado valoraciones LEB
+
+
+Requisitos:
+
+
+- Estudios en Economía y Ciencias Sociales favorables
+
+- Idiomas: aleman y español (nivel alto)
+
+- Informática: MS Office (nivel alto)
+
+- Conocimientos básicos de la programación y diseño gráfico
+
+- Matrícula en la Universidad
+
+
+Dirección de contacto:
+
+E-Mail: external.practicante1.RBEM-PER@es.bosch.com
+
+
+Robert Bosch España Fábrica Madrid, S.A.
+
+RBEM/HRL2 - Cecilie Jensem
+
+Hnos. García Noblejas, 19
+
+28037 Madrid, España
+
+
+El éxito no llega solo. Hay que buscarlo.
+
+Hazlo realidad. Envía tu solicitud ahora.
+
+
+Fecha de alta:
+
+09/09/2015
+
+
+Ref.:
+
+100305
+
+
+Inserte su CV online
+
+
+Inserte su currículum
+
+en nuestra base de datos
+
+para optar a esta oferta.
+
+
+Deseo optar a esta oferta
+
+
+O envíelo a:
+
+
+Mande su solicitud con la documentación completa a la siguiente dirección postal:
+
+
+ROBERT BOSCH ESPAÑA FABRICA MADRID,S.A.
+
+Hnos. García Noblejas 19, 28037 Madrid
+
+
+Tel.: 913279889""" ;
+    ns1:hiringOrganization "Bosch" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Estudiantes en prácticas - CIP" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0d9ae236490e76b4> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=0e20df04f3bcb274> ns1:datePosted "2015-09-08T13:16:29+01:00"^^xsd:Date ;
+    ns1:description """Oracle DBA de Barcelona
+
+
+Global Telecommunications Company Barcelona tiene una oportunidad de carrera inmediata para Oracle DBA
+
+
+Trabajar en un entorno de aplicaciones técnicas de gestión que debe tener un buen conocimiento de Oracle RDBMS y relacionados con al menos cinco años de experiencia en productos.
+
+
+Tecnologías
+
+Instalación, configuración y actualización de software de Oracle RDBMS y productos relacionados (10g, 11g y 12c)
+
+Establecer y mantener fuertes políticas y procedimientos de respaldo y recuperación (RMAN)
+
+Realizar la sintonización base de datos y la supervisión del rendimiento (AWR, ADDM, ASH, y Statspack)
+
+Documentación y normas de instalación y mantenimiento
+
+Plan de crecimiento y cambio (planificación de la capacidad)
+
+Realizar problemas técnicos de disparo general y proporcionan consultoría e ingeniería equipos preventa
+
+Gestión de parches (la aplicación de parches y parches establece PSU)
+
+El buen entendimiento de la base de datos Oracle, utilidades y herramientas relacionadas (RMAN, Grid Control, Golden Gate, el RAC y Data Guard)
+
+Una buena comprensión del sistema operativo subyacente (principalmente Linux, sino también Windows)
+
+Capacidad para realizar tanto de Oracle y el sistema operativo ajuste de rendimiento y monitorización
+
+Conocimiento de todos los escenarios de copia de seguridad y recuperación de Oracle (PITR, recuperación completo / incompleto)
+
+Conocimiento de PostgreSQL sería un plus
+
+Inglés hablado y escrito (fluido / nativo)
+
+Licenciado en Ciencias de la Computación, Ingeniería de Software, MIS o equivalente preferido.
+
+Conocimiento de las tecnologías utilizadas en soluciones de alojamiento (redes, seguridad, arquitectura de la solución, operacional
+
+sistemas, bases de datos, etc.).
+
+
+Conocimientos del idioma inglés es obligatorio
+
+
+Oracle DBA Barcelona
+
+
+Global Telecommunications Company in Barcelona have an immediate career opportunity for an ORACLE DBA
+
+
+Working in a technical application management environment you must have a solid understanding of Oracle RDBMS and related products with at least 5 years experience.
+
+
+Technologies
+
+Installation, configuration and upgrading of Oracle RDBMS software and related products (10g, 11g and 12c)
+
+Establish and maintain sound backup and recovery policies and procedures (RMAN)
+
+Perform database tuning and performance monitoring (AWR, ADDM, ASH, and Statspack)
+
+Setup and maintain documentation and standards
+
+Plan growth and changes (capacity planning)
+
+Perform general technical trouble shooting and give consultation to engineering and pre-sales teams
+
+Patch Management (applying patchsets patches and PSU)
+
+Good understanding of the Oracle database, related utilities and tools (RMAN, Grid Control, Golden Gate, RAC and Data Guard)
+
+A good understanding of the underlying operating system (mainly Linux, but also Windows)
+
+Ability to perform both Oracle and operating system performance tuning and monitoring
+
+Knowledge of all Oracle backup and recovery scenarios (PITR, complete/incomplete recovery)
+
+Knowledge of PostgreSQL would be a plus
+
+Written and spoken English (fluent / native)
+
+BSc degree in Computer Science, Software Engineering, MIS or equivalent preferred.
+
+Knowledge of the technologies used in hosting solutions (networks, security, solution architecture, operational
+
+systems, databases, etc.).
+
+Start: ASAP
+Rate: €35000 - €45000 per annum + Good Salary, caree
+Location: Barcelona, Spain
+Type: Permanent
+Industry: IT""" ;
+    ns1:hiringOrganization "Skillbase Consulting" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "ORACLE DBA Barcelona" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0e20df04f3bcb274> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=0e90000597476e6b> ns1:datePosted "2015-09-17T13:38:21+01:00"^^xsd:Date ;
+    ns1:description """Seleccionamos para empresa de artes gráficas sita en Ajalvir un/una técnico/a de calidad que realizará las siguientes funciones:
+
+
+Apoyo a la gestión del Sistema de calidad en el grupo. (Certificaciones, elaborar y controlar la documentación del sistema).
+Realización e implementación de planes de control y realización auditorías en las líneas de producción y producto.
+Cumplimiento especificaciones del producto requeridas por el cliente
+Gestión del procedimiento de reclamaciones internas y externas.
+Representar a la empresa ante los clientes (Nacionales y extranjeros).
+Gestión de los datos referentes a la calidad interna y externa.
+Desarrollar las políticas de calidad en la Compañía
+Aplicar los estándares de calidad para las materias primas, productos intermedios y finales, así como para las diferentes etapas del proceso productivo.
+Controlar los diferentes índices de calidad: reclamaciones, devoluciones, rechazos, etc.
+Informar a los departamentos afectados por fallos en la calidad y buscar junto con ellos sistemas de mejora.
+Asegurar la calidad de los diferentes proveedores, evaluarlos y homologarlos.
+Responsable funcional de los responsables de Calidad de la fábrica.
+
+Se requiere licenciatura en ciencias químicas y experiencia de al menos 3 años realizando tareas similares en entornos industriales.
+Se requiere nivel alto de inglés y disponibilidad para viajar al extranjero.
+Se ofrece contrato estable directamente en empresa e interesante remuneración.
+
+Requisitos
+
+Estudios mínimos:
+Licenciado - Química
+
+Experiencia mínima:
+Al menos 3 años
+
+Conocimientos necesarios:
+inglés
+
+Gestión de la calidad total
+
+Calidad de productos
+
+Calidad ISO 9001
+
+Control de la calidad de procesos
+
+Supervisión de la calidad
+
+Artes gráficas
+
+Química
+
+Imprescindible residente en:
+No Requerido
+
+Requisitos mínimos:
+Licenciatura en química.
+Nivel alto de inglés y disponibilidad para viajar al extranjero.
+Experiencia de al menos 3 años realizando tareas similares a las descritas.
+
+Contrato
+
+Tipo de contrato:
+Indefinido
+
+Duración:
+Estable
+
+Jornada laboral:
+Completa
+
+Así va el proceso
+
+293 personas inscritas en esta oferta de empleo
+
+La empresa estuvo gestionando CVs por última vez hace 2 semanas
+
+Nuestro consejo: no dudes en inscribirte si tienes el perfil, no necesariamente todos los otros inscritos lo tienen""" ;
+    ns1:hiringOrganization "Temps" ;
+    ns1:jobLocation "Ajalvir, Madrid" ;
+    ns1:jobTitle "Técnico/a calidad inglés alto" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=0e90000597476e6b> ;
+    ns2:Location <http://sws.geonames.org/3130753/> .
+
+<http://www.indeed.es/viewjob?jk=10384112a913956d> ns1:datePosted "2015-09-16T13:48:33+01:00"^^xsd:Date ;
+    ns1:description """Faster Ibérica E.T.T., empresa perteneciente al Grupo Faster, con presencia en todo el territorio nacional ofrece prácticas formativas no remuneradas en la delegación de Guadalajara a estudiantes de últimos cursos de: PSICOLOGIA, PSICOPEDAGOGIA, SOCIOLOGIA, CIENCIAS DEL TRABAJO, RELACIONES LABORALES... o bien estudiante de Máster en RRHH para dar soporte en:
+
+Tareas de selección: reclutamiento, criba curricular, entrevistas personales, atención telefónica, evaluación de candidatos, pruebas de personalidad, elaboración de informes, etc.
+Gestión administrativa: contratación, altas y bajas en Seguridad Social, elaboración de nóminas, archivo de documentación, registro de datos, etc.
+
+Horario de 10.00 a 14.00 de lunes a viernes.
+
+Requisitos
+
+Estudios mínimos:
+Grado
+
+Experiencia mínima:
+No Requerida
+
+Imprescindible residente en:
+Provincia Puesto Vacante
+
+Requisitos mínimos:
+
+Posibilidad de hacer convenio con universidad o centro de estudios.
+Disponibilidad horaria: mañanas de lunes a viernes
+No es necesaria experiencia. Formación a cargo de la empresa.
+Personas con ganas de aprender, motivadas y responsables.
+
+Prácticas no remuneradas""" ;
+    ns1:hiringOrganization "Faster" ;
+    ns1:jobLocation "Guadalajara, Guadalajara" ;
+    ns1:jobTitle "Becario/a RRHH" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=10384112a913956d> ;
+    ns2:Location <http://sws.geonames.org/4005539/> .
+
+<http://www.indeed.es/viewjob?jk=12b4f88988584262> ns1:datePosted "2015-10-05T05:12:51+01:00"^^xsd:Date ;
+    ns1:description """Empleador Oriol B.
+
+Mensaje de la familia:
+Se busca profesor particulares para impartir Clases particulares para bachillerato ciencias e ingles
+
+Datos de la oferta de empleo:
+
+Profesores particulares, Externo (sin alojamiento) en Ciudad Barcelona (Barcelona), zona Sarrià-Sant Gervasi
+Ofrece Trabajo temporal desde 05/10/2015 hasta 22/06/2016
+Salario por hora: Salario negociable
+Salario mensual: Salario negociable
+Tareas imprescindibles a realizar:
+Ayudar en idiomas
+Dar clase de Bach. Ciencias
+Horario: Tardes. Fines de semana. Por horas.
+
+Datos de la familia:
+
+0 adultos
+Fuman en casa: No
+
+""" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Profesores particulares, Externo (sin alojamiento) en Ciudad Barcelona (Barcelona), zona Sarrià-Sant Gervasi" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=12b4f88988584262> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=19d0a8dbd5915853> ns1:datePosted "2015-07-27T14:09:30+01:00"^^xsd:Date ;
+    ns1:description """Perfil del Candidato:
+
+Capgemini, consultora multinacional líder en el sector IT, ofrece formación en nuevas tecnologías a titulados superiores en Informática o en Telecomunicaciones con buen nivel de inglés. Las personas que superen con éxito dicha formación tendrán la posibilidad de incorporarse a la compañía.
+
+Buscamos profesionales que, además de reunir una serie de competencias técnicas, sean entusiastas, con alta motivación y ganas de aprender, así como con capacidad para el trabajo en equipo.
+
+Si consideras que éstos son también tus valores personales, ésta es tu oportunidad.
+
+BUSCAMOS:
+
+- Recién titulados en ingeniería (informática, telecomunicaciones) o ciencias orientadas a la tecnología (física, matemáticas, etc.), con o sin experiencia e interesados en trabajar en alguno de nuestros centros de trabajo (Madrid, Barcelona, Valencia, Murcia, Zaragoza o Asturias).
+
+- Candidatos con nivel alto del idioma inglés (imprescindible), valorando muy positivamente un nivel medio o superior de francés.
+
+- Personas apasionadas por la tecnología que deseen desarrollar su carrera profesional en grandes compañías del sector IT en general, y en Capgemini en particular.
+
+OFRECEMOS:
+
+• Formación técnica a cargo de Capgemini en entornos de desarrollo Java y/o .Net
+
+• Conocer la cultura y el ámbito de trabajo de Capgemini basado en la colaboración, tanto dentro de nuestros equipos como con nuestros clientes.
+
+• Posibilidad de incorporación a plantilla una vez superado el periodo de formación para continuar su formación tanto tecnológica como en habilidades personales, metodológicas y de gestión, así como acceder a programas de certificaciones oficiales.
+
+• Posibilidad de participar en proyectos innovadores en las principales compañías nacionales e internacionales de diferentes sectores de actividad, integrándose en un equipo de profesionales altamente cualificados.
+
+Tecnología:
+
+java net
+
+
+Funciones:
+
+Programador
+
+
+Provincia:
+
+Alcobendas -
+Madrid - España
+
+
+Datos del Puesto:
+
+OFRECEMOS:
+
+• Formación técnica a cargo de Capgemini en entornos de desarrollo Java y/o .Net
+
+• Conocer la cultura y el ámbito de trabajo de Capgemini basado en la colaboración, tanto dentro de nuestros equipos como con nuestros clientes.
+
+• Posibilidad de incorporación a plantilla una vez superado el periodo de formación para continuar su formación tanto tecnológica como en habilidades personales, metodológicas y de gestión, así como acceder a programas de certificaciones oficiales.
+
+• Posibilidad de participar en proyectos innovadores en las principales compañías nacionales e internacionales de diferentes sectores de actividad, integrándose en un equipo de profesionales altamente cualificados.
+
+Formación Mínima:
+
+Ingeniero Superior
+
+
+Experiencia:
+
+Sin Experiencia
+
+
+Nivel Profesional:
+
+Prácticas / Beca
+
+
+Tipo contrato:
+
+Prácticas
+
+
+Jornada:
+
+Jornada completa
+
+
+Incentivos:
+
+Beneficios Sociales""" ;
+    ns1:hiringOrganization "Capgemini" ;
+    ns1:jobLocation "Alcobendas, Madrid" ;
+    ns1:jobTitle "Recién Titulados It" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=19d0a8dbd5915853> ;
+    ns2:Location <http://sws.geonames.org/3130583/> .
+
+<http://www.indeed.es/viewjob?jk=1b541c769b12260c> ns1:datePosted "2015-09-18T20:49:15+01:00"^^xsd:Date ;
+    ns1:description """SECTOR: ADMINISTRACIÓN DE FINCAS
+
+PUESTO A CUBRIR: AUXILIAR ADMINISTRATIVO GESTOR LABORAL
+
+TIPO DE CONTRATO: JORNADA COMPLETA
+
+CONTRATACIÓN: INDEFINIDA.
+
+INICIO: INCORPORACIÓN INMEDIATA.
+
+HORARIO A CUBRIR:
+
+
+DE LUNES A JUEVES DE DE 09'00 H. A 14'00 H Y DE 15’30 H A 19’00 H. VIERNES DE 09'00 H A 14'00 H.
+
+
+PERFIL MÍNIMO NECESARIO:
+
+
+- EXPERIENCIA DEMOSTRABLE EN GESTIÓN NÓMINAS Y SEGUROS SOCIALES.
+
+- EXPERIENCIA EN ELABORACIÓN Y PRESENTACIÓN DE IMPUESTOS.
+
+- CONOCIMIENTOS DE LEGISLACIÓN LABORAL Y DE SEGURIDAD SOCIAL.
+
+- AMPLIA EXPERIENCIA LABORAL EN PUESTO AUXILIAR ADMINISTRATIVO.
+
+- INFORMÁTICA NIVEL USUARIO MEDIO/ALTO
+
+- IMPRESCINDIBLE CAPACIDAD DE TRABAJO EN EQUIPO, ASÍ COMO ALTAS CAPACIDADES ORGANIZATIVAS Y DE GESTIÓN, COMO ASISTENTE DIRECTO DE DIRECCIÓN.
+
+
+SE VALORARÁ:
+
+
+- CONOCIMIENTOS DE CONTABILIDAD
+
+- CONOCIMIENTOS DE CONVENIOS COLECTIVOS DE OFICINAS Y DESPACHOS Y EMPLEADOS DE FINCAS URBANAS
+
+- EXPERIENCIA EN GESTIÓN Y ADMINISTRACIÓN DE FINCAS
+
+- CONOCIMIENTOS DE PROGRAMAS DE GESTIÓN DE COMUNIDADES (ESPECIALMENTE GESFINCAS)
+
+- CONOCIMIENTOS EN GESTIÓN DE PROTECCIÓN DE DATOS Y LEGISLACIÓN VIGENTE
+
+
+ALTA EN SEGURIDAD SOCIAL Y SALARIO EN FUNCIÓN DE LA VALÍA DEL CANDIDATO, EN TODO CASO SUPERIOR AL MARCADO POR EL CONVENIO.
+
+
+Administrativo
+
+AUXILIAR ADMINISTRATIVO GESTOR LABORAL
+(Gestión)
+
+1 Vacante(s)
+
+
+ROZAS DE MADRID, LAS -
+Madrid (Comunidad Autónoma Madrid)
+
+
+Requisitos
+
+
+Experiencia Laboral
+
+Al menos 4 años
+
+
+Estudios mínimos
+
+Diplomado
+
+
+Carreras
+
+1. Diplomatura en Relaciones Laborales
+
+2. Diplomatura en Relaciones Laborales y Diplomatura en Ciencias Empresariales
+
+3. Doble Grado Adminsitración y Direcció
+
+n de Empresas y 
+Economía.
+
+4. Doble Grado en ADE, Finanzas y Contabilidad
+
+5. Doble Grado en Administración y Dirección de Empresas y Dirección Financiera y Contabilidad
+
+6. Doble Grado en Derecho y Finanzas
+
+7. Doble Grado en Derecho y Relaciones Laborales y Recursos Humanos
+
+
+Requisitos mínimos
+
+DOMINIO ENTORNO WUINDOWS, SE VALORARÁ MUCHO CONOCIMIENTOS EN PROGRAMA GESFINCAS
+Contrato
+
+
+Tipo de contrato
+
+Contrato indefinido
+
+
+Duración
+
+Indefinido
+
+
+Jornada Laboral
+
+Jornada Completa 09'00 H. A 14'00 H Y DE 15’30 H A 19’00 H.""" ;
+    ns1:hiringOrganization "AEDHE" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "AUXILIAR ADMINISTRATIVO GESTOR LABORAL" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=1b541c769b12260c> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=21e170af299a7bdc> ns1:datePosted "2015-07-22T10:01:06+01:00"^^xsd:Date ;
+    ns1:description """
+Importante empresa situada en el centro de Madrid, precisa incorporar un/a Director Business Intelligence.
+
+Funciones: La persona contratada se encargará de la estrategia, planificación, y visión de Business Intellegence para identificar nuevas oportunidades de negocio y el continuo cremiento de la emrpresa.
+Analizar los dato de los sistemsa y procesos en los diferentes departamentos con el objetivo de unificarlos en una infraestructura común de información, que facilite la toma de decisiones, incremento de la eficiencia y contribución al crecimiento de la organización.
+
+Integración de los nuevos proyectos con los sistemas corporativos.
+Gestionar equipos de Business Intelligence en concordancia con la política de la empresa.
+Aprobación de diseño y funcionalidad del producto.
+
+Requisitos
+
+Estudios mínimos:
+Licenciado
+
+Experiencia mínima:
+Al menos 2 años
+
+Requisitos mínimos:
+
+Imprescindible experiencia al menos 5 años en implementación y soporte de proyectos de BI
+Experiencia mínima de 3 años trabajando como Jefe de proyectos de tecnologías y en gestión de equipos.
+buen nivel de Microsoft Office
+Buen nivel de Visual Basic Application.
+Desarrollo de informes.
+Se valorará conocimientos sobre la valoraxión de gestión de carteras de activos
+Nivel de inglés alto
+Formación: Graduado en ciencias, económicas o ingenierías.
+
+-""" ;
+    ns1:hiringOrganization "Faster" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Director/a de Business Intellegence_Inglés_Urge" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=21e170af299a7bdc> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=228cc18fba7b1d26> ns1:datePosted "2015-09-23T10:15:51+01:00"^^xsd:Date ;
+    ns1:description """Resumen actividades desarrolladas por el departamento o delegación
+
+El Departamento de Formación y Relaciones Académicas tiene dos misiones fundamentales.
+
+Por una parte, tiene como misión gestionar las prácticas en Acción contra el Hambre, investigar y compartir nuestro saber hacer técnico y nuestra experiencia para garantizar el impacto de nuestros proyectos y capacidad de respuesta en la lucha contra el hambre.
+
+Por otra parte, gestionamos toda la formación interna para capacitar a nuestros trabajadores, voluntarios y estudiantes en prácticas mediante tareas relacionadas con el diseño, seguimiento, implementación y evaluación de las acciones formativas.
+
+
+Objetivos y actividades de la práctica
+
+Presentación de los objetivos principales, actividades y resultados esperados del proyecto a realizar.
+
+Esta práctica apoyará al Responsable de Formación Interna en la implementación, seguimiento y evaluación de nuestra Estrategia de Formación, a través de las siguientes tareas: Planificación y logística de las acciones formativas: búsqueda de proveedores de formación, logística para organizar las sesiones formativas en sede y en misiones. Apoyo administrativo: actualización de bases de datos, procesamiento de datos de encuestas, elaboración de informes.
+
+
+Disponibilidad
+
+Incorporación: Octubre de 2015
+
+Número de meses de práctica: entre 3 y 6 meses
+
+Horario ofertado: 5- 6 horas. Horario a negociar (turno mañana)
+
+Práctica presencial/a distancia: Presencial
+
+
+Ofrecemos:
+
+- Convenio académico de prácticas entre centro de estudios y Acción contra el Hambre.
+
+- Integración en la organización de reconocido prestigio internacional, presente en más de 40 países con la posibilidad de conocer más a fondo el trabajo de una organización de ayuda humanitaria con 5 sedes internacionales.
+
+- Prácticas tuteladas por un tutor del Departamento y un mentor en el Departamento de Formación Externa y Relaciones Académicas.
+
+- Briefing de bienvenida y formación de acogida de ACH así como posibilidad de participar en otras formaciones organizadas por Acción contra el Hambre (internas y/o externas) que se ajusten al perfil.
+
+- Debriefing de fin de práctica para evaluar las actividades y el proyecto desarrollado por el estudiante y entrevista de orientación con el Dpto. de RRHH.
+
+- Certificado de prácticas.
+
+- Seguro de accidentes y responsabilidad civil, según se establezca en convenio académico.
+
+- Las prácticas son de carácter no remunerado. Para estudiantes sin ningún tipo de beca o apoyo económico durante sus estudios y según la duración de la práctica, se contempla una pequeña ayuda para comida y/o transporte urbano. Este extremo se concretará durante la negociación del convenio académico con el centro de estudios.
+
+
+Estudiante
+
+Práctica en departamento de Formación Interna
+(Formación)
+
+1 Vacante(s)
+
+
+MADRID -
+Madrid (Comunidad Autónoma Madrid)
+
+
+Requisitos
+
+
+Experiencia Laboral
+
+Al menos 0 año
+
+
+Estudios mínimos
+
+Grado
+
+
+Carreras
+
+1. Grado en Administración y Dirección de Empresas
+
+2. Grado en Ciencias Políticas
+
+3. Grado en Psicología
+
+4. Grado en Relaciones Laborales y Recursos Humanos
+
+5. Grado en Sociología
+
+
+Se requiere que se esté cursando alguna de las carreras indicadas.
+
+
+Requisitos mínimos
+
+1. Formación: Graduado en Relaciones Laborales, Psicología, Ciencias Políticas, Sociología, ADE, etc. Valorable especialización en RRHH.
+
+2. Experiencia: no excluyente. Se valorará positivamente algún tipo de experiencia en Formación y/o RRHH.
+
+3. Nivel de idiomas: Inglés B2. Valorable Francés B2.
+
+4. Conocimientos técnicos: redacción de Informes, Ofimática a nivel de usuario, logística de eventos formativos.
+
+5. Competencias personales: planificación y organización; iniciativa y motivación; gestión del estrés.
+
+
+Idiomas
+
+Español (
+Lectura: Nivel materno /
+Escritura: Nivel materno /
+Conversación: Nivel materno
+)
+
+Francés (
+Lectura: Nivel intermedio (b1) /
+Escritura: Nivel intermedio (b1) /
+Conversación: Nivel intermedio (b1)
+)
+
+Inglés (
+Lectura: Nivel intermedio alto (b2) /
+Escritura: Nivel intermedio alto (b2) /
+Conversación: Nivel intermedio alto (b2)
+)
+
+
+Software
+
+Office (Avanzado)
+
+Contrato
+
+
+Tipo de contrato
+
+Prácticas Profesionales
+
+
+Duración
+
+3-6 meses
+
+
+Jornada Laboral
+
+Mañanas 5-6 horas a negociar
+
+
+Salario comentarios (comisiones/incentivos)
+
+No hay remuneración, hay ayuda al transporte y vales de comida""" ;
+    ns1:hiringOrganization "Acción Contra el Hambre" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "práctica en departamento de formación interna" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=228cc18fba7b1d26> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=2652ffe8e54bc6f6> ns1:datePosted "2015-09-30T12:15:02+01:00"^^xsd:Date ;
+    ns1:description """ADMINISTRATIVO/A LABORAL OFICIAL/A DE SEGUNDA
+
+
+Datos:
+
+
+Datos Adicionales:
+QUALITY CATERING, EMPRESA DEDICADA AL SECTOR DE LA HOSTELERÍA BUSCA
+PERSONALADMINISTRATIVO/A LABORAL CON EXPERIENCIA PREVIA DEMOSTRABLE.
+EL CANDIDATO/A DEBERÁ TENER EXPERIENCIA EN CONFECCIÓN DE NÓMINAS,
+SEGUROS SOCIALES, CONTRATOS,ALTAS Y TODO TIPO DE TRAMITACIONES CON LA
+SEGURIDAD SOCIAL // TITULACIÓN REQUERIDA: DIPLOMADO EN CIENCIAS
+EMPRESARIALES, DIPLOMATURA EN RELACIONES LABORALESO TÉCNICO SUPERIOR
+EN ADMINISTRACIÓN Y FINANZAS. CARNET DE CONDUCIR B1, SE VALORARÁ
+CONOCIMIENTOS DE FACTURACIÓN Y CONTABILIDAD, IMPRESCINDIBLE EXPERIENCI
+A EN DEPARTAMENTO LABORAL, MANEJO DE SISTEMA RED, WINSUITE, DELTA Y
+CONTRAT@ SE OFRECE CONTRATO PARCIAL DE LUNES A VIERNES DE 9:00 A 13:00, CON
+POSIBILIDADDE CONVERSIÓN A INDEFINIDO
+Datos de Contacto:
+LAS PERSONAS INTERESADAS QUE CUMPLAN LOS REQUISITOS ENVIEN SU
+CURRICULUM A LASIGUIENTE DIRECCIÓN DE CORREO ELECTRÓNICO A:
+cristina@qc2006.es
+
+
+Sistema Nacional de Empleo, 2008""" ;
+    ns1:jobLocation "Santander, Cantabria" ;
+    ns1:jobTitle "Administrativo/a laboral oficial/a de segunda" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=2652ffe8e54bc6f6> ;
+    ns2:Location <http://sws.geonames.org/3109718/> .
+
+<http://www.indeed.es/viewjob?jk=26cdd6c919ac5d23> ns1:datePosted "2015-10-06T10:43:11+01:00"^^xsd:Date ;
+    ns1:description """Necesitamos un estudiante en el último curso de su carrera, proactivo y con interés en Big Data, Data Science y Data Engineering. Se valorará experiencia previa en diseño, mantenimiento de la arquitectura y componentes utilizados para tratamiento y análisis de datos (herramientas, tecnologías, modelos de datos, infraestructuras, etc...). También se valorará, experiencia en desarrollo con tecnologías Big Data (MapReduce, Hadoop, Hive, MongoDB, Cassandra, etc) y conocimientos de desarrollo de modelos estadísticos con R y Phyton.
+
+
+Otro Profesional
+
+Becario Big Data
+(Big Data)
+
+1 Vacante(s)
+
+
+MADRID -
+Madrid (Comunidad Autónoma Madrid)
+
+
+Requisitos
+
+
+Experiencia Laboral
+
+No es necesaria
+
+
+Estudios mínimos
+
+Licenciado
+
+
+Carreras
+
+1. Diplomatura en Estadística
+
+2. Diplomatura en Estadística e Ingeniería Técnica en Informática de Gestión
+
+3. Grado en Estadística
+
+4. Grado en Física
+
+5. Grado en Matemáticas
+
+6. Licenciado en Ciencias Físicas
+
+7. Licenciatura en Ciencias Actuariales y Financieras
+
+8. Licenciatura en Ciencias Matemáticas
+
+Es necesario tener más del 50% de los créditos aprobados.
+
+
+Requisitos mínimos
+
+Cursando ultimo curso de Estudios superiores
+
+
+Idiomas
+
+Inglés (
+Lectura: Nivel principiante (a1) /
+Escritura: Nivel principiante (a1) /
+Conversación: Nivel principiante (a1)
+)
+
+
+Software
+
+Acces; Excell (Usuario)
+
+(MapReduce; Hadoop; Hive; MongoDB; Cassandra; (Usuario)
+
+desarrollo de modelos estadísticos con R y Phyton (Usuario)
+
+Contrato
+
+
+Tipo de contrato
+
+Contrato a tiempo parcial
+
+
+Duración
+
+6
+
+
+Jornada Laboral
+
+Mañanas 9:00 - 13:00
+
+
+Salario
+
+Menos de 1.000 €
+(€)
+Bruto/Mensual
+
+
+Salario comentarios (comisiones/incentivos)
+
+450 € brutos /mes""" ;
+    ns1:hiringOrganization "AT-Biotech" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Becario Big Data" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=26cdd6c919ac5d23> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=286d8cd9645107f7> ns1:datePosted "2015-10-02T05:10:20+01:00"^^xsd:Date ;
+    ns1:description "Actualmente buscamos a un/a becario/a para el departamento de administración.Responsabilidades-Administración de personal-Apoyo en la gestión de los contratos, variaciones de jornada, gestión de las bajas...-Actualización y mantenimiento del archivo de personal.-Mantenimiento y gestión de la base de datos de trabajadores.-Gestiones con la Administración de la Seguridad Social, SOC, etc. Ofrecemos-Prácticas a tiempo completo, de Lunes a Viernes de 9.00 a 18.00-Compensación económica: 700Euros brutos/mes-Oportunidad de formar parte de una empresa internacional Requisitos-Nivel avanzado de Inglés preferible.-Posibilidad de establecer un convenio de prácticas entre universidad y empresa.-Cursando Diplomatura en Relaciones laborales o Ciencias del Trabajo.-Persona muy dinámica y con ganas de crecer.-Con iniciativa propia.-Conocimientos de Informática-Valorable experiencia previa en departamento de Administración personal.-Valorable conocimientos de Meta4.***Los procesos de selección y las personas involucradas en los mismos (tanto reclutadores como jefes de proyecto) no discriminarán ninguna candidatura por motivos de edad, discapacidad, etnia, estado civil, género, nacionalidad, ideología política, raza, religión u orientación sexual***" ;
+    ns1:hiringOrganization "SELLBYTEL" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Prácticas Administración de Personal" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=286d8cd9645107f7> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=29e3984c29955e1a> ns1:datePosted "2015-09-07T13:38:41+01:00"^^xsd:Date ;
+    ns1:description """Medical Scientific Liaison Oncología Galicia-000010MV
+
+Description
+
+Janssen es una empresa multinacional farmacéutica basada en la investigación y perteneciente al grupo Johnson&Johnson.
+
+El principal valor de Janssen es su gran capacidad para innovar. Como parte de la actividad de I+D, en Janssen se han descubierto más de 400.000 nuevas entidades moleculares, de las que 80 se han convertido en fármacos originales. Esta compañía farmacéutica investiga y desarrolla numerosos medicamentos en áreas terapéuticas tan avanzadas como la Analgesia, Oncología, Hematología, Hepatitis, Sistema Nervioso Central, Dermatología e VIH.
+
+Descripción del puesto
+
+La posición de Medical Scientist Liaison se responsabilizará de proveer asesoramiento tanto científico-técnico como relacionado con aspectos farmacoeconómicos para los principales clientes relacionados con la Unidad de Hematología de la compañía
+
+Además estará encargado de iniciar, promover y mantener actividades que permitan un mejor conocimiento de los productos de la Compañía, en concreto del área de Hematología, mediante el diseño, desarrollo y realización de presentaciones eficaces, además de trabajar en la coordinación de simposios y contribuir con las actividades relacionadas con educación médica.
+
+Zona Levante, disponibilidad para viajar: 30%
+
+Principales funciones de la posición:
+
+Recogida y seguimiento de la información médica no solicitada y asesoramiento en el desarrollo de nuevas ideas o proyectos relacionados con ensayos clínicos. Así mismo, proveerá de información científica tanto a líderes de opinión actuales como a los potenciales futuros líderes de opinión.
+Coordinación de los programas de educación médica, seminarios y demás actividades orientadas a los especialistas clínicos, farmacéuticos e investigadores.
+Analizar los estudios clínicos con el objetivo de constatar la integridad de la información relacionada con los productos de la Compañía.
+Apoyo en la preparación de presentaciones de producto orientadas a líderes de opinión, equipos médicos, Instituciones y Comités sanitarios gubernamentales.
+Coordinará las políticas y los procedimientos para el desarrollo y provisión de información científico-técnica relacionada con los medicamentos de la Compañía de uso para los pacientes.
+Proveer de información médica tanto a fuentes internas como externas. Igualmente, participará en el el desarrollo de materiales orientados a la educación y promoción médica que serán revisados y utilizados por otros departamentos de la Compañía, tales como: Marketing y Ventas, Registros y Legal.
+Recogerá información científica, de los clientes y de los mercados de cara al pre-lanzamiento de nuestros productos, manteniendo en todo momento un comportamiento ético.
+Participará en la recolección de información sobre datos de reembolso for Health Economics submissions.
+
+Aspectos relacionados con Compliance:
+
+Realiza seguimiento y promoción de todos los procesos definidos y aplicables en base a nuestra regulación, normas y procedimientos establecidos por la Compañía, y notificará cualquier anomalía o incumplimiento a su superior inmediato o a la autoridad competente en dicho caso.
+Cumple con todos los requsitos de formación específicos para el puesto
+
+Calificaciones
+
+Licenciado Superior (preferiblemente en licenciaturas relacionadas con Ciencias de la Salud).
+Experiencia mínima de un año relacionada con el campo científico (Investigación básica, Investigación Clínica, Consultoría sector sanidad/salud, etc…)
+Nivel alto de inglés
+Carné de conducir
+Disponibilidad para viajar
+
+Aspectos a valorar del Perfil competencial:
+
+Compromiso
+Autonomía y elevada capacidad de gestión y organización
+Habilidades de comunicación
+Facilidad para asimilar conocimientos
+Flexibilidad y adaptación a los cambios
+
+Recomendaciones de candidaturas internas (aplicable exclusivamente para candidaturas internas provenientes de cualquiera de las Compañías del Grupo Johnson&Johnson):
+
+Antigüedad en el puesto: mínimo 12 meses en el puesto actual, recomendable 18 meses.
+Presentar un histórico de desempeño satisfactorio en su puesto de trabajo actual.
+Horizonte (solo aplicable a candidaturas internas provenientes de empleados de Janssen): Interés de carrera relacionado con la vacante y formalizado en Horizonte en el momento de la candidatura. Se valorará el haberlo solicitado previamente a la publicación de la vacante.
+Movilidad geográfica: disponibilidad de residencia en la localidad de la vacante.
+
+Ubicación principal : Europa/Oriente Medio/Africa-España-Galicia-La Coruña
+
+Organización : Janssen-Cilag S.A. (formerly Janssen Sp) (7300)
+
+Área : Educación al cliente""" ;
+    ns1:hiringOrganization "Johnson & Johnson" ;
+    ns1:jobLocation "A Coruña, A Coruña" ;
+    ns1:jobTitle "Medical Scientific Liaison Oncohemato - Barcelona" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=29e3984c29955e1a> ;
+    ns2:Location <http://sws.geonames.org/3119841/> .
+
+<http://www.indeed.es/viewjob?jk=32ed9200829105e5> ns1:datePosted "2015-07-14T18:18:37+01:00"^^xsd:Date ;
+    ns1:description """Misión:
+
+Reportando al Line Manager del Regional Customer Support Center será r
+esponsable de los sistemas de aplicaciones/hardware y/o software en cualquiera
+
+de los grupos de productos de Urianálisis, garantizando la oferta de
+
+servicios necesarios para los países específicos a los que se presta servicio (España y
+
+Portugal).
+
+
+Función principal del puesto de trabajo
+:
+
+El especialista en aplicaciones proporcionará apoyo en las siguientes áreas:
+
+Gestión de consultas de clientes y empleados (a través del teléfono o por escrito).
+Identificación y resolución de problemas complejos.
+Diseño e impartición de formación para clientes y empleados.
+Transferencia de información y conocimientos.
+Actividades de servicio in situ (apoyo al personal de soporte técnico y de ventas que trabaja sobre el terreno).
+Soporte a Sales&Marketing (Business Area).
+
+Responsabilidades del puesto de trabajo
+
+Liderar, promover y comunicar los asuntos en materia de salud y seguridad garantizando que se cumplen las normas de seguridad, y asumir las responsabilidades establecidas en HS-01-04 (Manual de Salud y Seguridad).
+Garantizar que se imparte la formación necesaria para desarrollar una conciencia de gobierno y seguridad de IT, con referencia específica a los datos identificables del paciente y para actuar en la misma línea que los estándares locales de seguridad de la información, las políticas y los procesos locales, y el Sistema de Gestión de la Seguridad de la Información.
+Realizar el rol y las actividades de servicio asociadas de manera profesional y en consonancia con las expectativas de la empresa, asumiendo en todo momento la oferta de servicios que Roche ofrece a sus clientes, y alinear los resultados con medidas apropiadas y pertinentes para los clientes.
+Who you are
+Si eres una persona que controla su propio desarrollo. Si buscas una empresa en donde tengas la oportunidad de conseguir tus metas más allá de tus funciones y ubicación. Donde un puesto de trabajo no se considere la definición final de quién eres, sino el punto de partida, ven a trabajar con nosotros.
+
+
+Requisitos:
+
+Español nativo, inglés medio (B2) y portugués valorable.
+Grado en Ciencias de la Salud (Química, Biología, Farmacia etc.)
+Experiencia de más de 3 años en un entorno médico obtenido a través de una experiencia laboral de servicio al cliente o en una función de laboratorio.
+Buscamos gente con buenas habilidades comunicativas, habilidades de trabajo en equipo, orientación al cliente, capacidad de trabajar bajo presión, capacidad de resolución de incidencias y con ganas de aprender
+Disponibilidad de viajar 30% aproximadamente
+
+Who we are
+En Roche, nuestro éxito se basa en la innovación, la curiosidad y la diversidad, multiplicado por 88,500 profesionales en 150 países. Trabajando juntos, nos hemos convertido en uno de los grupos líderes de salud enfocados en la investigación.
+
+
+Roche es un empleador que ofrece igualdad de oportunidades y prohibe estrictamente la discriminación ilegal basada en la raza de una persona, color, religión, género, orientación sexual, identidad o expresión de género, pais de origen o ascendencia, edad, discapacidad mental o física, condición médica, estado civil, condición de veterano, o cualquier otra característica protegida por la ley.""" ;
+    ns1:hiringOrganization "Roche" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Application Specialist Urianálisis" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=32ed9200829105e5> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=3444a963af892372> ns1:datePosted "2015-08-12T13:35:46+01:00"^^xsd:Date ;
+    ns1:description """Nombre de la empresa Pharmactive biotech Product
+
+
+Titulación requerida Grado en ADE / Grado en Ciencias Ambientales
+
+
+Requisitos específicos del Conocimientos en Administración, o Importación /
+puesto Exportación o Control de Calidad.
+
+
+Inglés: nivel alto
+
+
+Funciones a desempeñar Administrativas, logística, documentación control de calidad
+y servicio de atención al cliente.
+
+
+Fecha inicio prevista Septiembre
+
+
+Horario Mañana o tarde (parcial)
+
+
+Lugar Madrid
+
+
+Remuneración y tipo de
+contrato
+Persona con capacidad alta de trabajo, resolutivo y pro-
+Otros datos de interés activo
+
+
+Las personas interesadas en formar parte del proceso de selección deberán enviar su CV a la siguiente
+dirección electrónica (pmolina@pharmactive.eu /Patricia Molina García)
+
+
+Aviso importante: Al enviarnos esta oferta para ser publicada en nuestra página Web la empresa
+adquiere el compromiso de informarnos cuando la oferta esté cubierta e igualmente si el/la
+candidato/a seleccionado/a es estudiante o titulado de la UNED.""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Grado en ADE/Grado en Ciencias Ambientales. PHARMACTIVE BIOTECH PRODUCT. Madrid." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=3444a963af892372> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=37b62d474c84d9f1> ns1:datePosted "2015-09-29T10:09:30+01:00"^^xsd:Date ;
+    ns1:description """Integrado/a en el área Técnica de Lubricantes, se encargará de dar servicio de Asistencia Técnica de los productos lubricantes y refrigerantes en todo el mercado nacional e internacional, a la red comercial propia, distribuidores, así como a los clientes asignados de acuerdo con los objetivos fijados por la Dirección. Sus principales funciones serán:
+
+Implementar y seguir los Programas de Asistencia Técnica (S.I.G.P.A.T.) de los clientes asignados.
+Realizar estudios de lubricación dirigidos a los clientes actuales y potenciales.
+Participar en la formación de la red comercial y clientes para el conocimiento y manejo del portafolio de productos.
+Colaborar en la actualización de la información y argumentación técnica de ventas, etc. de su Unidad así como en la optimización de los programas aplicativos del Dpto. (SIGPAT y EQUIVIS.)
+Promocionar, controlar y facturar nuestros servicios de Asistencia Técnicas a los clientes que proceda.
+Confeccionar y presentar a clientes los historiales y evaluaciones técnico-económicas del beneficio por la utilización del programa SIGPAT.
+PERFIL DEL CANDIDATO/A
+Titulación Superior en Ciencias Químicas, Ingeniería Química o Mecánica.
+Se valorará experiencia en Asistencia Técnica, Desarrollo de Productos y técnicas analíticas de Laboratorio.
+Nivel alto de inglés.
+Conocimientos avanzados en Excel y Base de Datos.""" ;
+    ns1:hiringOrganization "Cepsa" ;
+    ns1:jobLocation "España" ;
+    ns1:jobTitle "Asistente Técnico a Clientes" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=37b62d474c84d9f1> ;
+    ns2:Location <http://sws.geonames.org/3573890/> .
+
+<http://www.indeed.es/viewjob?jk=3ddc062426a6e622> ns1:datePosted "2015-09-28T18:54:50+01:00"^^xsd:Date ;
+    ns1:description """Buscamos estudiante en prácticas para el departamento de proceso de mejora continua por un período de 6 meses, a jornada completa a partir del 12 de diciembre de 2015.
+
+
+Funciones:
+
+
+- Coordinación de las auditorías mensuales del sistema 5S
+
+- Coordinación y persecución de CIP Workshops
+
+- Apoyo a los departamentos en la elaboración de protocolos
+
+- Plan trimestral de la revista interna RBEM Informa
+
+- Herramientas de intranet en la BGN
+
+
+Requisitos:
+
+
+- Estudios Universitarios: Ciencias Empresariales
+
+- Idiomas: Español (nivel alto), Inglés
+
+- Informática: Office (nivel alto)
+
+- Matrícula en la Universidad
+
+- Valoramos flexibilidad
+
+
+Dirección de contacto:
+
+E-Mail: external.practicante1.RBEM-PER@es.bosch.com
+
+
+Robert Bosch España Fábrica Madrid, S.A.
+
+RBEM/HRL2 - Cecilie Jensen
+
+Hnos. García Noblejas, 19
+
+28037 Madrid, España
+
+
+El éxito no llega solo. Hay que buscarlo.
+
+Hazlo realidad. Envía tu solicitud ahora.
+
+
+Fecha de alta:
+
+28/09/2015
+
+
+Ref.:
+
+100128
+
+
+Inserte su CV online
+
+
+Inserte su currículum
+
+en nuestra base de datos
+
+para optar a esta oferta.
+
+
+Deseo optar a esta oferta
+
+
+O envíelo a:
+
+
+Mande su solicitud con la documentación completa a la siguiente dirección postal:
+
+
+ROBERT BOSCH ESPAÑA FABRICA MADRID,S.A.
+
+Hnos. García Noblejas 19, 28037 Madrid
+
+
+Tel.: 913279889""" ;
+    ns1:hiringOrganization "Bosch" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Estudiante en prácticas - Continuous Improvement Process" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=3ddc062426a6e622> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=42c1400c8bb5e5f9> ns1:datePosted "2015-07-21T15:06:52+01:00"^^xsd:Date ;
+    ns1:description """Puesto vacante:
+
+RESPONSABLE COMERCIAL
+
+
+Tipo de industria de la oferta:
+
+Venta al por menor
+
+
+Categorías:
+
+
+Ventas al detalle
+- Venta al detalle
+
+
+Nivel:
+
+Mando intermedio
+
+
+Personal a cargo:
+
+6 - 10
+
+
+Número de vacantes:
+
+1
+
+
+Descripción de la oferta:
+
+Si te apasiona el mundo de la Distribución especializada en la construcción y la reforma y quieres participar en un proyecto ambicioso dentro de una empresa joven, dinámica y orientada a las personas y al cliente profesional, ¡esta es tu oportunidad!
+
+
+Estamos seleccionando Responsables Comerciales.
+
+En dependencia del Jefe de Sector tendrá la misión de contribuir por sí mismo y a través del equipo al desarrollo de las ventas asegurando que el sector esta limpio y balizado, que el stock se encuentra disponible y que se cumplen en todo momento las medidas para garantizar la seguridad de colaboradores y clientes. Aplica la política comercial y acompaña al equipo en el sentido de los objetivos.
+
+
+Sus principales funciones son:
+
+
+a. Asegurar la correcta atención al cliente y la venta siendo referente en el trato de los clientes, conociendo y transmitiendo el plan ventas de las diferentes familias de producto,asegurando la disponibilidad de vendedores en la sala de ventas, gestionando las situaciones difíciles y orientando la actividad en función de las necesidades del cliente y el plan de ventas.
+
+b. Asegurar el mantenimiento del almacén en cuanto al stock, presentación de la mercancía, limpieza, orden, fiabilidad de los datos informáticos sobre el stock, ejecución de las operaciones comerciales, etc.
+
+c. Coordinar al equipo orientando sus acciones en función de los objetivos del sector y en el marco de valores de la compañía. Dar ejemplo, involucrar, acompañar, formar y velar por el cumplimiento de las políticas de la empresa y las normativa de seguridad.
+
+d. Participar en la vida del almacén y la empresa.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Experiencia de al menos dos años en puestos de similares.
+
+Haber coordinado equipos de 5 a 10 personas
+
+
+Se valorará :
+
+Titulación universitaria
+
+Movilidad Geográfica
+
+
+Ofrecemos:
+
+Incorporación a Grupo de la Distribución líder
+
+Participación en una empresa dinámica con una fuerte política de inversiones y un ambicioso proyecto de expansión
+
+Planes personalizados de formación para potenciar las oportunidades de crecimiento dentro de la compañía.
+
+Remuneración competitiva en función del perfil del candidato
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Bricomart" ;
+    ns1:jobLocation "Bormujos, Sevilla" ;
+    ns1:jobTitle "RESPONSABLE COMERCIAL" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=42c1400c8bb5e5f9> ;
+    ns2:Location <http://sws.geonames.org/2520833/> .
+
+<http://www.indeed.es/viewjob?jk=4abb975a9ac30b38> ns1:datePosted "2015-07-27T14:08:34+01:00"^^xsd:Date ;
+    ns1:description """Perfil del Candidato:
+
+Capgemini, consultora multinacional líder en el sector IT, ofrece formación en nuevas tecnologías a titulados superiores en Informática o en Telecomunicaciones con buen nivel de inglés. Las personas que superen con éxito dicha formación tendrán la posibilidad de incorporarse a la compañía.
+
+Buscamos profesionales que, además de reunir una serie de competencias técnicas, sean entusiastas, con alta motivación y ganas de aprender, así como con capacidad para el trabajo en equipo.
+
+Si consideras que éstos son también tus valores personales, ésta es tu oportunidad.
+
+
+OFRECEMOS:
+
+· Formación técnica a cargo de Capgemini en entornos de desarrollo Java y/o .Net
+
+· Conocer la cultura y el ámbito de trabajo de Capgemini basado en la colaboración, tanto dentro de nuestros equipos como con nuestros clientes.
+
+· Posibilidad de incorporación a plantilla una vez superado el periodo de formación para continuar su formación tanto tecnológica como en habilidades personales, metodológicas y de gestión, así como acceder a programas de certificaciones oficiales.
+
+· Posibilidad de participar en proyectos innovadores en las principales compañías nacionales e internacionales de diferentes sectores de actividad, integrándose en un equipo de profesionales altamente cualificados.
+
+Tecnología:
+
+Java J2EE
+
+
+Funciones:
+
+Programador
+
+
+Provincia:
+
+Langreo -
+Asturias - España
+
+
+Datos del Puesto:
+
+- Recién titulados en ingeniería (informática, telecomunicaciones) o ciencias orientadas a la tecnología (física, matemáticas, etc.), con o sin experiencia e interesados en trabajar en Asturias.
+
+- Candidatos con nivel alto del idioma inglés (imprescindible), valorando muy positivamente un nivel medio o superior de francés.
+
+- Personas apasionadas por la tecnología que deseen desarrollar su carrera profesional en grandes compañías del sector IT en general, y en Capgemini en particular.
+
+
+Formación Mínima:
+
+FP2/Grado Superior
+
+
+Experiencia:
+
+Sin Experiencia
+
+
+Nivel Profesional:
+
+Empleado
+
+
+Tipo contrato:
+
+A determinar
+
+
+Jornada:
+
+Jornada completa
+
+
+Incentivos:
+
+beneficios sociales""" ;
+    ns1:hiringOrganization "Capgemini" ;
+    ns1:jobLocation "Sama, Asturias" ;
+    ns1:jobTitle "Recién Titulados It, Con Inglés" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4abb975a9ac30b38> ;
+    ns2:Location <http://sws.geonames.org/3110962/> .
+
+<http://www.indeed.es/viewjob?jk=4c1bfd02e35e2d41> ns1:datePosted "2015-09-24T15:40:21+01:00"^^xsd:Date ;
+    ns1:description """Somos una entidad líder en formación bonificada a pequeña, mediana y gran empresa.Ponemos a disposición de nuestros clientes la experiencia y el conocimiento para definir aquellas acciones formativas que darán solución a las necesidades derivadas de cualquier cambio.
+
+
+Trabajamos de forma conjunta con nuestros clientes para diseñar, desarrollar e implantar proyectos de formación que contribuyan a la mejora del conocimiento de las organizaciones, incrementando su valor y mejorando su competitividad de capital humano.
+
+
+La experiencia nos confirma que para hacer frente a los cambios constantes y los avances tecnológicos es precisar una formación permanente en el tiempo.
+
+
+Madrid (España)
+
+
+Sector de la empresa: Educación
+
+
+10 a 50 empleados
+
+
+Precisamos incorporar a nuestro departamento Administrativo una persona responsable,entusiasta y con capacidad de trabajar en equipo
+¿
+
+QUE BUSCAMOS?
+
+
+-Estar cursando o haber finalizado los estudios Diplomatura en Ciencias Empresariales, Diplomatura en Relaciones Laborales ,Licenciatura en ADE ,Grado en ADE, Formación profesional en administración de empresas,Formación profesional en Informática
+
+
+Requisitos Fundamentales
+
+
+Nivel alto de office: Excel y W ord
+
+
+Nivel alto de Outlook
+
+
+Nivel alto de chrome y firefox.
+
+
+Conocimiento de redes y protocolos de internet.
+
+
+Montaje de ordenadores y equipos informáticos en general.
+
+
+FUNCIONES A DESEMPEÑAR
+
+
+-Realizar gestiones administrativas,Ayudar en todo el proceso de tramitación y gestión de los cursos de formación a impartir a las empresas, desde la introducción de los datos de los alumnos y empresas en las aplicaciones previstas, verificación de datos, apoyo al departamento de marketing y atención al cliente
+
+
+-Manejar aplicaciones informáticas en la gestión de la información y documentación
+
+
+-Gestión de base de datos
+
+
+-Elaboración de informes
+¿
+
+QUE OFRECEMOS?
+
+
+Practicas remuneradas 130 euros al mes y alta en la seguridad social durante 3 meses.
+
+
+horario de mañana 9 a 14 horas
+
+
+posibilidad de continuar en la empresa
+
+
+Abstenerse candidatos que no cumplan los requisitos FUNDAMENTALES
+
+
+Incorporación Septiembre""" ;
+    ns1:hiringOrganization "A&P FORMACION BONIFICADA DE CALIDAD" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Prácticas y Becas: Becario Departamento Administrativo/Apoyo al departamento Informático en Madrid" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4c1bfd02e35e2d41> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=4c8d95f9d373d7b7> ns1:datePosted "2015-09-18T12:07:54+01:00"^^xsd:Date ;
+    ns1:description """El Grupo Antal International se extiende a todo el mundo con más de 130 oficinas propias en más de 30 países.
+
+
+En Antal International Network (Barcelona/Av.Meridiana) somos especialistas en búsquedas de profesionales de Tecnología: IT, Telecom, Electrónica, Automática.
+
+
+Empresa Contratante: servicios de tecnología especializada en la construcción de aplicaciones cloud-based por el business y consumer market.
+
+
+Posición
+
+
+iOS Developer
+
+
+Dependencia directa del Jefe de Departamento de Aplicaciones Móviles.
+
+
+Creará programas y aplicaciones y participará en la investigación, elección e implementación de soluciones tanto en aplicaciones como en infraestructuras. Todo ello para clientes del mercado de muy alta tecnología.
+
+
+Funciones:
+
+
+Desarrollo de código de programas y aplicaciones según las especificaciones de clientes
+
+
+Diseñar y realizar pruebas de rendimiento del software
+
+
+Crear scripts para mejorar el rendimiento y funcionalidad de aplicaciones
+
+
+Desarrollo y mantenimiento de la documentación técnica y de las mejores prácticas
+
+
+Guiar y apoyar al equipo junior
+
+
+Otras funciones según necesidades de la compañía
+
+
+Requisitos:
+
+
+Al menos 2 años de experiencia en el desarrollo de aplicaciones móviles
+
+
+Grado Universitario en Ciencias de la Computación/ informática u otra carrera relacionada
+
+
+Conocimiento de programación en Objective C (iOS)
+
+
+Experiencia en Jquery, JSON, HTML, CSS, Javascript, AJAX.
+
+
+Experiencia en las bases de datos Coredata y sqlite
+
+
+Experiencia en Git y CocoaPods
+
+
+Experiencia en MVC
+
+
+Experiencia con Git y CocoaPods
+
+
+Inglés fluido oral y escrito
+
+
+Ciudadanía de la Comunidad Europea o permiso de trabajo vigente
+
+
+Capacidad de trabajar de forma autónoma con mínima supervisión
+
+
+Deseable:
+
+
+Experiencia en programación en Android
+
+
+Experiencia en CSS3, HTML5, NodeJS, XML, SQL Server y/o MySQL
+
+
+Conocimiento de SCRUM y/o TDD, y Kiwi framework
+
+
+Otros idiomas
+
+
+Se ofrece:
+
+
+Posibilidad de crecer en una fuerte empresa del campo industrial tecnologícamente avanzado y resistente a las crisis
+
+
+Ambiente de trabajo joven con una gestión moderna del equipo
+
+
+Horarios flexibles.
+
+
+Sueldo competitivo con posibilidad de bonus por consecución de objetivos
+
+
+Want to be informed– join HEADHUNTER España LinkedIN Group!""" ;
+    ns1:hiringOrganization "Antal International" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "iOS Developer" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4c8d95f9d373d7b7> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=4d7ba71603a402ac> ns1:datePosted "2015-09-18T20:47:29+01:00"^^xsd:Date ;
+    ns1:description """Importante consultora energética precisa incorporar BECARIO con perfil administrativo.
+
+
+FUNCIONES:
+
+- Búsqueda de información referente a energía reactiva.
+
+- Manejo de la base de datos y listados en Excel.
+
+- Labores administrativas.
+
+- Escaneo de documentación.
+
+- Organización de archivo.
+
+
+Estudiante
+
+Prácticas en Área administrativa TURNO MAÑANA en MADRID
+(Administración)
+
+1 Vacante(s)
+
+
+MADRID -
+Madrid (Comunidad Autónoma Madrid)
+
+
+Requisitos
+
+
+Experiencia Laboral
+
+No es necesaria
+
+
+Estudios mínimos
+
+Diplomado
+
+
+Carreras
+
+1. Diplomatura en Ciencias Empresariales
+
+2. Diplomatura en Estadística
+
+3. Grado en Administración y Dirección de Empresas
+
+
+Se requiere que se esté cursando alguna de las carreras indicadas.
+
+Es necesario tener más del 50% de los créditos aprobados.
+
+
+Requisitos mínimos
+
+- No se precisa experiencia, aunque será muy valorable.
+
+
+La persona que buscamos para incorporar al puesto que ofertamos debe ser una persona activa, dinámica, muy organizados, con atención al detalle, capacidad analítica. Los candidatos deben de tener posibilidad de incorporarse inmediatamente a las prácticas ofertadas.
+
+
+Software
+
+Office (Usuario)
+
+Contrato
+
+
+Tipo de contrato
+
+Prácticas Profesionales
+
+
+Duración
+
+6 meses
+
+
+Jornada Laboral
+
+Mañanas Lunes a viernes de 9 a 14h""" ;
+    ns1:hiringOrganization "AEDHE" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Prácticas en Área administrativa TURNO MAÑANA en MADRID" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4d7ba71603a402ac> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=4d9ef395acf77f2a> ns1:datePosted "2015-10-04T08:45:00+01:00"^^xsd:Date ;
+    ns1:description """Puesto vacante:
+
+RESPONSABLE COMERCIAL
+
+
+Tipo de industria de la oferta:
+
+Venta al por menor
+
+
+Categorías:
+
+
+Ventas al detalle
+- Venta al detalle
+
+
+Nivel:
+
+Mando intermedio
+
+
+Personal a cargo:
+
+6 - 10
+
+
+Número de vacantes:
+
+4
+
+
+Descripción de la oferta:
+
+En dependencia del Jefe de Sector tendrás la misión de contribuir por tí mismo y a través del equipo al desarrollo de ventas asegurando que el sector esta limpio, lleno, seguro y balizado, que el stock se encuentre disponible y que se cumplan en todo momento las medidas para garantizar la seguridad de colaboradores y clientes. Aplica la política comercial y acompaña al equipo en el sentido de los objetivos.
+
+
+Sus principales funciones son:
+
+
+a. Asegurar la correcta atención al cliente y la venta siendo referente en el trato de los clientes, conociendo y transmitiendo el plan ventas de las diferentes familias de producto,asegurando la disponibilidad de vendedores en la sala de ventas, gestionando las situaciones difíciles y orientando la actividad en función de las necesidades del cliente y el plan de ventas.
+
+b. Asegurar el mantenimiento del almacén en cuanto al stock, presentación de la mercancía, limpieza, orden, fiabilidad de los datos informáticos sobre el stock, ejecución de las operaciones comerciales, etc.
+
+c. Coordinar al equipo orientando sus acciones en función de los objetivos del sector y en el marco de valores de la compañía. Dar ejemplo, involucrar, acompañar, formar y velar por el cumplimiento de las políticas de la empresa y las normativa de seguridad.
+
+d. Participar en la vida del almacén y la empresa.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Conocimientos necesarios:
+
+Atención al cliente
+
+
+Plan de ventas
+
+
+Seguridad
+
+
+Ventas
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Experiencia de al menos dos años en puestos de similares.
+
+Haber coordinado equipos de 5 a 10 personas
+
+
+Se valorará :
+
+Titulación universitaria
+
+Movilidad Geográfica
+
+
+Ofrecemos:
+
+Incorporación a Grupo de la Distribución líder
+
+Planes personalizados de formación para potenciar las oportunidades de crecimiento dentro de la compañía.
+
+Remuneración competitiva en función del perfil del candidato
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Bricomart" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "RESPONSABLE COMERCIAL" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=4d9ef395acf77f2a> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=526f9bd6d560a485> ns1:datePosted "2015-07-17T09:39:59+01:00"^^xsd:Date ;
+    ns1:description """Administrador BBDD
+La estrategia de ING se centra en ofrecer un servicio óptimo a sus clientes y en tener un crecimiento estable con sólida rentabilidad, por eso, buscamos gente con ganas de aprender iniciativa y alta capacidad de adaptación para una de las principales entidades financieras del mundo reconocida por ofrecer a sus clientes los productos financieros más innovadores del mercado.
+
+
+Buscamos un Administrador de BBDD
+
+con un contrato indefinido y jornada completa:
+
+
+Las funciones a desarrollar serán:
+
+·
+Gestionar las Bases de Datos de la compañía asegurando la disponibilidad, capacidad y seguridad basándose en las políticas de IT
+y en las “Best Practices” garantizando la confidencialidad, integridad y disponibilidad de los datos.
+
+·
+Proponer e implementar soluciones de bases de datos que se ajusten a las necesidades de la empresa de una manera eficaz y eficiente.
+
+·
+Soporte de tercer nivel que asegure la disponibilidad y la continuidad de la plataforma
+
+Tecnologías
+
+·
+Microsoft SQL Server
+
+·
+GT.M and Profile Banking Application (entorno UNIX)
+
+·
+Cassandra (Entorno UNIX)
+
+Responsabilidades
+
+·
+Administración de Entornos de Desarrollo, UAT, Preproducción, Producción y DRS
+
+·
+Instalación, parcheo de versiones.
+
+·
+Optimizar operaciones (online, peticiones de servicio, procesos batch)
+
+·
+Gestión de copias, réplicas y backups.
+
+·
+Investigación y resolución de incidencias
+
+·
+Consultoría a los áreas de desarrollo y negocio
+
+Relaciones
+
+·
+Áreas IT: Sistemas, Comunicaciones, Seguridad, Arquitectura del Software, Desarrollo del Software, Proyectos, Soporte a Servicios.
+
+·
+Áreas de Negocio: Gestión del Cambio
+
+·
+Mismo departamento en otros países del grupo.
+
+·
+Proveedores y vendedores.
+
+Buscamos candidatos con los siguientes requisitos:
+
+·
+Licenciado en informática, Ciencias Matemáticas, ciencias Físicas o similar.
+
+·
+Alta capacidad y ganas de aprendizaje
+
+·
+Conocimientos de programación o scripting
+
+·
+Orientación al cliente.
+
+·
+Alto nivel de inglés.
+
+Area
+:
+Tecnología
+
+Ciudad
+:
+España
+Madrid
+
+Temporalidad
+:
+Tiempo completo
+
+Estado de empleado
+:
+Fijo""" ;
+    ns1:hiringOrganization "ING Direct" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Administrador BBDD" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=526f9bd6d560a485> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=55844c91acc204b4> ns1:datePosted "2015-10-02T18:28:15+01:00"^^xsd:Date ;
+    ns1:description """Se buscan una serie de perfiles para episodio piloto de ciencia ficción, para personajes principales y secundarios.
+
+Se bucan los siguientes perfiles.
+
+Chico 18-25 delgado 168 a 185 aproximadamente, estrovertido.
+
+Chico 20-25 años en forma, musculado pero no en exceso 170 a185 aproximadamente,de apariencia mas tímida.
+
+Chica 18-25 rubia/pelirroja, piel blanca, delgada 150 a 170 extrovertida.
+
+Chica 18-25 pelo negro, piel blanca, delgada 150 a 170 apariencia tímida.
+
+
+IMPORTANTE: Apariencia adolescente,no aparentar mas de 20 años.
+
+
+Para este casting se buscan los siguientes perfiles: 
+
+personaje 1
+
+
+¡Inscríbete a este perfil! 
+
+Edad: De 18 a 25 años, Regiones: Barcelona, Cádiz, Granada, Madrid, Málaga, Sevilla, Valencia, Datos personales: Sexo: Masculino, Datos f
+
+ísicos: Constitución física: Delgado/a, Color de pelo: Casta
+
+ño, Moreno, Etnia: Caucásico, Mediterráneo, Datos profesionales: Profesión: Actor, Nº de trabajos realizados como modelo o actor: +5, 1-4, Profesional
+personaje 2
+¡Inscríbete a este perfil! Edad: De 18 a 25 años, Regiones: Barcelona, Cádiz, Granada, Madrid, Málaga, Sevilla, Valencia, Datos personales: Indiferente, Datos f
+
+ísicos: Constitución física: Atlético/a o Musculoso/a, Color de pelo: Casta
+
+ño, Moreno, Rubio, Etnia: Caucásico, Mediterráneo, Datos profesionales: Profesión: Actor, Nº de trabajos realizados como modelo o actor: +5, 1-4, Profesional
+personaje 3
+¡Inscríbete a este perfil! Edad: De 18 a 25 años, Regiones: Barcelona, Cádiz, Granada, Madrid, Málaga, Sevilla, Valencia, Datos personales: Sexo: Femenino, Datos f
+
+ísicos: Constitución física: Delgado/a, Normal, Color de pelo: Pelirrojo, Rubio, Etnia: Mediterráneo, Datos profesionales: Profesión: Actor, Nº de trabajos realizados como modelo o actor: +5, 1-4, Profesional
+personaje 4
+¡Inscríbete a este perfil! 
+
+Edad: De 18 a 25 años, Regiones: Barcelona, Cádiz, Granada, Madrid, Málaga, Sevilla, Datos personales: Sexo: Femenino, Datos físicos: Constitución física: Delgado/a, Normal, Color de pelo: Castaño, Moreno, Etnia: Caucásico, Mediterráneo, Datos profesionales: Profesión: Actor, Nº de trabajos realizados como modelo o actor: +5, 1-4, Profesional
+
+Yate Premiums inscritos a este casting""" ;
+    ns1:hiringOrganization "Yatecasting" ;
+    ns1:jobLocation "Cadiz, Cádiz" ;
+    ns1:jobTitle "Casting para episodio piloto" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=55844c91acc204b4> ;
+    ns2:Location <http://sws.geonames.org/2520600/> .
+
+<http://www.indeed.es/viewjob?jk=5776b06595928323> ns1:datePosted "2015-09-11T10:15:28+01:00"^^xsd:Date ;
+    ns1:description """Reportando al Director Financiero la persona seleccionada será responsable de las siguientes funciones:
+
+
+* Supervisión de la contabilidad bajo las normas internacionales IFRS y realización de los cierres contables mensuales conforme a las normas del grupo.
+
+* Definir las normas contables y de consolidación del grupo y velar por el cumplimiento de las mismas.
+
+* Definir, desarrollar y realizar el seguimiento de los criterios de reporte, para homogeneizar la información contable y los estados financieros de las distintas compañías del grupo.
+
+* Responsable de garantizar difusión en tiempo y forma de la información económico-financiera del Grupo a los órganos de administración de la compañía, de acuerdo a criterios de buen gobierno y responsabilidad corporativa
+
+* Supervisión de los Estados Financieros del grupo a nivel individual y consolidadas. Asegurar la integridad de los datos incluidos en las mismas.
+
+* Interlocutor con los auditores externos de la compañía, coordinación y supervisión de que el desarrollo de la auditoría externa se cumpla según el plan establecido.
+
+* Responsable de la administración en general y de la custodia de documentos, archivo de facturas, contratos y demás documentación económica y contable de la compañía.
+
+* Colaborar en la realización de la Junta General de Accionistas. Elaboración de información financiera para las reuniones del Consejo de Administración.
+
+* Gestión y desarrollo del las personas bajo su responsabilidad.
+
+* Reporte al la dirección económico financiera de la compañía sobre el desarrollo de su actividad. 
+
+- Licenciado en Ciencias Económicas y/o Empresariales o titulación equivalente. Se valorará la posesión de un título de postgrado.
+
+
+- Experiencia mínima de 7 años realizando las funciones anteriormente descritas como Responsable de Administración y Contabilidad.
+
+- Experiencia en la gestión de equipos.
+
+
+- Idiomas: Nivel muy alto del idioma inglés
+
+
+- Acostumbrado al trabajo en equipo, proactivo, metódico y riguroso, alta capacidad de negociación tanto interna como externa, muy adaptable y con una alta capacidad de aprendizaje. Con mano izquierda, con dotes de liderazgo y organización.""" ;
+    ns1:hiringOrganization "Michael Page España" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "DIRECTOR DE ADMINISTRACIÓN Y FINANZAS" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=5776b06595928323> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=5ab75c7779e13e75> ns1:datePosted "2015-09-22T05:09:25+01:00"^^xsd:Date ;
+    ns1:description """La estrategia de ING se centra en ofrecer un servicio óptimo a sus clientes y en tener un crecimiento estable con sólida rentabilidad, por eso, buscamos gente con ganas de aprender iniciativa y alta capacidad de adaptación para una de las principales entidades financieras del mundo reconocida por ofrecer a sus clientes los productos financieros más innovadores del mercado. Buscamos un Administrador de BBDD con un contrato indefinido y jornada completa: Las funciones a desarrollar serán:
+
+Gestionar las Bases de Datos de la compañía asegurando la disponibilidad, capacidad y seguridad basándose en las políticas de IT y en las “Best Practices” garantizando la confidencialidad, integridad y disponibilidad de los datos.
+Proponer e implementar soluciones de bases de datos que se ajusten a las necesidades de la empresa de una manera eficaz y eficiente.
+Soporte de tercer nivel que asegure la disponibilidad y la continuidad de la plataformaTecnologías
+Microsoft SQL Server
+GT.M and Profile Banking Application (entorno UNIX)
+Cassandra (Entorno UNIX) Responsabilidades
+Administración de Entornos de Desarrollo, UAT, Preproducción, Producción y DRS
+Instalación, parcheo de versiones.
+Optimizar operaciones (online, peticiones de servicio, procesos batch)
+Gestión de copias, réplicas y backups.
+Investigación y resolución de incidencias
+Consultoría a los áreas de desarrollo y negocioRelaciones
+Áreas IT: Sistemas, Comunicaciones, Seguridad, Arquitectura del Software, Desarrollo del Software, Proyectos, Soporte a Servicios.
+Áreas de Negocio: Gestión del Cambio
+Mismo departamento en otros países del grupo.
+Proveedores y vendedores. Buscamos candidatos con los siguientes requisitos:
+Licenciado en informática, Ciencias Matemáticas, ciencias Físicas o similar.
+Alta capacidad y ganas de aprendizaje
+Conocimientos de programación o scripting
+Orientación al cliente.
+Alto nivel de inglés.
+
+""" ;
+    ns1:hiringOrganization "ING ESPAÑA" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Administrador BBDD" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=5ab75c7779e13e75> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=5be9ddf744959eb8> ns1:datePosted "2015-08-06T11:16:48+01:00"^^xsd:Date ;
+    ns1:description """Accent on you – Prácticas Centro de Analytics Barcelona
+
+
+Buscamos estudiantes de último curso de Licenciaturas de Ciencias (Matemáticas, Estadística, Física) e Ingenierías (Informática, Industrial, Telecomunicaciones) para el centro de Analytics Accenture situado en Barcelona.
+
+
+Funciones :
+
+Ø Investigación, diseño y desarrollo de métodos y modelos analíticos predictivos que ayuden a la toma de decisiones de negocio, incluyendo:
+
+
+- Tratamiento y preparación de datos para analizarlos estadísticamente, incluyendo big data.
+
+
+- Diseño de los algoritmos analíticos de los modelos estadísticos.
+
+
+- Desarrollo de activos software que automaticen la creación y ejecución de modelos.
+
+
+- Diseño funcional y desarrollo técnico de activos de visualización para usuarios de negocio.
+
+
+- Ayuda en la definición de requerimientos del usuario.
+
+
+Ø Proyectos de consultoría analítica haciendo uso de nuestros algoritmos, activos y soluciones.
+
+
+Qué ofrecemos
+
+
+Ø Prácticas formativas remuneradas.
+
+
+Ø Horario Flexible.
+
+
+Ø Orientación y tutorización durante todo el stage .
+
+
+Ø Entorno joven, dinámico y profesional.
+
+
+Ø Oportunidad de incorporación tras las prácticas y el cierre de la carrera.
+
+
+Requisitos
+
+
+• Ser Universitario y estar cursando último curso Licenciatura en Matemática, Estadística o Física o estar inmerso en Programas de Máster relacionados.
+
+• Alto nivel de inglés valorándose positivamente un segundo idioma, francés o alemán.
+
+
+Características del programa :
+
+
+- Vinculación a través de un convenio de colaboración universidad – empresa de entre 3 meses hasta 1 año.
+
+
+- Horario de mañanas o tardes; incluso full time.
+
+
+Requisitos
+
+
+• Ser Universitario y estar cursando último curso Licenciatura en Matemática, Estadística o Física o estar inmerso en Programas de Máster relacionados.
+
+• Alto nivel de inglés valorándose positivamente un segundo idioma, francés o alemán.
+
+
+Características del programa :
+
+
+- Vinculación a través de un convenio de colaboración universidad – empresa de entre 3 meses hasta 1 año.
+
+
+- Horario de mañanas o tardes; incluso full time.""" ;
+    ns1:hiringOrganization "Accenture" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "AACCENT ON YOU Programa de Prácticas Universitarias Barcelona_Analytics" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=5be9ddf744959eb8> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=5c65ea26a2d5baa9> ns1:datePosted "2015-09-15T19:01:12+01:00"^^xsd:Date ;
+    ns1:description """Se busca gestor comercial para incorporación en un importante proyecto en conocida entidad financiera a nivel nacional. El objeticos del proyecto es la captación y prospección de clientes potenciales. La función del puesto es la elaboración de una cartera de clientes por medio de visitas comerciales, preparación y presentación de presupuestos, creación de base de datos, elaborqción de reportes con la actividad realizada, etc. Se contará con salario fijo más gastos de kilometraje, aparte de las comisiones que se generen por consecución de objetivos.Se contará con salario fijo más gastos de kilometraje, aparte de las comisiones que se generen por consecución de objetivos.
+
+Imprescindible estudios superiores en ADEo Ciencias Económicas, experiencia previa como comercial de captación, estar en posesión de carnet de conducir y vehículo propio y contar con disponibilidad para incorporación inmediata. Asimismo, se valorará positivamente haber trabajado en el sector bancario y/o contar con conocimientos relativos al producto a ofertar.""" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Gestor Comercial de Negocios" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=5c65ea26a2d5baa9> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=6f36530d63cfd00d> ns1:datePosted "2015-10-06T13:48:27+01:00"^^xsd:Date ;
+    ns1:description """Nuestro programa de prácticas profesionales en Servicios Centrales de Santander España ofrece la posibilidad de realizar 6 meses de prácticas remuneradas (con posibilidad de completar 6 meses más), trabajando con nuestros profesionales, los mejores del sector financiero en España.
+
+Funciones:
+
+Apoyo a la extracción de información para medición de funnels ante implantación de cambios sobre procesos actuales o lanzamiento nuevas campañas.
+Apoyo a la coordinación de la actualización publicitaria y contenidos en: web pública / privada / movilidad / Tablet/ muro y otros.
+Intersticials y pull sales: Asignación de códigos de campaña y gestión de su subida en supernet y banca móvil – pull sales. Interlocución con CRM y contenidos para puesta en producción.
+Extracción de interés despertado por las distintas campañas.
+Control del calendario global de acciones en canales digitales y resultados.
+Apoyo a la gestión de campañas promocionales.
+Apoyo al seguimiento semanal de usuarios y ventas: Ejecución de queries y búsqueda de datos para cumplimentar las tablas base para el seguimiento semanal de ventas y usuarios en canales digitales ( leads – web pública, supernet y móvil).
+
+Estudiante
+
+Prácticas en Canales Digitales
+(Marketing)
+
+1 Vacante(s)
+
+Todas -
+Madrid (Comunidad Autónoma Madrid)
+
+Requisitos
+
+Experiencia Laboral
+
+No es necesaria
+
+Estudios mínimos
+
+Grado
+
+Carreras
+
+1. Grado en Administración y Dirección de Empresas y Marketing
+2. Grado en Estadística
+3. Licenciatura en Investigación y Técnicas de Mercado
+
+Requisitos mínimos
+Buscamos a estudiantes de Marketing, ADE, estadísitica o carrera de ciencias (de grado o posgrado), con un alto interés en el mundo de internet, que les gusten los temas relacionados con canales digitales y publicitarios.
+Imprescindible que posean conocimientos avanzados en Excel y powerpoint. Se valorarán conocimientos en SAS, SQL y Google Analytics.
+Con disponibilidad para realizar una jornada completa.
+
+Idiomas
+
+Inglés (
+Lectura: Nivel avanzado (c1) /
+Escritura: Nivel avanzado (c1) /
+Conversación: Nivel avanzado (c1)
+)
+
+Software
+Google Analytics (Avanzado)
+
+Excel (Experto)
+
+SQL (Avanzado)
+
+Contrato
+
+Tipo de contrato
+Prácticas Profesionales
+
+Duración
+6 meses prorrogables
+
+Jornada Laboral
+Jornada Completa""" ;
+    ns1:hiringOrganization "Banco Santander" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Prácticas en Canales Digitales" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=6f36530d63cfd00d> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=6fe6b404cfbd0006> ns1:datePosted "2015-09-25T01:31:35+01:00"^^xsd:Date ;
+    ns1:description """Funciones y competencias
+
+Las funciones serían:
+
+
+-Selección de personal.
+
+-Reportes de datos en soporte informático.
+
+-Tramitación de reconocimientos Médicos/as, cursos de prl, etc..
+Nº de puestos vacantes
+
+1
+Se Ofrece
+
+Se ofrece:
+
+
+La posibilidad de entrar a formar parte de una empresa líder en su sector en plena expansión.
+
+Lugar de trabajo :
+País
+
+España
+Área geográfica
+
+Murcia
+
+Requisitos :
+Los requisitos son:
+
+
+-Formación universitaria en relaciones laborales, ciencias del trabajo o graduado social.
+
+
+-Experiencia previa valorable en selección de trabajadores y recursos humanos.
+
+-Residencia en Murcia o alrededores.
+
+Delegación :
+EUROCEN MURCIA
+
+672 personas inscritas en esta oferta""" ;
+    ns1:hiringOrganization "EUROCEN" ;
+    ns1:jobLocation "Murcia, Murcia" ;
+    ns1:jobTitle "Becario/a de recursos humanos" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=6fe6b404cfbd0006> ;
+    ns2:Location <http://sws.geonames.org/2513416/> .
+
+<http://www.indeed.es/viewjob?jk=70d15500162804d3> ns1:datePosted "2015-09-29T07:49:41+01:00"^^xsd:Date ;
+    ns1:description """Importante empresa dedicada a la producción de cava y vinos precisa incorporar un comercial en el canal HORECA para la zona de Madrid.
+
+Reportando al director regional de Hostelería, gestionará las ventas de los clientes del canal Horeca de su zona de responsabilidad, garantizando el cumplimiento de los objetivos de negocio definidos.
+
+Entre sus funciones y responsabilidades se encontrarán:
+
+Gestionar e impulsar las ventas de los clientes asignados para alcanzar los objetivos de su zona, realizar visitas para la introducción de nuevas referencias, negociar condiciones especiales, evaluar el trabajo del distribuidor y abrir nuevos clientes de su cartera asignada.
+Identificar oportunidades de negocio y analizar la presencia y actividades de las marcas y productos de la competencia (packagings, precios, promociones y nuevos productos) en su zona de influencia.
+Negociar diferentes aportaciones y promociones en el establecimiento y coordinar su implementación y seguimiento.
+Informar sobre la gestión comercial realizada (datos de la visita, obtención de información relativa a plantilla, condiciones pactadas, etc.) y realizar los informes y reportes necesarios.
+Completar las rutas diarias de visita a clientes según frecuencia establecida por el Director Regional para realizar las tareas de activación comercial.
+Revisar la actividad promocional efectuada por el equipo de ventas del distribuidor. - Licenciatura o Diplomatura en ADE, Marketing o Ciencias Económicas.
+Mínimo 2 años de experiencia en puestos comerciales similares preferentemente en empresas de bebidas o gran consumo que operen en el canal de hostelería.
+Experiencia en canal HORECA
+Orientación a resultados, capacidad analítica, planificación y empatía.
+Se valorarán Conocimientos avanzados de informática a nivel de usuario, conocimientos de SAP y herramientas de gestión comercial.
+Se valorarán conocimientos en enología
+
+""" ;
+    ns1:hiringOrganization "Experis" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Comercial canal HORECA sector vinos y espirituosos" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=70d15500162804d3> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=76e84b25e2ca188a> ns1:datePosted "2015-09-14T10:13:26+01:00"^^xsd:Date ;
+    ns1:description """ODEC es una empresa líder en la prestación de servicios informáticos para áreas de marketing, estadística e investigación de mercados.
+
+
+Buscamos jóvenes licenciados en ramas de Ciencias para incorporarse al departamento técnico de nuestra oficina de Gandia. El trabajo consiste en la gestión, programación y presentación de datos de una encuesta o estudio estadístico en el ámbito de la investigación de mercados. Se impartirá una formación específica acorde a la tarea.
+
+
+Ofrecemos el desarrollo de una sólida carrera profesional en una empresa consolidada, con un contrato indefinido y salario progresivo.
+
+Tipo de industria de la oferta
+Servicios y tecnología de la información
+Categoría
+Informática y telecomunicaciones -
+Gestión de proyectos
+Nivel
+Empleado
+Personal a cargo
+0
+Número de vacantes
+1
+Salario
+15.000€ - 15.000€ Bruto/año
+
+Requisitos
+Estudios mínimos
+Licenciado
+Experiencia mínima
+No Requerida
+Requisitos mínimos
+Titulación reciente: Matemáticas, Ingenierías, Informática, Estadística, Sociología, ITM, ADE, etc., con muy buena base informática de conocimientos prácticos y un alto nivel de inglés.
+
+
+Se valora el manejo de paquetes estadísticos o matemáticos tipo SPSS y de herramientas de programación y presentación online de resultados como Bellview CATI-CAWI, HTML5 Angular JS y similares.
+
+
+Buscamos una persona con alto sentido de la responsabilidad, gestión de proyectos, capacidad de trabajo y orientación al cliente.""" ;
+    ns1:hiringOrganization "ODEC" ;
+    ns1:jobLocation "Gandía, Valencia" ;
+    ns1:jobTitle "Técnico de tratamiento de datos" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=76e84b25e2ca188a> ;
+    ns2:Location <http://sws.geonames.org/2517367/> .
+
+<http://www.indeed.es/viewjob?jk=78cfd1a656a01f05> ns1:datePosted "2015-08-10T04:52:00+01:00"^^xsd:Date ;
+    ns1:description """Nuestro cliente, multinacional líder en el sector de la consultoría a empresas con oficinas en España, Portugal y LATAM, busca incorporar en Madrid la figura de un:
+
+
+TECNICO de RRHH GENERALISTA
+
+
+MISION DEL PUESTO:
+
+
+Reportando al Responsable de RR.HH. para España y Portugal, la persona seleccionada se responsabilizará de la gestión de los diferentes procesos de Recursos Humanos: Fuentes de reclutamiento, procesos de selección, entrenamiento y desarrollo, evaluación y desempeño, compensación y beneficios, etc. Así mismo será el responsable en materia de gestión laboral de una de las oficinas de la compañía en España o Portugal.
+
+
+FUNCIONES:
+
+
+Entre las Responsabilidades a asumir destacamos las siguientes:
+
+
+Fuentes de Reclutamiento:
+
+
+• Detectar las mejores fuentes de recursos humanos para cubrir las posiciones vacantes
+
+• Tratamiento adecuado de la Currícula y solicitudes recibidas a través del correo/e-mail o de la página Web.
+
+• Selección, contacto y gestión de la relación con agencias de reclutamiento, universidades y siendo responable de la ejecución y desarrollo del Programa de Jóvenes Talentos.
+
+
+Proceso de Selección:
+
+
+• Participar en la definición las Políticas de Selección y pruebas para evaluar los conocimientos y habilidades de los postulantes.
+
+• Toma de contacto en entrevista con los candidatos preseleccionados y realización de pruebas de selección específicas según el puesto.
+
+• Verificación de referencias y antecedentes
+
+• Coordinación con los Directores de la segunda y tercera entrevista.
+
+• Conjuntamente con el Responsable de RRHH, opinar y decidir sobre el candidato idóneo para cubrir cada posición.
+
+• “Tours y kits de bienvenida”: introduce a los nuevos contratados al resto de la organización y les entrega el kit de bienvenida
+
+
+Formación y Desarrollo:
+
+
+• Participa en la descripción de responsabilidades de las diferentes posiciones.
+
+• Prepara el Plan de Formación anual para su aprobación por el Comité de Dirección y se encarga de su implementación y coordinación
+
+• Recomienda acciones tendentes a mejorar la capacidad profesional del personal de la empresa (entrenamientos internos y externos)
+
+
+Retención del talento:
+
+
+• De acuerdo con el Responsable de RRHH, participa en el establecimiento de políticas encaminadas a retener el personal clave de la compañía.
+
+• Colabora activamente para que el ambiente laboral sea positivo y adecuado, marcándose objetivos razonables de rotación de personal
+
+
+Evaluación:
+
+
+• Participa en el diseño de las herramientas de evaluación de personal asegurándose de que los empleados de la empresa reciben al menos una evaluación al año.
+
+• Recomienda mejoras en el proceso de evaluación.
+
+
+Administración de personal y relaciones laborales:
+
+.
+
+• Coordina la relación con los asesores laborales, comunicándoles en plazo y forma las altas/ bajas y modificaciones laborales del personal
+
+• Supervisa contratos laborales y se responsabiliza de su firma.
+
+• Coordina la preparación de los Planes Anuales de Vacaciones y gestión de las mismas entre empleados.
+
+• Mantiene actualizada la base de datos y el archivo de personal
+
+
+Otros:
+
+
+• Se encarga de que la empresa cumpla con la normativa laboral y de Seguridad Social, regulaciones sobre Seguridad e Higiene en el Trabajo, Plan de Prevención de Riesgos laborales y sus correspondientes auditorias
+
+• Realiza mensualmente informes de RR.HH. que se reportan a la Dirección
+
+
+PERFIL TECNICO Y PROFESIONAL:
+
+
+Idealmente buscamos un Licenciado en Psicología, Ciencias del Trabajo, Derecho o similar, aceptándose la Diplomatura en Relaciones Laborales.
+
+
+Muy valorable el tener un Master de RR.HH. en escuela de prestigio.
+
+
+Buscamos una persona joven que aporte de tres a cinco años de experiencia profesional cualificada en funciones generalistas de RRHH en gran empresa y/ o entorno multinacional. Imprescindible tener un nivel alto de inglés.
+
+
+Se requiere dominio en el manejo de Excel y se valorará el tener conocimientos de programas de gestión dentro de su área.
+
+
+PERSONALIDAD:
+
+
+Buscamos a una persona flexible, que se adapte fácilmente a una estructura en constante cambio y que aporte entusiasmo y ganas de crecer en una compañía en plena fase de expansión.
+
+
+Estará orientada a resultados, proactiva, con iniciativa, aportando ideas y motivación en su trabajo. Será una persona responsable y autónoma, con gran capacidad de trabajo, acostumbrada a entornos exigentes y al trabajo bajo presión.
+
+
+SE OFRECE: Incorporación a empresa líder en su sector, sólida, en un área de negocio dinámico y en un puesto con posibilidades de desarrollo. Entorno de trabajo agradable y motivador.
+
+
+SALARIO: En función de la valía del candidato. Orientativo 20.000-25000 euros brutos anuales.
+
+
+LUGAR DE TRABAJO: Madrid Ciudad.""" ;
+    ns1:hiringOrganization "Conciliat" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "TECNICO de RRHH GENERALISTA" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=78cfd1a656a01f05> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=7980e945bcb1ae88> ns1:datePosted "2015-09-18T18:56:55+01:00"^^xsd:Date ;
+    ns1:description """El Grupo Antal International se extiende a todo el mundo con más de 130 oficinas propias en más de 30 países.
+
+
+En Antal International Network (Barcelona/Av.Meridiana) somos especialistas en búsquedas de profesionales de Tecnología: IT, Telecom, Electrónica, Automática.
+
+
+Empresa Contratante: servicios de tecnología especializada en la construcción de aplicaciones cloud-based por el business y consumer market.
+
+
+Posición
+
+
+iOS DEVELOPER
+
+
+Dependencia directa del Jefe de Departamento de Aplicaciones Móviles.
+
+Creará programas y aplicaciones y participará en la investigación, elección e implementación de soluciones tanto en aplicaciones como en infraestructuras. Todo ello para clientes del mercado de muy alta tecnología.
+
+
+Funciones:
+
+
+Desarrollo de código de programas y aplicaciones según las especificaciones de clientes
+
+Diseñar y realizar pruebas de rendimiento del software
+
+Crear scripts para mejorar el rendimiento y funcionalidad de aplicaciones
+
+Desarrollo y mantenimiento de la documentación técnica y de las mejores prácticas
+
+Guiar y apoyar al equipo junior
+
+Otras funciones según necesidades de la compañía
+
+
+Requisitos:
+
+
+Al menos 2 años de experiencia en el desarrollo de aplicaciones móviles con Objective C
+
+Conocimiento de programación en Objective C (iOS)
+
+Experiencia en Jquery, JSON, HTML, CSS, Javascript, AJAX.
+
+Experiencia en las bases de datos Coredata y sqlite
+
+Experiencia en Git y CocoaPods
+
+Experiencia en MVC
+
+Experiencia con Git y CocoaPods
+
+Inglés fluido oral y escrito
+
+Ciudadanía de la Comunidad Europea o permiso de trabajo vigente
+
+Capacidad de trabajar de forma autónoma con mínima supervisión
+
+
+Deseable:
+
+Grado Universitario en Ciencias de la Computación/ informática u otra carrera relacionada
+
+Experiencia en programación en Android
+
+Experiencia en CSS3, HTML5, NodeJS, XML, SQL Server y/o MySQL
+
+Conocimiento de SCRUM y/o TDD, y Kiwi framework
+
+Otros idiomas
+
+
+Se ofrece:
+
+Posibilidad de crecer en una fuerte empresa del campo industrial tecnologícamente avanzado y resistente a las crisis
+
+Ambiente de trabajo joven con una gestión moderna del equipo
+
+Horarios flexibles.
+
+Sueldo competitivo con posibilidad de bonus por consecución de objetivos
+
+
+Want to be informed– join HEADHUNTER España LinkedIN Group!""" ;
+    ns1:hiringOrganization "Antal international network" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "iOS Developer" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7980e945bcb1ae88> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=7a46d7411b57734c> ns1:datePosted "2015-09-08T18:44:04+01:00"^^xsd:Date ;
+    ns1:description """¿Te apasiona el mundo de los Recursos Humanos? Si quieres comenzar tu carrera profesional en este sector, esta es tu oportunidad.
+
+Desde la delegación de Iman Temporing en Burgos seleccionamos una persona para realizar prácticas profesionales en una compañía internacional donde podrás adquirir experiencia y conocimientos de este sector.
+
+
+Las principales funciones son:
+
+-Atención de candidatos
+
+-Recepción de llamadas
+
+-Publicación de ofertas en diferentes portales de empleo
+
+-Criba curricular
+
+-Gestión de base de datos
+
+-Tareas administrativas
+
+
+Buscamos personas dinámicas, organizadas con ganas de aprender y desarrollarse dentro de la organización. Posibilidades de incorporación reales tras la finalización de la beca Estar cursando Grado, Postgrado o Máster en ADE, Relaciones Laborales y RRHH, Psicología, Derecho, Ciencias del Trabajo, etc.
+
+Haber superado el 50% de los créditos.
+
+Poder realizar convenio con la Universidad o Escuela donde esté realizando estudios
+
+Disponibilidad de incorporación inmedita""" ;
+    ns1:jobLocation "Burgos, Burgos" ;
+    ns1:jobTitle "Beca RRHH- Selección" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7a46d7411b57734c> ;
+    ns2:Location <http://sws.geonames.org/3127461/> .
+
+<http://www.indeed.es/viewjob?jk=7a7fdbf744c92e55> ns1:datePosted "2015-09-16T16:26:23+01:00"^^xsd:Date ;
+    ns1:description """DGE Bruxelles Internacional, empresa europea de consultoría precisa para sus oficinas centrales en Madrid:
+
+CONSULTOR EN MATERIAS DE PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL –LOPD.
+
+FUNCIONES Y RESPONSABILIDADES:
+Sus funciones principales consistirán en la gestión de los clientes del área, incluyendo la adaptación a las exigencias de la LOPD y LSSI y la realización de actuaciones de controles y auditorías sobre los clientes.
+
+TITULACIÓN REQUERIDA:
+Preferentemente Licenciatura en Derecho o Ciencias de Seguridad de la Información
+
+EXPERIENCIA PROFESIONAL Y FORMACIÓN REQUERIDA:
+Se requiere experiencia mínima de 2 años en actuaciones sobre LOPD y/o LSSI.
+Imprescindible experiencia laboral mínimo tres años en sector servicios.
+Necesario el conocimiento en uso de herramientas ofimáticas Microsoft Office : Word, Excel ,etc.
+HABILIDADES: persona responsable y organizada, acostumbrada al trabajo en equipo y con gran capacidad de aprendizaje, orientada al cliente y comprometida con resultados. Imprescindible carné de conducir.
+OBSERVACIONES: Se requiere disponibilidad para trabajar fuera de las instalaciones de la empresa (parte de trabajo se realizará en las oficinas propias de cliente).
+
+Tipo de Contrato/jornada laboral:
+Al candidato idóneo se ofrece contrato laboral. La jornada será a jornada completa.
+
+Más Información: Candidatos enviar CV a: .
+Teléfono de contacto: 91 220 06 83""" ;
+    ns1:hiringOrganization "DGE Bruxelles Internacional" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "CONSULTOR EN MATERIAS DE PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL –LOPD" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7a7fdbf744c92e55> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=7accb42200efdfb4> ns1:datePosted "2015-09-15T10:16:16+01:00"^^xsd:Date ;
+    ns1:description """Se busca gestor comercial para incorporación en un importante proyecto en conocida entidad financiera a nivel nacional.
+
+
+El objeticos del proyecto es la captación y prospección de clientes potenciales.
+
+
+La función del puesto es la elaboración de una cartera de clientes por medio de visitas comerciales, preparación y presentación de presupuestos, creación de base de datos, elaborqción de reportes con la actividad realizada, etc.
+
+
+Se contará con salario fijo más gastos de kilometraje, aparte de las comisiones que se generen por consecución de objetivos.Se contará con salario fijo más gastos de kilometraje, aparte de las comisiones que se generen por consecución de objetivos.
+
+
+Imprescindible estudios superiores en ADEo Ciencias Económicas, experiencia previa como comercial de captación, estar en posesión de carnet de conducir y vehículo propio y contar con disponibilidad para incorporación inmediata. Asimismo, se valorará positivamente haber trabajado en el sector bancario y/o contar con conocimientos relativos al producto a ofertar.""" ;
+    ns1:hiringOrganization "Randstad" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Gestor Comercial de Negocios" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7accb42200efdfb4> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=7fcfdf87ab8bd242> ns1:datePosted "2015-09-19T06:58:11+01:00"^^xsd:Date ;
+    ns1:description """El Grupo Antal International se extiende a todo el mundo con más de 130 oficinas propias en más de 30 países.
+
+En Antal International Network (Barcelona/Av.Meridiana) somos especialistas en búsquedas de profesionales de Tecnología: IT, Telecom, Electrónica, Automática.
+
+Empresa Contratante: servicios de tecnología especializada en la construcción de aplicaciones cloud-based por el business y consumer market.
+
+Posición
+
+iOS Developer
+
+Dependencia directa del Jefe de Departamento de Aplicaciones Móviles.
+
+Creará programas y aplicaciones y participará en la investigación, elección e implementación de soluciones tanto en aplicaciones como en infraestructuras. Todo ello para clientes del mercado de muy alta tecnología.
+
+Funciones:
+Desarrollo de código de programas y aplicaciones según las especificaciones de clientes
+
+Diseñar y realizar pruebas de rendimiento del software
+
+Crear scripts para mejorar el rendimiento y funcionalidad de aplicaciones
+
+Desarrollo y mantenimiento de la documentación técnica y de las mejores prácticas
+
+Guiar y apoyar al equipo junior
+
+Otras funciones según necesidades de la compañía
+
+Requisitos:
+Al menos 2 años de experiencia en el desarrollo de aplicaciones móviles
+
+Grado Universitario en Ciencias de la Computación/ informática u otra carrera relacionada
+
+Conocimiento de programación en Objective C (iOS)
+
+Experiencia en Jquery, JSON, HTML, CSS, Javascript, AJAX.
+
+Experiencia en las bases de datos Coredata y sqlite
+
+Experiencia en Git y CocoaPods
+
+Experiencia en MVC
+
+Experiencia con Git y CocoaPods
+
+Inglés fluido oral y escrito
+
+Ciudadanía de la Comunidad Europea o permiso de trabajo vigente
+
+Capacidad de trabajar de forma autónoma con mínima supervisión
+
+Deseable:
+Experiencia en programación en Android
+
+Experiencia en CSS3, HTML5, NodeJS, XML, SQL Server y/o MySQL
+
+Conocimiento de SCRUM y/o TDD, y Kiwi framework
+
+Otros idiomas
+
+Se ofrece:
+Posibilidad de crecer en una fuerte empresa del campo industrial tecnologícamente avanzado y resistente a las crisis
+
+Ambiente de trabajo joven con una gestión moderna del equipo
+
+Horarios flexibles.
+
+Sueldo competitivo con posibilidad de bonus por consecución de objetivos
+
+Want to be informed– join HEADHUNTER España LinkedIN Group!""" ;
+    ns1:hiringOrganization "Antal International - Executive Recruitment" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "iOS Developer" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=7fcfdf87ab8bd242> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=84637b590f9fd920> ns1:datePosted "2015-09-24T17:03:19+01:00"^^xsd:Date ;
+    ns1:description """PROFESOR DE PáDEL A TIEMPO PARCIAL
+
+
+Datos:
+
+
+Datos Adicionales:
+NECESARIA LICENCIATURA EN CIENCIAS DE LA ACTIVIDAD FíSICA Y DEL DEPORTE.
+INICIALMENTE, JORNADA PARCIAL DE 15 H/SEMANA APROX.
+
+
+Datos de Contacto:
+Si Vd. acredita los requisitos indicados (si no es así, su candidatura no serátenida en cuenta) puede
+ponerse en contacto con la Oficina de Empleo de Jaca,inaem.oejaca@aragon.es, tfno. 974356146,
+indicando su DNI o NIE y el nº de oferta 7121. También puede presentar su candidatura a través de la
+Oficina Electrónica. Es necesario estar inscrito como demandante de empleo.
+
+
+Sistema Nacional de Empleo, 2008""" ;
+    ns1:jobLocation "Jaca, Huesca" ;
+    ns1:jobTitle "Profesor de pádel a tiempo parcial" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=84637b590f9fd920> ;
+    ns2:Location <http://sws.geonames.org/3120211/> .
+
+<http://www.indeed.es/viewjob?jk=84b587c2866f2da5> ns1:datePosted "2015-08-20T14:22:50+01:00"^^xsd:Date ;
+    ns1:description """Importante industria farmacéutica con sede en la zona Sur de Madrid, precisa incorporar un/a Supervisor/a de Producción para la línea de Estériles que, en dependencia del responsable de zona, se encargarán de controlar la producción de la planta.
+
+
+Así, desde esta posición se responsabilizará de:
+
+-Supervisar todas las operaciones que intervienen en los procesos de fabricación.
+
+-Supervisar la documentación.
+
+-Organizar limpieza de equipos y comprobar la limpieza de las máquinas al inicio de cada fabricación.
+
+-Garantizar el cumplimiento de las normas de correcta fabricación en todas las operaciones de fabricación.
+
+-Asegurar los controles en proceso para verificar la calidad del producto terminado.
+
+-Asegurar la reconciliación de materiales tras finalización de lote.
+
+-Comprobación de rendimiento de cada uno de los lotes. Gestión del TRS de su turno. Introducción de los datos en CAT.
+
+-Colaborar con el Departamento de Mantenimiento de Producción para tener todos los equipos en óptimas condiciones de trabajo.
+
+-Coordinación de mecánicos para averías.
+
+-Realizar informes diarios de la actividad de la sección en su turno.
+
+
+Ofrecemos incorporación de carácter estable en importante compañía.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Licenciado - Ciencias Químicas
+
+
+Experiencia mínima:
+
+Al menos 3 años
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+- Experiencia previa similar de al menos un año en el área de Estériles.
+
+- Experiencia liderando y gestionando equipos.
+
+- Nivel de Inglés alto.
+
+- Estudios de licenciatura en ciencias (Farmacia, Químicas o similar).
+
+- Disponibilidad para realizar horario a turnos rotativos de mañana, tarde y noche.
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Duración:
+
+Indefinido.
+
+
+Jornada laboral:
+
+Completa
+
+
+Horario:
+
+Turnos rotativos M/T/N
+
+
+Salario
+
+
+Salario:
+
+30.000 € - 33.000 € Bruto/año""" ;
+    ns1:hiringOrganization "Synergie" ;
+    ns1:jobLocation "Alcorcón, Madrid" ;
+    ns1:jobTitle "Supervisor/a de Producción (Zona Estéril)" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=84b587c2866f2da5> ;
+    ns2:Location <http://sws.geonames.org/3130564/> .
+
+<http://www.indeed.es/viewjob?jk=864db1eab603d6be> ns1:datePosted "2015-09-29T12:24:12+01:00"^^xsd:Date ;
+    ns1:description """Gaboral selecciona TÉCNICO/A LABORAL para importante empresa del sector de la hostelería ubicada en JEREZ DE LA FRONTERA.
+
+Funciones del puesto:
+
+Tramitar altas y bajas de contratos, nóminas y toda la documentación que genera la relación entre empresa y trabajador.
+Realizar los movimientos de afiliación, contratos, procesos de I.T, finiquitos, etc.
+Realizar el proceso de nómina asegurando la correcta retribución del personal.
+Cálculo de IRPFs y Seguridad Social.
+Colaborar con la dirección en el cumplimiento de las relaciones laborales de la organización.
+Elaborar informes y estudios de carácter retributivo y de planificación de plantillas.
+Colaborar con el departamento de administración en tareas administrativas, facturación, proveedores, etc.
+Obtener los datos necesarios para los indicadores mensuales del área laboral.
+Colaborar en los diferentes proyectos impulsados desde dirección.
+Entre otras tareas propias del lugar de trabajo.
+
+Requisitos
+
+Formación mínima:
+
+Licenciatura en Ciencias del Trabajo.
+Diplomatura en Relaciones Laborales.
+Grado en RRHH y RRLL. - Se valorará Master relacionado con el puesto.
+
+Experiencia mínima:
+Experiencia mínima de un año en puestos similares.
+
+Otros:
+
+Carnet de conducir y vehículo propio.
+Lugar de trabajo: Jerez de la Frontera.
+
+""" ;
+    ns1:hiringOrganization "Gaboral" ;
+    ns1:jobLocation "Cadiz, Cádiz" ;
+    ns1:jobTitle "Técnico / a Laboral" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=864db1eab603d6be> ;
+    ns2:Location <http://sws.geonames.org/2520600/> .
+
+<http://www.indeed.es/viewjob?jk=8958eb941f85c90e> ns1:datePosted "2015-10-02T15:26:14+01:00"^^xsd:Date ;
+    ns1:description """Importante empresa dedicada a la fabricación, mantenimiento y reparación e instrumentación para la tecnología de medición de parámetros físicos y químicos, precisa incorporar en su plantilla un TEAM LEAD/SENIOR SOFTWARE DEVELOPER JAVA “Software as a Service”.
+
+Funciones:
+Formación y liderazgo de un equipo dedicado a:
+Desarrollo de Software con tecnología Java
+
+Diseño, implementación y mantenimiento de soluciones de software basadas en la Web
+
+Diseño e implementación de las API para la conexión a los módulos de software de terceros
+
+Creación de las interfaces basadas en la web de usuario para diferentes tipos de dispositivos (diseño de respuesta)
+Apoyo en todas las fases del proyecto (toma de requisitos, diseño, implementación, pruebas e integración) Máster, licenciatura o en ciencias de la computación, la informática de gestión o similar
+
+Experiencia en el desarrollo de software como servicio
+
+Experiencia en gestión de equipos
+
+Capaz de intepretar los datos técnicos
+
+Familiarizado con el desarrollo ágil (scrum)
+
+Habilidades de resolución de incidencias críticas y capacidad para encontrar soluciones creativas
+
+Buenas habilidades de comunicación en Inglés y preferiblemente alemán""" ;
+    ns1:hiringOrganization "BETWEEN (ADICIONA)" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "TEAM LEAD/SENIOR SOFTWARE DEVELOPER JAVA" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=8958eb941f85c90e> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=8b80085d9912e87c> ns1:datePosted "2015-09-07T13:38:41+01:00"^^xsd:Date ;
+    ns1:description """Medical Scientific Liaison Oncologí
+
+a - Galicia-000010MV
+
+
+Description
+
+
+Janssen es una empresa multinacional farmacéutica basada en la investigación y perteneciente al grupo Johnson&Johnson.
+
+
+El principal valor de Janssen es su gran capacidad para innovar. Como parte de la actividad de I+D, en Janssen se han descubierto más de 400.000 nuevas entidades moleculares, de las que 80 se han convertido en fármacos originales. Esta compañía farmacéutica investiga y desarrolla numerosos medicamentos en áreas terapéuticas tan avanzadas como la Analgesia, Oncología, Hematología, Hepatitis, Sistema Nervioso Central, Dermatología e VIH.
+
+
+Descripción del puesto
+
+
+La posición de Medical Scientist Liaison se responsabilizará de proveer asesoramiento tanto científico-técnico como relacionado con aspectos farmacoeconómicos para los principales clientes relacionados con la Unidad de Oncología de la compañía.
+
+
+Además estará encargado de iniciar, promover y mantener actividades que permitan un mejor conocimiento de los productos de la Compañía, en concreto del área de Oncología, mediante el diseño, desarrollo y realización de presentaciones eficaces, además de trabajar en la coordinación de simposios y contribuir con las actividades relacionadas con educación médica.
+
+
+Zona Galicia, disponibilidad para viajar: 70%
+
+
+Principales funciones de la posición:
+
+
+- Recogida y seguimiento de la información médica no solicitada y asesoramiento en el desarrollo de nuevas ideas o proyectos relacionados con ensayos clínicos. Así mismo, proveerá de información científica tanto a líderes de opinión actuales como a los potenciales futuros líderes de opinión.
+
+- Coordinación de los programas de educación médica, seminarios y demás actividades orientadas a los especialistas clínicos, farmacéuticos e investigadores.
+
+- Analizar los estudios clínicos con el objetivo de constatar la integridad de la información relacionada con los productos de la Compañía.
+
+- Apoyo en la preparación de presentaciones de producto orientadas a líderes de opinión, equipos médicos, Instituciones y Comités sanitarios gubernamentales.
+
+- Coordinará las políticas y los procedimientos para el desarrollo y provisión de información científico-técnica relacionada con los medicamentos de la Compañía de uso para los pacientes.
+
+- Proveer de información médica tanto a fuentes internas como externas. Igualmente, participará en el el desarrollo de materiales orientados a la educación y promoción médica que serán revisados y utilizados por otros departamentos de la Compañía, tales como: Marketing y Ventas, Registros y Legal.
+
+- Recogerá información científica, de los clientes y de los mercados de cara al pre-lanzamiento de nuestros productos, manteniendo en todo momento un comportamiento ético.
+
+- Participará en la recolección de información sobre datos de reembolso for Health Economics submissions.
+
+
+Aspectos relacionados con Compliance:
+
+
+- Realiza seguimiento y promoción de todos los procesos definidos y aplicables en base a nuestra regulación, normas y procedimientos establecidos por la Compañía, y notificará cualquier anomalía o incumplimiento a su superior inmediato o a la autoridad competente en dicho caso.
+
+- Cumple con todos los requsitos de formación específicos para el puesto.
+
+
+Qualifications
+
+
+- Licenciado Superior (preferiblemente en licenciaturas relacionadas con Ciencias de la Salud).
+
+- Experiencia mínima de un año relacionada con el campo científico (Investigación básica, Investigación Clínica, Consultoría sector sanidad/salud, etc…)
+
+- Nivel alto de inglés
+
+- Carné de conducir
+
+- Disponibilidad para viajar
+
+
+Aspectos a valorar del Perfil competencial:
+
+
+- Compromiso
+
+- Autonomía y elevada capacidad de gestión y organización
+
+- Habilidades de comunicación
+
+- Facilidad para asimilar conocimientos
+
+- Flexibilidad y adaptación a los cambios
+
+
+Primary Location: Europe/Middle East/Africa-Spain-Galicia-La Coruña
+
+Organization: Janssen-Cilag S.A. (formerly Janssen Sp) (7300)
+
+Job Function: Medical Affairs""" ;
+    ns1:hiringOrganization "Johnson & Johnson" ;
+    ns1:jobLocation "A Coruña, A Coruña" ;
+    ns1:jobTitle "Medical Scientific Liaison Oncología - Galicia Job" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=8b80085d9912e87c> ;
+    ns2:Location <http://sws.geonames.org/3119841/> .
+
+<http://www.indeed.es/viewjob?jk=9216024d6f2b7d66> ns1:datePosted "2015-09-15T12:03:10+01:00"^^xsd:Date ;
+    ns1:description """Somos un importante Laboratorio Farmacéutico Multinacional, dedicado a la comercialización de productos farmacéuticos y especializados en Dermocosmética.
+
+Eucerin es la marca para el cuidado de la piel recomendada por los dermatólogos basada en la genuina ciencia de la piel. Sustenta y restablece la salud cutánea y aporta a las personas la confianza de una piel sana y radiante.
+
+
+En estos momentos queremos reforzar nuestro departamento comercial en Alicante, Murcia y Albacete.
+
+Si quieres formar parte de un equipo innovador y competente únete a nosotros.
+
+Funciones:
+
+* Visitar dermatólogos, pediatras y otros especialistas en el área de Alicante ,Murcia y Albacete.
+
+* Desarrollar la estrategia de visita médica de la zona asignada.
+
+* Conseguir los objetivos cuantitativos y cualitativos pactados.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Licenciado
+
+
+Experiencia mínima:
+
+Al menos 3 años
+
+
+Conocimientos necesarios:
+
+visita medica
+
+
+Estrategia
+
+
+Cuidado de la piel
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+-Licenciado biología, química, farmacia o similar.
+
+-Experiencia de más de 3 años en visita médica
+
+-Valorable experiencia en Dermocosmética
+
+-Habituado a trabajar con datos de IMS
+
+-Habilidades sociales
+
+-Alto nivel de comunicación
+
+-Comprometido con su trabajo
+
+-Muy orientado a objetivos y al cliente
+
+-Con vocación comercial
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Beiersdorf" ;
+    ns1:jobLocation "Alicante, Alicante" ;
+    ns1:jobTitle "Visitador/a Médico" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=9216024d6f2b7d66> ;
+    ns2:Location <http://sws.geonames.org/2521978/> .
+
+<http://www.indeed.es/viewjob?jk=92fb296bc7c9b24b> ns1:datePosted "2015-10-05T18:17:32+01:00"^^xsd:Date ;
+    ns1:description """Perfil del Candidato:
+
+Capgemini, consultora multinacional líder en el sector IT, ofrece formación en diversas tecnologías a titulados superiores en Informática o en Telecomunicaciones con buen nivel de inglés. Las personas que superen con éxito dicha formación tendrán la posibilidad de incorporarse a la compañía.
+
+
+Buscamos profesionales que, además de reunir una serie de competencias técnicas, sean entusiastas, con alta motivación y ganas de aprender, así como con capacidad para el trabajo en equipo.
+
+Si consideras que éstos son también tus valores personales, ésta es tu oportunidad.
+
+
+BUSCAMOS:
+
+- Recién titulados en ingeniería (informática, telecomunicaciones) o ciencias orientadas a la tecnología (física, matemáticas, etc.), con o sin experiencia e interesados en trabajar en Murcia.
+
+- Candidatos con nivel alto del idioma inglés (imprescindible), valorando muy positivamente un nivel medio o superior de francés.
+
+- Personas apasionadas por la tecnología que deseen desarrollar su carrera profesional en grandes compañías del sector IT en general, y en Capgemini en particular.
+
+
+OFRECEMOS:
+
+• Formación técnica a cargo de Capgemini en entornos de desarrollo diversos (Java, .Net, Cobol, PL1)
+
+• Conocer la cultura y el ámbito de trabajo de Capgemini basado en la colaboración, tanto dentro de nuestros equipos como con nuestros clientes.
+
+• Posibilidad de incorporación a plantilla una vez superado el periodo de formación para continuar su formación tanto tecnológica como en habilidades personales, metodológicas y de gestión, así como acceder a programas de certificaciones oficiales.
+
+• Posibilidad de participar en proyectos innovadores en las principales compañías nacionales e internacionales de diferentes sectores de actividad, integrándose en un equipo de profesionales altamente cualificados.
+
+
+Tecnología:
+
+Java J2EE Net Cobol PL1
+
+
+Funciones:
+
+Programador
+
+
+Provincia:
+
+Murcia - España
+
+
+Datos del Puesto:
+
+Formación en tecnología Java, .Net, Cobol y PL1 con posibilidad de incorporación a la compañía.
+
+
+Formación Mínima:
+
+Ingeniero Tecnico
+
+
+Experiencia:
+
+Sin Experiencia
+
+
+Nivel Profesional:
+
+Prácticas / Beca
+
+
+Tipo contrato:
+
+Prácticas
+
+
+Jornada:
+
+Jornada completa""" ;
+    ns1:hiringOrganization "Capgemini" ;
+    ns1:jobLocation "Murcia, Murcia" ;
+    ns1:jobTitle "Recién Titulados It" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=92fb296bc7c9b24b> ;
+    ns2:Location <http://sws.geonames.org/2513416/> .
+
+<http://www.indeed.es/viewjob?jk=962d7ad61080b96d> ns1:datePosted "2015-09-27T10:44:04+01:00"^^xsd:Date ;
+    ns1:description """1 plaza de prácticas
+
+en
+Gerona
+(Gerona)
+
+¿Qué ofrece la empresa?
+1 plaza de prácticas
+del
+Programa STEP
+en ENDESA, S.A.
+
+remuneración de 600,00 € brutos mensuales
+
+Horario: 6h. diarias
+en
+
+Centro de trabajo en España: GERONA, 17200 - Gerona (Gerona)
+
+¿Qué perfil busca empresa?
+
+Titulado universitario de grado o Titulado universitario pre-Bolonia
+: Grado en Ciencias Empresariales
+
+Competencias en Idiomas: nivel B1 de Inglés.
+
+¿Qué funciones y Tareas se desarrollarán?
+
+‐Comunicación con gestores de ciclo comercial y compañeros de
+
+diferentes áreas.
+
+‐Extracción de datos para preparar informes semanales y
+
+mensuales sobre facturación y cobros.
+
+‐Utilización de los programas informáticos SCE , Siebel y CRM.
+
+‐Trabajos administrativos derivados de la gestión diaria.
+
+‐Reclamación de deuda de clientes generales y ayuntamientos.
+
+‐Contacto telefónico de carácter informativo con clientes sobre
+
+saldos de deuda.
+
+‐Reuniones semanales / mensuales de seguimiento de zona
+
+Girona.""" ;
+    ns1:hiringOrganization "ENDESA, S.A." ;
+    ns1:jobLocation "Girona, Girona" ;
+    ns1:jobTitle "PRACTICAS PARA EL CICLO COMERCIAL EN ZONA CATALUÑA NORTE" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=962d7ad61080b96d> ;
+    ns2:Location <http://sws.geonames.org/3121456/> .
+
+<http://www.indeed.es/viewjob?jk=a5ef1e8e42a1b74a> ns1:datePosted "2015-09-18T07:32:24+01:00"^^xsd:Date ;
+    ns1:description "Precisamos incorporar auxiliar administrativo en nuestra delegación de Barcelona. Sus funciones serán la de control, gestión y grabación de contratos, grabación de datos y atención telefónica.Tipo de Puesto: Jornada completaSalario: 1.000,00€ /mesUbicación del empleo:Gavà, BarcelonaExperiencia requerida:auxiliar administrativo: 1 añoLicencias o certificados requeridos:ciencias empresarialesIdiomas requeridos:ingles" ;
+    ns1:hiringOrganization "CYMSUROESTE" ;
+    ns1:jobLocation "Gavà, Barcelona" ;
+    ns1:jobTitle "Auxiliar Administrativo" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=a5ef1e8e42a1b74a> ;
+    ns2:Location <http://sws.geonames.org/3121519/> .
+
+<http://www.indeed.es/viewjob?jk=abadd3eacc53a920> ns1:datePosted "2015-07-21T21:12:59+01:00"^^xsd:Date ;
+    ns1:description """La persona seleccionada deberá aportar formación en Ciencias Empresariales o en Nutrición Humana y Dietética.
+Idiomas
+Se requiere un nivel alto de Euskera y se valorarán los conocimiento en Francés e Inglés.
+Experiencia
+Al menos 1 año o experiencia en el área comercial, venta a empresas.
+Otros aspectos
+Pensamos en una persona resolutiva con perfil comercial, con Carnet de Conducir y vehículo propio.
+
+
+Compartir en facebook
+Compartir en twitter
+Compartir en Linkedin
+Enviar oferta a un amigo
+Imprimir oferta
+
+La persona seleccionada se encargará de llevar la Gestión comercial de ikastolas, colegios, empresas... en la contratación de eventos de catering, suministros a colectivades tanto en transportado como en In Situ.
+
+
+Por otro lado, se encargará de:
+
+
+-Ofrecer asesoramiento al cliente, seguimiento de presupuestos y contratación, atención y seguimiento de eventos contratados y todas aquellas tareas relacionadas con la gestión operativa de los eventos.
+
+
+-Hacer el seguimiento del servicio prestado a la clientela existente.
+
+
+-Analizar las cuentas de resultados de los diferentes clientes.
+
+
+-Responsabilizarse de la apertura de nuevos centros donde recoge los datos necesarios de personal y servicios.
+
+
+-Distribuir y notificar a cada departamento los datos correspondientes.""" ;
+    ns1:hiringOrganization "ieteam" ;
+    ns1:jobLocation "Guipúzcoa" ;
+    ns1:jobTitle "GESTOR COMERCIAL" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=abadd3eacc53a920> ;
+    ns2:Location <http://sws.geonames.org/3533512/> .
+
+<http://www.indeed.es/viewjob?jk=ae07af2fb2412314> ns1:datePosted "2015-10-06T14:25:10+01:00"^^xsd:Date ;
+    ns1:description """Ferrovial Servicios España es un referente en la prestación integrada de servicios urbanos, medioambientales y de gestión de infraestructuras. Nuestra oferta incluye servicios y soluciones de última generación que dan respuesta a las necesidades de clientes y ciudadanos con el sello de calidad, eficiencia e innovación característico de Ferrovial. Con el objetivo de ofrecer estos servicios de una manera integrada y eficiente, nos hemos organizado en tres líneas de negocio (Administraciones Locales, Infraestructuras y Tratamiento e Industriales) con una distribución geográfica que permite coordinarnos para ofrecer al cliente la mejor solución.
+
+Nuestro sistema de gestión integral de activos cubre todas las etapas: desde el diseño y la planificación hasta la operación y el mantenimiento. Contamos con la experiencia necesaria para conseguir la máxima productividad con una perspectiva a largo plazo.
+
+Desde Ferrovial Servicios estamos comprometidos a impulsar el crecimiento, desarrollo y formación de todos nuestros empleados. Somos una compañía de personas que trabajan para personas, donde cada uno de nuestros profesionales desempeña un rol crucial.
+
+Se precisa incorporar un/a Becario/a de Optimización Logística en Madrid. Las funciones serán de soporte a las tareas del área de Control de Operaciones dentro de la dirección de Tratamiento y Gestión Medioambiental:
+
+Funciones
+
+Apoyo al estudio y seguimiento de las rutas de recogida de residuos.
+Colaborar en la elaboración de bases de datos de parámetros logísticos para el control de rutas.
+Colaborar en la elaboración de procedimientos de trabajo de conductores y peones.
+
+Requisitos
+
+Se precisa:
+
+Un/a Estudiante de Grado en Ciencias Ambientales, ingeniería química o similar.
+Estar matriculado en un centro universitario en el curso 2015-2016.
+Formación en Logística y Gestión de Flotas.
+Conocimientos avanzados en ofimática, especialmente en Excel.
+Nivel alto de inglés (C1).
+Alta capacidad de organización y planificación, trabajo en equipo y comunicación interpersonal. Ofrecemos
+
+Si buscas un entorno dinámico, formado por un equipo de los mejores profesionales del sector, donde puedas desarrollar tus habilidades y perspectivas de carrera esta es una excelente oportunidad para ti.""" ;
+    ns1:hiringOrganization "Ferrovial, S.A." ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Beca Optimización Logística" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ae07af2fb2412314> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=b0a88b448cfb3283> ns1:datePosted "2015-10-04T08:07:37+01:00"^^xsd:Date ;
+    ns1:description """La persona seleccionada será la encargada de dar apoyo ,a la vez que adquiere conocimientos practicos, al Departamento de Reclutamiento, Seleccion, Administracion y Comercial.
+
+Ademas gestionara Bases de Datos de Personal, y redes sociales.
+
+Para ser seleccionado, DEBES PODER realizar convenio de practicas con UNIVERSA. - Estudiande del curso 2014/2015 de Universidades o Master que den derecho a practicas.
+
+
+Estudiante de RRLL , RRHH, o Ciencias del Trabajo.
+Disponibilidad de incorporacion inmediata.
+Ganas de aprender y participar en una organizacion de reciente creacion.
+
+""" ;
+    ns1:hiringOrganization "VERKER Recursos Humanos ETT" ;
+    ns1:jobLocation "Zaragoza, Zaragoza" ;
+    ns1:jobTitle "Becario/Practicas Recursos Humanos" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=b0a88b448cfb3283> ;
+    ns2:Location <http://sws.geonames.org/3104324/> .
+
+<http://www.indeed.es/viewjob?jk=b31348c58d67380b> ns1:datePosted "2015-10-01T12:38:53+01:00"^^xsd:Date ;
+    ns1:description """Como Product Manager entre tus funciones principales están:
+
+Analizar datos de anteriores operaciones comerciales con el objetivo de maximizar los resultados de operaciones futuras.
+Estudiar y acumular conocimientos sobre las principales marcas de su sector, realizando acciones de benchmarking, estudios de precios y mix de producto ideal.
+Redactar informes de campañas comerciales
+Estudios de categoría y de surtido
+Búsqueda de nuevos proveedores
+
+Requisitos
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Mínimo 3 años de experiencia en auditoría o consultoría
+
+Excel avanzado
+
+Inglés fluido
+
+Capacidad analítica
+
+Oferta
+
+Incorporación inmediata
+Salario competitivo
+Contrato indefinido
+
+""" ;
+    ns1:hiringOrganization "TalentSearchPeople" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Product Manager" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=b31348c58d67380b> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=b3b7c894cb588de4> ns1:datePosted "2015-10-05T16:43:24+01:00"^^xsd:Date ;
+    ns1:description """Nombre de la empresa
+MIND Business Intelligence
+
+
+Titulación requerida
+IT, Engineering or Science degree
+
+
+Requisitos específicos del - Flexible attitude and open to learn
+
+
+puesto - Analytical skills
+- Familiar with computers
+- Medium level of English
+
+
+- IT, Engineering or Science degree or in the last
+years of university
+
+
+Funciones a desempeñar - To develop training material for Business
+Intelligence courses
+
+
+- To support our BI consultants on their daily
+duties
+
+
+Fecha inicio prevista
+1/11/2015
+
+
+Horario
+9-18h
+
+
+Lugar C\\ Serrano, 93
+28006 Madrid
+
+
+Remuneración y tipo de
+900€ (gross)
+
+
+contrato
+
+
+We are looking for an eager to learn trainee to be formed
+
+
+Otros datos de interés in several technologies within Business Intelligence with
+the intention of recruiting him for a permanent position.
+Our company offers an opportunity to work in a dynamic
+atmosphere. Don´t miss the chance to be part of a young
+team, gaining skills in a great team-working
+environment.
+
+
+Las personas interesadas en formar parte del proceso de selección deberán
+enviar su CV a la siguiente dirección electrónica:
+
+
+(jge@mindbusinessintelligence.com)""" ;
+    ns1:hiringOrganization "UNED" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Informática, Ciencias, ingenierías. MIND BUSINESS INTELLIGENCE. Madrid." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=b3b7c894cb588de4> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=b3f8d70953010572> ns1:datePosted "2015-09-17T14:17:01+01:00"^^xsd:Date ;
+    ns1:description """- Reclutamiento y Selección: búsqueda y contacto con entidades externas y distintas fuentes de reclutamiento; criba curricular y entrevistas, elaboración bases de datos candidatos - Formación: documentación relativa a la gestión de subvenciones a través de Fundación Tripartita, apoyo en la elaboración y entrega de diplomas y gestión de ayudas
+
+- Desarrollo de RR.HH y Organización: evaluación del desempeño, apoyo en la organización de acciones de motivación y apoyo en la organización de eventos
+
+-Acciones de comunicación interna
+
+-Apoyo en la gestión de prácticas
+
+
+*Remuneración: 350 euros/550 euros cursando Máster
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Cursando:
+Grado - Grado en Ciencias del Trabajo y Recursos Humanos
+
+
+Experiencia mínima:
+
+No Requerida
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+-Tener superados al menos el 50% de los créditos""" ;
+    ns1:hiringOrganization "Cruz Roja Española" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "BECA RECURSOS HUMANOS" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=b3f8d70953010572> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=bd1e717799511fee> ns1:datePosted "2015-10-05T17:37:30+01:00"^^xsd:Date ;
+    ns1:description """Founded in 1908, LEO Pharma is an independent, research-based pharmaceutical company.
+
+
+LEO Pharma develops, manufactures and markets pharmaceutical drugs to dermatologic and thrombotic patients in more than 100 countries globally. To realise our vision of becoming the preferred dermatology care partner improving people's lives around the world, we are expanding into new regions and markets, reaching more patients and societies with drugs and therapies that address unmet medical needs.
+
+
+We are seeking a highly motivated Team Leader for our growing Data Management department!
+
+
+In this role, you will oversee and perform day to day management and mentoring of the local team of data managers. In addition you will also perform clinical data management on a number of clinical trials. You will take ownership of projects to assure proper planning, timely completion and high quality data results.
+
+However, your first task will be to assist in setting up the data management unit in Barcelona, Spain.
+
+
+Ongoing responsibilities will include, but are not limited to:
+
+· Serve as the Team Leader for a group of data managers
+
+· Implement Data Management Plan
+
+· Develop eCRF
+
+· Develop edit checks, creation of test data, and ensure edit checks are programmed and tested in a timely fashion
+
+· Review data listings and data validation reports for data discrepancies
+
+· Generate, issue, track, and respond to data queries to resolve all data discrepancies in a timely manner
+
+· Interact with the Project Data Managers to provide status reports and data listings
+
+· Ensure SOPs are being followed and appropriate documentation is ongoing
+
+· Miscellaneous duties, as necessary, in support of Global Clinical Operations initiatives and business priorities and objectives
+
+Tipo de industria de la oferta
+Venta al por mayor
+Categoría
+Informática y telecomunicaciones -
+Administración de bases de datos
+Nivel
+Mando intermedio
+Personal a cargo
+6 - 10
+Número de vacantes
+1
+Beneficios sociales
+Porcentaje sobre objetivos Seguro médico Flexibilidad horaria y organizativa Plan de conciliación laboral y familiar
+
+Requisitos
+Estudios mínimos
+Licenciado - Ciencias y Técnicas Estadísticas
+Experiencia mínima
+Más de 5 años
+Requisitos mínimos
+Min Bachelor's degree and a minimum of 5 years of relevant clinical data management experience. Ideal candidate will also have experience working in a team leader and/or project management position. knowledge of EMA/FDA/PMDA regulations and GCP/ICH guidelines as they apply to the conduct of clinical research and data management. Excellent English written and verbal communication skills are required in order to effectively communicate to a wide variety of audiences, including senior management of Global Clinical Operations.""" ;
+    ns1:hiringOrganization "Laboratorios LEO Pharma, S.A." ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Team Leader Data Management Department" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=bd1e717799511fee> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=c10222ae904a20fd> ns1:datePosted "2015-09-17T12:56:31+01:00"^^xsd:Date ;
+    ns1:description """Faster Ibérica E.T.T., empresa perteneciente al Grupo Faster, con presencia en todo el territorio nacional ofrece prácticas formativas no remuneradas en la delegación de Guadalajara a estudiantes de últimos cursos de: PSICOLOGIA, PSICOPEDAGOGIA, SOCIOLOGIA, CIENCIAS DEL TRABAJO, RELACIONES LABORALES... o bien estudiante de Máster en RRHH para dar soporte en:
+
+- Tareas de selección: reclutamiento, criba curricular, entrevistas personales, atención telefónica, evaluación de candidatos, pruebas de personalidad, elaboración de informes, etc.
+
+- Gestión administrativa: contratación, altas y bajas en Seguridad Social, elaboración de nóminas, archivo de documentación, registro de datos, etc.
+
+
+Horario de 10.00 a 14.00 de lunes a viernes.""" ;
+    ns1:hiringOrganization "FASTER" ;
+    ns1:jobLocation "Guadalajara, Guadalajara" ;
+    ns1:jobTitle "Becari@ Rrhh" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=c10222ae904a20fd> ;
+    ns2:Location <http://sws.geonames.org/4005539/> .
+
+<http://www.indeed.es/viewjob?jk=ca7065e9ec0c505f> ns1:datePosted "2015-09-28T21:58:33+01:00"^^xsd:Date ;
+    ns1:description """Gaboral selecciona TÉCNICO/A LABORAL para importante empresa del sector de la hostelería ubicada en JEREZ DE LA FRONTERA. Funciones del puesto:
+
+-Tramitar altas y bajas de contratos, nóminas y toda la documentación que genera la relación entre empresa y trabajador.
+
+-Realizar los movimientos de afiliación, contratos, procesos de I.T, finiquitos, etc.
+
+-Realizar el proceso de nómina asegurando la correcta retribución del personal.
+
+- Cálculo de IRPFs y Seguridad Social.
+
+-Colaborar con la dirección en el cumplimiento de las relaciones laborales de la organización.
+
+-Elaborar informes y estudios de carácter retributivo y de planificación de plantillas.
+
+-Colaborar con el departamento de administración en tareas administrativas, facturación, proveedores, etc.
+
+-Obtener los datos necesarios para los indicadores mensuales del área laboral.
+
+-Colaborar en los diferentes proyectos impulsados desde dirección.
+
+- Entre otras tareas propias del lugar de trabajo.
+
+
+Experiencia Laboral
+
+Al menos 1 año
+
+
+Estudios mínimos
+
+Diplomado
+
+
+Carreras
+
+1. Diplomatura en Relaciones Laborales
+
+2. Diplomatura en Relaciones Laborales y Diplomatura en Ciencias Empresariales
+
+3. Grado en Relaciones Laborales y Recursos Humanos
+
+4. Licenciatura en Ciencias del Trabajo
+
+
+Requisitos mínimos
+
+Se valorará Master relacionado con el puesto.
+
+
+Coche propio
+
+Sí
+
+
+Tipo de carné de conducir
+
+B""" ;
+    ns1:hiringOrganization "Gaboral" ;
+    ns1:jobLocation "Jerez de la Frontera, Cádiz" ;
+    ns1:jobTitle "Técnico/a Laboral" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ca7065e9ec0c505f> ;
+    ns2:Location <http://sws.geonames.org/2516326/> .
+
+<http://www.indeed.es/viewjob?jk=ca866da9a1db5ddd> ns1:datePosted "2015-07-15T12:10:55+01:00"^^xsd:Date ;
+    ns1:description """CONSULTOR/A de RRHH CON INGLES (BCN)
+
+Sector TRABAJO TEMPORAL (sección call center)
+
+
+Quiénes somos
+
+
+Crit es un gran Grupo de recursos humanos referente en la gestión integral de soluciones de RRHH (ett, servicios y consultoría) con experiencia en detección y satisfacción de necesidades de clientes en reclutamiento, selección, gestión y desarrollo de carrera de personas.
+
+
+Queremos rodearnos de profesionales con bue nivel de INGLES y experiencia a los que les guste la polivalencia, el dinamismo y el trato con las personas y por ello seleccionamos personas con experiencia en funciones selección de personal y mantenimiento de cuentas de gran volumen para trabajar como CONSULT@RES de RRHH en BARCELONA.
+
+Personas con INGLES ALTO, iniciativa, dos años de experiencia preferiblemente en sector ett (área comercial y selección) orientadas a objetivos y con excelentes conocimientos y experiencia en el sector de call center, plataformas de teleoperadores de asistencia, venta etc.
+
+
+Nuestro fichaje se encargará de llevar a cabo acciones de reclutamiento, selección, acogida y seguimiento de posiciones de teleoperadores para las plataformas de call center con las que actualmente trabajamos en Barcelona además de proactivar la captación de nuevas cuentas de la misma línea de negocio.
+
+
+Usará el idioma inglés como herramienta habitual de selección de candidatos.
+
+
+En qué consiste el puesto de trabajo: Qué se espera de ti
+
+
+FUNCIONES CONSULTOR/A de RRHH
+
+
+- Realizará un seguimiento exhaustivo de las necesidades de nuestros clientes para poner a su disposición los mejores profesionales para la atención al cliente
+
+- Mantendrá actualizada una BBDD de datos de trabajadores activos y prospectos
+
+- Identificará, reclutará y seleccionará perfiles adecuados a cada posición
+
+- Realizará la actividad laboral ligada a las contrataciones
+
+- Reportará informes de seguimiento a las cuentas con las que trabaje l
+
+- Resolverá consultas de clientes y trabajadores
+
+
+Experiencia y aptitudes deseadas (hombre o mujer): CONSULTOR/A de RRHH
+
+- Grado universitario, Diplomatura, Licenciatura con una experiencia dos años en puestos similares (ETT, externalización, formación en call center etc.).
+
+- INGLES ALTO
+
+- Acostumbrado/a a la gestión de clientes y trabajadores
+
+- Alto grado de motivación
+
+- Fuerte perfil orientado a clientes y buen nivel de interlocución y ganas de emprender un nuevo proyecto polivalente.
+
+- Coche propio
+
+- Incorporación: Inmediata
+
+
+Si eres (un/una)
+
+- Candidato/a al que le gusten los RRHH, con inglés, habilidades comerciales con iniciativa, atento al mercado y al entorno y orientado al cliente
+
+- Profesional con inquietud, curiosidad y creatividad acostumbrado a trabajar con grandes empresas con mucho movimiento de personal tenemos una oferta de trabajo disponible de manera inmediata para ti.
+
+
+Consulta nuestra página y regístrate en nuestra página WEB www.grupo-crit.com
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Licenciado - Ciencias del Trabajo
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Conocimientos necesarios:
+
+Atención al cliente
+
+
+Consultoría
+
+
+Recursos Humanos
+
+
+Selección de personal
+
+
+ingles
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Buen nivel de inglés
+
+Experiencia en seleccionar perfiles internacionales para call center
+
+valorable experiencia en sector servicios, outsourcing, ett
+
+
+Requisitos deseados:
+
+Incorporación inmediata""" ;
+    ns1:hiringOrganization "GRUPO CRIT" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "CONSULTOR/A RRHH c ingles Perfiles Call Center" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ca866da9a1db5ddd> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=cb88457e16a6a886> ns1:datePosted "2015-09-25T12:16:42+01:00"^^xsd:Date ;
+    ns1:description """Seleccionamos para Agencia de Colocación, en Donostia-San Sebastian :
+
+
+TÉCNICO/A INSERCIÓN LABORAL
+
+
+Atenderá y Evaluará a los Demandantes (mediante entrevistas y pruebas);
+Planificará y Ejecutará, en su caso, Talleres Grupales (de Orientación, Habilidades, etc.); Realizará Itinerarios Personalizados de Inserción a diversos colectivos de demandantes; Elaborará Informes; Mantendrá Contacto Directo y Fluido con los Empleadores; Mantendrá actualizada la Base de Datos de Demandantes; Realizará un Seguimiento del Demandante.
+
+
+Calificaciones
+
+- Titulación superior universitaria en Área de Humanidades y Ciencias Sociales (preferiblemente Psicología,
+Pedagogía o Psicopedagogía)
+
+
+- Experiencia el desarrollo de
+programas de orientación y de inserción profesional.
+
+
+- Amplios conocimientos en aplicaciones informáticas
+e-recruitment.
+
+
+- Conocimiento de herramientas de desarrollo de
+habilidades personales y profesionales; herramientas de evaluación,
+dinámización de grupo.
+
+
+- Carnet de Conducir, Vehículo Propio y Disponibilidad
+para Viajar.
+
+
+- Residencia en Donostia-San Sebastián
+
+
+- Dominio de Euskera
+
+
+Se ofrece
+:
+
+·
+Incorporación inmediata.
+
+·
+Formación de Acogida.
+
+·
+Integración en Grupo EULEN, líder a nivel nacional
+.
+
+Ubicación principal
+:
+Guipúzcoa
+
+
+Ubicaciones de trabajos
+:
+20001 - DONOSTIA / SAN SEBASTIAN
+
+
+Donostia / San Sebastian
+20001
+
+
+Puesto
+:
+Recursos humanos
+
+Organización
+:
+Soluciones RRHH
+
+
+Colaborador individual
+
+
+Tiempo completo
+
+Nivel de puesto
+:
+Trabajo de día
+
+
+Anuncio de trabajo
+:
+25/09/2015, 06:22:33""" ;
+    ns1:hiringOrganization "Grupo Eulen" ;
+    ns1:jobLocation "Donostia-San Sebastián, Guipúzcoa" ;
+    ns1:jobTitle "Técnico/a de Inserción Laboral" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=cb88457e16a6a886> ;
+    ns2:Location <http://sws.geonames.org/3110044/> .
+
+<http://www.indeed.es/viewjob?jk=cbb88e0d05e8683f> ns1:datePosted "2015-10-06T13:48:27+01:00"^^xsd:Date ;
+    ns1:description """Nuestro programa de prácticas profesionales en Servicios Centrales de Santander España ofrece la posibilidad de realizar 6 meses de prácticas remuneradas (con posibilidad de completar 6 meses más), trabajando con nuestros profesionales, los mejores del sector financiero en España.
+
+Funciones:
+
+Análisis de las bases de datos para generar reportes periódicos y búsqueda de información ad hoc (seguimiento de campañas, pricing, productos, etc).
+Extración, transformación y validación de datos con el propósito de apoyar la toma de decisiones.
+
+Requisitos:
+Buscamos a estudiantes de Matemáticas, Informática o Ingeniería de Telecomunicaciones, o titulaciones afines.
+Imprescindible que posean conocimientos avanzados en SQL y /o análisis de base de datos a nivel programación. Se valorarán conocimientos de SAS y otros lenguajes de programación.
+Importante que posean un nivel avanzado en Microsoft Excel (deseable conocimientos de programación de Visual basic)
+
+Estudiante
+
+Prácticas en Análisis de Bases de Datos
+(Análisis)
+
+1 Vacante(s)
+
+Todas -
+Madrid (Comunidad Autónoma Madrid)
+
+Requisitos
+
+Experiencia Laboral
+
+No es necesaria
+
+Estudios mínimos
+
+Grado
+
+Carreras
+
+1. Grado en Estadística
+2. Grado en Ingeniería Informática
+3. Grado en Matemáticas
+4. Licenciatura en Ciencias Matemáticas
+5. Licenciatura en Matemáticas
+
+Requisitos mínimos
+Disponibilidad para firmar convenio de prácticas, disponibilidad horaria de 7-8 horas y conocimientos de programación en SQL
+
+Idiomas
+
+Inglés (
+Lectura: Nivel intermedio alto (b2) /
+Escritura: Nivel intermedio alto (b2) /
+Conversación: Nivel intermedio alto (b2)
+)
+
+Software
+SQL (Avanzado)
+
+Contrato
+
+Tipo de contrato
+Prácticas Profesionales
+
+Duración
+6 meses prorrogables
+
+Jornada Laboral
+Jornada Completa""" ;
+    ns1:hiringOrganization "Banco Santander" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Prácticas en Análisis de Bases de Datos" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=cbb88e0d05e8683f> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=d1548b0e7074acf2> ns1:datePosted "2015-10-01T21:25:00+01:00"^^xsd:Date ;
+    ns1:description """Puesto vacante:
+
+RESPONSABLE COMERCIAL
+
+
+Tipo de industria de la oferta:
+
+Venta al por menor
+
+
+Categorías:
+
+
+Ventas al detalle
+- Venta al detalle
+
+
+Nivel:
+
+Mando intermedio
+
+
+Personal a cargo:
+
+6 - 10
+
+
+Número de vacantes:
+
+4
+
+
+Descripción de la oferta:
+
+En dependencia del Jefe de Sector tendrás la misión de contribuir por tí mismo y a través del equipo al desarrollo de ventas asegurando que el sector esta limpio, lleno, seguro y balizado, que el stock se encuentre disponible y que se cumplan en todo momento las medidas para garantizar la seguridad de colaboradores y clientes. Aplica la política comercial y acompaña al equipo en el sentido de los objetivos.
+
+
+Sus principales funciones son:
+
+
+a. Asegurar la correcta atención al cliente y la venta siendo referente en el trato de los clientes, conociendo y transmitiendo el plan ventas de las diferentes familias de producto,asegurando la disponibilidad de vendedores en la sala de ventas, gestionando las situaciones difíciles y orientando la actividad en función de las necesidades del cliente y el plan de ventas.
+
+b. Asegurar el mantenimiento del almacén en cuanto al stock, presentación de la mercancía, limpieza, orden, fiabilidad de los datos informáticos sobre el stock, ejecución de las operaciones comerciales, etc.
+
+c. Coordinar al equipo orientando sus acciones en función de los objetivos del sector y en el marco de valores de la compañía. Dar ejemplo, involucrar, acompañar, formar y velar por el cumplimiento de las políticas de la empresa y las normativa de seguridad.
+
+d. Participar en la vida del almacén y la empresa.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Conocimientos necesarios:
+
+Atención al cliente
+
+
+Plan de ventas
+
+
+Seguridad
+
+
+Ventas
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Experiencia de al menos dos años en puestos de similares.
+
+Haber coordinado equipos de 5 a 10 personas
+
+
+Se valorará :
+
+Titulación universitaria
+
+Movilidad Geográfica
+
+
+Ofrecemos:
+
+Incorporación a Grupo de la Distribución líder
+
+Planes personalizados de formación para potenciar las oportunidades de crecimiento dentro de la compañía.
+
+Remuneración competitiva en función del perfil del candidato
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Bricomart" ;
+    ns1:jobLocation "Sant Quirze del Vallès, Barcelona" ;
+    ns1:jobTitle "RESPONSABLE COMERCIAL" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=d1548b0e7074acf2> ;
+    ns2:Location <http://sws.geonames.org/3110101/> .
+
+<http://www.indeed.es/viewjob?jk=d7c8ba31546e227f> ns1:datePosted "2015-09-30T16:59:32+01:00"^^xsd:Date ;
+    ns1:description """Reportando a la Dirección de Recursos Humanos en Madrid, el candidato seleccionado se encargará de las siguientes funciones:
+
+
+- Realizar la gestión en nómina de los conceptos salariales y de variable, retribución flexible, AIP, incentivos comerciales y los incentivos especiales.
+
+- Gestionar las comunicaciones en materia de personal con la Administración Pública, y otras Instituciones relacionadas (altas, bajas, etc.).
+
+- Hacer la parte administrativa de la contratación, gestión de altas/bajas, nóminas, vacaciones, finiquitos, partes laborales y de seguridad social).
+
+- Analizar el índice de absentismo, rotación,etc.
+
+- Realizar informes y consultas relacionados con datos de plantilla (headcount, FTE, temporalidad, categoría, edad, absentismo, centro de trabajo, etc.). 
+
+- Cinco años de experiencia en puesto similar.
+
+- Grado en Relaciones Laborales, Ciencias del Trabajo, etc.
+
+- Dominio del paquete office.
+
+- Inglés alto.
+
+
+Abstenerse candidaturas sin experiencia previa en puesto similar.""" ;
+    ns1:hiringOrganization "Michael Page España" ;
+    ns1:jobLocation "A Coruña, A Coruña" ;
+    ns1:jobTitle "RESPONSABLE LABORAL GALICIA" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=d7c8ba31546e227f> ;
+    ns2:Location <http://sws.geonames.org/3119841/> .
+
+<http://www.indeed.es/viewjob?jk=dae96173b40f902c> ns1:datePosted "2015-07-14T18:19:04+01:00"^^xsd:Date ;
+    ns1:description """Misión:
+
+Reportando al Line Manager del Regional Customer Support Center será r
+esponsable de los sistemas de aplicaciones/hardware y/o software en cualquiera
+
+de los grupos de productos de Hematología, garantizando la oferta de
+
+servicios necesarios para los países específicos a los que se presta servicio (España y
+
+Portugal).
+
+
+Función principal del puesto de trabajo
+:
+
+El especialista en aplicaciones proporcionará apoyo en las siguientes áreas:
+
+Gestión de consultas de clientes y empleados (a través del teléfono o por escrito).
+Identificación y resolución de problemas complejos.
+Diseño e impartición de formación para clientes y empleados.
+Transferencia de información y conocimientos.
+Actividades de servicio in situ (apoyo al personal de soporte técnico y de ventas que trabaja sobre el terreno).
+Soporte a Sales&Marketing (Business Area).
+
+Responsabilidades del puesto de trabajo
+
+Liderar, promover y comunicar los asuntos en materia de salud y seguridad garantizando que se cumplen las normas de seguridad, y asumir las responsabilidades establecidas en HS-01-04 (Manual de Salud y Seguridad).
+Garantizar que se imparte la formación necesaria para desarrollar una conciencia de gobierno y seguridad de IT, con referencia específica a los datos identificables del paciente y para actuar en la misma línea que los estándares locales de seguridad de la información, las políticas y los procesos locales, y el Sistema de Gestión de la Seguridad de la Información.
+Realizar el rol y las actividades de servicio asociadas de manera profesional y en consonancia con las expectativas de la empresa, asumiendo en todo momento la oferta de servicios que Roche ofrece a sus clientes, y alinear los resultados con medidas apropiadas y pertinentes para los clientes.
+Who you are
+Si eres una persona que controla su propio desarrollo. Si buscas una empresa en donde tengas la oportunidad de conseguir tus metas más allá de tus funciones y ubicación. Donde un puesto de trabajo no se considere la definición final de quién eres, sino el punto de partida, ven a trabajar con nosotros.
+
+
+Requisitos:
+
+Español nativo, inglés medio (B2) y portugués valorable.
+Grado en Ciencias de la Salud (Química, Biología, Farmacia etc.)
+Experiencia de más de 3 años en un entorno médico obtenido a través de una experiencia laboral de servicio al cliente o en una función de laboratorio.
+Buscamos gente con buenas habilidades comunicativas, habilidades de trabajo en equipo, orientación al cliente, capacidad de trabajar bajo presión, capacidad de resolución de incidencias y con ganas de aprender
+Disponibilidad de viajar 30% aproximadamente
+
+Who we are
+En Roche, nuestro éxito se basa en la innovación, la curiosidad y la diversidad, multiplicado por 88,500 profesionales en 150 países. Trabajando juntos, nos hemos convertido en uno de los grupos líderes de salud enfocados en la investigación.
+
+
+Roche es un empleador que ofrece igualdad de oportunidades y prohibe estrictamente la discriminación ilegal basada en la raza de una persona, color, religión, género, orientación sexual, identidad o expresión de género, pais de origen o ascendencia, edad, discapacidad mental o física, condición médica, estado civil, condición de veterano, o cualquier otra característica protegida por la ley.""" ;
+    ns1:hiringOrganization "Roche" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Application Specialist Hematología" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=dae96173b40f902c> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=e2a1cb1c0367a26d> ns1:datePosted "2015-09-18T17:34:49+01:00"^^xsd:Date ;
+    ns1:description """LA FUNDACIÓN PÚBLICA ANDALUZA PARA LA INVESTIGACIÓN DE MÁLAGA EN BIOMEDICINA Y SALUD (FIMABIS) PRECISA CONTRATAR UN COORDINADOR DEL ÁREA DE ASESORAMIENTO INTEGRAL (METODOLÓGICO, CIENTÍFICO Y ESTADÍSTICO)
+
+
+Proyectos: Red de Ensayos Clínicos de la UE European Clinical Research Infraestructure Network (ECRIN)
+
+
+Lugar de Realización: Fundación Pública Andaluza para la Investigación de Málaga en Biomedicina y Salud (FIMABIS)/ Instituto de Investigación Biomédica de Málaga (IBIMA)
+
+
+Funciones a Desarrollar
+
+Coordinar área de apoyo metodología, científico y estadístico
+Asesorar en la identificación y en el desarrollo de las líneas o planes estratégicos de investigación en las Unidades Clínicas
+Formar a los investigadores de las Unidades Clínicas en el método científico
+Identificar oportunidades de colaboración entre grupos de investigación y promover su establecimiento y desarrollo, bien ínter- unidad clínica, ínter- centro o internacionales
+Mantener y estimular las líneas de investigación ya establecidas en las unidades de gestión clínica
+Identificar y promover en la colaboración con la unidad de innovación y transferencia, proyectos de innovación y líneas de trabajo en colaboración con empresas del ámbito de la sanidad
+Identificar y acceder, en colaboración con la unidad de gestión de proyectos a fuentes nacionales e internacionales adecuadas a las líneas de investigación establecidas en las Unidades de gestión clínica
+Requisitos Mínimos
+
+Doctorado en ciencias de salud o cualquier área relacionada con la biomedicina
+Experiencia probada en investigación científica internacional
+Experiencia probada en gestión de proyectos de investigación
+Experiencia probada en gestión de equipos
+Experiencia probada en la elaboración de manuscritos, proyectos y documentos estratégicos
+Conocimientos previos de metodología y estadística
+Requisitos Valorables
+
+Conocimientos de inglés
+Persona innovadora y proactiva
+Capacidad de inter relación personal
+Persona con capacidad de trabajo, organizada y acostumbrada a trabajar en base a objetivos
+Datos Contrato
+
+Jornada : completa (40h)
+Presentación de Candidaturas Presentación de candidaturas y expresión de interés indicando claramente la referencia de esta convocatoria en el asunto del mensaje a: rrhh@fimabis.org (indicar en el asunto REF: TEC0LCAM1809 )
+
+PLAZO : recepción de candidaturas hasta 28 de septiembre de 2015 a las 15:00 horas.
+
+
+Proceso de selección
+
+
+Tras un periodo de revisión en el que se seleccionarán los candidatos cuyo currículum se adapte mejor a los criterios establecidos, se pondrá en marcha una segunda fase consistente en una entrevista personal.""" ;
+    ns1:hiringOrganization "Fimabis" ;
+    ns1:jobLocation "Málaga, Málaga" ;
+    ns1:jobTitle "Coordinador del área de asesoramiento integral" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=e2a1cb1c0367a26d> ;
+    ns2:Location <http://sws.geonames.org/2514256/> .
+
+<http://www.indeed.es/viewjob?jk=e660b7c22e86f678> ns1:datePosted "2015-09-30T07:52:01+01:00"^^xsd:Date ;
+    ns1:description """Buscamos Técnico/a de Nóminas para formar parte de nuestro departamento de RRHH en el área de laboral. Sus funciones serán:
+
+Gestión de altas y bajas de tienda y sede
+
+Gestión y verificación de la documentación para la contratación,
+
+Control y supervisión de nóminas
+
+Contacto y gestión de incidencias con proveedor externo de nóminas
+
+Reporting de datos de administración de personal 
+
+Experiencia al menos 2 años en nóminas y contrataciones
+
+Conocimientos en Seguridad Social
+
+Estudios mínimos de diplomatura en ciencias empresariales y/o Relaciones laborales.
+
+Valorable idiomas: inglés y/o portugués""" ;
+    ns1:hiringOrganization "Brico Depot" ;
+    ns1:jobLocation "Barcelona, Barcelona" ;
+    ns1:jobTitle "Técnico/a de Nóminas" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=e660b7c22e86f678> ;
+    ns2:Location <http://sws.geonames.org/3128760/> .
+
+<http://www.indeed.es/viewjob?jk=ea1456f166e1457d> ns1:datePosted "2015-09-19T03:29:51+01:00"^^xsd:Date ;
+    ns1:description """El BCP se encuentra en la búsqueda de un Gestor de Cobranza en Campo para la localidad de Jaén.
+
+
+Funciones:
+
+Analizar su cartera de clientes diseñando estrategias y controles para la recuperación de cuentas.
+
+
+Establecer contacto y visita en terreno a los clientes asignados a su cartera.
+
+
+Realizar una conciliación del cliente para la regularización de su deuda.
+
+
+Monitorear su cartera de clientes proporcionando datos certeros sobre desviaciones detectadas.
+
+
+Realizar seguimiento a las metas de gestión asignadas por la jefatura.
+
+
+Requisitos:
+
+Conocimientos básicos en Microsoft Office a nivel usuario, ( excel a nivel intermedio).
+
+
+Estudios Universitarios o Técnicos concluidos o truncos.
+
+
+Administración, Ingeniería, Ciencias de la Comunicación, Contabilidad, Economía, computación e informática o afines.
+
+
+Experiencia mínima 1 año en puestos de atención al cliente.
+
+
+Deseable con experiencia en gestiones de cobranza y/o venta en campo.
+
+
+Disponibilidad para trabajar Full Time.
+
+
+Te ofrecemos
+
+Planilla directa con el banco
+
+
+La oportunidad de trabajar con los mejores profesionales del negocio.
+
+
+Línea de Carrera.""" ;
+    ns1:hiringOrganization "BCP - Otras posiciones" ;
+    ns1:jobLocation "Jaén, Jaén" ;
+    ns1:jobTitle "Gestor de Cobranza de Campo - Jaén" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ea1456f166e1457d> ;
+    ns2:Location <http://sws.geonames.org/2516395/> .
+
+<http://www.indeed.es/viewjob?jk=ed2388c78cf2b8ab> ns1:datePosted "2015-07-24T21:14:01+01:00"^^xsd:Date ;
+    ns1:description """Puesto vacante:
+
+RESPONSABLE COMERCIAL.
+
+
+Tipo de industria de la oferta:
+
+Venta al por menor
+
+
+Categorías:
+
+
+Ventas al detalle
+- Venta al detalle
+
+
+Nivel:
+
+Mando intermedio
+
+
+Personal a cargo:
+
+6 - 10
+
+
+Número de vacantes:
+
+4
+
+
+Descripción de la oferta:
+
+En dependencia del Jefe de Sector tendrás la misión de contribuir por tí mismo y a través del equipo al desarrollo de ventas asegurando que el sector esta limpio, lleno, seguro y balizado, que el stock se encuentre disponible y que se cumplan en todo momento las medidas para garantizar la seguridad de colaboradores y clientes. Aplica la política comercial y acompaña al equipo en el sentido de los objetivos.
+
+
+Sus principales funciones son:
+
+
+a. Asegurar la correcta atención al cliente y la venta siendo referente en el trato de los clientes, conociendo y transmitiendo el plan ventas de las diferentes familias de producto,asegurando la disponibilidad de vendedores en la sala de ventas, gestionando las situaciones difíciles y orientando la actividad en función de las necesidades del cliente y el plan de ventas.
+
+b. Asegurar el mantenimiento del almacén en cuanto al stock, presentación de la mercancía, limpieza, orden, fiabilidad de los datos informáticos sobre el stock, ejecución de las operaciones comerciales, etc.
+
+c. Coordinar al equipo orientando sus acciones en función de los objetivos del sector y en el marco de valores de la compañía. Dar ejemplo, involucrar, acompañar, formar y velar por el cumplimiento de las políticas de la empresa y las normativa de seguridad.
+
+d. Participar en la vida del almacén y la empresa.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Conocimientos necesarios:
+
+Plan de ventas
+
+
+Ventas
+
+
+Atención al cliente
+
+
+Seguridad
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Experiencia de al menos dos años en puestos de similares.
+
+Haber coordinado equipos de 5 a 10 personas
+
+
+Se valorará :
+
+Titulación universitaria
+
+Movilidad Geográfica
+
+
+Ofrecemos:
+
+Incorporación a Grupo de la Distribución líder
+
+Planes personalizados de formación para potenciar las oportunidades de crecimiento dentro de la compañía.
+
+Remuneración competitiva en función del perfil del candidato
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Bricomart" ;
+    ns1:jobLocation "Santander, Cantabria" ;
+    ns1:jobTitle "RESPONSABLE COMERCIAL." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ed2388c78cf2b8ab> ;
+    ns2:Location <http://sws.geonames.org/3109718/> .
+
+<http://www.indeed.es/viewjob?jk=f18222d7a353cce7> ns1:datePosted "2015-08-19T10:35:30+01:00"^^xsd:Date ;
+    ns1:description """Puesto vacante:
+
+RESPONSABLE COMERCIAL.
+
+
+Tipo de industria de la oferta:
+
+Venta al por menor
+
+
+Categorías:
+
+
+Ventas al detalle
+- Venta al detalle
+
+
+Nivel:
+
+Mando intermedio
+
+
+Personal a cargo:
+
+6 - 10
+
+
+Número de vacantes:
+
+1
+
+
+Descripción de la oferta:
+
+En dependencia del Jefe de Sector tendrás la misión de contribuir por tí mismo y a través del equipo al desarrollo de ventas asegurando que el sector esta limpio, lleno, seguro y balizado, que el stock se encuentre disponible y que se cumplan en todo momento las medidas para garantizar la seguridad de colaboradores y clientes. Aplica la política comercial y acompaña al equipo en el sentido de los objetivos.
+
+
+Sus principales funciones son:
+
+
+a. Asegurar la correcta atención al cliente y la venta siendo referente en el trato de los clientes, conociendo y transmitiendo el plan ventas de las diferentes familias de producto,asegurando la disponibilidad de vendedores en la sala de ventas, gestionando las situaciones difíciles y orientando la actividad en función de las necesidades del cliente y el plan de ventas.
+
+b. Asegurar el mantenimiento del almacén en cuanto al stock, presentación de la mercancía, limpieza, orden, fiabilidad de los datos informáticos sobre el stock, ejecución de las operaciones comerciales, etc.
+
+c. Coordinar al equipo orientando sus acciones en función de los objetivos del sector y en el marco de valores de la compañía. Dar ejemplo, involucrar, acompañar, formar y velar por el cumplimiento de las políticas de la empresa y las normativa de seguridad.
+
+d. Participar en la vida del almacén y la empresa.
+
+
+Requisitos
+
+
+Estudios mínimos:
+
+Diplomado - Ciencias Empresariales
+
+
+Experiencia mínima:
+
+Al menos 2 años
+
+
+Conocimientos necesarios:
+
+Atención al cliente
+
+
+Plan de ventas
+
+
+Seguridad
+
+
+Ventas
+
+
+Imprescindible residente en:
+
+Provincia Puesto Vacante
+
+
+Requisitos mínimos:
+
+Experiencia de al menos dos años en puestos de similares.
+
+Haber coordinado equipos de 5 a 10 personas
+
+
+Se valorará :
+
+Titulación universitaria
+
+Movilidad Geográfica
+
+
+Ofrecemos:
+
+Incorporación a Grupo de la Distribución líder
+
+Planes personalizados de formación para potenciar las oportunidades de crecimiento dentro de la compañía.
+
+Remuneración competitiva en función del perfil del candidato
+
+
+Contrato
+
+
+Tipo de contrato:
+
+Indefinido
+
+
+Jornada laboral:
+
+Completa""" ;
+    ns1:hiringOrganization "Bricomart" ;
+    ns1:jobLocation "Málaga, Málaga" ;
+    ns1:jobTitle "RESPONSABLE COMERCIAL." ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=f18222d7a353cce7> ;
+    ns2:Location <http://sws.geonames.org/2514256/> .
+
+<http://www.indeed.es/viewjob?jk=f991a40a037e6ef3> ns1:datePosted "2015-10-02T18:29:04+01:00"^^xsd:Date ;
+    ns1:description """OE18/2015.- Fundacion Progreso y Salud – Técnico/a Auxiliar de Business Intelligence
+
+La Fundación Pública Andaluza Progreso y Salud es una entidad instrumental dependiente de la Consejería de Salud, para dar respuesta a los objetivos fijados en el Contrato Programa que tiene suscrito con la citada Consejería, se estructura en torno a tres líneas de actividad de servicios al Sistema Sociosanitario Público de Andalucía: apoyo y gestión a la investigación, desarrollo de Tecnologías de la Información y las comunicaciones y Formación y evaluación de competencias técnicas profesionales.
+
+Funciones principales del puesto:
+
+La función principal del puesto será participar en el proyecto de Business Intelligenge aplicado a la Gestión de la Investigación que la Fundación Progreso y Salud tiene en marcha, se integrará en el equipo de desarrollo del Sistema de Gestión de la Investigación, Investiga+.
+
+Entre las actividades a realizar cabe destacar:
+
+- Dar apoyo en la construcción y mantenimiento de sistema de Business Intelligence.
+
+- Desarrollo y adaptación de procesos de carga de datos (ETL).
+
+- Apoyo en el diseño del modelo de datos del DataWarehouse.
+
+- Apoyo en el mantenimiento de la base de datos del DW.
+
+- Participar en la definición y diseño de indicadores.
+
+- Elaboración de informes dinámicos.
+
+- Participar en el diseño y elaboración de cuadros de mando.
+
+Perfil buscado:
+
+Requisitos mínimos:
+
+- Titulación Universitaria en la rama de Informática.
+
+- Cumplir los requerimientos exigidos para inscribirse en el fichero del Sistema Nacional de Garantía Juvenil. En el siguiente enlace podrá encontrar toda la información relativa a este requisito: http://www.empleo.gob.es/es/garantiajuvenil/darsealta.html
+
+Requisitos valorables:
+
+- Formación en lenguaje SQL.
+
+- Ofimática avanzada (hojas de cálculo).
+
+- Nivel de inglés: B1 Marco Común Europeo de Referencia para las Lenguas (MCREL) o similar.
+
+- Formación en intelligencia empresarial (Business Intelligence).
+
+- Conocimientos en plataformas BI, preferiblemente Pentaho.
+
+- Conocimiento de estructura, funcionamiento y normativa del Sistema Público en general y en concreto del Sistema Sanitario Público de Andalucía y del Sistema Español Ciencia-Tecnología-Empresa.
+
+La Fundación Pública Andaluza Progreso y Salud es una entidad instrumental dependiente de la Consejería de Salud, para dar respuesta a los objetivos fijados en el Contrato Programa que tiene suscrito con la citada Consejería, se estructura en torno a tres líneas de actividad de servicios al Sistema Sociosanitario Público de Andalucía: apoyo y gestión a la investigación, desarrollo de Tecnologías de la Información y las comunicaciones y Formación y evaluación de competencias técnicas profesionales.
+
+
+Funciones principales del puesto:
+
+
+La función principal del puesto será participar en el proyecto de Business Intelligenge aplicado a la Gestión de la Investigación que la Fundación Progreso y Salud tiene en marcha, se integrará en el equipo de desarrollo del Sistema de Gestión de la Investigación, Investiga+.
+
+
+Entre las actividades a realizar cabe destacar:
+
+
+- Dar apoyo en la construcción y mantenimiento de sistema de Business Intelligence.
+
+
+- Desarrollo y adaptación de procesos de carga de datos (ETL).
+
+
+- Apoyo en el diseño del modelo de datos del DataWarehouse.
+
+
+- Apoyo en el mantenimiento de la base de datos del DW.
+
+
+- Participar en la definición y diseño de indicadores.
+
+
+- Elaboración de informes dinámicos.
+
+
+- Participar en el diseño y elaboración de cuadros de mando.
+
+
+Perfil buscado:
+
+
+Requisitos mínimos:
+
+
+- Titulación Universitaria en la rama de Informática.
+
+
+- Cumplir los requerimientos exigidos para inscribirse en el fichero del Sistema Nacional de Garantía Juvenil. En el siguiente enlace podrá encontrar toda la información relativa a este requisito: http://www.empleo.gob.es/es/garantiajuvenil/darsealta.html
+
+
+Requisitos valorables:
+
+
+- Formación en lenguaje SQL.
+
+
+- Ofimática avanzada (hojas de cálculo).
+
+
+- Nivel de inglés: B1 Marco Común Europeo de Referencia para las Lenguas (MCREL) o similar.
+
+
+- Formación en intelligencia empresarial (Business Intelligence).
+
+
+- Conocimientos en plataformas BI, preferiblemente Pentaho.
+
+
+- Conocimiento de estructura, funcionamiento y normativa del Sistema Público en general y en concreto del Sistema Sanitario Público de Andalucía y del Sistema Español Ciencia-Tecnología-Empresa.
+
+
+Presentación de candidaturas:
+
+
+Para obtener información adicional sobre los requisitos y condiciones del puesto ofertado, así como para solicitar incorporarse al proceso de selección e introducir los datos curriculares necesarios, los/as interesados/as deberán dirigirse a la página Web de la Fundación Pública Andaluza Progreso y Salud:
+
+
+http://www.juntadeandalucia.es/fundacionprogresoysalud/es/la-fundacion/trabaja-con-nosotros
+
+
+Para realizar la inscripción correctamente, los/as interesados/as deberán adjuntar un archivo único que necesariamente deberá contener al menos la siguiente información:
+
+
+- Curriculum Vitae.
+
+
+- Vida laboral actualizada.
+
+
+- Certificados de formación reglada.
+
+
+El plazo de presentación de solicitudes y datos curriculares, permanecerá abierto desde el 30 de septiembre de 2015 hasta el 13 de octubre de 2015, a las 13:00 horas.
+
+
+OE18/2015.- Fundacion Progreso y Salud – Técnico/a Auxiliar de Business Intelligence""" ;
+    ns1:hiringOrganization "Fundaciones andaluzas" ;
+    ns1:jobLocation "España" ;
+    ns1:jobTitle "FUNDACION PROGRESO Y SALUD – TECNICO/A AUXILIAR DE BUSINESS INTELLIGENCE" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=f991a40a037e6ef3> ;
+    ns2:Location <http://sws.geonames.org/3573890/> .
+
+<http://www.indeed.es/viewjob?jk=fe1a7f2fd426c474> ns1:datePosted "2015-09-30T15:54:18+01:00"^^xsd:Date ;
+    ns1:description """Somos una entidad líder en formación bonificada a pequeña, mediana y gran empresa.Ponemos a disposición de nuestros clientes la experiencia y el conocimiento para definir aquellas acciones formativas que darán solución a las necesidades derivadas de cualquier cambio.
+Trabajamos de forma conjunta con nuestros clientes para diseñar, desarrollar e implantar proyectos de formación que contribuyan a la mejora del conocimiento de las organizaciones, incrementando su valor y mejorando su competitividad de capital humano.
+La experiencia nos confirma que para hacer frente a los cambios constantes y los avances tecnológicos es precisar una formación permanente en el tiempo.
+Madrid (España)
+Sector de la empresa: Educación
+10 a 50 empleados
+Precisamos incorporar a nuestro departamento Administrativo una persona responsable,entusiasta y con capacidad de trabajar en equipo
+¿QUE BUSCAMOS?
+
+Estar cursando o haber finalizado los estudios Diplomatura en Ciencias Empresariales, Diplomatura en Relaciones Laborales ,Licenciatura en ADE ,Grado en ADE, Formación profesional en administración de empresas
+Conocimientos de Microsoft Office a nivel de usuario
+Posibilidad de realizar convenio,aunque no es requisito imprescindible
+
+FUNCIONES A DESEMPEÑAR
+
+Realizar gestiones administrativas,Ayudar en todo el proceso de tramitación y gestión de los cursos de formación a impartir a las empresas, desde la introducción de los datos de los alumnos y empresas en las aplicaciones previstas, verificación de datos, apoyo al departamento de marketing y atención al cliente
+Manejar aplicaciones informáticas en la gestión de la información y documentación
+Gestión de base de datos
+Elaboración de informes
+
+¿QUE OFRECEMOS?
+Practicas remuneradas 130 euros al mes y alta en la seguridad social durante 3 meses.
+horario de tarde 14 a 19 horas
+posibilidad de continuar en la empresa
+Abstenerse candidatos que no cumplan los requisitos""" ;
+    ns1:hiringOrganization "A&P FORMACION BONIFICADA DE CALIDAD" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "Prácticas y Becas: Becario Departamento Administrativo en Madrid" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=fe1a7f2fd426c474> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://www.indeed.es/viewjob?jk=ff3df55b50a93993> ns1:datePosted "2015-09-24T16:46:26+01:00"^^xsd:Date ;
+    ns1:description """Obtener, realizar una valoración crítica y organizar la literatura científica y médica relativa a los productos internos y de la competencia (oncología), proporcionando información periódica actualizada que pueda ser de utilidad para su uso interno o externo, de acuerdo a la normativa local aplicable y procedimientos internos de compañía.
+
+
+* Realizar búsquedas bibliográficas y manejo de bases de datos de información médica y científica para conocer las últimas publicaciones, proporcionando el soporte bibliográfico y documental a los departamentos que lo requieran.
+
+* Valorar y analizar con detalle y de forma periódica la información o documentación médico- científica sobre los productos de la empresa y los productos de la competencia, reseñando los aspectos más relevantes y de interés para los departamentos interesados.
+
+* Remitir periódicamente al Medical Director, Head of Medical Affairs, Medical Managers, Medical Affairs Coordinators (MAC), Farmacovigilancia, Red de ventas y demás colectivos interesados (Profesionales sanitarios, pacientes) las alertas bibliográficas, publicaciones y artículos previamente analizados con los comentarios y resúmenes que sean de utilidad.
+
+* Organizar, registrar y archivar la documentación, bases de datos y publicaciones médicas y científicas más relevantes del área.
+
+* Responder a las consultas y solicitudes de información medico-científicas a nivel interno y externo sobre productos globales y locales de oncología
+
+* Ofrecer soporte bibliográfico y documental a los profesionales del área de Investigación Clínica durante la ejecución de los Ensayos clínicos.
+
+* Colaborar y apoyar al Head of Medical Affairs, Medical Managers y a los Medical Affairs Coordinators en la preparación de documentos científicos o presentaciones necesarias en conferencias, congresos o reuniones científicas.
+
+* Dar soporte en la formación y actualización médico-científica del personal de la compañía en el área terapéutica que corresponda.
+
+* Dar soporte científico, colaborando estrechamente con otros departamentos implicados (Marketing, Market Access, Regulatory….), facilitando la información y/o documentación necesaria para facilitar el conocimiento de los productos de la compañía y su acceso al mercado.
+
+* Dar soporte en la gestión del plan de publicaciones y explotación de resultados de estudios promovidos por la compañía. 
+
+- Titulación superior en Ciencias de la Salud
+
+- Experiencia mínima de 3 años en posición similar o en posiciones del área de Medical Affairs ,
+
+- Alto nivel de inglés""" ;
+    ns1:hiringOrganization "Michael Page España" ;
+    ns1:jobLocation "Madrid, Madrid" ;
+    ns1:jobTitle "MEDICAL INFORMATION OFFICER - ONCOLOGÍA" ;
+    ns1:source "Indeed" ;
+    ns1:url <http://www.indeed.es/viewjob?jk=ff3df55b50a93993> ;
+    ns2:Location <http://sws.geonames.org/3117735/> .
+
+<http://sws.geonames.org/4005539/> a ns4:Feature ;
+    ns4:alternateName "غوادالاخارا"@ar,
+        "Guadalaxara"@ast,
+        "Горад Гвадалахара"@be,
+        "Гуадалахара"@bg,
+        "Guadalajara"@ca,
+        "Гвадалахара"@ce,
+        "Guadalajara"@cs,
+        "Guadalajara"@de,
+        "Γουαδαλαχάρα"@el,
+        "Guadalajara"@en,
+        "Gvadalaharo"@eo,
+        "Guadalajara"@es,
+        "گوادالاخارا، خالیسکو"@fa,
+        "Guadalajara"@fi,
+        "Guadalajara"@fr,
+        "Guadalaxara"@gl,
+        "גוודלחרה"@he,
+        "Guadalajara"@hu,
+        "Guadalajara"@id,
+        "Guadalajara"@it,
+        "グアダラハラ"@ja,
+        "გვადალახარა"@ka,
+        "과달라하라"@ko,
+        "Guadalaxara"@la,
+        "Gvadalachara"@lt,
+        "Gvadalahara"@lv,
+        "Гвадалахара"@mk,
+        "ഗൗതലജാറ"@ml,
+        "ग्वादालाहारा"@mr,
+        "Ātemaxac"@nah,
+        "Guadalajara"@nl,
+        "Guadalajara i Jalisco"@nn,
+        "Guadalajara"@no,
+        "Гвадалахарæ"@os,
+        "ਗੁਆਦਾਲਾਹਾਰਾ"@pa,
+        "Guadalajara"@pl,
+        "Guadalajara"@pt,
+        "Гвадалахара"@ru,
+        "Гвадалахара"@sr,
+        "Guadalajara"@sv,
+        "กวาดาลาฮารา"@th,
+        "Гвадалахара"@uk,
+        "گواڈلہارا"@ur,
+        "გვადალახარა"@xmf,
+        "瓜达拉哈拉"@zh ;
+    ns4:countryCode "MX" ;
+    ns4:featureClass ns4:P ;
+    ns4:featureCode ns4:P.PPLA ;
+    ns4:locationMap <http://www.geonames.org/4005539/guadalajara.html> ;
+    ns4:name "Guadalajara" ;
+    ns4:nearbyFeatures <http://sws.geonames.org/4005539/nearby.rdf> ;
+    ns4:parentCountry <http://sws.geonames.org/3996063/> ;
+    ns4:population "1640589" ;
+    ns4:wikipediaArticle <http://en.wikipedia.org/wiki/Guadalajara> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4005539/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Guadalajara> ;
+    ns3:lat "20.66682" ;
+    ns3:long "-103.39182" .
+
