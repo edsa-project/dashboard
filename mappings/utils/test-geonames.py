@@ -40,14 +40,25 @@ class TestGeonames(unittest.TestCase):
                 tup = gn.find_location(location)
             
     def test_is_inside_true(self):
-        TESTFILE = "test-geonames.ttl"
+        TESTFILE = "testgraph.ttl"
         testgraph = rdflib.Graph()
         testgraph.parse(TESTFILE,format="turtle")
+
         location = "San Francisco, CA"
         self.assertTrue(gn.is_inside(location,testgraph))
         location = "London"
         self.assertFalse(gn.is_inside(location,testgraph))
 
+    def test_get_iri(self):
+        TESTFILE = "testgraph.ttl"
+        testgraph = rdflib.Graph()
+        testgraph.parse(TESTFILE,format="turtle")
+
+        location = "San Francisco, CA"
+        iri = gn.get_iri(location,testgraph)
+        self.assertTrue(isinstance(iri,rdflib.URIRef))
+        realiri = rdflib.URIRef("http://sws.geonames.org/5391959/")
+        self.assertEqual(iri,realiri)
 
 
 

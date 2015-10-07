@@ -1,5 +1,5 @@
 import requests
-from rdflib import Graph, Literal 
+from rdflib import Graph, Literal, URIRef 
 from rdflib.plugins.sparql import prepareQuery
 import namespaces as ns
 
@@ -58,4 +58,18 @@ def is_inside(textplace,graph):
                 initNs = {"schema" : ns.schema , 
                     "edsa" : ns.edsa})
     return bool(graph.query(askquery, initBindings={"place" : Literal(textplace)}))
+
+def get_iri(textplace,graph):
+    """ Returns the IRI of an existent place in the jobs base
+    """
+    getquery = prepareQuery("""
+            SELECT DISTINCT ?placeiri 
+            WHERE {?iri schema:jobLocation ?place .
+                ?iri edsa:Location ?placeiri}
+        """, initNs = {"schema" : ns.schema , 
+                    "edsa" : ns.edsa})
+    res = graph.query(getquery, initBindings = {"place" : Literal(textplace)})
+    for row in res:
+        return row["placeiri"]
+
 
