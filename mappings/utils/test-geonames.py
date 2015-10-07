@@ -5,6 +5,7 @@ import geonames as gn
 import namespaces as ns
 from rdflib.plugins.sparql import prepareQuery
 
+TESTFILE = "testdata.ttl"
 
 class TestGeonames(unittest.TestCase):
 
@@ -40,24 +41,22 @@ class TestGeonames(unittest.TestCase):
                 tup = gn.find_location(location)
             
     def test_is_inside_true(self):
-        TESTFILE = "testgraph.ttl"
         testgraph = rdflib.Graph()
         testgraph.parse(TESTFILE,format="turtle")
 
-        location = "San Francisco, CA"
+        location = "Αθήνα"
         self.assertTrue(gn.is_inside(location,testgraph))
-        location = "London"
+        location = "SDFDSF"
         self.assertFalse(gn.is_inside(location,testgraph))
 
     def test_get_iri(self):
-        TESTFILE = "testgraph.ttl"
         testgraph = rdflib.Graph()
         testgraph.parse(TESTFILE,format="turtle")
 
-        location = "San Francisco, CA"
+        location = "Αθήνα"
         iri = gn.get_iri(location,testgraph)
         self.assertTrue(isinstance(iri,rdflib.URIRef))
-        realiri = rdflib.URIRef("http://sws.geonames.org/5391959/")
+        realiri = rdflib.URIRef("http://sws.geonames.org/264371/")
         self.assertEqual(iri,realiri)
 
 
