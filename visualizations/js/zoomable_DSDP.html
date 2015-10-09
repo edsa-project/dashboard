@@ -23,8 +23,14 @@
 
  <link href="css/bootstrap.min.css" rel="stylesheet">
   
+<!-- useful for debugging, put it inside <style> tags
+svg { border:1px solid black; }
+-->
+
 <style type="text/css">
 body {background-color:whitelight}
+
+
 
     <link href='stylesheets/dc.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/dc.css"/>  
@@ -157,9 +163,14 @@ body {background-color:whitelight}
 var width = 590,
     height = 500;
 
-var projection = d3.geo.mercator()
-    .scale(200)
-    .translate([width/2, height]);
+var projection = (d3.geo.mercator()
+                        .scale((1200 + 1) / 2 )
+                        .translate([660 / 4, 3360 / 4])
+                        .precision(.1)
+                    );
+
+
+
 
 function zoomed() {
     projection
@@ -244,7 +255,11 @@ var svg = d3.select("#us-chart")
             usChart
             .width(1000)
             .height(400)
-            .projection(projection)
+            .projection(projection
+                        .scale((1200 + 1) / 2 )
+                        .translate([660 / 4, 3360 / 4])
+                        .precision(.1)
+                        )
                     .dimension(countries)
                     .group(countriesJobsdSum)
 
@@ -253,7 +268,7 @@ var svg = d3.select("#us-chart")
         (usChart.filter()) >= 0 : true;}); // perform filtering
         return filter; // return the actual filter value
      })
-                        
+
                     .colors(d3.scale.quantize().range(
                         ["#8c857d", "#d982ab", "#d9525e", "#a63f52", "#8c6976", "#55b1b1", "#637e9e"])
                     )
