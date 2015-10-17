@@ -51,5 +51,5 @@ select ?job ?title ?hiringOrganization ?locationName ?lat ?long ?countryName (gr
   ?location geo:lat ?lat .
   ?location geo:long ?long 
 }
-group by ?job ?title ?locationName ?countryName
+group by ?job ?title ?hiringOrganization ?locationName ?lat ?long ?countryName
 order by ?countryName

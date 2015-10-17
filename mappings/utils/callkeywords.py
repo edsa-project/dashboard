@@ -11,7 +11,8 @@ keywords={
                 'Data Analyst',
                 'Data Engineering',
                 'Data Engineer',
-                'Data Mining']
+                'Data Mining',
+                'Big Data']
         ,
        'es' : ['Ciencia de Datos',
                 'Científico de datos',
