@@ -16,16 +16,14 @@
 
     <title>European Data Science Academy (EDSA) &ndash; Demand Analysis</title>
 
-
-
     <link href='stylesheets/bootstrap.min.css' rel='stylesheet' type='text/css'>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
 
 
     <link rel="stylesheet" type="text/css" href="css/dashboard.css"/>
 
+    <link rel="stylesheet" type="text/css" href="css/dc.css"/> 
 
 
     <style type="text/css">
@@ -36,7 +34,7 @@
 
       }
 
-          <link href='stylesheets/dc.css' rel='stylesheet' type='text/css'>
+         /*<link href='stylesheets/dc.css' rel='stylesheet' type='text/css'> */
 
           <link rel="stylesheet" type="text/css" href="css/dc.css"/> 
 
@@ -215,7 +213,7 @@
             </table>
 
 
-
+          <div class='remaining-graphs span4'>
               <div class="plot" id="us-chart" style='border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px; width:600px'>
 
                 <a class="reset" href="javascript:usChart.filterAll();dc.redrawAll();" style="display: none;">&nbsp;&nbsp;&nbsp;Reset</a>
@@ -229,10 +227,33 @@
 
 
                 <div class="clearfix"></div>
+            </div>
+
+                <div class="plot" id="us-chart" style='border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px; width:600px'>
+
+               
+                 <table class="country-range" align="center">
+            <tr>
+               <h5>Range of Jobs </h5><td style="text-align:center;color:#ffffff;background-color:#8c857d">0-24</td>
+              <td style="text-align:center;color:#ffffff;background-color:#d982ab">25-47</td>
+              <td style="text-align:center;color:#ffffff;background-color:#d9525e">48-66</td>
+              <!--<td style="text-align:center;color:#ffffff;background-color:#a63f52">NO</td> -->
+              <td style="text-align:center;color:#ffffff;background-color:#8c6976">67-142</td>
+              <td style="text-align:center;color:#ffffff;background-color:#55b1b1">143-184</td>
+               <td style="text-align:center;color:#ffffff;background-color:#637e9e">185-340</td>
+            </tr>
+
+          </table>
+                        
+
 
               </div>
 
-            <!--</div>-->
+                       
+
+             
+
+          </div>
 
           </td>
 
@@ -325,11 +346,6 @@
       var count = 20;
 
       var spaceForScales = 70;
-
-
-
-
-
 
 
       //Load data from csv file
@@ -598,17 +614,16 @@
 
                       .renderLabel(true)
 
-                      
-
                       //.elasticX(true)
-
-                      .colors(d3.scale.category20())
 
                       .ordering(function (d) {
 
                           return -d.value
 
                       })
+                       .colors(d3.scale.category20())
+
+                    .xAxis().ticks(0)
 
               //Full Table
 
@@ -682,6 +697,7 @@
 
   </script>
 
+  
   </body>
 
 </html>
