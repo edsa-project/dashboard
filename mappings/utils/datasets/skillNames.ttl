@@ -26,26 +26,12 @@
 <http://www.edsa-project.eu/skill/xmpp>
         ns3:lexicalValue  "xmpp" .
 
-<http://www.edsa-project.eu/skill/engineer>
-        ns3:lexicalValue  "engineer" .
 
 <http://www.edsa-project.eu/skill/opencl>
         ns3:lexicalValue  "opencl" .
 
-<http://www.edsa-project.eu/skill/gui>
-        ns3:lexicalValue  "gui" .
-
-<http://www.edsa-project.eu/skill/platform>
-        ns3:lexicalValue  "platform" .
-
-<http://www.edsa-project.eu/skill/text-to-speech>
-        ns3:lexicalValue  "text-to-speech" .
-
 <http://www.edsa-project.eu/skill/saas>
         ns3:lexicalValue  "saas" .
-
-<http://www.edsa-project.eu/skill/informatica>
-        ns3:lexicalValue  "informatica" .
 
 <http://www.edsa-project.eu/skill/watir>
         ns3:lexicalValue  "watir" .
@@ -54,16 +40,10 @@
         ns3:lexicalValue  "html" .
 
 <http://www.edsa-project.eu/skill/amazon-web-services>
-        ns3:lexicalValue  "amazon-web-services" .
-
-<http://www.edsa-project.eu/skill/startup>
-        ns3:lexicalValue  "startup" .
+        ns3:lexicalValue  "amazon web services" .
 
 <http://www.edsa-project.eu/skill/vaadin>
         ns3:lexicalValue  "vaadin" .
-
-<http://www.edsa-project.eu/skill/science>
-        ns3:lexicalValue  "science" .
 
 <http://www.edsa-project.eu/skill/ejb>
         ns3:lexicalValue  "ejb" .
@@ -74,14 +54,11 @@
 <http://www.edsa-project.eu/skill/robotics>
         ns3:lexicalValue  "robotics" .
 
-<http://www.edsa-project.eu/skill/arista>
-        ns3:lexicalValue  "arista" .
-
 <http://www.edsa-project.eu/skill/ssis>
         ns3:lexicalValue  "ssis" .
 
 <http://www.edsa-project.eu/skill/mssql>
-        ns3:lexicalValue  "mssql" .
+        ns3:lexicalValue  "ms sql" .
 
 <http://www.edsa-project.eu/skill/backend>
         ns3:lexicalValue  "backend" .
@@ -89,11 +66,8 @@
 <http://www.edsa-project.eu/skill/linux>
         ns3:lexicalValue  "linux" .
 
-<http://www.edsa-project.eu/skill/front>
-        ns3:lexicalValue  "front" .
-
-<http://www.edsa-project.eu/skill/hipaa>
-        ns3:lexicalValue  "hipaa" .
+<http://www.edsa-project.eu/skill/frontend>
+        ns3:lexicalValue  "front end" .
 
 <http://www.edsa-project.eu/skill/stata>
         ns3:lexicalValue  "stata" .
@@ -105,28 +79,16 @@
         ns3:lexicalValue  "autosar" .
 
 <http://www.edsa-project.eu/skill/pci-dss>
-        ns3:lexicalValue  "pci-dss" .
-
-<http://www.edsa-project.eu/skill/low-latency>
-        ns3:lexicalValue  "low-latency" .
+        ns3:lexicalValue  "pci dss" .
 
 <http://www.edsa-project.eu/skill/activemq>
         ns3:lexicalValue  "activemq" .
 
-<http://www.edsa-project.eu/skill/ms>
-        ns3:lexicalValue  "ms" .
-
 <http://www.edsa-project.eu/skill/ruby>
         ns3:lexicalValue  "ruby" .
 
-<http://www.edsa-project.eu/skill/assessment>
-        ns3:lexicalValue  "assessment" .
-
 <http://www.edsa-project.eu/skill/windows>
         ns3:lexicalValue  "windows" .
-
-<http://www.edsa-project.eu/skill/performance>
-        ns3:lexicalValue  "performance" .
 
 <http://www.edsa-project.eu/skill/gwt>
         ns3:lexicalValue  "gwt" .
@@ -144,7 +106,7 @@
         ns3:lexicalValue  "flask" .
 
 <http://www.edsa-project.eu/skill/continuous-integration>
-        ns3:lexicalValue  "continuous-integration" .
+        ns3:lexicalValue  "continuous integration" .
 
 <http://www.edsa-project.eu/skill/gulp>
         ns3:lexicalValue  "gulp" .
@@ -152,35 +114,29 @@
 <http://www.edsa-project.eu/skill/siem>
         ns3:lexicalValue  "siem" .
 
-<http://www.edsa-project.eu/skill/intrusion>
-        ns3:lexicalValue  "intrusion" .
-
 <http://www.edsa-project.eu/skill/data-driven>
-        ns3:lexicalValue  "data-driven" .
+        ns3:lexicalValue  "data driven" .
 
 <http://www.edsa-project.eu/skill/cluster-computing>
-        ns3:lexicalValue  "cluster-computing" .
+        ns3:lexicalValue  "cluster computing" .
 
 <http://www.edsa-project.eu/skill/npm>
         ns3:lexicalValue  "npm" .
 
 <http://www.edsa-project.eu/skill/distributed-computing>
-        ns3:lexicalValue  "distributed-computing" .
+        ns3:lexicalValue  "distributed computing" .
 
 <http://www.edsa-project.eu/skill/visual-studio-2010>
-        ns3:lexicalValue  "visual-studio-2010" .
-
-<http://www.edsa-project.eu/skill/ce>
-        ns3:lexicalValue  "ce" .
+        ns3:lexicalValue  "visual studio 2010" .
 
 <http://www.edsa-project.eu/skill/ros>
         ns3:lexicalValue  "ros" .
 
 <http://www.edsa-project.eu/skill/windows-mobile>
-        ns3:lexicalValue  "windows-mobile" .
+        ns3:lexicalValue  "windows mobile" .
 
 <http://www.edsa-project.eu/skill/software-architecture>
-        ns3:lexicalValue  "software-architecture" .
+        ns3:lexicalValue  "software architecture" .
 
 <http://www.edsa-project.eu/skill/atlassian>
         ns3:lexicalValue  "atlassian" .
@@ -204,10 +160,10 @@
         ns3:lexicalValue  "webgl" .
 
 <http://www.edsa-project.eu/skill/identity-management>
-        ns3:lexicalValue  "identity-management" .
+        ns3:lexicalValue  "identity management" .
 
 <http://www.edsa-project.eu/skill/high-availability>
-        ns3:lexicalValue  "high-availability" .
+        ns3:lexicalValue  "high availability" .
 
 <http://www.edsa-project.eu/skill/vldb>
         ns3:lexicalValue  "vldb" .
@@ -240,7 +196,7 @@
         ns3:lexicalValue  "xhtml" .
 
 <http://www.edsa-project.eu/skill/continuous-delivery>
-        ns3:lexicalValue  "continuous-delivery" .
+        ns3:lexicalValue  "continuous delivery" .
 
 <http://www.edsa-project.eu/skill/backbone>
         ns3:lexicalValue  "backbone" .
@@ -264,7 +220,7 @@
         ns3:lexicalValue  "cordova" .
 
 <http://www.edsa-project.eu/skill/full-stack>
-        ns3:lexicalValue  "full-stack" .
+        ns3:lexicalValue  "full stack" .
 
 <http://www.edsa-project.eu/skill/jira>
         ns3:lexicalValue  "jira" .
@@ -276,13 +232,13 @@
         ns3:lexicalValue  "rspec" .
 
 <http://www.edsa-project.eu/skill/responsive-web-design>
-        ns3:lexicalValue  "responsive-web-design" .
+        ns3:lexicalValue  "responsive web design" .
 
 <http://www.edsa-project.eu/skill/visio>
         ns3:lexicalValue  "visio" .
 
 <http://www.edsa-project.eu/skill/web-frameworks>
-        ns3:lexicalValue  "web-frameworks" .
+        ns3:lexicalValue  "web frameworks" .
 
 <http://www.edsa-project.eu/skill/rdms>
         ns3:lexicalValue  "rdms" .
@@ -300,13 +256,10 @@
         ns3:lexicalValue  "opengl" .
 
 <http://www.edsa-project.eu/skill/user-experience>
-        ns3:lexicalValue  "user-experience" .
+        ns3:lexicalValue  "user experience" .
 
 <http://www.edsa-project.eu/skill/typescript>
         ns3:lexicalValue  "typescript" .
-
-<http://www.edsa-project.eu/skill/vulnerability>
-        ns3:lexicalValue  "vulnerability" .
 
 <http://www.edsa-project.eu/skill/cryptography>
         ns3:lexicalValue  "cryptography" .
@@ -314,26 +267,17 @@
 <http://www.edsa-project.eu/skill/adobe>
         ns3:lexicalValue  "adobe" .
 
-<http://www.edsa-project.eu/skill/desktop-application>
-        ns3:lexicalValue  "desktop-application" .
-
 <http://www.edsa-project.eu/skill/bigdata>
-        ns3:lexicalValue  "bigdata" .
+        ns3:lexicalValue  "big data" .
 
-<http://www.edsa-project.eu/skill/bachelors>
-        ns3:lexicalValue  "bachelors" .
-
-<http://www.edsa-project.eu/skill/clojurescript>
-        ns3:lexicalValue  "clojurescript" .
+<http://www.edsa-project.eu/skill/clojure>
+        ns3:lexicalValue  "clojure" .
 
 <http://www.edsa-project.eu/skill/ldap>
         ns3:lexicalValue  "ldap" .
 
 <http://www.edsa-project.eu/skill/ipsec>
         ns3:lexicalValue  "ipsec" .
-
-<http://www.edsa-project.eu/skill/framework>
-        ns3:lexicalValue  "framework" .
 
 <http://www.edsa-project.eu/skill/i2c>
         ns3:lexicalValue  "i2c" .
@@ -357,7 +301,7 @@
         ns3:lexicalValue  "log-analysis" .
 
 <http://www.edsa-project.eu/skill/cloud-hosting>
-        ns3:lexicalValue  "cloud-hosting" .
+        ns3:lexicalValue  "cloud hosting" .
 
 <http://www.edsa-project.eu/skill/vpn>
         ns3:lexicalValue  "vpn" .
@@ -377,20 +321,20 @@
 <http://www.edsa-project.eu/skill/pandas>
         ns3:lexicalValue  "pandas" .
 
-<http://www.edsa-project.eu/skill/symfony-1.4>
-        ns3:lexicalValue  "symfony-1.4" .
+<http://www.edsa-project.eu/skill/symfony>
+        ns3:lexicalValue  "symfony" .
 
 <http://www.edsa-project.eu/skill/sip-server>
-        ns3:lexicalValue  "sip-server" .
+        ns3:lexicalValue  "sip server" .
 
 <http://www.edsa-project.eu/skill/linux-unix>
-        ns3:lexicalValue  "linux-unix" .
+        ns3:lexicalValue  "linux unix" .
 
 <http://www.edsa-project.eu/skill/android>
         ns3:lexicalValue  "android" .
 
 <http://www.edsa-project.eu/skill/ruby-on-rails>
-        ns3:lexicalValue  "ruby-on-rails" .
+        ns3:lexicalValue  "ruby on rails" .
 
 <http://www.edsa-project.eu/skill/ios>
         ns3:lexicalValue  "ios" .
@@ -413,8 +357,8 @@
 <http://www.edsa-project.eu/skill/dagger>
         ns3:lexicalValue  "dagger" .
 
-<http://www.edsa-project.eu/skill/javascript-events>
-        ns3:lexicalValue  "javascript-events" .
+<http://www.edsa-project.eu/skill/javascript>
+        ns3:lexicalValue  "javascript" .
 
 <http://www.edsa-project.eu/skill/manager>
         ns3:lexicalValue  "manager" .
@@ -435,7 +379,7 @@
         ns3:lexicalValue  "c#" .
 
 <http://www.edsa-project.eu/skill/spring-mvc>
-        ns3:lexicalValue  "spring-mvc" .
+        ns3:lexicalValue  "spring mvc" .
 
 <http://www.edsa-project.eu/skill/selenium>
         ns3:lexicalValue  "selenium" .
@@ -443,20 +387,14 @@
 <http://www.edsa-project.eu/skill/h.265>
         ns3:lexicalValue  "h.265" .
 
-<http://www.edsa-project.eu/skill/voice>
-        ns3:lexicalValue  "voice" .
-
 <http://www.edsa-project.eu/skill/hudson>
         ns3:lexicalValue  "hudson" .
 
 <http://www.edsa-project.eu/skill/salt-stack>
-        ns3:lexicalValue  "salt-stack" .
-
-<http://www.edsa-project.eu/skill/app>
-        ns3:lexicalValue  "app" .
+        ns3:lexicalValue  "salt stack" .
 
 <http://www.edsa-project.eu/skill/aws-opsworks>
-        ns3:lexicalValue  "aws-opsworks" .
+        ns3:lexicalValue  "aws opsworks" .
 
 <http://www.edsa-project.eu/skill/jndi>
         ns3:lexicalValue  "jndi" .
@@ -465,19 +403,16 @@
         ns3:lexicalValue  "confluence" .
 
 <http://www.edsa-project.eu/skill/sql-server>
-        ns3:lexicalValue  "sql-server" .
+        ns3:lexicalValue  "sql server" .
 
 <http://www.edsa-project.eu/skill/web-crawler>
-        ns3:lexicalValue  "web-crawler" .
+        ns3:lexicalValue  "web crawler" .
 
-<http://www.edsa-project.eu/skill/automted-tests>
-        ns3:lexicalValue  "automted-tests" .
-
-<http://www.edsa-project.eu/skill/ip>
-        ns3:lexicalValue  "ip" .
+<http://www.edsa-project.eu/skill/automated-tests>
+        ns3:lexicalValue  "automated tests" .
 
 <http://www.edsa-project.eu/skill/web-applications>
-        ns3:lexicalValue  "web-applications" .
+        ns3:lexicalValue  "web applications" .
 
 <http://www.edsa-project.eu/skill/angular>
         ns3:lexicalValue  "angular" .
@@ -494,20 +429,14 @@
 <http://www.edsa-project.eu/skill/netcdf>
         ns3:lexicalValue  "netcdf" .
 
-<http://www.edsa-project.eu/skill/ab-testing>
-        ns3:lexicalValue  "ab-testing" .
+<http://www.edsa-project.eu/skill/ab testing>
+        ns3:lexicalValue  "ab testing" .
 
 <http://www.edsa-project.eu/skill/jasmine>
         ns3:lexicalValue  "jasmine" .
 
 <http://www.edsa-project.eu/skill/compass-sass>
-        ns3:lexicalValue  "compass-sass" .
-
-<http://www.edsa-project.eu/skill/embedded>
-        ns3:lexicalValue  "embedded" .
-
-<http://www.edsa-project.eu/skill/configuration>
-        ns3:lexicalValue  "configuration" .
+        ns3:lexicalValue  "compass sass" .
 
 <http://www.edsa-project.eu/skill/fingerprinting>
         ns3:lexicalValue  "fingerprinting" .
@@ -516,7 +445,7 @@
         ns3:lexicalValue  "lisp" .
 
 <http://www.edsa-project.eu/skill/sharepoint-2007>
-        ns3:lexicalValue  "sharepoint-2007" .
+        ns3:lexicalValue  "sharepoint 2007" .
 
 <http://www.edsa-project.eu/skill/bioinformatics>
         ns3:lexicalValue  "bioinformatics" .
@@ -525,13 +454,13 @@
         ns3:lexicalValue  "jruby" .
 
 <http://www.edsa-project.eu/skill/penetration-testing>
-        ns3:lexicalValue  "penetration-testing" .
+        ns3:lexicalValue  "penetration testing" .
 
 <http://www.edsa-project.eu/skill/html5-canvas>
-        ns3:lexicalValue  "html5-canvas" .
+        ns3:lexicalValue  "html5 canvas" .
 
 <http://www.edsa-project.eu/skill/flask-restful>
-        ns3:lexicalValue  "flask-restful" .
+        ns3:lexicalValue  "flask restful" .
 
 <http://www.edsa-project.eu/skill/network>
         ns3:lexicalValue  "network" .
@@ -541,9 +470,6 @@
 
 <http://www.edsa-project.eu/skill/coffeescript>
         ns3:lexicalValue  "coffeescript" .
-
-<http://www.edsa-project.eu/skill/core>
-        ns3:lexicalValue  "core" .
 
 <http://www.edsa-project.eu/skill/netsuite>
         ns3:lexicalValue  "netsuite" .
@@ -560,11 +486,8 @@
 <http://www.edsa-project.eu/skill/pki>
         ns3:lexicalValue  "pki" .
 
-<http://www.edsa-project.eu/skill/technology>
-        ns3:lexicalValue  "technology" .
-
-<http://www.edsa-project.eu/skill/angualarjs>
-        ns3:lexicalValue  "angualarjs" .
+<http://www.edsa-project.eu/skill/angularjs>
+        ns3:lexicalValue  "angularjs" .
 
 <http://www.edsa-project.eu/skill/reactjs>
         ns3:lexicalValue  "reactjs" .
@@ -593,11 +516,8 @@
 <http://www.edsa-project.eu/skill/ember>
         ns3:lexicalValue  "ember" .
 
-<http://www.edsa-project.eu/skill/node>
-        ns3:lexicalValue  "node" .
-
-<http://www.edsa-project.eu/skill/js>
-        ns3:lexicalValue  "js" .
+<http://www.edsa-project.eu/skill/nodejs>
+        ns3:lexicalValue  "nodejs" .
 
 <http://www.edsa-project.eu/skill/grails>
         ns3:lexicalValue  "grails" .
@@ -611,32 +531,20 @@
 <http://www.edsa-project.eu/skill/ss7>
         ns3:lexicalValue  "ss7" .
 
-<http://www.edsa-project.eu/skill/noclassdeffounderror>
-        ns3:lexicalValue  "noclassdeffounderror" .
-
 <http://www.edsa-project.eu/skill/developer>
         ns3:lexicalValue  "developer" .
 
 <http://www.edsa-project.eu/skill/user-interaction>
-        ns3:lexicalValue  "user-interaction" .
+        ns3:lexicalValue  "user interaction" .
 
 <http://www.edsa-project.eu/skill/git>
         ns3:lexicalValue  "git" .
 
 <http://www.edsa-project.eu/skill/numerical-methods>
-        ns3:lexicalValue  "numerical-methods" .
-
-<http://www.edsa-project.eu/skill/angularjs>
-        ns3:lexicalValue  "angularjs" .
-
-<http://www.edsa-project.eu/skill/native>
-        ns3:lexicalValue  "native" .
+        ns3:lexicalValue  "numerical methods" .
 
 <http://www.edsa-project.eu/skill/golang>
         ns3:lexicalValue  "golang" .
-
-<http://www.edsa-project.eu/skill/javasxript>
-        ns3:lexicalValue  "javasxript" .
 
 <http://www.edsa-project.eu/skill/disassembling>
         ns3:lexicalValue  "disassembling" .
@@ -648,7 +556,7 @@
         ns3:lexicalValue  "celery" .
 
 <http://www.edsa-project.eu/skill/visual-studio-2012>
-        ns3:lexicalValue  "visual-studio-2012" .
+        ns3:lexicalValue  "visual studio 2012" .
 
 <http://www.edsa-project.eu/skill/leadership>
         ns3:lexicalValue  "leadership" .
@@ -659,8 +567,8 @@
 <http://www.edsa-project.eu/skill/javascript>
         ns3:lexicalValue  "javascript" .
 
-<http://www.edsa-project.eu/skill/ipython-notebook>
-        ns3:lexicalValue  "ipython-notebook" .
+<http://www.edsa-project.eu/skill/ipython>
+        ns3:lexicalValue  "ipython" .
 
 <http://www.edsa-project.eu/skill/presales>
         ns3:lexicalValue  "presales" .
@@ -672,28 +580,22 @@
         ns3:lexicalValue  "laravel" .
 
 <http://www.edsa-project.eu/skill/front-end>
-        ns3:lexicalValue  "front-end" .
+        ns3:lexicalValue  "front end" .
 
 <http://www.edsa-project.eu/skill/react-native>
-        ns3:lexicalValue  "react-native" .
-
-<http://www.edsa-project.eu/skill/scalability>
-        ns3:lexicalValue  "scalability" .
+        ns3:lexicalValue  "react native" .
 
 <http://www.edsa-project.eu/skill/c#-5.0>
         ns3:lexicalValue  "c#-5.0" .
 
 <http://www.edsa-project.eu/skill/software-development>
-        ns3:lexicalValue  "software-development" .
+        ns3:lexicalValue  "software development" .
 
 <http://www.edsa-project.eu/skill/winapi>
         ns3:lexicalValue  "winapi" .
 
 <http://www.edsa-project.eu/skill/oracle11g>
         ns3:lexicalValue  "oracle11g" .
-
-<http://www.edsa-project.eu/skill/business-application>
-        ns3:lexicalValue  "business-application" .
 
 <http://www.edsa-project.eu/skill/mapi>
         ns3:lexicalValue  "mapi" .
@@ -705,7 +607,7 @@
         ns3:lexicalValue  "administrator" .
 
 <http://www.edsa-project.eu/skill/data-management>
-        ns3:lexicalValue  "data-management" .
+        ns3:lexicalValue  "data management" .
 
 <http://www.edsa-project.eu/skill/docker>
         ns3:lexicalValue  "docker" .
@@ -732,7 +634,7 @@
         ns3:lexicalValue  "sockets" .
 
 <http://www.edsa-project.eu/skill/distributed-database>
-        ns3:lexicalValue  "distributed-database" .
+        ns3:lexicalValue  "distributed database" .
 
 <http://www.edsa-project.eu/skill/haproxy>
         ns3:lexicalValue  "haproxy" .
@@ -744,7 +646,7 @@
         ns3:lexicalValue  "build-automation" .
 
 <http://www.edsa-project.eu/skill/web-security>
-        ns3:lexicalValue  "web-security" .
+        ns3:lexicalValue  "web security" .
 
 <http://www.edsa-project.eu/skill/emr>
         ns3:lexicalValue  "emr" .
@@ -755,11 +657,8 @@
 <http://www.edsa-project.eu/skill/rhel5>
         ns3:lexicalValue  "rhel5" .
 
-<http://www.edsa-project.eu/skill/systems>
-        ns3:lexicalValue  "systems" .
-
 <http://www.edsa-project.eu/skill/automated-deployment>
-        ns3:lexicalValue  "automated-deployment" .
+        ns3:lexicalValue  "automated deployment" .
 
 <http://www.edsa-project.eu/skill/vsphere>
         ns3:lexicalValue  "vsphere" .
@@ -768,7 +667,7 @@
         ns3:lexicalValue  "vmware" .
 
 <http://www.edsa-project.eu/skill/jax-rs>
-        ns3:lexicalValue  "jax-rs" .
+        ns3:lexicalValue  "jax rs" .
 
 <http://www.edsa-project.eu/skill/cem>
         ns3:lexicalValue  "cem" .
@@ -808,9 +707,6 @@
 
 <http://www.edsa-project.eu/skill/riak>
         ns3:lexicalValue  "riak" .
-
-<http://www.edsa-project.eu/skill/end>
-        ns3:lexicalValue  "end" .
 
 <http://www.edsa-project.eu/skill/tcp-ip>
         ns3:lexicalValue  "tcp-ip" .
@@ -852,13 +748,13 @@
         ns3:lexicalValue  "deaf" .
 
 <http://www.edsa-project.eu/skill/ruby-on-rails-4>
-        ns3:lexicalValue  "ruby-on-rails-4" .
+        ns3:lexicalValue  "ruby on rails 4" .
 
 <http://www.edsa-project.eu/skill/ionic-framework>
         ns3:lexicalValue  "ionic-framework" .
 
 <http://www.edsa-project.eu/skill/elastic-map-reduce>
-        ns3:lexicalValue  "elastic-map-reduce" .
+        ns3:lexicalValue  "elastic map reduce" .
 
 <http://www.edsa-project.eu/skill/oracle>
         ns3:lexicalValue  "oracle" .
@@ -867,7 +763,7 @@
         ns3:lexicalValue  "pega" .
 
 <http://www.edsa-project.eu/skill/apache-spark-sql>
-        ns3:lexicalValue  "apache-spark-sql" .
+        ns3:lexicalValue  "apache spark sql" .
 
 <http://www.edsa-project.eu/skill/dynamic>
         ns3:lexicalValue  "dynamic" .
@@ -884,14 +780,8 @@
 <http://www.edsa-project.eu/skill/zend>
         ns3:lexicalValue  "zend" .
 
-<http://www.edsa-project.eu/skill/cs>
-        ns3:lexicalValue  "cs" .
-
 <http://www.edsa-project.eu/skill/apex>
         ns3:lexicalValue  "apex" .
-
-<http://www.edsa-project.eu/skill/axure>
-        ns3:lexicalValue  "axure" .
 
 <http://www.edsa-project.eu/skill/ui>
         ns3:lexicalValue  "ui" .
@@ -914,14 +804,11 @@
 <http://www.edsa-project.eu/skill/angular.js>
         ns3:lexicalValue  "angular.js" .
 
-<http://www.edsa-project.eu/skill/financial>
-        ns3:lexicalValue  "financial" .
-
 <http://www.edsa-project.eu/skill/software-engineering>
-        ns3:lexicalValue  "software-engineering" .
+        ns3:lexicalValue  "software engineering" .
 
 <http://www.edsa-project.eu/skill/ssrs-2008>
-        ns3:lexicalValue  "ssrs-2008" .
+        ns3:lexicalValue  "ssrs 2008" .
 
 <http://www.edsa-project.eu/skill/delphi>
         ns3:lexicalValue  "delphi" .
@@ -933,7 +820,7 @@
         ns3:lexicalValue  "asic" .
 
 <http://www.edsa-project.eu/skill/machine-learning>
-        ns3:lexicalValue  "machine-learning" .
+        ns3:lexicalValue  "machine learning" .
 
 <http://www.edsa-project.eu/skill/nio>
         ns3:lexicalValue  "nio" .
@@ -941,14 +828,11 @@
 <http://www.edsa-project.eu/skill/statistics>
         ns3:lexicalValue  "statistics" .
 
-<http://www.edsa-project.eu/skill/email>
-        ns3:lexicalValue  "email" .
-
 <http://www.edsa-project.eu/skill/oneplus>
         ns3:lexicalValue  "oneplus" .
 
 <http://www.edsa-project.eu/skill/sharepoint-2010>
-        ns3:lexicalValue  "sharepoint-2010" .
+        ns3:lexicalValue  "sharepoint 2010" .
 
 <http://www.edsa-project.eu/skill/sysadmin>
         ns3:lexicalValue  "sysadmin" .
@@ -957,16 +841,13 @@
         ns3:lexicalValue  "soap" .
 
 <http://www.edsa-project.eu/skill/computer-science>
-        ns3:lexicalValue  "computer-science" .
+        ns3:lexicalValue  "computer science" .
 
 <http://www.edsa-project.eu/skill/win32>
         ns3:lexicalValue  "win32" .
 
 <http://www.edsa-project.eu/skill/zend-framework>
-        ns3:lexicalValue  "zend-framework" .
-
-<http://www.edsa-project.eu/skill/twitter-bootstrap-3>
-        ns3:lexicalValue  "twitter-bootstrap-3" .
+        ns3:lexicalValue  "zend framework" .
 
 <http://www.edsa-project.eu/skill/haskell>
         ns3:lexicalValue  "haskell" .
@@ -986,14 +867,8 @@
 <http://www.edsa-project.eu/skill/visualization>
         ns3:lexicalValue  "visualization" .
 
-<http://www.edsa-project.eu/skill/object>
-        ns3:lexicalValue  "object" .
-
 <http://www.edsa-project.eu/skill/business-intelligence>
-        ns3:lexicalValue  "business-intelligence" .
-
-<http://www.edsa-project.eu/skill/objective>
-        ns3:lexicalValue  "objective" .
+        ns3:lexicalValue  "business intelligence" .
 
 <http://www.edsa-project.eu/skill/ultrasound>
         ns3:lexicalValue  "ultrasound" .
@@ -1005,49 +880,37 @@
         ns3:lexicalValue  "hybernate" .
 
 <http://www.edsa-project.eu/skill/google-app-engine>
-        ns3:lexicalValue  "google-app-engine" .
-
-<http://www.edsa-project.eu/skill/incident>
-        ns3:lexicalValue  "incident" .
+        ns3:lexicalValue  "google app engine" .
 
 <http://www.edsa-project.eu/skill/regression-testing>
-        ns3:lexicalValue  "regression-testing" .
+        ns3:lexicalValue  "regression testing" .
 
 <http://www.edsa-project.eu/skill/web-frontend>
-        ns3:lexicalValue  "web-frontend" .
+        ns3:lexicalValue  "web frontend" .
 
 <http://www.edsa-project.eu/skill/pentaho>
         ns3:lexicalValue  "pentaho" .
 
 <http://www.edsa-project.eu/skill/amazon-emr>
-        ns3:lexicalValue  "amazon-emr" .
+        ns3:lexicalValue  "amazon emr" .
 
 <http://www.edsa-project.eu/skill/java-8>
-        ns3:lexicalValue  "java-8" .
-
-<http://www.edsa-project.eu/skill/dashboard>
-        ns3:lexicalValue  "dashboard" .
-
-<http://www.edsa-project.eu/skill/lesssass>
-        ns3:lexicalValue  "lesssass" .
+        ns3:lexicalValue  "java 8" .
 
 <http://www.edsa-project.eu/skill/web-analytics>
-        ns3:lexicalValue  "web-analytics" .
+        ns3:lexicalValue  "web analytics" .
 
 <http://www.edsa-project.eu/skill/tbb>
         ns3:lexicalValue  "tbb" .
 
 <http://www.edsa-project.eu/skill/amazon-s3>
-        ns3:lexicalValue  "amazon-s3" .
+        ns3:lexicalValue  "amazon s3" .
 
 <http://www.edsa-project.eu/skill/swift>
         ns3:lexicalValue  "swift" .
 
 <http://www.edsa-project.eu/skill/google-play-services>
-        ns3:lexicalValue  "google-play-services" .
-
-<http://www.edsa-project.eu/skill/space>
-        ns3:lexicalValue  "space" .
+        ns3:lexicalValue  "google play services" .
 
 <http://www.edsa-project.eu/skill/c#-3.0>
         ns3:lexicalValue  "c#-3.0" .
@@ -1076,23 +939,11 @@
 <http://www.edsa-project.eu/skill/jboss>
         ns3:lexicalValue  "jboss" .
 
-<http://www.edsa-project.eu/skill/search-engine>
-        ns3:lexicalValue  "search-engine" .
-
-<http://www.edsa-project.eu/skill/core-data>
-        ns3:lexicalValue  "core-data" .
-
-<http://www.edsa-project.eu/skill/big>
-        ns3:lexicalValue  "big" .
-
 <http://www.edsa-project.eu/skill/selenium-webdriver>
-        ns3:lexicalValue  "selenium-webdriver" .
+        ns3:lexicalValue  "selenium webdriver" .
 
 <http://www.edsa-project.eu/skill/mysql>
         ns3:lexicalValue  "mysql" .
-
-<http://www.edsa-project.eu/skill/bootstrap>
-        ns3:lexicalValue  "bootstrap" .
 
 <http://www.edsa-project.eu/skill/design>
         ns3:lexicalValue  "design" .
@@ -1103,17 +954,14 @@
 <http://www.edsa-project.eu/skill/centos>
         ns3:lexicalValue  "centos" .
 
-<http://www.edsa-project.eu/skill/android-layout>
-        ns3:lexicalValue  "android-layout" .
-
 <http://www.edsa-project.eu/skill/object-oriented-analysis>
-        ns3:lexicalValue  "object-oriented-analysis" .
+        ns3:lexicalValue  "object oriented analysis" .
 
 <http://www.edsa-project.eu/skill/linux-kernel>
-        ns3:lexicalValue  "linux-kernel" .
+        ns3:lexicalValue  "linux kernel" .
 
 <http://www.edsa-project.eu/skill/device-driver>
-        ns3:lexicalValue  "device-driver" .
+        ns3:lexicalValue  "device driver" .
 
 <http://www.edsa-project.eu/skill/aem>
         ns3:lexicalValue  "aem" .
@@ -1125,25 +973,16 @@
         ns3:lexicalValue  "marionette" .
 
 <http://www.edsa-project.eu/skill/product-management>
-        ns3:lexicalValue  "product-management" .
+        ns3:lexicalValue  "product management" .
 
 <http://www.edsa-project.eu/skill/dojo>
         ns3:lexicalValue  "dojo" .
 
-<http://www.edsa-project.eu/skill/vision>
-        ns3:lexicalValue  "vision" .
-
 <http://www.edsa-project.eu/skill/3d>
         ns3:lexicalValue  "3d" .
 
-<http://www.edsa-project.eu/skill/product>
-        ns3:lexicalValue  "product" .
-
-<http://www.edsa-project.eu/skill/loadrunner>
-        ns3:lexicalValue  "loadrunner" .
-
 <http://www.edsa-project.eu/skill/extreme-programming>
-        ns3:lexicalValue  "extreme-programming" .
+        ns3:lexicalValue  "extreme programming" .
 
 <http://www.edsa-project.eu/skill/backbone.js>
         ns3:lexicalValue  "backbone.js" .
@@ -1154,32 +993,8 @@
 <http://www.edsa-project.eu/skill/django>
         ns3:lexicalValue  "django" .
 
-<http://www.edsa-project.eu/skill/software>
-        ns3:lexicalValue  "software" .
-
-<http://www.edsa-project.eu/skill/system>
-        ns3:lexicalValue  "system" .
-
-<http://www.edsa-project.eu/skill/android-deloper>
-        ns3:lexicalValue  "android-deloper" .
-
-<http://www.edsa-project.eu/skill/encoding>
-        ns3:lexicalValue  "encoding" .
-
-<http://www.edsa-project.eu/skill/gpl>
-        ns3:lexicalValue  "gpl" .
-
-<http://www.edsa-project.eu/skill/bluetooth>
-        ns3:lexicalValue  "bluetooth" .
-
 <http://www.edsa-project.eu/skill/scientific-computing>
-        ns3:lexicalValue  "scientific-computing" .
-
-<http://www.edsa-project.eu/skill/mdsd>
-        ns3:lexicalValue  "mdsd" .
-
-<http://www.edsa-project.eu/skill/migration>
-        ns3:lexicalValue  "migration" .
+        ns3:lexicalValue  "scientific computing" .
 
 <http://www.edsa-project.eu/skill/rx-java>
         ns3:lexicalValue  "rx-java" .
@@ -1190,23 +1005,20 @@
 <http://www.edsa-project.eu/skill/unity>
         ns3:lexicalValue  "unity" .
 
-<http://www.edsa-project.eu/skill/usb>
-        ns3:lexicalValue  "usb" .
-
 <http://www.edsa-project.eu/skill/orchestration>
         ns3:lexicalValue  "orchestration" .
 
 <http://www.edsa-project.eu/skill/restful-architecture>
-        ns3:lexicalValue  "restful-architecture" .
+        ns3:lexicalValue  "restful architecture" .
 
 <http://www.edsa-project.eu/skill/continuous-deployment>
-        ns3:lexicalValue  "continuous-deployment" .
+        ns3:lexicalValue  "continuous deployment" .
 
 <http://www.edsa-project.eu/skill/cvs>
         ns3:lexicalValue  "cvs" .
 
 <http://www.edsa-project.eu/skill/business-objects>
-        ns3:lexicalValue  "business-objects" .
+        ns3:lexicalValue  "business objects" .
 
 <http://www.edsa-project.eu/skill/visualforce>
         ns3:lexicalValue  "visualforce" .
@@ -1214,20 +1026,11 @@
 <http://www.edsa-project.eu/skill/wave>
         ns3:lexicalValue  "wave" .
 
-<http://www.edsa-project.eu/skill/admin>
-        ns3:lexicalValue  "admin" .
-
 <http://www.edsa-project.eu/skill/nunit>
         ns3:lexicalValue  "nunit" .
 
-<http://www.edsa-project.eu/skill/end-to-end-delivery>
-        ns3:lexicalValue  "end-to-end-delivery" .
-
 <http://www.edsa-project.eu/skill/ansible>
         ns3:lexicalValue  "ansible" .
-
-<http://www.edsa-project.eu/skill/android-wear>
-        ns3:lexicalValue  "android-wear" .
 
 <http://www.edsa-project.eu/skill/aws-sdk>
         ns3:lexicalValue  "aws-sdk" .
@@ -1239,37 +1042,31 @@
         ns3:lexicalValue  "nines" .
 
 <http://www.edsa-project.eu/skill/system-administration>
-        ns3:lexicalValue  "system-administration" .
+        ns3:lexicalValue  "system administration" .
 
 <http://www.edsa-project.eu/skill/django-rest-framework>
-        ns3:lexicalValue  "django-rest-framework" .
+        ns3:lexicalValue  "django rest framework" .
 
 <http://www.edsa-project.eu/skill/erp>
         ns3:lexicalValue  "erp" .
 
 <http://www.edsa-project.eu/skill/sql-azure>
-        ns3:lexicalValue  "sql-azure" .
+        ns3:lexicalValue  "sql azure" .
 
 <http://www.edsa-project.eu/skill/svn>
         ns3:lexicalValue  "svn" .
 
 <http://www.edsa-project.eu/skill/disaster-recovery>
-        ns3:lexicalValue  "disaster-recovery" .
-
-<http://www.edsa-project.eu/skill/application>
-        ns3:lexicalValue  "application" .
+        ns3:lexicalValue  "disaster recovery" .
 
 <http://www.edsa-project.eu/skill/video-streaming>
-        ns3:lexicalValue  "video-streaming" .
+        ns3:lexicalValue  "video streaming" .
 
 <http://www.edsa-project.eu/skill/struts>
         ns3:lexicalValue  "struts" .
 
 <http://www.edsa-project.eu/skill/silverlight>
         ns3:lexicalValue  "silverlight" .
-
-<http://www.edsa-project.eu/skill/manual>
-        ns3:lexicalValue  "manual" .
 
 <http://www.edsa-project.eu/skill/.net-framework>
         ns3:lexicalValue  ".net-framework" .
@@ -1280,11 +1077,8 @@
 <http://www.edsa-project.eu/skill/lxc>
         ns3:lexicalValue  "lxc" .
 
-<http://www.edsa-project.eu/skill/build>
-        ns3:lexicalValue  "build" .
-
 <http://www.edsa-project.eu/skill/agile-processes>
-        ns3:lexicalValue  "agile-processes" .
+        ns3:lexicalValue  "agile processes" .
 
 <http://www.edsa-project.eu/skill/sybase>
         ns3:lexicalValue  "sybase" .
@@ -1302,10 +1096,10 @@
         ns3:lexicalValue  "cc++" .
 
 <http://www.edsa-project.eu/skill/version-control>
-        ns3:lexicalValue  "version-control" .
+        ns3:lexicalValue  "version control" .
 
 <http://www.edsa-project.eu/skill/amazon-redshift>
-        ns3:lexicalValue  "amazon-redshift" .
+        ns3:lexicalValue  "amazon redshift" .
 
 <http://www.edsa-project.eu/skill/lua>
         ns3:lexicalValue  "lua" .
@@ -1316,20 +1110,11 @@
 <http://www.edsa-project.eu/skill/ssrs>
         ns3:lexicalValue  "ssrs" .
 
-<http://www.edsa-project.eu/skill/lead>
-        ns3:lexicalValue  "lead" .
-
 <http://www.edsa-project.eu/skill/python>
         ns3:lexicalValue  "python" .
 
-<http://www.edsa-project.eu/skill/video>
-        ns3:lexicalValue  "video" .
-
 <http://www.edsa-project.eu/skill/playframework>
         ns3:lexicalValue  "playframework" .
-
-<http://www.edsa-project.eu/skill/graph>
-        ns3:lexicalValue  "graph" .
 
 <http://www.edsa-project.eu/skill/architect>
         ns3:lexicalValue  "architect" .
@@ -1344,37 +1129,22 @@
         ns3:lexicalValue  "redhat" .
 
 <http://www.edsa-project.eu/skill/cocoa-touch>
-        ns3:lexicalValue  "cocoa-touch" .
-
-<http://www.edsa-project.eu/skill/postsales>
-        ns3:lexicalValue  "postsales" .
+        ns3:lexicalValue  "cocoa touch" .
 
 <http://www.edsa-project.eu/skill/data-engineer>
-        ns3:lexicalValue  "data-engineer" .
-
-<http://www.edsa-project.eu/skill/client-server>
-        ns3:lexicalValue  "client-server" .
-
-<http://www.edsa-project.eu/skill/web>
-        ns3:lexicalValue  "web" .
+        ns3:lexicalValue  "data engineer" .
 
 <http://www.edsa-project.eu/skill/stored-procedures>
-        ns3:lexicalValue  "stored-procedures" .
+        ns3:lexicalValue  "stored procedures" .
 
 <http://www.edsa-project.eu/skill/software-engineer>
-        ns3:lexicalValue  "software-engineer" .
-
-<http://www.edsa-project.eu/skill/8>
-        ns3:lexicalValue  "8" .
+        ns3:lexicalValue  "software engineer" .
 
 <http://www.edsa-project.eu/skill/falcor>
         ns3:lexicalValue  "falcor" .
 
 <http://www.edsa-project.eu/skill/mean-stack>
-        ns3:lexicalValue  "mean-stack" .
-
-<http://www.edsa-project.eu/skill/amazon>
-        ns3:lexicalValue  "amazon" .
+        ns3:lexicalValue  "mean stack" .
 
 <http://www.edsa-project.eu/skill/winforms>
         ns3:lexicalValue  "winforms" .
@@ -1382,20 +1152,11 @@
 <http://www.edsa-project.eu/skill/iis-7>
         ns3:lexicalValue  "iis-7" .
 
-<http://www.edsa-project.eu/skill/malware>
-        ns3:lexicalValue  "malware" .
-
-<http://www.edsa-project.eu/skill/numerical>
-        ns3:lexicalValue  "numerical" .
-
 <http://www.edsa-project.eu/skill/nas>
         ns3:lexicalValue  "nas" .
 
 <http://www.edsa-project.eu/skill/nancy>
         ns3:lexicalValue  "nancy" .
-
-<http://www.edsa-project.eu/skill/qa>
-        ns3:lexicalValue  "qa" .
 
 <http://www.edsa-project.eu/skill/solr>
         ns3:lexicalValue  "solr" .
@@ -1407,7 +1168,7 @@
         ns3:lexicalValue  "virtualization" .
 
 <http://www.edsa-project.eu/skill/command-line>
-        ns3:lexicalValue  "command-line" .
+        ns3:lexicalValue  "command line" .
 
 <http://www.edsa-project.eu/skill/pubnub>
         ns3:lexicalValue  "pubnub" .
@@ -1419,13 +1180,13 @@
         ns3:lexicalValue  "php" .
 
 <http://www.edsa-project.eu/skill/boost-python>
-        ns3:lexicalValue  "boost-python" .
+        ns3:lexicalValue  "boost python" .
 
 <http://www.edsa-project.eu/skill/java-ee>
         ns3:lexicalValue  "java-ee" .
 
 <http://www.edsa-project.eu/skill/database-design>
-        ns3:lexicalValue  "database-design" .
+        ns3:lexicalValue  "database design" .
 
 <http://www.edsa-project.eu/skill/rom>
         ns3:lexicalValue  "rom" .
@@ -1436,17 +1197,11 @@
 <http://www.edsa-project.eu/skill/hl7>
         ns3:lexicalValue  "hl7" .
 
-<http://www.edsa-project.eu/skill/music>
-        ns3:lexicalValue  "music" .
-
-<http://www.edsa-project.eu/skill/image>
-        ns3:lexicalValue  "image" .
-
 <http://www.edsa-project.eu/skill/peoplesoft>
         ns3:lexicalValue  "peoplesoft" .
 
 <http://www.edsa-project.eu/skill/apache-spark>
-        ns3:lexicalValue  "apache-spark" .
+        ns3:lexicalValue  "apache spark" .
 
 <http://www.edsa-project.eu/skill/rhel>
         ns3:lexicalValue  "rhel" .
@@ -1454,29 +1209,11 @@
 <http://www.edsa-project.eu/skill/mgmt>
         ns3:lexicalValue  "mgmt" .
 
-<http://www.edsa-project.eu/skill/restful>
-        ns3:lexicalValue  "restful" .
-
-<http://www.edsa-project.eu/skill/e-commerce>
-        ns3:lexicalValue  "e-commerce" .
-
-<http://www.edsa-project.eu/skill/it>
-        ns3:lexicalValue  "it" .
-
-<http://www.edsa-project.eu/skill/microwave>
-        ns3:lexicalValue  "microwave" .
-
-<http://www.edsa-project.eu/skill/ticket-system>
-        ns3:lexicalValue  "ticket-system" .
-
 <http://www.edsa-project.eu/skill/scripting-language>
-        ns3:lexicalValue  "scripting-language" .
+        ns3:lexicalValue  "scripting language" .
 
 <http://www.edsa-project.eu/skill/openstack>
         ns3:lexicalValue  "openstack" .
-
-<http://www.edsa-project.eu/skill/bids>
-        ns3:lexicalValue  "bids" .
 
 <http://www.edsa-project.eu/skill/tcl>
         ns3:lexicalValue  "tcl" .
@@ -1487,26 +1224,14 @@
 <http://www.edsa-project.eu/skill/paas>
         ns3:lexicalValue  "paas" .
 
-<http://www.edsa-project.eu/skill/data-processing>
-        ns3:lexicalValue  "data-processing" .
-
 <http://www.edsa-project.eu/skill/symfony>
         ns3:lexicalValue  "symfony" .
 
 <http://www.edsa-project.eu/skill/erlang>
         ns3:lexicalValue  "erlang" .
 
-<http://www.edsa-project.eu/skill/electronics>
-        ns3:lexicalValue  "electronics" .
-
 <http://www.edsa-project.eu/skill/jbehave>
         ns3:lexicalValue  "jbehave" .
-
-<http://www.edsa-project.eu/skill/real-time>
-        ns3:lexicalValue  "real-time" .
-
-<http://www.edsa-project.eu/skill/deployment>
-        ns3:lexicalValue  "deployment" .
 
 <http://www.edsa-project.eu/skill/webapplications>
         ns3:lexicalValue  "webapplications" .
@@ -1518,10 +1243,10 @@
         ns3:lexicalValue  "smpp" .
 
 <http://www.edsa-project.eu/skill/google-analytics-api>
-        ns3:lexicalValue  "google-analytics-api" .
+        ns3:lexicalValue  "google analytics api" .
 
-<http://www.edsa-project.eu/skill/relational>
-        ns3:lexicalValue  "relational" .
+<http://www.edsa-project.eu/skill/relational-databases>
+        ns3:lexicalValue  "relational databases" .
 
 <http://www.edsa-project.eu/skill/hive>
         ns3:lexicalValue  "hive" .
@@ -1533,22 +1258,22 @@
         ns3:lexicalValue  "office365" .
 
 <http://www.edsa-project.eu/skill/data-science>
-        ns3:lexicalValue  "data-science" .
+        ns3:lexicalValue  "data science" .
 
 <http://www.edsa-project.eu/skill/c++0x>
         ns3:lexicalValue  "c++0x" .
 
 <http://www.edsa-project.eu/skill/network-programming>
-        ns3:lexicalValue  "network-programming" .
+        ns3:lexicalValue  "network programming" .
 
 <http://www.edsa-project.eu/skill/fullstack>
         ns3:lexicalValue  "fullstack" .
 
 <http://www.edsa-project.eu/skill/web-component>
-        ns3:lexicalValue  "web-component" .
+        ns3:lexicalValue  "web component" .
 
 <http://www.edsa-project.eu/skill/data-conversion>
-        ns3:lexicalValue  "data-conversion" .
+        ns3:lexicalValue  "data conversion" .
 
 <http://www.edsa-project.eu/skill/objective-c>
         ns3:lexicalValue  "objective-c" .
@@ -1565,14 +1290,8 @@
 <http://www.edsa-project.eu/skill/postgis>
         ns3:lexicalValue  "postgis" .
 
-<http://www.edsa-project.eu/skill/javascript-framework>
-        ns3:lexicalValue  "javascript-framework" .
-
 <http://www.edsa-project.eu/skill/vb.net>
         ns3:lexicalValue  "vb.net" .
-
-<http://www.edsa-project.eu/skill/malware-detection>
-        ns3:lexicalValue  "malware-detection" .
 
 <http://www.edsa-project.eu/skill/junit>
         ns3:lexicalValue  "junit" .
@@ -1586,20 +1305,11 @@
 <http://www.edsa-project.eu/skill/dhtml>
         ns3:lexicalValue  "dhtml" .
 
-<http://www.edsa-project.eu/skill/partitioning>
-        ns3:lexicalValue  "partitioning" .
-
 <http://www.edsa-project.eu/skill/wolfram-mathematica>
-        ns3:lexicalValue  "wolfram-mathematica" .
-
-<http://www.edsa-project.eu/skill/trading>
-        ns3:lexicalValue  "trading" .
-
-<http://www.edsa-project.eu/skill/rest-api>
-        ns3:lexicalValue  "rest-api" .
+        ns3:lexicalValue  "wolfram mathematica" .
 
 <http://www.edsa-project.eu/skill/lead-developer>
-        ns3:lexicalValue  "lead-developer" .
+        ns3:lexicalValue  "lead developer" .
 
 <http://www.edsa-project.eu/skill/sales>
         ns3:lexicalValue  "sales" .
@@ -1611,13 +1321,13 @@
         ns3:lexicalValue  "microservices" .
 
 <http://www.edsa-project.eu/skill/relational-database>
-        ns3:lexicalValue  "relational-database" .
+        ns3:lexicalValue  "relational database" .
 
 <http://www.edsa-project.eu/skill/titanium-mobile>
-        ns3:lexicalValue  "titanium-mobile" .
+        ns3:lexicalValue  "titanium mobile" .
 
 <http://www.edsa-project.eu/skill/algorithmic-trading>
-        ns3:lexicalValue  "algorithmic-trading" .
+        ns3:lexicalValue  "algorithmic trading" .
 
 <http://www.edsa-project.eu/skill/rtos>
         ns3:lexicalValue  "rtos" .
@@ -1644,7 +1354,7 @@
         ns3:lexicalValue  "xaml" .
 
 <http://www.edsa-project.eu/skill/ms-office>
-        ns3:lexicalValue  "ms-office" .
+        ns3:lexicalValue  "ms office" .
 
 <http://www.edsa-project.eu/skill/elixir>
         ns3:lexicalValue  "elixir" .
@@ -1653,7 +1363,7 @@
         ns3:lexicalValue  "cisco" .
 
 <http://www.edsa-project.eu/skill/concurrent-programming>
-        ns3:lexicalValue  "concurrent-programming" .
+        ns3:lexicalValue  "concurrent programming" .
 
 <http://www.edsa-project.eu/skill/togaf>
         ns3:lexicalValue  "togaf" .
@@ -1662,7 +1372,7 @@
         ns3:lexicalValue  "ajax" .
 
 <http://www.edsa-project.eu/skill/data-structures>
-        ns3:lexicalValue  "data-structures" .
+        ns3:lexicalValue  "data structures" .
 
 <http://www.edsa-project.eu/skill/active-directory>
         ns3:lexicalValue  "active-directory" .
@@ -1671,28 +1381,19 @@
         ns3:lexicalValue  "t-sql" .
 
 <http://www.edsa-project.eu/skill/scrummaster>
-        ns3:lexicalValue  "scrummaster" .
-
-<http://www.edsa-project.eu/skill/distributed-system>
-        ns3:lexicalValue  "distributed-system" .
+        ns3:lexicalValue  "scrum master" .
 
 <http://www.edsa-project.eu/skill/css>
         ns3:lexicalValue  "css" .
 
-<http://www.edsa-project.eu/skill/android-fragments>
-        ns3:lexicalValue  "android-fragments" .
-
 <http://www.edsa-project.eu/skill/osgi>
         ns3:lexicalValue  "osgi" .
 
-<http://www.edsa-project.eu/skill/multi-threaded>
-        ns3:lexicalValue  "multi-threaded" .
-
 <http://www.edsa-project.eu/skill/exchange-server>
-        ns3:lexicalValue  "exchange-server" .
+        ns3:lexicalValue  "exchange server" .
 
 <http://www.edsa-project.eu/skill/supervised-learning>
-        ns3:lexicalValue  "supervised-learning" .
+        ns3:lexicalValue  "supervised learning" .
 
 <http://www.edsa-project.eu/skill/tableau>
         ns3:lexicalValue  "tableau" .
@@ -1701,10 +1402,7 @@
         ns3:lexicalValue  "adobecq" .
 
 <http://www.edsa-project.eu/skill/object-oriented-database>
-        ns3:lexicalValue  "object-oriented-database" .
-
-<http://www.edsa-project.eu/skill/opengl-es>
-        ns3:lexicalValue  "opengl-es" .
+        ns3:lexicalValue  "object oriented database" .
 
 <http://www.edsa-project.eu/skill/vim>
         ns3:lexicalValue  "vim" .
@@ -1712,14 +1410,11 @@
 <http://www.edsa-project.eu/skill/javaj2ee>
         ns3:lexicalValue  "javaj2ee" .
 
-<http://www.edsa-project.eu/skill/designing>
-        ns3:lexicalValue  "designing" .
-
 <http://www.edsa-project.eu/skill/etl>
         ns3:lexicalValue  "etl" .
 
 <http://www.edsa-project.eu/skill/database-administration>
-        ns3:lexicalValue  "database-administration" .
+        ns3:lexicalValue  "database administration" .
 
 <http://www.edsa-project.eu/skill/gis>
         ns3:lexicalValue  "gis" .
@@ -1730,35 +1425,17 @@
 <http://www.edsa-project.eu/skill/cuda>
         ns3:lexicalValue  "cuda" .
 
-<http://www.edsa-project.eu/skill/sciene>
-        ns3:lexicalValue  "sciene" .
-
-<http://www.edsa-project.eu/skill/antivirus>
-        ns3:lexicalValue  "antivirus" .
-
-<http://www.edsa-project.eu/skill/open-source>
-        ns3:lexicalValue  "open-source" .
-
-<http://www.edsa-project.eu/skill/bluetooth-lowenergy>
-        ns3:lexicalValue  "bluetooth-lowenergy" .
-
-<http://www.edsa-project.eu/skill/database-schema>
-        ns3:lexicalValue  "database-schema" .
-
 <http://www.edsa-project.eu/skill/storm>
         ns3:lexicalValue  "storm" .
 
 <http://www.edsa-project.eu/skill/zookeeper>
         ns3:lexicalValue  "zookeeper" .
 
-<http://www.edsa-project.eu/skill/quality>
-        ns3:lexicalValue  "quality" .
-
 <http://www.edsa-project.eu/skill/vba>
         ns3:lexicalValue  "vba" .
 
 <http://www.edsa-project.eu/skill/parallel-processing>
-        ns3:lexicalValue  "parallel-processing" .
+        ns3:lexicalValue  "parallel processing" .
 
 <http://www.edsa-project.eu/skill/bash>
         ns3:lexicalValue  "bash" .
@@ -1770,13 +1447,10 @@
         ns3:lexicalValue  "cobol" .
 
 <http://www.edsa-project.eu/skill/semantic-web>
-        ns3:lexicalValue  "semantic-web" .
+        ns3:lexicalValue  "semantic web" .
 
 <http://www.edsa-project.eu/skill/excel-vba>
-        ns3:lexicalValue  "excel-vba" .
-
-<http://www.edsa-project.eu/skill/eclips>
-        ns3:lexicalValue  "eclips" .
+        ns3:lexicalValue  "excel vba" .
 
 <http://www.edsa-project.eu/skill/spring>
         ns3:lexicalValue  "spring" .
@@ -1794,7 +1468,7 @@
         ns3:lexicalValue  "wordpress" .
 
 <http://www.edsa-project.eu/skill/static-analysis>
-        ns3:lexicalValue  "static-analysis" .
+        ns3:lexicalValue  "static analysis" .
 
 <http://www.edsa-project.eu/skill/resin>
         ns3:lexicalValue  "resin" .
@@ -1814,29 +1488,20 @@
 <http://www.edsa-project.eu/skill/opengl-es-2.0>
         ns3:lexicalValue  "opengl-es-2.0" .
 
-<http://www.edsa-project.eu/skill/operations>
-        ns3:lexicalValue  "operations" .
-
 <http://www.edsa-project.eu/skill/eclipse-plugin>
-        ns3:lexicalValue  "eclipse-plugin" .
+        ns3:lexicalValue  "eclipse plugin" .
 
 <http://www.edsa-project.eu/skill/chef-recipe>
-        ns3:lexicalValue  "chef-recipe" .
+        ns3:lexicalValue  "chef recipe" .
 
 <http://www.edsa-project.eu/skill/tomcat>
         ns3:lexicalValue  "tomcat" .
-
-<http://www.edsa-project.eu/skill/testing>
-        ns3:lexicalValue  "testing" .
 
 <http://www.edsa-project.eu/skill/r>
         ns3:lexicalValue  "r" .
 
 <http://www.edsa-project.eu/skill/postgresql>
         ns3:lexicalValue  "postgresql" .
-
-<http://www.edsa-project.eu/skill/product-feature>
-        ns3:lexicalValue  "product-feature" .
 
 <http://www.edsa-project.eu/skill/nginx>
         ns3:lexicalValue  "nginx" .
@@ -1847,14 +1512,8 @@
 <http://www.edsa-project.eu/skill/agile>
         ns3:lexicalValue  "agile" .
 
-<http://www.edsa-project.eu/skill/research>
-        ns3:lexicalValue  "research" .
-
 <http://www.edsa-project.eu/skill/episerver>
         ns3:lexicalValue  "episerver" .
-
-<http://www.edsa-project.eu/skill/entity-framework>
-        ns3:lexicalValue  "entity-framework" .
 
 <http://www.edsa-project.eu/skill/fintech>
         ns3:lexicalValue  "fintech" .
@@ -1863,10 +1522,10 @@
         ns3:lexicalValue  "twisted" .
 
 <http://www.edsa-project.eu/skill/domain-driven-design>
-        ns3:lexicalValue  "domain-driven-design" .
+        ns3:lexicalValue  "domain driven design" .
 
 <http://www.edsa-project.eu/skill/data-binding>
-        ns3:lexicalValue  "data-binding" .
+        ns3:lexicalValue  "data binding" .
 
 <http://www.edsa-project.eu/skill/dns>
         ns3:lexicalValue  "dns" .
@@ -1877,32 +1536,23 @@
 <http://www.edsa-project.eu/skill/java>
         ns3:lexicalValue  "java" .
 
-<http://www.edsa-project.eu/skill/web-api>
-        ns3:lexicalValue  "web-api" .
-
 <http://www.edsa-project.eu/skill/photoshop>
         ns3:lexicalValue  "photoshop" .
 
 <http://www.edsa-project.eu/skill/eclipse>
         ns3:lexicalValue  "eclipse" .
 
-<http://www.edsa-project.eu/skill/unix-linux>
-        ns3:lexicalValue  "unix-linux" .
+<http://www.edsa-project.eu/skill/unix>
+        ns3:lexicalValue  "unix" .
 
 <http://www.edsa-project.eu/skill/heroku>
         ns3:lexicalValue  "heroku" .
-
-<http://www.edsa-project.eu/skill/2013>
-        ns3:lexicalValue  "2013" .
 
 <http://www.edsa-project.eu/skill/sqoop>
         ns3:lexicalValue  "sqoop" .
 
 <http://www.edsa-project.eu/skill/websphere>
         ns3:lexicalValue  "websphere" .
-
-<http://www.edsa-project.eu/skill/speech>
-        ns3:lexicalValue  "speech" .
 
 <http://www.edsa-project.eu/skill/qt>
         ns3:lexicalValue  "qt" .
@@ -1914,7 +1564,7 @@
         ns3:lexicalValue  "netty" .
 
 <http://www.edsa-project.eu/skill/ruby-on-rails-3>
-        ns3:lexicalValue  "ruby-on-rails-3" .
+        ns3:lexicalValue  "ruby on rails 3" .
 
 <http://www.edsa-project.eu/skill/simulation>
         ns3:lexicalValue  "simulation" .
@@ -1923,22 +1573,16 @@
         ns3:lexicalValue  "cloudfoundry" .
 
 <http://www.edsa-project.eu/skill/grid-computing>
-        ns3:lexicalValue  "grid-computing" .
-
-<http://www.edsa-project.eu/skill/camera>
-        ns3:lexicalValue  "camera" .
+        ns3:lexicalValue  "grid computing" .
 
 <http://www.edsa-project.eu/skill/web-services>
-        ns3:lexicalValue  "web-services" .
+        ns3:lexicalValue  "web services" .
 
 <http://www.edsa-project.eu/skill/sql-server-2014>
-        ns3:lexicalValue  "sql-server-2014" .
-
-<http://www.edsa-project.eu/skill/process>
-        ns3:lexicalValue  "process" .
+        ns3:lexicalValue  "sql server 2014" .
 
 <http://www.edsa-project.eu/skill/twitter-bootstrap>
-        ns3:lexicalValue  "twitter-bootstrap" .
+        ns3:lexicalValue  "twitter bootstrap" .
 
 <http://www.edsa-project.eu/skill/gpu>
         ns3:lexicalValue  "gpu" .
@@ -1952,14 +1596,8 @@
 <http://www.edsa-project.eu/skill/ios7>
         ns3:lexicalValue  "ios7" .
 
-<http://www.edsa-project.eu/skill/bare-metal>
-        ns3:lexicalValue  "bare-metal" .
-
 <http://www.edsa-project.eu/skill/mesos>
         ns3:lexicalValue  "mesos" .
-
-<http://www.edsa-project.eu/skill/5>
-        ns3:lexicalValue  "5" .
 
 <http://www.edsa-project.eu/skill/stl>
         ns3:lexicalValue  "stl" .
@@ -1971,19 +1609,16 @@
         ns3:lexicalValue  "dropwizard" .
 
 <http://www.edsa-project.eu/skill/reporting-services>
-        ns3:lexicalValue  "reporting-services" .
+        ns3:lexicalValue  "reporting services" .
 
 <http://www.edsa-project.eu/skill/iot>
         ns3:lexicalValue  "iot" .
-
-<http://www.edsa-project.eu/skill/test>
-        ns3:lexicalValue  "test" .
 
 <http://www.edsa-project.eu/skill/nlp>
         ns3:lexicalValue  "nlp" .
 
 <http://www.edsa-project.eu/skill/restful-authentication>
-        ns3:lexicalValue  "restful-authentication" .
+        ns3:lexicalValue  "restful authentication" .
 
 <http://www.edsa-project.eu/skill/oodesign>
         ns3:lexicalValue  "oodesign" .
@@ -1992,7 +1627,7 @@
         ns3:lexicalValue  "mybatis" .
 
 <http://www.edsa-project.eu/skill/data-warehouse>
-        ns3:lexicalValue  "data-warehouse" .
+        ns3:lexicalValue  "data warehouse" .
 
 <http://www.edsa-project.eu/skill/jdbc>
         ns3:lexicalValue  "jdbc" .
@@ -2009,9 +1644,6 @@
 <http://www.edsa-project.eu/skill/cloudera>
         ns3:lexicalValue  "cloudera" .
 
-<http://www.edsa-project.eu/skill/distributed>
-        ns3:lexicalValue  "distributed" .
-
 <http://www.edsa-project.eu/skill/lmax>
         ns3:lexicalValue  "lmax" .
 
@@ -2020,9 +1652,6 @@
 
 <http://www.edsa-project.eu/skill/haml>
         ns3:lexicalValue  "haml" .
-
-<http://www.edsa-project.eu/skill/hard-drive>
-        ns3:lexicalValue  "hard-drive" .
 
 <http://www.edsa-project.eu/skill/m2m>
         ns3:lexicalValue  "m2m" .
@@ -2036,23 +1665,14 @@
 <http://www.edsa-project.eu/skill/rest>
         ns3:lexicalValue  "rest" .
 
-<http://www.edsa-project.eu/skill/phonegap-build>
-        ns3:lexicalValue  "phonegap-build" .
-
-<http://www.edsa-project.eu/skill/graphics>
-        ns3:lexicalValue  "graphics" .
-
 <http://www.edsa-project.eu/skill/math>
         ns3:lexicalValue  "math" .
 
 <http://www.edsa-project.eu/skill/doctrine>
         ns3:lexicalValue  "doctrine" .
 
-<http://www.edsa-project.eu/skill/cross-browser>
-        ns3:lexicalValue  "cross-browser" .
-
 <http://www.edsa-project.eu/skill/user-interface>
-        ns3:lexicalValue  "user-interface" .
+        ns3:lexicalValue  "user interface" .
 
 <http://www.edsa-project.eu/skill/varnish>
         ns3:lexicalValue  "varnish" .
@@ -2076,7 +1696,7 @@
         ns3:lexicalValue  "shell" .
 
 <http://www.edsa-project.eu/skill/apache-spark-ml>
-        ns3:lexicalValue  "apache-spark-ml" .
+        ns3:lexicalValue  "apache spark ml" .
 
 <http://www.edsa-project.eu/skill/sitecore>
         ns3:lexicalValue  "sitecore" .
@@ -2097,46 +1717,34 @@
         ns3:lexicalValue  "compiler" .
 
 <http://www.edsa-project.eu/skill/data-mining>
-        ns3:lexicalValue  "data-mining" .
+        ns3:lexicalValue  "data mining" .
 
 <http://www.edsa-project.eu/skill/agile-project-management>
-        ns3:lexicalValue  "agile-project-management" .
+        ns3:lexicalValue  "agile project management" .
 
 <http://www.edsa-project.eu/skill/gpgpu>
         ns3:lexicalValue  "gpgpu" .
 
 <http://www.edsa-project.eu/skill/image-processing>
-        ns3:lexicalValue  "image-processing" .
-
-<http://www.edsa-project.eu/skill/algorithm>
-        ns3:lexicalValue  "algorithm" .
+        ns3:lexicalValue  "image processing" .
 
 <http://www.edsa-project.eu/skill/nagios>
         ns3:lexicalValue  "nagios" .
-
-<http://www.edsa-project.eu/skill/manual-testing>
-        ns3:lexicalValue  "manual-testing" .
 
 <http://www.edsa-project.eu/skill/vowpalwabbit>
         ns3:lexicalValue  "vowpalwabbit" .
 
 <http://www.edsa-project.eu/skill/android-studio>
-        ns3:lexicalValue  "android-studio" .
-
-<http://www.edsa-project.eu/skill/unix>
-        ns3:lexicalValue  "unix" .
+        ns3:lexicalValue  "android studio" .
 
 <http://www.edsa-project.eu/skill/perl>
         ns3:lexicalValue  "perl" .
 
 <http://www.edsa-project.eu/skill/reverse-engineering>
-        ns3:lexicalValue  "reverse-engineering" .
-
-<http://www.edsa-project.eu/skill/data>
-        ns3:lexicalValue  "data" .
+        ns3:lexicalValue  "reverse engineering" .
 
 <http://www.edsa-project.eu/skill/third-party-api>
-        ns3:lexicalValue  "third-party-api" .
+        ns3:lexicalValue  "third party api" .
 
 <http://www.edsa-project.eu/skill/vsam>
         ns3:lexicalValue  "vsam" .
@@ -2156,29 +1764,20 @@
 <http://www.edsa-project.eu/skill/gradle>
         ns3:lexicalValue  "gradle" .
 
-<http://www.edsa-project.eu/skill/medical-device>
-        ns3:lexicalValue  "medical-device" .
-
 <http://www.edsa-project.eu/skill/osx>
         ns3:lexicalValue  "osx" .
 
 <http://www.edsa-project.eu/skill/design-patterns>
-        ns3:lexicalValue  "design-patterns" .
+        ns3:lexicalValue  "design patterns" .
 
 <http://www.edsa-project.eu/skill/ms-access>
-        ns3:lexicalValue  "ms-access" .
+        ns3:lexicalValue  "ms access" .
 
 <http://www.edsa-project.eu/skill/joomla>
         ns3:lexicalValue  "joomla" .
 
-<http://www.edsa-project.eu/skill/graphic>
-        ns3:lexicalValue  "graphic" .
-
 <http://www.edsa-project.eu/skill/automation>
         ns3:lexicalValue  "automation" .
-
-<http://www.edsa-project.eu/skill/specialist>
-        ns3:lexicalValue  "specialist" .
 
 <http://www.edsa-project.eu/skill/scipy>
         ns3:lexicalValue  "scipy" .
@@ -2187,25 +1786,22 @@
         ns3:lexicalValue  "iam" .
 
 <http://www.edsa-project.eu/skill/virtual-machine>
-        ns3:lexicalValue  "virtual-machine" .
+        ns3:lexicalValue  "virtual machine" .
 
 <http://www.edsa-project.eu/skill/apache-kafka>
-        ns3:lexicalValue  "apache-kafka" .
-
-<http://www.edsa-project.eu/skill/infrastructure>
-        ns3:lexicalValue  "infrastructure" .
+        ns3:lexicalValue  "apache kafka" .
 
 <http://www.edsa-project.eu/skill/linear-programming>
-        ns3:lexicalValue  "linear-programming" .
+        ns3:lexicalValue  "linear programming" .
 
 <http://www.edsa-project.eu/skill/artificial-intelligence>
-        ns3:lexicalValue  "artificial-intelligence" .
+        ns3:lexicalValue  "artificial intelligence" .
 
 <http://www.edsa-project.eu/skill/sql-server-2008>
-        ns3:lexicalValue  "sql-server-2008" .
+        ns3:lexicalValue  "sql server 2008" .
 
 <http://www.edsa-project.eu/skill/data-analysis>
-        ns3:lexicalValue  "data-analysis" .
+        ns3:lexicalValue  "data analysis" .
 
 <http://www.edsa-project.eu/skill/monitoring>
         ns3:lexicalValue  "monitoring" .
@@ -2221,9 +1817,6 @@
 
 <http://www.edsa-project.eu/skill/crm>
         ns3:lexicalValue  "crm" .
-
-<http://www.edsa-project.eu/skill/business>
-        ns3:lexicalValue  "business" .
 
 <http://www.edsa-project.eu/skill/osmdroid>
         ns3:lexicalValue  "osmdroid" .
@@ -2243,14 +1836,11 @@
 <http://www.edsa-project.eu/skill/dba>
         ns3:lexicalValue  "dba" .
 
-<http://www.edsa-project.eu/skill/oracle-sqldeveloper>
-        ns3:lexicalValue  "oracle-sqldeveloper" .
-
-<http://www.edsa-project.eu/skill/server>
-        ns3:lexicalValue  "server" .
+<http://www.edsa-project.eu/skill/oracle-sql>
+        ns3:lexicalValue  "oracle sql" .
 
 <http://www.edsa-project.eu/skill/quantitative-finance>
-        ns3:lexicalValue  "quantitative-finance" .
+        ns3:lexicalValue  "quantitative finance" .
 
 <http://www.edsa-project.eu/skill/extjs>
         ns3:lexicalValue  "extjs" .
@@ -2262,43 +1852,37 @@
         ns3:lexicalValue  "ec2" .
 
 <http://www.edsa-project.eu/skill/unit-testing>
-        ns3:lexicalValue  "unit-testing" .
+        ns3:lexicalValue  "unit testing" .
 
 <http://www.edsa-project.eu/skill/serverside-javascript>
-        ns3:lexicalValue  "serverside-javascript" .
+        ns3:lexicalValue  "serverside javascript" .
 
 <http://www.edsa-project.eu/skill/software-design>
-        ns3:lexicalValue  "software-design" .
+        ns3:lexicalValue  "software design" .
 
 <http://www.edsa-project.eu/skill/jaxb>
         ns3:lexicalValue  "jaxb" .
 
-<http://www.edsa-project.eu/skill/navigation>
-        ns3:lexicalValue  "navigation" .
-
 <http://www.edsa-project.eu/skill/shell-scripting>
-        ns3:lexicalValue  "shell-scripting" .
+        ns3:lexicalValue  "shell scripting" .
 
 <http://www.edsa-project.eu/skill/data-modeling>
-        ns3:lexicalValue  "data-modeling" .
+        ns3:lexicalValue  "data modeling" .
 
 <http://www.edsa-project.eu/skill/bpm>
         ns3:lexicalValue  "bpm" .
 
 <http://www.edsa-project.eu/skill/asp.net-web-api>
-        ns3:lexicalValue  "asp.net-web-api" .
+        ns3:lexicalValue  "asp.net web api" .
 
 <http://www.edsa-project.eu/skill/customer-support>
-        ns3:lexicalValue  "customer-support" .
-
-<http://www.edsa-project.eu/skill/telecommunication>
-        ns3:lexicalValue  "telecommunication" .
+        ns3:lexicalValue  "customer support" .
 
 <http://www.edsa-project.eu/skill/aws>
         ns3:lexicalValue  "aws" .
 
 <http://www.edsa-project.eu/skill/functional-programming>
-        ns3:lexicalValue  "functional-programming" .
+        ns3:lexicalValue  "functional programming" .
 
 <http://www.edsa-project.eu/skill/networks>
         ns3:lexicalValue  "networks" .
@@ -2307,31 +1891,13 @@
         ns3:lexicalValue  "elasticsearch" .
 
 <http://www.edsa-project.eu/skill/machine-code>
-        ns3:lexicalValue  "machine-code" .
+        ns3:lexicalValue  "machine code" .
 
 <http://www.edsa-project.eu/skill/c>
         ns3:lexicalValue  "c" .
 
-<http://www.edsa-project.eu/skill/digital>
-        ns3:lexicalValue  "digital" .
-
-<http://www.edsa-project.eu/skill/enterprise>
-        ns3:lexicalValue  "enterprise" .
-
 <http://www.edsa-project.eu/skill/wpf>
         ns3:lexicalValue  "wpf" .
-
-<http://www.edsa-project.eu/skill/telecom>
-        ns3:lexicalValue  "telecom" .
-
-<http://www.edsa-project.eu/skill/ssas>
-        ns3:lexicalValue  "ssas" .
-
-<http://www.edsa-project.eu/skill/management>
-        ns3:lexicalValue  "management" .
-
-<http://www.edsa-project.eu/skill/debian-based>
-        ns3:lexicalValue  "debian-based" .
 
 <http://www.edsa-project.eu/skill/playframework-2.0>
         ns3:lexicalValue  "playframework-2.0" .
@@ -2342,9 +1908,6 @@
 <http://www.edsa-project.eu/skill/aerospike>
         ns3:lexicalValue  "aerospike" .
 
-<http://www.edsa-project.eu/skill/compliance>
-        ns3:lexicalValue  "compliance" .
-
 <http://www.edsa-project.eu/skill/devexpress>
         ns3:lexicalValue  "devexpress" .
 
@@ -2353,9 +1916,6 @@
 
 <http://www.edsa-project.eu/skill/xamarin>
         ns3:lexicalValue  "xamarin" .
-
-<http://www.edsa-project.eu/skill/directoryservices>
-        ns3:lexicalValue  "directoryservices" .
 
 <http://www.edsa-project.eu/skill/numpy>
         ns3:lexicalValue  "numpy" .
@@ -2366,9 +1926,6 @@
 <http://www.edsa-project.eu/skill/mobile-development>
         ns3:lexicalValue  "mobile-development" .
 
-<http://www.edsa-project.eu/skill/concurrency>
-        ns3:lexicalValue  "concurrency" .
-
 <http://www.edsa-project.eu/skill/cocoapods>
         ns3:lexicalValue  "cocoapods" .
 
@@ -2378,14 +1935,8 @@
 <http://www.edsa-project.eu/skill/uiux>
         ns3:lexicalValue  "uiux" .
 
-<http://www.edsa-project.eu/skill/restful-url>
-        ns3:lexicalValue  "restful-url" .
-
 <http://www.edsa-project.eu/skill/drupal>
         ns3:lexicalValue  "drupal" .
-
-<http://www.edsa-project.eu/skill/search>
-        ns3:lexicalValue  "search" .
 
 <http://www.edsa-project.eu/skill/waterfall>
         ns3:lexicalValue  "waterfall" .
@@ -2405,9 +1956,6 @@
 <http://www.edsa-project.eu/skill/pmp>
         ns3:lexicalValue  "pmp" .
 
-<http://www.edsa-project.eu/skill/gaming>
-        ns3:lexicalValue  "gaming" .
-
 <http://www.edsa-project.eu/skill/wireframing>
         ns3:lexicalValue  "wireframing" .
 
@@ -2424,7 +1972,7 @@
         ns3:lexicalValue  "impala" .
 
 <http://www.edsa-project.eu/skill/integration-testing>
-        ns3:lexicalValue  "integration-testing" .
+        ns3:lexicalValue  "integration testing" .
 
 <http://www.edsa-project.eu/skill/soa>
         ns3:lexicalValue  "soa" .
@@ -2432,32 +1980,26 @@
 <http://www.edsa-project.eu/skill/xslt>
         ns3:lexicalValue  "xslt" .
 
-<http://www.edsa-project.eu/skill/audio>
-        ns3:lexicalValue  "audio" .
-
 <http://www.edsa-project.eu/skill/swing>
         ns3:lexicalValue  "swing" .
 
 <http://www.edsa-project.eu/skill/linked-data>
-        ns3:lexicalValue  "linked-data" .
-
-<http://www.edsa-project.eu/skill/templates>
-        ns3:lexicalValue  "templates" .
+        ns3:lexicalValue  "linked data" .
 
 <http://www.edsa-project.eu/skill/durandal>
         ns3:lexicalValue  "durandal" .
 
 <http://www.edsa-project.eu/skill/computer-forensics>
-        ns3:lexicalValue  "computer-forensics" .
+        ns3:lexicalValue  "computer forensics" .
 
 <http://www.edsa-project.eu/skill/android-developer>
-        ns3:lexicalValue  "android-developer" .
+        ns3:lexicalValue  "android developer" .
 
 <http://www.edsa-project.eu/skill/google-apps>
-        ns3:lexicalValue  "google-apps" .
+        ns3:lexicalValue  "google apps" .
 
 <http://www.edsa-project.eu/skill/automated-tests>
-        ns3:lexicalValue  "automated-tests" .
+        ns3:lexicalValue  "automated tests" .
 
 <http://www.edsa-project.eu/skill/jmeter>
         ns3:lexicalValue  "jmeter" .
@@ -2477,9 +2019,6 @@
 <http://www.edsa-project.eu/skill/underscore.js>
         ns3:lexicalValue  "underscore.js" .
 
-<http://www.edsa-project.eu/skill/augmented-reality>
-        ns3:lexicalValue  "augmented-reality" .
-
 <http://www.edsa-project.eu/skill/scada>
         ns3:lexicalValue  "scada" .
 
@@ -2492,32 +2031,17 @@
 <http://www.edsa-project.eu/skill/jenkins>
         ns3:lexicalValue  "jenkins" .
 
-<http://www.edsa-project.eu/skill/principal>
-        ns3:lexicalValue  "principal" .
-
-<http://www.edsa-project.eu/skill/solutions>
-        ns3:lexicalValue  "solutions" .
-
-<http://www.edsa-project.eu/skill/program>
-        ns3:lexicalValue  "program" .
-
 <http://www.edsa-project.eu/skill/sass>
         ns3:lexicalValue  "sass" .
 
 <http://www.edsa-project.eu/skill/sql>
         ns3:lexicalValue  "sql" .
 
-<http://www.edsa-project.eu/skill/facebook>
-        ns3:lexicalValue  "facebook" .
-
 <http://www.edsa-project.eu/skill/rtsp>
         ns3:lexicalValue  "rtsp" .
 
 <http://www.edsa-project.eu/skill/project-management>
-        ns3:lexicalValue  "project-management" .
-
-<http://www.edsa-project.eu/skill/safety-critical>
-        ns3:lexicalValue  "safety-critical" .
+        ns3:lexicalValue  "project management" .
 
 <http://www.edsa-project.eu/skill/sqlalchemy>
         ns3:lexicalValue  "sqlalchemy" .
@@ -2543,9 +2067,6 @@
 <http://www.edsa-project.eu/skill/hybris>
         ns3:lexicalValue  "hybris" .
 
-<http://www.edsa-project.eu/skill/wifi>
-        ns3:lexicalValue  "wifi" .
-
 <http://www.edsa-project.eu/skill/amazon-ec2>
         ns3:lexicalValue  "amazon-ec2" .
 
@@ -2562,7 +2083,7 @@
         ns3:lexicalValue  "sed" .
 
 <http://www.edsa-project.eu/skill/object-oriented>
-        ns3:lexicalValue  "object-oriented" .
+        ns3:lexicalValue  "object oriented" .
 
 <http://www.edsa-project.eu/skill/troubleshooting>
         ns3:lexicalValue  "troubleshooting" .
@@ -2573,23 +2094,14 @@
 <http://www.edsa-project.eu/skill/jwplayer>
         ns3:lexicalValue  "jwplayer" .
 
-<http://www.edsa-project.eu/skill/integration>
-        ns3:lexicalValue  "integration" .
-
 <http://www.edsa-project.eu/skill/puppet>
         ns3:lexicalValue  "puppet" .
 
 <http://www.edsa-project.eu/skill/android-ui>
         ns3:lexicalValue  "android-ui" .
 
-<http://www.edsa-project.eu/skill/solid-principles>
-        ns3:lexicalValue  "solid-principles" .
-
 <http://www.edsa-project.eu/skill/arm>
         ns3:lexicalValue  "arm" .
-
-<http://www.edsa-project.eu/skill/ability-to-code-in-c#-4.0+-knowledge-of-frameworks-such-as-asp-.net>
-        ns3:lexicalValue  "ability-to-code-in-c#-4.0+-knowledge-of-frameworks-such-as-asp-.net" .
 
 <http://www.edsa-project.eu/skill/s3>
         ns3:lexicalValue  "s3" .
@@ -2598,37 +2110,28 @@
         ns3:lexicalValue  "hardware" .
 
 <http://www.edsa-project.eu/skill/linear-algebra>
-        ns3:lexicalValue  "linear-algebra" .
+        ns3:lexicalValue  "linear algebra" .
 
 <http://www.edsa-project.eu/skill/otrs>
         ns3:lexicalValue  "otrs" .
 
 <http://www.edsa-project.eu/skill/responsive-design>
-        ns3:lexicalValue  "responsive-design" .
+        ns3:lexicalValue  "responsive design" .
 
 <http://www.edsa-project.eu/skill/jvm>
         ns3:lexicalValue  "jvm" .
 
 <http://www.edsa-project.eu/skill/data-visualization>
-        ns3:lexicalValue  "data-visualization" .
+        ns3:lexicalValue  "data visualization" .
 
 <http://www.edsa-project.eu/skill/ravendb>
         ns3:lexicalValue  "ravendb" .
 
 <http://www.edsa-project.eu/skill/visual-studio>
-        ns3:lexicalValue  "visual-studio" .
-
-<http://www.edsa-project.eu/skill/google-chrome-extension>
-        ns3:lexicalValue  "google-chrome-extension" .
-
-<http://www.edsa-project.eu/skill/intrusion-detection>
-        ns3:lexicalValue  "intrusion-detection" .
-
-<http://www.edsa-project.eu/skill/internationalization>
-        ns3:lexicalValue  "internationalization" .
+        ns3:lexicalValue  "visual studio" .
 
 <http://www.edsa-project.eu/skill/performance-testing>
-        ns3:lexicalValue  "performance-testing" .
+        ns3:lexicalValue  "performance testing" .
 
 <http://www.edsa-project.eu/skill/soapui>
         ns3:lexicalValue  "soapui" .
@@ -2636,14 +2139,11 @@
 <http://www.edsa-project.eu/skill/pyramid>
         ns3:lexicalValue  "pyramid" .
 
-<http://www.edsa-project.eu/skill/classnotfoundexception>
-        ns3:lexicalValue  "classnotfoundexception" .
-
 <http://www.edsa-project.eu/skill/qml>
         ns3:lexicalValue  "qml" .
 
 <http://www.edsa-project.eu/skill/complex-event-processing>
-        ns3:lexicalValue  "complex-event-processing" .
+        ns3:lexicalValue  "complex event processing" .
 
 <http://www.edsa-project.eu/skill/biztalk>
         ns3:lexicalValue  "biztalk" .
@@ -2652,10 +2152,10 @@
         ns3:lexicalValue  "bower" .
 
 <http://www.edsa-project.eu/skill/apache-camel>
-        ns3:lexicalValue  "apache-camel" .
+        ns3:lexicalValue  "apache camel" .
 
 <http://www.edsa-project.eu/skill/linux-device-driver>
-        ns3:lexicalValue  "linux-device-driver" .
+        ns3:lexicalValue  "linux device driver" .
 
 <http://www.edsa-project.eu/skill/ocaml>
         ns3:lexicalValue  "ocaml" .
@@ -2667,10 +2167,7 @@
         ns3:lexicalValue  "refactoring" .
 
 <http://www.edsa-project.eu/skill/embedded-linux>
-        ns3:lexicalValue  "embedded-linux" .
-
-<http://www.edsa-project.eu/skill/c++-options-trading-algorithms>
-        ns3:lexicalValue  "c++-options-trading-algorithms" .
+        ns3:lexicalValue  "embedded linux" .
 
 <http://www.edsa-project.eu/skill/f#>
         ns3:lexicalValue  "f#" .
@@ -2696,17 +2193,11 @@
 <http://www.edsa-project.eu/skill/maven>
         ns3:lexicalValue  "maven" .
 
-<http://www.edsa-project.eu/skill/architecture>
-        ns3:lexicalValue  "architecture" .
-
 <http://www.edsa-project.eu/skill/symfony-2.3>
         ns3:lexicalValue  "symfony-2.3" .
 
 <http://www.edsa-project.eu/skill/prestashop>
         ns3:lexicalValue  "prestashop" .
-
-<http://www.edsa-project.eu/skill/myslq>
-        ns3:lexicalValue  "myslq" .
 
 <http://www.edsa-project.eu/skill/c++11>
         ns3:lexicalValue  "c++11" .
@@ -2714,14 +2205,8 @@
 <http://www.edsa-project.eu/skill/solaris>
         ns3:lexicalValue  "solaris" .
 
-<http://www.edsa-project.eu/skill/asynchronous>
-        ns3:lexicalValue  "asynchronous" .
-
 <http://www.edsa-project.eu/skill/ipc>
         ns3:lexicalValue  "ipc" .
-
-<http://www.edsa-project.eu/skill/angularjs-directive>
-        ns3:lexicalValue  "angularjs-directive" .
 
 <http://www.edsa-project.eu/skill/oop>
         ns3:lexicalValue  "oop" .
@@ -2758,3 +2243,6 @@
 
 <http://www.edsa-project.eu/skill/scrum>
         ns3:lexicalValue  "scrum" .
+
+<http://www.edsa-project.eu/skill/matlab>
+        ns3:lexicalValue  "matlab" .
