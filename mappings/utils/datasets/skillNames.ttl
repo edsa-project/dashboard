@@ -174,9 +174,6 @@
 <http://www.edsa-project.eu/skill/scripting>
         ns3:lexicalValue  "scripting" .
 
-<http://www.edsa-project.eu/skill/engineering>
-        ns3:lexicalValue  "engineering" .
-
 <http://www.edsa-project.eu/skill/apache>
         ns3:lexicalValue  "apache" .
 
@@ -339,15 +336,6 @@
 <http://www.edsa-project.eu/skill/ios>
         ns3:lexicalValue  "ios" .
 
-<http://www.edsa-project.eu/skill/computer>
-        ns3:lexicalValue  "computer" .
-
-<http://www.edsa-project.eu/skill/degree>
-        ns3:lexicalValue  "degree" .
-
-<http://www.edsa-project.eu/skill/microsoft>
-        ns3:lexicalValue  "microsoft" .
-
 <http://www.edsa-project.eu/skill/mapreduce>
         ns3:lexicalValue  "mapreduce" .
 
@@ -359,9 +347,6 @@
 
 <http://www.edsa-project.eu/skill/javascript>
         ns3:lexicalValue  "javascript" .
-
-<http://www.edsa-project.eu/skill/manager>
-        ns3:lexicalValue  "manager" .
 
 <http://www.edsa-project.eu/skill/metadata>
         ns3:lexicalValue  "metadata" .
@@ -429,7 +414,7 @@
 <http://www.edsa-project.eu/skill/netcdf>
         ns3:lexicalValue  "netcdf" .
 
-<http://www.edsa-project.eu/skill/ab testing>
+<http://www.edsa-project.eu/skill/ab-testing>
         ns3:lexicalValue  "ab testing" .
 
 <http://www.edsa-project.eu/skill/jasmine>
