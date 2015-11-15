@@ -1,0 +1,6358 @@
+@prefix ns1: <http://www.geonames.org/ontology#> .
+@prefix ns2: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sws.geonames.org/1273294/> a ns1:Feature ;
+    ns1:alternateName "دلهي"@ar,
+        "ديلهى"@arz,
+        "দিল্লী"@as,
+        "Dehli"@az,
+        "Дели"@ba,
+        "Горад Дэлі"@be,
+        "Делхи"@bg,
+        "नई दिल्ली"@bh,
+        "দিল্লি"@bn,
+        "দিল্লী"@bpy,
+        "Дели"@ce,
+        "دێھلی"@ckb,
+        "Dillí"@cs,
+        "Delhi"@de,
+        "ދިއްލީ"@dv,
+        "Δελχί"@el,
+        "Delhi"@en,
+        "Delhio"@eo,
+        "Delhi"@es,
+        "Delhi"@eu,
+        "دهلی"@fa,
+        "Delhi"@fi,
+        "Delhi"@fr,
+        "德里"@gan,
+        "દિલ્હી"@gu,
+        "דלהי"@he,
+        "दिल्ली"@hi,
+        "New Delhi"@hif,
+        "Delhi"@hu,
+        "Դելի"@hy,
+        "Delí"@is,
+        "デリー"@ja,
+        "დელი"@ka,
+        "Дели"@kk,
+        "ದೆಹಲಿ"@kn,
+        "델리"@ko,
+        "دلھی"@ks,
+        "Delhî"@ku,
+        "Dellium"@la,
+        "Delis"@lt,
+        "Deli"@lv,
+        "Faritani Delhi"@mg,
+        "Дели"@mhr,
+        "ഡെൽഹി"@ml,
+        "Дели"@mn,
+        "दिल्ली"@mr,
+        "Delhi"@nds,
+        "दिल्ली"@ne,
+        "दिल्ली"@new,
+        "Delhi"@nl,
+        "Delhi"@nn,
+        "ଦିଲ୍ଲୀ"@or,
+        "Дели"@os,
+        "ਦਿੱਲੀ"@pa,
+        "Delhi"@pl,
+        "دلی"@pnb,
+        "ډېلي"@ps,
+        "Deli"@pt,
+        "Dilhi"@qu,
+        "दिल्ली"@rmy,
+        "Delhi"@ro,
+        "Дели"@ru,
+        "Делі"@rue,
+        "देहली"@sa,
+        "Дели"@sah,
+        "دهلي"@sd,
+        "Dillí"@sk,
+        "Делхи"@sr,
+        "Delhi"@sv,
+        "தில்லி"@ta,
+        "ఢిల్లీ"@te,
+        "Деҳли"@tg,
+        "เดลี"@th,
+        "Deli"@tk,
+        "Dähli"@tt,
+        "Déhli"@ug,
+        "Делі"@uk,
+        "دہلی"@ur,
+        "Dehli"@uz,
+        "דעלהי"@yi,
+        "德里"@yue,
+        "德里"@zh ;
+    ns1:countryCode "IN" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/1273294/delhi.html> ;
+    ns1:name "Delhi" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/1273294/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/1269750/> ;
+    ns1:population "10927986" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Delhi> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/1273294/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Delhi> ;
+    ns2:lat "28.65195" ;
+    ns2:long "77.2315" .
+
+<http://sws.geonames.org/1796236/> a ns1:Feature ;
+    ns1:alternateName "Shanghai"@an,
+        "شانغهاي"@ar,
+        "Şanxay"@az,
+        "Шанхай"@bg,
+        "Shanghai"@bs,
+        "Xangai"@ca,
+        "Šanghaj"@cs,
+        "Shanghai"@da,
+        "Schanghai"@de,
+        "Shanghai"@diq,
+        "Σανγκάη"@el,
+        "Shanghai"@en,
+        "Ŝanhajo"@eo,
+        "Shanghai"@es,
+        "Shanghai"@et,
+        "Shanghai"@eu,
+        "شانگهای"@fa,
+        "Shanghai"@fi,
+        "Shanghai"@fr,
+        "Shanghai"@frp,
+        "Shang-hai"@ga,
+        "Shanghai - 上海"@gl,
+        "Shanghai"@hbs,
+        "שאנגחאי"@he,
+        "Šangaj"@hr,
+        "Sanghaj"@hu,
+        "Shanghai"@id,
+        "Sjanghæ"@is,
+        "Shanghai"@it,
+        "上海"@ja,
+        "შანჰაი"@ka,
+        "상하이"@ko,
+        "Šanchajus"@lt,
+        "Šanhaja"@lv,
+        "Shanghai"@ms,
+        "Sjanghai"@nl,
+        "Shanghai"@nn,
+        "Shanghai"@no,
+        "Szanghaj"@pl,
+        "Xangai"@pt,
+        "Shanghai"@ro,
+        "Шанхай"@ru,
+        "Šanghaj"@sk,
+        "Šanghaj"@sl,
+        "Шангај"@sr,
+        "Shanghai"@su,
+        "Shanghai"@sv,
+        "சாங்காய்"@ta,
+        "เซี่ยงไฮ้"@th,
+        "Şanghay"@tr,
+        "شاڭخەي شەھىرى"@ug,
+        "Шанхай"@uk,
+        "Thượng Hải"@vi,
+        "上海"@wuu,
+        "上海市"@zh ;
+    ns1:countryCode "CN" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/1796236/shanghai.html> ;
+    ns1:name "Shanghai" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/1796236/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/1814991/> ;
+    ns1:population "22315474" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Shanghai> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/1796236/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Shanghai> ;
+    ns2:lat "31.22222" ;
+    ns2:long "121.45806" .
+
+<http://sws.geonames.org/2152658/> a ns1:Feature ;
+    ns1:countryCode "AU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLX ;
+    ns1:locationMap <http://www.geonames.org/2152658/port-melbourne.html> ;
+    ns1:name "Port Melbourne" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2152658/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2077456/> ;
+    ns1:population "13293" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Port_Melbourne%2C_Victoria> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2152658/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Port_Melbourne%2C_Victoria> ;
+    ns2:lat "-37.83961" ;
+    ns2:long "144.94228" .
+
+<http://sws.geonames.org/2159734/> a ns1:Feature ;
+    ns1:countryCode "AU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLX ;
+    ns1:locationMap <http://www.geonames.org/2159734/loganholme.html> ;
+    ns1:name "Loganholme" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2159734/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2077456/> ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Loganholme%2C_Queensland> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2159734/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Loganholme%2C_Queensland> ;
+    ns2:lat "-27.7" ;
+    ns2:long "153.2" .
+
+<http://sws.geonames.org/2171589/> a ns1:Feature ;
+    ns1:countryCode "AU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLX ;
+    ns1:locationMap <http://www.geonames.org/2171589/chippendale.html> ;
+    ns1:name "Chippendale" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2171589/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2077456/> ;
+    ns1:population "4066" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Chippendale%2C_New_South_Wales> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2171589/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Chippendale%2C_New_South_Wales> ;
+    ns2:lat "-33.88673" ;
+    ns2:long "151.19745" .
+
+<http://sws.geonames.org/2267057/> a ns1:Feature ;
+    ns1:alternateName "Lissabon"@af,
+        "ሊዝቦን"@am,
+        "لشبونة"@ar,
+        "ܠܫܒܘܢܐ"@arc,
+        "Lisboa"@ast,
+        "Лісабон"@be,
+        "Лисабон"@bg,
+        "Lisbon"@br,
+        "Lisabon"@bs,
+        "Lisboa"@ca,
+        "Lisbona"@co,
+        "Lisabon"@cs,
+        "Lisboa"@cy,
+        "Lissabon"@da,
+        "Lissabon"@de,
+        "Λισαβώνα"@el,
+        "Lisbon"@en,
+        "Lisbono"@eo,
+        "Lisboa"@es,
+        "Lissabon"@et,
+        "Lisboa"@eu,
+        "لیسبون"@fa,
+        "Lissabon"@fi,
+        "Lisbonne"@fr,
+        "Lisbona"@frp,
+        "Liospóin"@ga,
+        "Lisbon"@gd,
+        "Lisboa"@gl,
+        "Lisabon"@hbs,
+        "ליסבון"@he,
+        "लिस्बन"@hi,
+        "Lisabon"@hr,
+        "Lisszabon"@hu,
+        "Լիսբոնա"@hy,
+        "Lisboa"@id,
+        "Lisboa"@io,
+        "Lissabon"@is,
+        "Lisbona"@it,
+        "リスボン"@ja,
+        "ლისაბონი"@ka,
+        "리스본"@ko,
+        "Felicitas Julia Olissipo"@la,
+        "Lissabon"@lb,
+        "Lisabona"@lt,
+        "Lisabona"@lv,
+        "Lisbon"@mh,
+        "लिस्बन"@mr,
+        "Lisbon"@ms,
+        "Lissabon"@nds,
+        "Lissabon"@nl,
+        "Lisboa"@nn,
+        "Lisboa"@no,
+        "Lisbona"@oc,
+        "Lizbona"@pl,
+        "Lisboa"@pt,
+        "Lisboa"@qu,
+        "Lisabona"@ro,
+        "Лиссабон"@ru,
+        "लिस्बन"@sa,
+        "Lisbona"@sc,
+        "Lisbona"@scn,
+        "Lisabon"@sk,
+        "Lizbona"@sl,
+        "Лисабон"@sr,
+        "Lissabon"@sv,
+        "Lizboa"@tet,
+        "Лиссабон"@tg,
+        "ลิสบอน"@th,
+        "Lizbon"@tr,
+        "Lisboa"@ty,
+        "لىسابون"@ug,
+        "Lisboa"@vi ;
+    ns1:countryCode "PT" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/2267057/lisbon.html> ;
+    ns1:name "Lisbon" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2267057/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2264397/> ;
+    ns1:population "517802" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Lisbon> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2267057/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Lisbon> ;
+    ns2:lat "38.71667" ;
+    ns2:long "-9.13333" .
+
+<http://sws.geonames.org/2562320/> a ns1:Feature ;
+    ns1:alternateName "Та-Шбиш"@ru ;
+    ns1:countryCode "MT" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/2562320/ta-xbiex.html> ;
+    ns1:name "Ta’ Xbiex" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2562320/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2562770/> ;
+    ns1:population "1642" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Ta_Xbiex> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2562320/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ta_Xbiex> ;
+    ns2:lat "35.89917" ;
+    ns2:long "14.49444" .
+
+<http://sws.geonames.org/2638077/> a ns1:Feature ;
+    ns1:alternateName "شفيلد"@ar,
+        "شيفيلد"@arz,
+        "Şeffild"@az,
+        "Горад Шэфілд"@be,
+        "Шефилд"@bg,
+        "شێفیڵد"@ckb,
+        "Sheffield"@cs,
+        "Sheffield"@cy,
+        "Sheffield"@da,
+        "Sheffield"@de,
+        "Σέφιλντ"@el,
+        "Sheffield"@en,
+        "Sheffield"@eo,
+        "Sheffield"@es,
+        "Sheffield"@eu,
+        "شفیلد"@fa,
+        "Sheffield"@fi,
+        "Sheffield"@fr,
+        "Sheffield"@hbs,
+        "שפילד"@he,
+        "शेफ़ील्ड"@hi,
+        "Շեֆիլդ"@hy,
+        "Sheffield"@id,
+        "Sheffield"@it,
+        "シェフィールド"@ja,
+        "შეფილდი"@ka,
+        "셰필드"@ko,
+        "Šefildas"@lt,
+        "Šefīlda"@lv,
+        "Шефилд"@mk,
+        "शेफील्ड"@mr,
+        "شفیلد"@mzn,
+        "Sheffield"@nl,
+        "Sheffield"@no,
+        "Шеффилд"@os,
+        "Sheffield"@pl,
+        "شیفیلڈ"@pnb,
+        "Sheffield"@pt,
+        "Sheffield"@ro,
+        "Шеффилд"@ru,
+        "Шефилд"@sr,
+        "Sheffield"@sv,
+        "షెఫీల్డ్"@te,
+        "เชฟฟีลด์"@th,
+        "Sheffield"@tr,
+        "Шеффілд"@uk,
+        "שעפילד"@yi,
+        "谢菲尔德"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2638077/sheffield.html> ;
+    ns1:name "Sheffield" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2638077/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "447047" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Sheffield> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2638077/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Sheffield> ;
+    ns2:lat "53.38297" ;
+    ns2:long "-1.4659" .
+
+<http://sws.geonames.org/2639996/> a ns1:Feature ;
+    ns1:alternateName "بورتسموث"@ar,
+        "Portsmut"@az,
+        "Горад Портсмут"@be,
+        "Портсмът"@bg,
+        "পোর্টস্‌মাথ"@bn,
+        "Portsmouth"@br,
+        "پۆرتسموت"@ckb,
+        "Portsmouth"@cs,
+        "Portsmouth"@de,
+        "Πόρτσμουθ"@el,
+        "Portsmouth"@en,
+        "Portsmouth"@eo,
+        "Portsmouth"@es,
+        "پورتسموث"@fa,
+        "Portsmouth"@fi,
+        "Portsmouth"@fr,
+        "פורטסמות'"@he,
+        "Պորտսմութ"@hy,
+        "Portsmouth"@id,
+        "Portsmouth"@it,
+        "ポーツマス"@ja,
+        "포츠머스"@ko,
+        "Portus Ostium"@la,
+        "Portsmutas"@lt,
+        "Portsmuta"@lv,
+        "पोर्टस्मथ"@mr,
+        "پورتسموث"@mzn,
+        "Portsmouth"@nl,
+        "Portsmouth"@no,
+        "Porchémue"@nrm,
+        "Portsmouth"@pl,
+        "Portsmouth"@pt,
+        "Портсмут"@ru,
+        "Portsmouth"@sk,
+        "Портсмут"@sr,
+        "Portsmouth"@sv,
+        "พอร์ตสมัท"@th,
+        "Portsmouth"@tr,
+        "Портсмут"@uk,
+        "朴次茅斯"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2639996/portsmouth.html> ;
+    ns1:name "Portsmouth" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2639996/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "194150" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Portsmouth> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2639996/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Portsmouth> ;
+    ns2:lat "50.79899" ;
+    ns2:long "-1.09125" .
+
+<http://sws.geonames.org/2641673/> a ns1:Feature ;
+    ns1:alternateName "نيوكاسل أبون تاين"@ar,
+        "Newcastle"@ast,
+        "Nyukasl apon Tayn"@az,
+        "Горад Ньюкасл-апан-Тайн"@be,
+        "Нюкасъл ъпон Тайн"@bg,
+        "নিউক্যাসল আপন ট্যাইন"@bn,
+        "نیوکاسڵ"@ckb,
+        "Newcastle"@cs,
+        "Newcastle upon Tyne"@cy,
+        "Newcastle upon Tyne"@de,
+        "Νιούκασλ"@el,
+        "Newcastle upon Tyne"@en,
+        "Newcastle-upon-Tyne"@eo,
+        "Newcastle-upon-Tyne"@es,
+        "Newcastle-upon-Tyne"@eu,
+        "نیوکاسل"@fa,
+        "Newcastle upon Tyne"@fi,
+        "Newcastle-upon-Tyne"@fr,
+        "An Caisteal Nuadh"@gd,
+        "ניוקאסל"@he,
+        "Newcastle upon Tyne"@id,
+        "Newcastle upon Tyne"@it,
+        "ニューカッスル・アポン・タイン"@ja,
+        "ნიუკასლ-აპონ-ტაინი"@ka,
+        "뉴캐슬어폰타인"@ko,
+        "Novum Castellum"@la,
+        "Newcastle-upon-Tyne"@li,
+        "Niukaslas prie Taino"@lt,
+        "Ņūkāsla pie Tainas"@lv,
+        "न्यूकॅसल अपॉन टाईन"@mr,
+        "نیوکاسل"@mzn,
+        "Newcastle upon Tyne"@nl,
+        "Newcastle upon Tyne"@nn,
+        "Newcastle"@no,
+        "Neuchâté"@nrm,
+        "Newcastle upon Tyne"@pl,
+        "نیوکاسل"@pnb,
+        "Newcastle upon Tyne"@pt,
+        "Newcastle-upon-Tyne"@ro,
+        "Ньюкасл-апон-Тайн"@ru,
+        "Newcastle"@scn,
+        "Њукасл на Тајну"@sr,
+        "Newcastle-upon-Tyne"@sv,
+        "นิวคาสเซิลอะพอนไทน์"@th,
+        "Newcastle upon Tyne"@tr,
+        "Ньюкасл-апон-Тайн"@uk,
+        "Newcastle trên sông Tyne"@vi,
+        "ניוקאסטל"@yi,
+        "泰恩河畔纽卡斯尔"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2641673/newcastle-upon-tyne.html> ;
+    ns1:name "Newcastle upon Tyne" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2641673/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "192382" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Newcastle_upon_Tyne> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2641673/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Newcastle_upon_Tyne> ;
+    ns2:lat "54.97328" ;
+    ns2:long "-1.61396" .
+
+<http://sws.geonames.org/2643123/> a ns1:Feature ;
+    ns1:alternateName "ማንችስተር"@am,
+        "Mameceaster"@ang,
+        "مانشستر"@ar,
+        "مانشستر"@arz,
+        "منچئستئر"@az,
+        "Горад Манчэстэр"@be,
+        "Манчестър"@bg,
+        "ম্যানচেস্টার"@bn,
+        "Manchester"@br,
+        "Manchester"@cs,
+        "Manceinion"@cy,
+        "Manchester"@da,
+        "Manchester"@de,
+        "Μάντσεστερ"@el,
+        "Manchester"@en,
+        "Manchester"@eo,
+        "Mánchester"@es,
+        "Manchester"@eu,
+        "منچستر"@fa,
+        "Manchester"@fi,
+        "Manchester"@fr,
+        "Manchain"@ga,
+        "Manchester"@gd,
+        "Manchester"@gl,
+        "Manchuin"@gv,
+        "מנצ'סטר"@he,
+        "मैन्चेस्टर"@hi,
+        "Manchester"@hr,
+        "Manchester"@hu,
+        "Manchester"@id,
+        "Manchester"@is,
+        "Manchester"@it,
+        "マンチェスター"@ja,
+        "მანჩესტერი"@ka,
+        "Манчестер"@kk,
+        "ಮ್ಯಾಂಚೆಸ್ಟರ್"@kn,
+        "맨체스터"@ko,
+        "Mancunium"@la,
+        "Mančesteris"@lt,
+        "Mančestra"@lv,
+        "Манчестер"@mk,
+        "മാഞ്ചസ്റ്റർ"@ml,
+        "मँचेस्टर"@mr,
+        "Manchester"@nl,
+        "Manchester"@nn,
+        "Manchester"@no,
+        "Manchêtre"@nrm,
+        "Манчестер"@os,
+        "Manchester"@pl,
+        "مانچسٹر"@pnb,
+        "Manchester"@pt,
+        "Manchester"@ro,
+        "Манчестер"@ru,
+        "Manchester"@scn,
+        "Manchester"@sl,
+        "Манчестер"@sr,
+        "Manchester"@sv,
+        "மான்செஸ்டர்"@ta,
+        "మాంచెస్టర్"@te,
+        "แมนเชสเตอร์"@th,
+        "Manchester"@tr,
+        "Manchéstér"@ug,
+        "Манчестер"@uk,
+        "Manchester"@vi,
+        "מאנטשעסטער"@yi ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2643123/manchester.html> ;
+    ns1:name "Manchester" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2643123/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "395515" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Mamucium> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2643123/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Mamucium> ;
+    ns2:lat "53.48095" ;
+    ns2:long "-2.23743" .
+
+<http://sws.geonames.org/2643743/> a ns1:Feature ;
+    ns1:alternateName "Лондан"@ab,
+        "Londen"@af,
+        "London"@als,
+        "ለንደን"@am,
+        "Londres"@an,
+        "Lunden"@ang,
+        "لندن"@ar,
+        "ܠܘܢܕܘܢ"@arc,
+        "لندن"@arz,
+        "Londres"@ast,
+        "London"@az,
+        "Лондон"@ba,
+        "Londres"@bcl,
+        "Горад Лондан"@be,
+        "Лёндан"@be,
+        "Лондон"@bg,
+        "লন্ডন"@bn,
+        "ལོན་ཊོན།"@bo,
+        "Londrez"@br,
+        "London"@bs,
+        "Londres"@ca,
+        "Lùng-dŭng"@cdo,
+        "ᎫᎴ ᏗᏍᎪᏂᎯᏱ"@chr,
+        "لەندەن"@ckb,
+        "Londra"@co,
+        "Londýn"@cs,
+        "Лондонъ"@cu,
+        "Лондон"@cv,
+        "Llundain"@cy,
+        "London"@da,
+        "London"@de,
+        "Londra"@diq,
+        "Λονδίνο"@el,
+        "London"@en,
+        "Londono"@eo,
+        "Londres"@es,
+        "London"@et,
+        "London"@eu,
+        "Londres"@eu,
+        "Londri"@ext,
+        "لندن"@fa,
+        "Lontoo"@fi,
+        "Londres"@fr,
+        "Londres"@frp,
+        "Londen"@fy,
+        "Londain"@ga,
+        "倫敦"@gan,
+        "Lunnainn"@gd,
+        "Londres"@gl,
+        "Londye"@gn,
+        "લંડન"@gu,
+        "Lunnin"@gv,
+        "Lākana"@haw,
+        "London"@hbs,
+        "לונדון"@he,
+        "लंदन"@hi,
+        "London"@hr,
+        "Lonn"@ht,
+        "London"@hu,
+        "Լոնդոն"@hy,
+        "London"@ia,
+        "London"@id,
+        "Londres"@ilo,
+        "London"@io,
+        "London"@is,
+        "Lundúnir"@is,
+        "Londra"@it,
+        "ロンドン"@ja,
+        "london"@jbo,
+        "ლონდონი"@ka,
+        "Лондон"@kk,
+        "ಲಂಡನ್"@kn,
+        "런던"@ko,
+        "Лондон"@koi,
+        "Лондон"@krc,
+        "London"@ku,
+        "Лондон"@kv,
+        "Loundres"@kw,
+        "Лондон"@ky,
+        "Londinium"@la,
+        "Londra"@lad,
+        "London"@lb,
+        "Лондон"@lbe,
+        "Лондон"@lez,
+        "Londe"@li,
+        "Londra"@lij,
+        "Lundra"@lmo,
+        "Londoni"@ln,
+        "ລອນດອນ"@lo,
+        "Londonas"@lt,
+        "Londona"@lv,
+        "Лондон"@mhr,
+        "Rānana"@mi,
+        "Лондон"@mk,
+        "ലണ്ടൻ"@ml,
+        "Лондон"@mn,
+        "लंडन"@mr,
+        "Лондон"@mrj,
+        "London"@ms,
+        "Londra"@mt,
+        "Londres"@mwl,
+        "လန်ဒန်မြို့"@my,
+        "لندن"@mzn,
+        "Londres"@nah,
+        "Londra"@nap,
+        "London"@nds,
+        "लण्डन"@ne,
+        "लण्डन"@new,
+        "Londen"@nl,
+        "London"@nn,
+        "London"@no,
+        "Londres"@nrm,
+        "Londres"@oc,
+        "ଲଣ୍ଡନ"@or,
+        "Лондон"@os,
+        "Londe"@pcd,
+        "Londyn"@pl,
+        "Londra"@pms,
+        "لندن"@pnb,
+        "Λονδίνο"@pnt,
+        "لندن"@ps,
+        "Londres"@pt,
+        "London"@qu,
+        "Londra"@rm,
+        "Londra"@ro,
+        "Лондон"@ru,
+        "Лондон"@rue,
+        "लन्डन्"@sa,
+        "Лондон"@sah,
+        "Londra"@sc,
+        "Londra"@scn,
+        "Lunnon"@sco,
+        "ලන්ඩන්"@si,
+        "Londýn"@sk,
+        "London"@sl,
+        "Londra"@sq,
+        "Лондон"@sr,
+        "London"@sv,
+        "Lůndůn"@szl,
+        "இலண்டன்"@ta,
+        "లండన్"@te,
+        "Londres"@tet,
+        "Лондон"@tg,
+        "ลอนดอน"@th,
+        "Londres"@tl,
+        "Landen"@tpi,
+        "Londra"@tr,
+        "Лондон"@tt,
+        "Лондон"@udm,
+        "لوندون"@ug,
+        "Лондон"@uk,
+        "لندن"@ur,
+        "Łondra"@vec,
+        "Luân Đôn"@vi,
+        "Londn"@vls,
+        "London"@vo,
+        "Londar"@wo,
+        "伦敦"@wuu,
+        "ლონდონი"@xmf,
+        "לאנדאן"@yi,
+        "Lọndọnu"@yo,
+        "Londen"@zea,
+        "伦敦"@zh,
+        "ILondon"@zu ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/2643743/london.html> ;
+    ns1:name "London" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2643743/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "7556900" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/London> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2643743/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/London> ;
+    ns2:lat "51.50853" ;
+    ns2:long "-0.12574" .
+
+<http://sws.geonames.org/2644688/> a ns1:Feature ;
+    ns1:alternateName "Loidis"@ang,
+        "ليدز"@ar,
+        "ܠܝܕܣ"@arc,
+        "Lids"@az,
+        "Горад Лідс"@be,
+        "Лийдс"@bg,
+        "Лидс"@ce,
+        "Leeds"@cs,
+        "Leeds"@da,
+        "Leeds"@de,
+        "Ληντς"@el,
+        "Leeds"@en,
+        "Leeds"@eo,
+        "Leeds"@es,
+        "Leeds"@eu,
+        "لیدز"@fa,
+        "Leeds"@fi,
+        "Leeds"@fr,
+        "લીડ્ઝ"@gu,
+        "לידס"@he,
+        "लीड्स"@hi,
+        "Լիդս"@hy,
+        "Leeds"@id,
+        "Leeds"@it,
+        "リーズ"@ja,
+        "ლიდზი"@ka,
+        "ಲೀಡ್ಸ್"@kn,
+        "리즈"@ko,
+        "Ledesia"@la,
+        "Lidsas"@lt,
+        "Līdsa"@lv,
+        "Лидс"@mk,
+        "लीड्स"@mr,
+        "لیدز"@mzn,
+        "Leeds"@nl,
+        "Leeds"@nn,
+        "Leeds"@no,
+        "Лидс"@os,
+        "Leeds"@pl,
+        "لیڈز"@pnb,
+        "Leeds"@pt,
+        "Leeds"@ro,
+        "Лидс"@ru,
+        "Лидс"@sr,
+        "Leeds"@sv,
+        "లీడ్స్"@te,
+        "Лидс"@tg,
+        "ลีดส์"@th,
+        "Leeds"@tr,
+        "Ritis"@ug,
+        "Лідс"@uk,
+        "Lids"@uz,
+        "לידז"@yi,
+        "利兹"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2644688/leeds.html> ;
+    ns1:name "Leeds" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2644688/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "455123" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Leeds> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2644688/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Leeds> ;
+    ns2:lat "53.79648" ;
+    ns2:long "-1.54785" .
+
+<http://sws.geonames.org/2646840/> a ns1:Feature ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/2646840/hinxton.html> ;
+    ns1:name "Hinxton" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2646840/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Hinxton> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2646840/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Hinxton> ;
+    ns2:lat "52.08529" ;
+    ns2:long "0.18198" .
+
+<http://sws.geonames.org/2649808/> a ns1:Feature ;
+    ns1:alternateName "Exeter"@af,
+        "Exanceaster"@ang,
+        "إكسيتر"@ar,
+        "Ексетър"@bg,
+        "Caerwysg"@cy,
+        "Exeter"@de,
+        "Exeter"@en,
+        "Exeter"@eo,
+        "اکستر"@fa,
+        "Exeter"@fi,
+        "Exeter"@fr,
+        "Exeter"@it,
+        "エクセター"@ja,
+        "엑서터"@ko,
+        "Karesk"@kw,
+        "Exonia"@la,
+        "Ekseteris"@lt,
+        "اکستر"@mzn,
+        "Exeter"@nl,
+        "Exeter"@no,
+        "Эксетер"@os,
+        "Exeter"@pl,
+        "ایکسٹر"@pnb,
+        "Эксетер"@ru,
+        "Ексетер"@sr,
+        "Exeter"@sv,
+        "เอ็กซิเตอร์"@th,
+        "Exeter"@tr,
+        "Ексетер"@uk,
+        "עקסעטער"@yi,
+        "埃克塞特"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2649808/exeter.html> ;
+    ns1:name "Exeter" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2649808/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "113118" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Exeter> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2649808/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Exeter> ;
+    ns2:lat "50.7236" ;
+    ns2:long "-3.52751" .
+
+<http://sws.geonames.org/2650225/> a ns1:Feature ;
+    ns1:alternateName "Edinburg"@af,
+        "Edimburgo"@an,
+        "Edinburg"@ang,
+        "إدنبرة"@ar,
+        "Edimburgo"@ast,
+        "Edinburq"@az,
+        "Edinburg"@bar,
+        "Горад Эдынбург"@be,
+        "Единбург"@bg,
+        "এডিনবরা"@bn,
+        "Dinedin"@br,
+        "Edinburgh"@bs,
+        "Edimburg"@ca,
+        "Эдинбург"@ce,
+        "ئێدینبەرە"@ckb,
+        "Edinburgh"@cs,
+        "Эдинбург"@cv,
+        "Caeredin"@cy,
+        "Edinburgh"@da,
+        "Edinburgh"@de,
+        "Εδιμβούργο"@el,
+        "Edinburgh"@en,
+        "Edinburgo"@eo,
+        "Edimburgo"@es,
+        "Edinburgh"@et,
+        "Edinburgh"@eu,
+        "Edimburgu"@ext,
+        "ادینبرو"@fa,
+        "Edinburgh"@fi,
+        "Édimbourg"@fr,
+        "Edinburc"@fur,
+        "Edinboarch"@fy,
+        "Dún Éideann"@ga,
+        "Dùn Èideann"@gd,
+        "Edimburgo"@gl,
+        "Doon Edin"@gv,
+        "אדינבורו"@he,
+        "एडिनबरा"@hi,
+        "Edinbo"@ht,
+        "Edinburgh"@hu,
+        "Էդինբուրգ"@hy,
+        "Edinburgh"@id,
+        "Edinburgh"@io,
+        "Edinborg"@is,
+        "Edimburgo"@it,
+        "エディンバラ"@ja,
+        "ედინბურგი"@ka,
+        "Эдинбург"@kk,
+        "ಎಡಿನ್‌ಬರ್ಗ್‌‌"@kn,
+        "에든버러"@ko,
+        "Edimburgum"@la,
+        "Edinburgh"@lb,
+        "Edimbùrgh"@lmo,
+        "Edinburgas"@lt,
+        "Edinburga"@lv,
+        "Единбург"@mk,
+        "എഡിൻബറോ"@ml,
+        "Эдинбург"@mn,
+        "एडिनबरा"@mr,
+        "Edinburgh"@ms,
+        "အက်ဒင်ဗာရာမြို့"@my,
+        "एदिनबरा"@new,
+        "Edinburgh"@nl,
+        "Edinburgh"@nn,
+        "Edinburgh"@no,
+        "Edimborg"@oc,
+        "Эдинбург"@os,
+        "Edynburg"@pl,
+        "Edimborgh"@pms,
+        "ایڈنبرا"@pnb,
+        "Edimburgo"@pt,
+        "Edinburgh"@rm,
+        "Edinburgh"@ro,
+        "Эдинбург"@ru,
+        "Edimburgu"@scn,
+        "Edinburrie"@sco,
+        "Edinburgh"@sk,
+        "Edinburg"@sl,
+        "Edinburg"@sq,
+        "Единбург"@sr,
+        "Edinburgh"@sv,
+        "எடின்பரோ"@ta,
+        "เอดินบะระ"@th,
+        "Edinburgh"@tr,
+        "Эдинбург"@tt,
+        "Idinburg"@ug,
+        "Единбург"@uk,
+        "ایڈنبرا"@ur,
+        "Ebora"@vec,
+        "Edinburgh"@vo,
+        "ედინბურგი"@xmf,
+        "עדינבורג"@yi,
+        "爱丁堡"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/2650225/edinburgh.html> ;
+    ns1:name "Edinburgh" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2650225/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "435791" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Edinburgh> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2650225/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Edinburgh> ;
+    ns2:lat "55.95206" ;
+    ns2:long "-3.19648" .
+
+<http://sws.geonames.org/2653261/> a ns1:Feature ;
+    ns1:alternateName "شلتنهام"@ar,
+        "Челтнъм"@bg,
+        "Cheltenham"@de,
+        "Cheltenham"@en,
+        "Cheltenham"@es,
+        "چلتنهام"@fa,
+        "Cheltenham"@fi,
+        "Cheltenham"@fr,
+        "צ'לטנהאם"@he,
+        "チェルトナム"@ja,
+        "첼트넘"@ko,
+        "Čeltnamas"@lt,
+        "Cheltenham"@nl,
+        "Cheltenham"@no,
+        "Cheltenham"@pl,
+        "Челтнем"@ru,
+        "Челтенам"@sr,
+        "Cheltenham"@sv,
+        "เชลต์นัม"@th,
+        "切爾滕納姆"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/2653261/cheltenham.html> ;
+    ns1:name "Cheltenham" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2653261/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "103249" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Cheltenham> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2653261/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Cheltenham> ;
+    ns2:lat "51.9" ;
+    ns2:long "-2.08333" .
+
+<http://sws.geonames.org/2653941/> a ns1:Feature ;
+    ns1:alternateName "Grantanbrycg"@ang,
+        "كامبريدج"@ar,
+        "Kembric"@az,
+        "Горад Кембрыдж"@be,
+        "Кеймбридж"@bg,
+        "ক্যামব্রিজ"@bn,
+        "Cambridge"@br,
+        "Cambridge"@bs,
+        "Cambridge"@ca,
+        "Cambridge"@cs,
+        "Caergrawnt"@cy,
+        "Cambridge"@da,
+        "Cambridge"@de,
+        "Κέμπριτζ"@el,
+        "Cambridge"@en,
+        "Kembriĝo"@eo,
+        "Cambridge"@es,
+        "Cambridge"@eu,
+        "کمبریج"@fa,
+        "Cambridge"@fi,
+        "Cambridge"@fr,
+        "Cambridge"@gl,
+        "Kiam-khiâu"@hak,
+        "קיימברידג'"@he,
+        "Cambridge"@hr,
+        "Cambridge"@hu,
+        "Քեմբրիջ"@hy,
+        "Cambridge"@it,
+        "ケンブリッジ"@ja,
+        "კემბრიჯი"@ka,
+        "ಕೇಂಬ್ರಿಜ್"@kn,
+        "케임브리지"@ko,
+        "Cantabrigia"@la,
+        "Kembridžas"@lt,
+        "Kembridža"@lv,
+        "കേംബ്രിഡ്ജ്"@ml,
+        "केंब्रिज"@mr,
+        "ကိန်းဘရစ်ချ်မြို့"@my,
+        "کمبریج"@mzn,
+        "Cambridge"@nl,
+        "Cambridge"@no,
+        "Cambridge"@nrm,
+        "Cambridge"@pl,
+        "کیمبرج"@pnb,
+        "Cambridge"@pt,
+        "Кембридж"@ru,
+        "Cambridge"@sco,
+        "Cambridge"@sk,
+        "Cambridge"@sl,
+        "Кембриџ"@sr,
+        "Cambridge"@sv,
+        "Кембриҷ"@tg,
+        "เคมบริดจ์"@th,
+        "Cambridge"@tr,
+        "Kambrij"@ug,
+        "Кембридж"@uk,
+        "Кембрідж"@uk,
+        "劍橋"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2653941/cambridge.html> ;
+    ns1:name "Cambridge" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2653941/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "128488" ;
+    ns1:wikipediaArticle <http://ru.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BC%D0%B1%D1%80%D0%B8%D0%B4%D0%B6> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2653941/about.rdf> ;
+    ns2:lat "52.2" ;
+    ns2:long "0.11667" .
+
+<http://sws.geonames.org/2655459/> a ns1:Feature ;
+    ns1:alternateName "بلاكبول"@ar,
+        "Bləkpul"@az,
+        "Блакпул"@bg,
+        "ব্ল্যাকপুল"@bn,
+        "Blackpool"@de,
+        "Blackpool"@en,
+        "Blackpool"@eo,
+        "Blackpool"@es,
+        "بلک‌پول"@fa,
+        "Blackpool"@fi,
+        "Blackpool"@fr,
+        "ブラックプール"@ja,
+        "ბლეკპული"@ka,
+        "블랙풀"@ko,
+        "Blackpool"@lb,
+        "Blakpulas"@lt,
+        "Blackpool"@nl,
+        "Blackpool"@no,
+        "Blackpool"@pl,
+        "Blackpool"@pt,
+        "Blackpool"@ro,
+        "Блэкпул"@ru,
+        "Blackpool"@sco,
+        "Blackpool"@sk,
+        "Блекпул"@sr,
+        "Blackpool"@sv,
+        "แบล็กพูล"@th,
+        "Блекпул"@uk,
+        "黑潭"@zh ;
+    ns1:countryCode "GB" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2655459/blackpool.html> ;
+    ns1:name "Blackpool" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2655459/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2635167/> ;
+    ns1:population "143101" ;
+    ns1:wikipediaArticle <http://ru.wikipedia.org/wiki/%D0%91%D0%BB%D1%8D%D0%BA%D0%BF%D1%83%D0%BB> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2655459/about.rdf> ;
+    ns2:lat "53.81667" ;
+    ns2:long "-3.05" .
+
+<http://sws.geonames.org/2657896/> a ns1:Feature ;
+    ns1:alternateName "Zürich"@af,
+        "Zürich"@als,
+        "زيورخ"@ar,
+        "ܨܝܘܪܫ"@arc,
+        "Цюрых"@be,
+        "Цюрих"@bg,
+        "Zürich"@bs,
+        "Zuric"@ca,
+        "Curych"@cs,
+        "Zürich"@da,
+        "Zürich"@de,
+        "Ζυρίχη"@el,
+        "Zurich"@en,
+        "Zuriko"@eo,
+        "Zúrich"@es,
+        "Zürich"@et,
+        "Zurich"@eu,
+        "Zürich"@fi,
+        "Zurich"@fr,
+        "Tsurique"@frp,
+        "Zürich"@hbs,
+        "ציריך"@he,
+        "ज़्यूरिख"@hi,
+        "Zürich"@hr,
+        "Zürich"@hu,
+        "Zürich"@id,
+        "Zürich"@io,
+        "Zürich"@is,
+        "Zurigo"@it,
+        "チューリッヒ"@ja,
+        "취리히"@ko,
+        "Turicum"@la,
+        "Ciūrichas"@lt,
+        "Cīrihe"@lv,
+        "Zürich"@nl,
+        "Zürich"@nn,
+        "Zürich"@no,
+        "Zurich"@pdc,
+        "Zurych"@pl,
+        "Zurique"@pt,
+        "Zürich"@qu,
+        "Turitg"@rm,
+        "Zürich"@ro,
+        "Цюрих"@ru,
+        "Zurìcu"@scn,
+        "Zürich"@sk,
+        "Zürich"@sl,
+        "Zürich"@sq,
+        "Цирих"@sr,
+        "Zürich"@sv,
+        "Lungsod ng Zürich"@tl,
+        "Zürih"@tr,
+        "سيۇرىخ"@ug,
+        "Zürich"@vi ;
+    ns1:countryCode "CH" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/2657896/zuerich.html> ;
+    ns1:name "Zurich" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2657896/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2658434/> ;
+    ns1:population "341730" ;
+    ns1:postalCode "8032" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Z%C3%BCrich> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2657896/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Z%C3%BCrich> ;
+    ns2:lat "47.36667" ;
+    ns2:long "8.55" .
+
+<http://sws.geonames.org/2659896/> a ns1:Feature ;
+    ns1:countryCode "CH" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/2659896/bern-liebefeld.html> ;
+    ns1:name "Bern / Liebefeld" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2659896/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2658434/> ;
+    ns1:postalCode "3097" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2659896/about.rdf> ;
+    ns2:lat "46.93333" ;
+    ns2:long "7.43333" .
+
+<http://sws.geonames.org/2747373/> a ns1:Feature ;
+    ns1:alternateName "Den Haag"@af,
+        "لاهاي"@ar,
+        "Хага"@bg,
+        "Haag"@bs,
+        "La Haia"@ca,
+        "Haag"@cs,
+        "Den Haag"@cy,
+        "Haag"@da,
+        "Den Haag"@de,
+        "Χάγη"@el,
+        "The Hague"@en,
+        "Hago"@eo,
+        "La Haya"@es,
+        "Haag"@et,
+        "لاهه"@fa,
+        "Haag"@fi,
+        "La Haye"@fr,
+        "De Haach"@fy,
+        "An Háig"@ga,
+        "A Haia"@gl,
+        "Hag"@hbs,
+        "האג"@he,
+        "Haag"@hr,
+        "Hága"@hu,
+        "Den Haag"@id,
+        "Haag"@is,
+        "L'Aia"@it,
+        "ハーグ"@ja,
+        "ჰააგა"@ka,
+        "헤이그"@ko,
+        "Haga"@la,
+        "D'n Haog"@li,
+        "Haga"@lt,
+        "Hāga"@lv,
+        "Den Haag"@nl,
+        "Haag"@no,
+        "Haga"@pl,
+        "A Haia"@pt,
+        "Haga"@ro,
+        "Гаага"@ru,
+        "L'Aia"@scn,
+        "Haag"@sk,
+        "Haag"@sl,
+        "Haga"@sq,
+        "Хаг"@sr,
+        "Haag"@sv,
+        "Lahey"@tr,
+        "Den Haag"@vi,
+        "海牙"@zh ;
+    ns1:countryCode "NL" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLG ;
+    ns1:locationMap <http://www.geonames.org/2747373/the-hague.html> ;
+    ns1:name "The Hague" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2747373/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2750405/> ;
+    ns1:population "474292" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/The_Hague> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2747373/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/The_Hague> ;
+    ns2:lat "52.07667" ;
+    ns2:long "4.29861" .
+
+<http://sws.geonames.org/2759794/> a ns1:Feature ;
+    ns1:alternateName "Amsterdam"@af,
+        "አምስተርዳም"@am,
+        "أمستردام"@ar,
+        "ܐܡܣܛܪܕܐܡ"@arc,
+        "امستردام"@arz,
+        "Amsterdam"@az,
+        "Амстердам"@ba,
+        "Горад Амстэрдам"@be,
+        "Амстердам"@bg,
+        "আমস্টারডাম"@bn,
+        "ཨེམ་སི་ཊར་ཌམ།"@bo,
+        "Amsterdam"@br,
+        "Amsterdam"@bs,
+        "Amsterdam"@ca,
+        "Амстердам"@ce,
+        "ئەمستەردام"@ckb,
+        "Amsterdam"@cs,
+        "Amsterdam"@csb,
+        "Амстердам"@cv,
+        "Amsterdam"@cy,
+        "Amsterdam"@da,
+        "Amsterdam"@de,
+        "Άμστερνταμ"@el,
+        "Amsterdam"@en,
+        "Amsterdamo"@eo,
+        "Ámsterdam"@es,
+        "Amsterdam"@et,
+        "Amsterdam"@eu,
+        "Ámsterdam"@ext,
+        "آمستردام"@fa,
+        "Amsterdam"@fi,
+        "Amsterdam"@fr,
+        "Amsterdam"@frp,
+        "Amsterdam"@fy,
+        "Amstardam"@ga,
+        "Amsterdam"@gd,
+        "Ámsterdan"@gl,
+        "Amsterdam"@hbs,
+        "אמסטרדם"@he,
+        "ऐम्स्टर्डैम"@hi,
+        "Amsterdam"@hr,
+        "Amstèdam"@ht,
+        "Amszterdam"@hu,
+        "Ամստերդամ"@hy,
+        "Amsterdam"@ia,
+        "Amsterdam"@id,
+        "Amsterdam"@io,
+        "Amsterdam"@is,
+        "Amsterdam"@it,
+        "アムステルダム"@ja,
+        "ამსტერდამი"@ka,
+        "Amesterdam"@kab,
+        "Амстердам"@kk,
+        "ಆಂಸ್ಟರ್ಡ್ಯಾಮ್"@kn,
+        "암스테르담"@ko,
+        "Амстердам"@koi,
+        "Амстердам"@krc,
+        "Амстердам"@kv,
+        "Амстердам"@ky,
+        "Amstelodamum"@la,
+        "Amsterdam"@lb,
+        "Амстердам"@lez,
+        "Amsterdam"@li,
+        "Amsterdamas"@lt,
+        "Amsterdama"@lv,
+        "阿姆斯特丹"@lzh,
+        "Амстердам"@mdf,
+        "Амстердам"@mk,
+        "ആംസ്റ്റർഡാം"@ml,
+        "Амстердам"@mn,
+        "अ‍ॅम्स्टरडॅम"@mr,
+        "Амстердам"@mrj,
+        "Amsterdam"@ms,
+        "အမ်စတာဒမ်မြို့"@my,
+        "Amsterdam"@na,
+        "Amsterdam"@nds,
+        "आम्स्टर्डम"@ne,
+        "एम्स्तरद्याम"@new,
+        "Amsterdam"@nl,
+        "Amsterdam"@nn,
+        "Amsterdam"@no,
+        "Amsterdam"@oc,
+        "ଆମଷ୍ଟରଡ଼୍ୟାମ"@or,
+        "Амстердам"@os,
+        "ਅਮਸਤਰਦਮ"@pa,
+        "Amsterdam"@pl,
+        "Àmsterdam"@pms,
+        "ایمسٹرڈیم"@pnb,
+        "امسټرډام"@ps,
+        "Amesterdão"@pt,
+        "Amsterdam"@qu,
+        "Amsterdam"@ro,
+        "Амстердам"@ru,
+        "Амстердам"@rue,
+        "Амстердам"@sah,
+        "Amsterdam"@scn,
+        "Amsterdams"@sgs,
+        "ඈම්ස්ටර්ඩෑම්"@si,
+        "Amsterdam"@sk,
+        "Amsterdam"@sl,
+        "Amistardam"@so,
+        "Amsterdami"@sq,
+        "Амстердам"@sr,
+        "Damsko"@srn,
+        "Amsterdam"@sv,
+        "ஆம்ஸ்டர்டம்"@ta,
+        "Амстердам"@tg,
+        "อัมสเตอร์ดัม"@th,
+        "Amsterdam"@tr,
+        "Амстердам"@tt,
+        "Амстердам"@udm,
+        "ئامستېردام"@ug,
+        "Амстердам"@uk,
+        "ایمسٹرڈیم"@ur,
+        "Amsterdam"@vi,
+        "אמסטערדאם"@yi,
+        "阿姆斯特丹"@yue,
+        "阿姆斯特丹"@zh,
+        "I-Amsterdami"@zu ;
+    ns1:countryCode "NL" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/2759794/amsterdam.html> ;
+    ns1:name "Amsterdam" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2759794/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2750405/> ;
+    ns1:population "741636" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Amsterdam> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2759794/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Amsterdam> ;
+    ns2:lat "52.37403" ;
+    ns2:long "4.88969" .
+
+<http://sws.geonames.org/2861650/> a ns1:Feature ;
+    ns1:alternateName "Neurenberg"@af,
+        "نورنبيرغ"@ar,
+        "Nürnberq"@az,
+        "Niamberg"@bar,
+        "Горад Нюрнберг"@be,
+        "Нюрнберг"@bg,
+        "Nuremberg"@ca,
+        "نۆریمبێرگ"@ckb,
+        "Norimberk"@cs,
+        "Нӳрнберг"@cv,
+        "Nürnberg"@da,
+        "Nürnberg"@de,
+        "Νυρεμβέργη"@el,
+        "Nuremberg"@en,
+        "Nurenbergo"@eo,
+        "Nuremberg"@es,
+        "Nürnberg"@et,
+        "Nuremberg"@eu,
+        "Nuremberg"@ext,
+        "نورنبرگ"@fa,
+        "Nürnberg"@fi,
+        "Nuremberg"@fr,
+        "Neurenberch"@fy,
+        "Núremberg"@gl,
+        "נירנברג"@he,
+        "Nürnberg"@hr,
+        "Nürnberg"@hu,
+        "Nürnberg"@id,
+        "Norimberga"@it,
+        "ニュルンベルク"@ja,
+        "ნიურნბერგი"@ka,
+        "Нюрнберг"@kk,
+        "뉘른베르크"@ko,
+        "Norimberga"@la,
+        "Norimbèrga"@lmo,
+        "Niurnbergas"@lt,
+        "Nirnberga"@lv,
+        "Нирнберг"@mk,
+        "न्युर्नबर्ग"@mr,
+        "Nuremberg"@ms,
+        "Nürnbarg"@nds,
+        "Neurenberg"@nl,
+        "Nürnberg"@nn,
+        "Nürnberg"@no,
+        "Nurembèrg"@oc,
+        "Nuremberg"@pam,
+        "Norymberga"@pl,
+        "نیورمبرگ"@pnb,
+        "Nuremberga"@pt,
+        "Nürnberg"@ro,
+        "Нюрнберг"@ru,
+        "Norimberga"@sc,
+        "Nuremberg"@sco,
+        "Norimberg"@sk,
+        "Nürnberg"@sl,
+        "Nyrëmberg"@sq,
+        "Нирнберг"@sr,
+        "Nürnberg"@sv,
+        "நியூரம்பெர்க்"@ta,
+        "เนือร์นแบร์ก"@th,
+        "Nuremberg"@tl,
+        "Nuremberg"@tr,
+        "Nyurnbérg"@ug,
+        "Нюрнберг"@uk,
+        "Nürnberg"@vi,
+        "Nürnberg"@vo,
+        "Nuremberg"@war,
+        "נירנבערג"@yi,
+        "纽伦堡"@zh ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/2861650/nuernberg.html> ;
+    ns1:name "Nuremberg" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2861650/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "499237" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2861650/about.rdf> ;
+    ns2:lat "49.45421" ;
+    ns2:long "11.07752" .
+
+<http://sws.geonames.org/2867714/> a ns1:Feature ;
+    ns1:alternateName "München"@af,
+        "Múnich"@an,
+        "ميونخ"@ar,
+        "ميونيخ"@arz,
+        "Munich"@ast,
+        "Münhen"@az,
+        "Minga"@bar,
+        "Горад Мюнхен"@be,
+        "Мюнхен"@bg,
+        "মিউনিখ"@bn,
+        "Munich"@br,
+        "Minhen"@bs,
+        "Munic"@ca,
+        "میونخ"@ckb,
+        "Monacu di Baviera"@co,
+        "Mnichov"@cs,
+        "Мюнхен"@cv,
+        "München"@da,
+        "München"@de,
+        "Munix"@diq,
+        "Μόναχο"@el,
+        "Munich"@en,
+        "Munkeno"@eo,
+        "Múnich"@es,
+        "München"@et,
+        "Munich"@eu,
+        "Múnich"@ext,
+        "مونیخ"@fa,
+        "München"@fi,
+        "Munich"@fr,
+        "Múnic"@gl,
+        "Múnich"@gn,
+        "Minhen"@hbs,
+        "מינכן"@he,
+        "म्यूनिख"@hi,
+        "München"@hr,
+        "Mnichow"@hsb,
+        "München"@hu,
+        "Մյունխեն"@hy,
+        "München"@id,
+        "Munich"@ilo,
+        "München"@io,
+        "München"@is,
+        "Monaco di Baviera"@it,
+        "ミュンヘン"@ja,
+        "მიუნხენი"@ka,
+        "Мюнхен"@kk,
+        "ಮ್ಯೂನಿಕ್"@kn,
+        "뮌헨"@ko,
+        "Munîh"@ku,
+        "Monacum"@la,
+        "Münegh"@lmo,
+        "Miunchenas"@lt,
+        "Minhene"@lv,
+        "Мюнхен"@mhr,
+        "Минхен"@mk,
+        "Мюнхен"@mn,
+        "म्युन्शेन"@mr,
+        "Мӱнхен"@mrj,
+        "Munich"@ms,
+        "မြူးနစ်ချ်မြို့"@my,
+        "Munich"@nah,
+        "Monaco e Baviera"@nap,
+        "München"@nds,
+        "München"@nl,
+        "München"@nn,
+        "München"@no,
+        "Munic"@oc,
+        "Мюнхен"@os,
+        "Munich"@pam,
+        "München"@pdc,
+        "Minche"@pfl,
+        "Monachium"@pl,
+        "Mùnich ëd Baviera"@pms,
+        "میونخ"@pnb,
+        "Munique"@pt,
+        "Minca"@rm,
+        "München"@ro,
+        "Мюнхен"@ru,
+        "Мүнхэн"@sah,
+        "Monaco de Baviera"@sc,
+        "Mònacu"@scn,
+        "Munich"@sco,
+        "Mníchov"@sk,
+        "München"@sl,
+        "Mynihu"@sq,
+        "Минхен"@sr,
+        "München"@sv,
+        "மியூனிக்"@ta,
+        "Munike"@tet,
+        "Мюнхен"@tg,
+        "มิวนิก"@th,
+        "Munich"@tl,
+        "Münih"@tr,
+        "Мүнхен"@tt,
+        "Munich"@tum,
+        "Myunxén"@ug,
+        "Мюнхен"@uk,
+        "میونخ"@ur,
+        "Munhen"@uz,
+        "Monaco de Baviera"@vec,
+        "München"@vi,
+        "München"@vo,
+        "Munich"@war,
+        "მიუნხენი"@xmf,
+        "מינכן"@yi,
+        "Munich"@yo,
+        "慕尼黑"@zh ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/2867714/munich.html> ;
+    ns1:name "Munich" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2867714/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "1260391" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Munich> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2867714/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Munich> ;
+    ns2:lat "48.13743" ;
+    ns2:long "11.57549" .
+
+<http://sws.geonames.org/2892794/> a ns1:Feature ;
+    ns1:alternateName "كارلسروه"@ar,
+        "Karlsrue"@az,
+        "Горад Карлсруэ"@be,
+        "Карлсруе"@bg,
+        "Karlsruhe"@ca,
+        "Karlsruhe"@cs,
+        "Карлсруэ"@cv,
+        "Karlsruhe"@da,
+        "Karlsruhe"@de,
+        "Καρλσρούη"@el,
+        "Karlsruhe"@en,
+        "Karlsruhe"@eo,
+        "Karlsruhe"@es,
+        "Karlsruhe"@et,
+        "کارلسروهه"@fa,
+        "Karlsruhe"@fi,
+        "Karlsruhe"@fr,
+        "קרלסרוהה"@he,
+        "Karlsruhe"@hr,
+        "Karlsruhe"@id,
+        "Karlsruhe"@it,
+        "カールスルーエ"@ja,
+        "კარლსრუე"@ka,
+        "카를스루에"@ko,
+        "Carolsruha"@la,
+        "Karlsrūjė"@lt,
+        "Karlsrūe"@lv,
+        "Карлсруе"@mk,
+        "कार्ल्सरूह"@mr,
+        "Karlsruhe"@nds,
+        "Karlsruhe"@nl,
+        "Karlsruhe"@no,
+        "Kallsruh"@pfl,
+        "Karlsruhe"@pl,
+        "کارلزروہے محل"@pnb,
+        "Karlsruhe"@pt,
+        "Karlsruhe"@ro,
+        "Карлсруэ"@ru,
+        "Карлсруе"@sr,
+        "Karlsruhe"@sv,
+        "Karlsruhe"@tr,
+        "Карлсруе"@uk,
+        "Karlsruhe"@vo,
+        "卡尔斯鲁厄"@zh ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/2892794/karlsruhe.html> ;
+    ns1:name "Karlsruhe" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2892794/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "283799" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Karlsruhe> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2892794/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Karlsruhe> ;
+    ns2:lat "49.00936" ;
+    ns2:long "8.40444" .
+
+<http://sws.geonames.org/2911298/> a ns1:Feature ;
+    ns1:alternateName "Hamburg"@af,
+        "Hamburg"@als,
+        "هامبورغ"@ar,
+        "ܗܡܒܘܪܓ"@arc,
+        "Горад Гамбург"@be,
+        "Хамбург"@bg,
+        "Hamburg"@bs,
+        "Ciutat d'Hamburg"@ca,
+        "Hamburg"@ca,
+        "Hamburk"@cs,
+        "Hambùrk"@csb,
+        "Hamborg"@da,
+        "Hamburg"@de,
+        "Hambörg"@drt,
+        "Αμβούργο"@el,
+        "Hamburg"@en,
+        "Hamburgo"@eo,
+        "Hamburgo"@es,
+        "Hamburg"@et,
+        "Hamburg"@eu,
+        "Hanburgo"@eu,
+        "هامبورگ"@fa,
+        "Hampuri"@fi,
+        "Hambourg"@fr,
+        "Hambörj"@frr,
+        "Hamboarch"@fy,
+        "Hamburch"@fy,
+        "Hamburg"@ga,
+        "Hamepuka"@haw,
+        "המבורג"@he,
+        "Hamburg"@hr,
+        "Hamburg"@hu,
+        "Համբուրգ"@hy,
+        "Hamburg"@id,
+        "Hamburg"@io,
+        "Hamborg"@is,
+        "Amburgo"@it,
+        "ハンブルク"@ja,
+        "ჰამბურგი"@ka,
+        "ಹ್ಯಾಂಬರ್ಗ್"@kn,
+        "함부르크"@ko,
+        "Hamburg"@ku,
+        "Augusta Gambriviorum"@la,
+        "Hamburgum"@la,
+        "Hamburgas"@lt,
+        "Hamburga"@lv,
+        "Хамбург"@mk,
+        "हॅम्बुर्ग"@mr,
+        "Ħamburg"@mt,
+        "Hamburg"@nb,
+        "Hamborg"@nds,
+        "Hamburg"@nl,
+        "Hamburg"@nn,
+        "Hamburg"@no,
+        "Amborg"@oc,
+        "Hammaburg [a. 832]"@osx,
+        "Hamburg"@pl,
+        "Hamburgo"@pt,
+        "Hamburg"@qu,
+        "Hamburg"@ro,
+        "Гамбург"@ru,
+        "Amburgu"@scn,
+        "Hamburg"@sk,
+        "Hamburg"@sl,
+        "Hamburgu"@sq,
+        "Hambuurich"@stq,
+        "Hamburg"@sv,
+        "Hamburg"@sw,
+        "ܗܡܒܘܪܓ"@syr,
+        "ฮัมบูร์ก"@th,
+        "Hamburg"@tr,
+        "Гамбурґ"@uk,
+        "ہیمبرگ"@ur,
+        "Hamburg"@vi,
+        "Hamburg"@vo,
+        "האַמבורג"@yi,
+        "汉堡市"@zh ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/2911298/hamburg.html> ;
+    ns1:name "Hamburg" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2911298/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "1739117" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Hamburg> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2911298/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Hamburg> ;
+    ns2:lat "53.57532" ;
+    ns2:long "10.01534" .
+
+<http://sws.geonames.org/292223/> a ns1:Feature ;
+    ns1:alternateName "دبي"@ar,
+        "دبى"@arz,
+        "Эмірат Дубай"@be,
+        "Дубай"@bg,
+        "দুবাই"@bn,
+        "Dubai"@bs,
+        "Dubai"@ca,
+        "دوبەی"@ckb,
+        "Dubaj"@cs,
+        "Dubai"@da,
+        "Dubai"@de,
+        "Ντουμπάι"@el,
+        "Dubai"@en,
+        "Dubajo"@eo,
+        "Dubái"@es,
+        "Dubai emiraat"@et,
+        "Dubai"@eu,
+        "دبی"@fa,
+        "Dubai"@fi,
+        "Dubaï"@fr,
+        "Doubayi"@frp,
+        "דובאי"@he,
+        "दुबई"@hi,
+        "Dubaj"@hu,
+        "Դուբայի Էմիրություն"@hy,
+        "Dubai"@id,
+        "Dúbæ"@is,
+        "Dubai"@it,
+        "ドバイ"@ja,
+        "დუბაი"@ka,
+        "Дубай"@kk,
+        "ದುಬೈ"@kn,
+        "두바이"@ko,
+        "Dubai"@lb,
+        "Dubajus"@lt,
+        "Dubaija"@lv,
+        "Дубаи"@mk,
+        "ദുബായ്"@ml,
+        "दुबई"@mr,
+        "Dubai"@nl,
+        "Dubai"@no,
+        "Дубай"@os,
+        "Dubaj"@pl,
+        "دبئی"@pnb,
+        "Dubai"@pt,
+        "Dubai"@ro,
+        "Дубай"@ru,
+        "Дубай"@sah,
+        "Dubaj"@sk,
+        "Dubaj"@sl,
+        "Дубаи"@sr,
+        "Dubai"@sv,
+        "Dubai"@sw,
+        "துபை"@ta,
+        "దుబాయ్"@te,
+        "ดูไบ"@th,
+        "Dubai"@tr,
+        "دۇبائى"@ug,
+        "Дубай"@uk,
+        "دبئی"@ur,
+        "迪拜"@wuu,
+        "דוביי"@yi,
+        "迪拜"@zh ;
+    ns1:countryCode "AE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/292223/dubai.html> ;
+    ns1:name "Dubai" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/292223/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/290557/> ;
+    ns1:population "1137347" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Dubai> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/292223/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Dubai> ;
+    ns2:lat "25.0657" ;
+    ns2:long "55.17128" .
+
+<http://sws.geonames.org/2925533/> a ns1:Feature ;
+    ns1:alternateName "Frankfurt am Main"@af,
+        "Fráncfort d'o Meno"@an,
+        "Frankfurt"@ang,
+        "فرانكفورت"@ar,
+        "Frankfurt"@ast,
+        "Frankfurt"@az,
+        "Франкфурт на Майн"@bg,
+        "Frankfurt"@br,
+        "Frankfurt am Main"@bs,
+        "Frankfurt del Main"@ca,
+        "Frankfurt"@co,
+        "Frankfurt nad Mohanem"@cs,
+        "Frankfurt"@cy,
+        "Frankfurt am Main"@da,
+        "Frankfurt am Main"@de,
+        "Φρανκφούρτη"@el,
+        "Frankfurt am Main"@en,
+        "Frankfurto ĉe Majno"@eo,
+        "Francfort"@es,
+        "Frankfurt"@et,
+        "Frankfurt"@eu,
+        "فرانکفورت"@fa,
+        "Frankfurt am Main"@fi,
+        "Frankfurt am Main"@fo,
+        "Francfort-sur-le-Main"@fr,
+        "Francfort"@frp,
+        "Frankfurt"@fy,
+        "Frankfurt"@ga,
+        "Frankfurt"@gd,
+        "Fráncfort - Frankfurt am Main"@gl,
+        "Frankfurt na Majni"@hbs,
+        "פרנקפורט"@he,
+        "Frankfurt na Majni"@hr,
+        "Frankfurt am Main"@hu,
+        "Frankfurt"@ia,
+        "Frankfurt"@id,
+        "Frankfurt am Main"@io,
+        "Frankfurt"@is,
+        "Francoforte sul Meno"@it,
+        "フランクフルト・アム・マイン"@ja,
+        "ფრანკფურტ-ამ-მაინი"@ka,
+        "프랑크푸르트"@ko,
+        "Frankfurt"@ksh,
+        "Frankfurt"@ku,
+        "Frankfurt"@kw,
+        "Francofurtum ad Moenum"@la,
+        "Frankfurt am Main"@lb,
+        "Frankfurt am Main"@li,
+        "Frankfurtas prie Maino"@lt,
+        "Frankfurte pie Mainas"@lv,
+        "Frankfurt"@ms,
+        "Frankfurt"@na,
+        "Frankfurt"@nap,
+        "Frankfort an’n Main"@nds,
+        "Frankfurt am Main"@nl,
+        "Frankfurt am Main"@nn,
+        "Frankfurt am Main"@no,
+        "Francfòrt sul Main"@oc,
+        "Frankfurt"@pdc,
+        "Frankfurt nad Menem"@pl,
+        "Frankfurt am Main"@pt,
+        "Frankfurt"@qu,
+        "Frankfurt"@rm,
+        "Frankfurt"@ro,
+        "Франкфурт-на-Майне"@ru,
+        "Francuforti suprô Menu"@scn,
+        "Frankfurt"@se,
+        "Frankfurt nad Mohanom"@sk,
+        "Frankfurt na Majni"@sl,
+        "Frankfurt am Main"@sq,
+        "Франкфурт на Мајни"@sr,
+        "Frankfurt am Main"@sv,
+        "Frankfurt"@tet,
+        "แฟรงค์เฟิร์ต"@th,
+        "Frankfurt"@tr,
+        "فرانكفورت"@ug,
+        "Frankfurt am Main"@uz,
+        "Francoforte sul Meno"@vec,
+        "Frankfurt am Main"@vi,
+        "Frankfurt am Main"@vo ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA3 ;
+    ns1:locationMap <http://www.geonames.org/2925533/frankfurt-am-main.html> ;
+    ns1:name "Frankfurt am Main" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2925533/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "650000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Frankfurt> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2925533/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Frankfurt> ;
+    ns2:lat "50.11552" ;
+    ns2:long "8.68417" .
+
+<http://sws.geonames.org/293397/> a ns1:Feature ;
+    ns1:alternateName "Tel Aviv-Jaffa"@als,
+        "ቴል አቪቭ"@am,
+        "تل أبيب"@ar,
+        "ܬܠ ܐܒܝܒ"@arc,
+        "تل ابيب"@arz,
+        "Tel-Əviv"@az,
+        "Тэль-Авіў"@be,
+        "Тел Авив"@bg,
+        "তেল আভিভ"@bn,
+        "Tel Aviv"@bs,
+        "Tel Aviv"@ca,
+        "Тель-Авив"@ce,
+        "تێل ئەڤیڤ"@ckb,
+        "Tel Aviv"@cs,
+        "Tel Aviv"@da,
+        "Tel Aviv"@de,
+        "Tel Eviv"@diq,
+        "Τελ Αβίβ"@el,
+        "Tel Aviv"@en,
+        "Tel-Avivo"@eo,
+        "Tel Aviv"@es,
+        "تل‌آویو"@fa,
+        "Tel Aviv"@fi,
+        "Tel Aviv-Jaffa"@fo,
+        "Tel-Aviv"@fr,
+        "Tel Aviv"@gl,
+        "Tel Aviv-Yafo"@gv,
+        "תל אביב-יפו"@he,
+        "तेल अविव"@hi,
+        "Tel Aviv"@hr,
+        "Tel-Aviv"@hu,
+        "Թել Ավիվ"@hy,
+        "Tel Aviv"@id,
+        "Tel Aviv"@io,
+        "Tel Avív"@is,
+        "Tel Aviv"@it,
+        "テルアビブ"@ja,
+        "თელ-ავივი"@ka,
+        "Тель-Авив"@kk,
+        "텔아비브"@ko,
+        "Telavivum"@la,
+        "Tel Aviv"@lad,
+        "Tel Aviv"@lb,
+        "Tel Avivas"@lt,
+        "Telaviva"@lv,
+        "Тел Авив"@mk,
+        "ടെൽ അവീവ്"@ml,
+        "Тел-Авив"@mn,
+        "तेल अवीव"@mr,
+        "तेल अभिव"@new,
+        "Tel Aviv"@nl,
+        "Tel Aviv"@nn,
+        "Tel Aviv"@no,
+        "Тель-Авив"@os,
+        "Tel Awiw"@pl,
+        "Tel Aviv"@pt,
+        "Tel Aviv"@ro,
+        "Тель-Авив"@ru,
+        "Тель-Авив"@sah,
+        "Tel Aviv"@scn,
+        "Tel Avėvs"@sgs,
+        "Tel Aviv-Jafo"@sk,
+        "Тел Авив"@sr,
+        "Tel Aviv"@sv,
+        "டெல் அவீவ்"@ta,
+        "เทลอาวีฟ"@th,
+        "Lungsod ng Tel Aviv-Yafo"@tl,
+        "Tel Aviv"@tr,
+        "تېلاۋىف"@ug,
+        "Тель-Авів"@uk,
+        "تل ابیب"@ur,
+        "Tel-aviv"@uz,
+        "תל אביב-יפו"@yi,
+        "特拉維夫"@yue,
+        "特拉维夫"@zh ;
+    ns1:countryCode "IL" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/293397/tel-aviv.html> ;
+    ns1:name "Tel Aviv" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/293397/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/294640/> ;
+    ns1:population "250000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Tel_Aviv> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/293397/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Tel_Aviv> ;
+    ns2:lat "32.08088" ;
+    ns2:long "34.78057" .
+
+<http://sws.geonames.org/2950159/> a ns1:Feature ;
+    ns1:alternateName "Berlyn"@af,
+        "Berlin"@als,
+        "Berlín"@an,
+        "Berlin"@ang,
+        "برلين"@ar,
+        "ܒܪܠܝܢ"@arc,
+        "Berlín"@ast,
+        "Berlin"@bar,
+        "Берлін"@be,
+        "Бэрлін"@be,
+        "Берлин"@bg,
+        "বার্লিন"@bn,
+        "Berlin"@br,
+        "Berlin"@bs,
+        "Berlín"@ca,
+        "Estat de Berlín"@ca,
+        "Berlín"@cs,
+        "Berlin"@csb,
+        "Berlëno"@csb,
+        "Берлин"@cv,
+        "Berlin"@cy,
+        "Berlin"@da,
+        "Berlin"@de,
+        "Βερολίνο"@el,
+        "Berlin"@en,
+        "Berlino"@eo,
+        "Berlín"@es,
+        "Berliin"@et,
+        "Berlin"@eu,
+        "برلین"@fa,
+        "Berliini"@fi,
+        "Berlin"@fo,
+        "Berlin"@fr,
+        "Beirlín"@ga,
+        "Berlin"@gd,
+        "Berlín"@gl,
+        "Berlin"@hbs,
+        "ברלין"@he,
+        "Berlin"@hr,
+        "Berlin"@hu,
+        "Բերլին"@hy,
+        "Berlin"@ia,
+        "Berlin"@id,
+        "Berlin"@io,
+        "Berlín"@is,
+        "Berlino"@it,
+        "ベルリン"@ja,
+        "Berlin"@jv,
+        "ბერლინი"@ka,
+        "베를린"@ko,
+        "Berlîn"@ku,
+        "Berlin"@kw,
+        "Berolinum"@la,
+        "Berlin"@lb,
+        "Berlien"@li,
+        "Berlynas"@lt,
+        "Berlīne"@lv,
+        "Берлин"@mk,
+        "बर्लिन"@mr,
+        "Berlin"@ms,
+        "Berlin"@nds,
+        "Berlijn"@nl,
+        "Berlin"@nn,
+        "Berlin"@no,
+        "Bèrlîn"@nrm,
+        "Berlin"@oc,
+        "Berlin"@pdc,
+        "Berlin"@pl,
+        "Berlin"@pms,
+        "Berlim"@pt,
+        "Berlin"@qu,
+        "Berlín"@qu,
+        "Berlin"@rm,
+        "Berlin"@ro,
+        "Берлин"@ru,
+        "Birlinu"@scn,
+        "Berlín"@sk,
+        "Berlin"@sl,
+        "Berlini"@sq,
+        "Берлин"@sr,
+        "Berlin"@sv,
+        "Berlin"@sw,
+        "பெர்லின்"@ta,
+        "เบอร์ลิน"@th,
+        "Berlin"@tr,
+        "Berlin"@ty,
+        "بېرلىن"@ug,
+        "Берлін"@uk,
+        "Berlin"@vi,
+        "Berlin"@vo,
+        "בערלין"@yi,
+        "柏林"@zh ;
+    ns1:countryCode "DE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/2950159/berlin.html> ;
+    ns1:name "Berlin" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2950159/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2921044/> ;
+    ns1:population "3426354" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Berlin> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2950159/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Berlin> ;
+    ns2:alt "74" ;
+    ns2:lat "52.52437" ;
+    ns2:long "13.41053" .
+
+<http://sws.geonames.org/2988507/> a ns1:Feature ;
+    ns1:alternateName "Parys"@af,
+        "Paris"@als,
+        "ፓሪስ"@am,
+        "París"@an,
+        "باريس"@ar,
+        "ܦܐܪܝܣ"@arc,
+        "باريس"@arz,
+        "París"@ast,
+        "Париж"@ba,
+        "Горад Парыж"@be,
+        "Париж"@bg,
+        "প্যারিস"@bn,
+        "ཕ་རི།"@bo,
+        "Pariz"@br,
+        "Pariz"@bs,
+        "París"@ca,
+        "پاریس"@ckb,
+        "Parighji"@co,
+        "Paříž"@cs,
+        "Парижь"@cu,
+        "Парис"@cv,
+        "Paris"@cy,
+        "Paris"@da,
+        "Paris"@de,
+        "Παρίσι"@el,
+        "Paris"@en,
+        "Parizo"@eo,
+        "París"@es,
+        "Pariis"@et,
+        "Paris"@eu,
+        "París"@ext,
+        "پاریس"@fa,
+        "Pariisi"@fi,
+        "Paris"@fr,
+        "Parîs"@fur,
+        "Parys"@fy,
+        "Páras"@ga,
+        "巴黎"@gan,
+        "Paris"@gd,
+        "París"@gl,
+        "Parĩ"@gn,
+        "પૅરિસ"@gu,
+        "Paarys"@gv,
+        "Pariis"@ha,
+        "Palika"@haw,
+        "Pariz"@hbs,
+        "פריז"@he,
+        "पैरिस"@hi,
+        "Pariz"@hr,
+        "Párizs"@hu,
+        "Փարիզ"@hy,
+        "Paris"@ia,
+        "Paris"@id,
+        "Paris"@io,
+        "París"@is,
+        "Parigi"@it,
+        "パリ"@ja,
+        "paris"@jbo,
+        "პარიზი"@ka,
+        "Париж"@kk,
+        "ប៉ារីស"@km,
+        "ಪ್ಯಾರಿಸ್"@kn,
+        "파리"@ko,
+        "Париж"@krc,
+        "Paris"@ksh,
+        "Parîs"@ku,
+        "Париж"@kv,
+        "Paris"@kw,
+        "Париж"@ky,
+        "Lutetia"@la,
+        "Paris"@lad,
+        "Paräis"@lb,
+        "Paries"@li,
+        "Pariggi"@lij,
+        "Paris"@lmo,
+        "Pari"@ln,
+        "Paryžius"@lt,
+        "Parīze"@lv,
+        "Paris"@mg,
+        "Париж"@mhr,
+        "Parī"@mi,
+        "Париз"@mk,
+        "പാരിസ്"@ml,
+        "Парис"@mn,
+        "पॅरिस"@mr,
+        "Париж"@mrj,
+        "Paris"@ms,
+        "ပါရီမြို့"@my,
+        "Париж ош"@myv,
+        "پاریس"@mzn,
+        "Paris"@na,
+        "Parigge"@nap,
+        "Paris"@nds,
+        "पेरिस"@ne,
+        "Parijs"@nl,
+        "Paris"@nn,
+        "Paris"@no,
+        "París"@oc,
+        "Париж"@os,
+        "ਪੈਰਿਸ"@pa,
+        "Paryż"@pl,
+        "Paris"@pms,
+        "پیرس"@pnb,
+        "پاريس"@ps,
+        "Paris"@pt,
+        "Paris"@ro,
+        "Париж"@ru,
+        "Паріж"@rue,
+        "Париж"@sah,
+        "Parigi"@sc,
+        "Pariggi"@scn,
+        "Paris"@sco,
+        "Paríž"@sk,
+        "Pariz"@sl,
+        "Baariis"@so,
+        "Parisi"@sq,
+        "Париз"@sr,
+        "Paris"@sv,
+        "Paris"@sw,
+        "Paryż"@szl,
+        "பாரிஸ்"@ta,
+        "పారిస్"@te,
+        "París"@tet,
+        "Париж"@tg,
+        "ปารีส"@th,
+        "Pariž"@tk,
+        "Lungsod ng Paris"@tl,
+        "Paris"@tr,
+        "Париж"@tt,
+        "Paris"@ty,
+        "Париж"@udm,
+        "پارىژ"@ug,
+        "Париж"@uk,
+        "پیرس"@ur,
+        "Parij"@uz,
+        "Parixe"@vec,
+        "Paris"@vi,
+        "Parys"@vls,
+        "Pari"@wo,
+        "პარიზი"@xmf,
+        "פאריז"@yi,
+        "Parisi"@yo,
+        "Bahliz"@za,
+        "巴黎"@zh ;
+    ns1:countryCode "FR" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/2988507/paris.html> ;
+    ns1:name "Paris" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/2988507/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/3017382/> ;
+    ns1:population "2138551" ;
+    ns1:postalCode "75000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Paris> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/2988507/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Paris> ;
+    ns2:lat "48.85341" ;
+    ns2:long "2.3488" .
+
+<http://sws.geonames.org/3054643/> a ns1:Feature ;
+    ns1:alternateName "Budapèst"@ace,
+        "Boedapest"@af,
+        "ቡዳፔስት"@am,
+        "Budapest"@an,
+        "بودابست"@ar,
+        "بودابيست"@arz,
+        "Budapest"@ast,
+        "Будапешт"@av,
+        "Budapeşt"@az,
+        "Горад Будапешт"@be,
+        "Будапеща"@bg,
+        "বুদাপেস্ট"@bn,
+        "བུ་ད་ཕེ་སིད།"@bo,
+        "Budapest"@br,
+        "Budimpešta"@bs,
+        "Budapest"@ca,
+        "بوداپێست"@ckb,
+        "Budapeşt"@crh,
+        "Budapešť"@cs,
+        "Bùdapeszt"@csb,
+        "Будапешт"@cv,
+        "Budapest"@da,
+        "Budapest"@de,
+        "Budapeşt"@diq,
+        "Budapešt"@dsb,
+        "Βουδαπέστη"@el,
+        "Budapest"@en,
+        "Budapeŝto"@eo,
+        "Budapest"@es,
+        "Budapest"@et,
+        "Budapest"@eu,
+        "بوداپست"@fa,
+        "Budapest"@fi,
+        "Budapest"@fo,
+        "Budapest"@fr,
+        "Budapèst"@frp,
+        "Boedapest"@fy,
+        "Búdaipeist"@ga,
+        "Budapeşt"@gag,
+        "Budapest"@gd,
+        "Budapest"@gl,
+        "બુડાપેસ્ટ"@gu,
+        "Budimpešta"@hbs,
+        "בודפשט"@he,
+        "बुडापेस्ट"@hi,
+        "Budimpešta"@hr,
+        "Boudapès"@ht,
+        "Budapest"@hu,
+        "Բուդապեշտ"@hy,
+        "Budapest"@id,
+        "Budapest"@io,
+        "Búdapest"@is,
+        "Budapest"@it,
+        "ブダペスト"@ja,
+        "ბუდაპეშტი"@ka,
+        "Будапешт"@kk,
+        "ಬುಡಾಪೆಸ್ಟ್"@kn,
+        "부다페스트"@ko,
+        "Будапешт"@koi,
+        "Будапешт"@krc,
+        "Budapeşt"@ku,
+        "Будапешт"@kv,
+        "Budapest"@kw,
+        "Budapestinum"@la,
+        "Budapest"@lb,
+        "Boedapes"@li,
+        "Budapeštas"@lt,
+        "Budapešta"@lv,
+        "Будапешт"@mdf,
+        "Будапешт"@mhr,
+        "Будимпешта"@mk,
+        "ബുഡാപെസ്റ്റ്"@ml,
+        "Будапешт"@mn,
+        "बुडापेस्ट"@mr,
+        "Будапешт"@mrj,
+        "ဗူးဒပက်မြို့"@my,
+        "Будапешт ош"@myv,
+        "बुदापेस्त"@new,
+        "Boedapest"@nl,
+        "Budapest"@nn,
+        "Budapest"@no,
+        "Budapesht"@nov,
+        "Budapèst"@oc,
+        "ବୁଦାପେଷ୍ଟ"@or,
+        "Будапешт"@os,
+        "ਬੁਦਾਪੈਸਤ"@pa,
+        "Budapescht"@pdc,
+        "Budapeszt"@pl,
+        "Bùdapest"@pms,
+        "بوداپست"@pnb,
+        "بوډاپسټ"@ps,
+        "Budapeste"@pt,
+        "Budapest"@rm,
+        "Budapesta"@ro,
+        "Будапешт"@ru,
+        "Будапешт"@sah,
+        "Budapest"@scn,
+        "Budapešť"@sk,
+        "Budimpešta"@sl,
+        "Budapesti"@sq,
+        "Budimpešta"@sr,
+        "Budapest"@sv,
+        "Budapeszt"@szl,
+        "புடாபெஸ்ட்"@ta,
+        "Будапешт"@tg,
+        "บูดาเปสต์"@th,
+        "Budapeşte"@tr,
+        "Будапешт"@tt,
+        "Будапешт"@udm,
+        "Budapésht"@ug,
+        "Будапешт"@uk,
+        "بوداپست"@ur,
+        "Budapesht"@uz,
+        "Budapešt"@vep,
+        "בודאפעשט"@yi,
+        "Boedapest"@zea,
+        "布达佩斯"@zh ;
+    ns1:countryCode "HU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/3054643/budapest.html> ;
+    ns1:name "Budapest" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3054643/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/719819/> ;
+    ns1:population "1741041" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Budapest> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3054643/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Budapest> ;
+    ns2:lat "47.49801" ;
+    ns2:long "19.03991" .
+
+<http://sws.geonames.org/3117735/> a ns1:Feature ;
+    ns1:alternateName "Мaдрид"@ab,
+        "Madrid"@af,
+        "ማድሪድ"@am,
+        "Madrit"@an,
+        "مدريد"@ar,
+        "ܡܕܪܝܕ"@arc,
+        "مدريد"@arz,
+        "Madrid"@ast,
+        "Мадрид"@ba,
+        "Горад Мадрыд"@be,
+        "Мадрид"@bg,
+        "মাদ্রিদ"@bn,
+        "མ་ད་རིད།"@bo,
+        "Madrid"@br,
+        "Madrid"@bs,
+        "Madrid"@ca,
+        "Мадрид"@ce,
+        "مەدرید"@ckb,
+        "Madridi"@co,
+        "Madrid"@cs,
+        "Madrit"@csb,
+        "Мадрид"@cv,
+        "Madrid"@cy,
+        "Madrid"@da,
+        "Madrid"@de,
+        "Μαδρίτη"@el,
+        "Madrid"@en,
+        "Madrido"@eo,
+        "Madrid"@es,
+        "Madrid"@et,
+        "Madril"@eu,
+        "Mairil"@ext,
+        "مادرید"@fa,
+        "Madrid"@fi,
+        "Madrid"@fr,
+        "Madrid"@frp,
+        "Maidrid"@ga,
+        "Madrid"@gd,
+        "Madrid"@gl,
+        "Makelika"@haw,
+        "מדריד"@he,
+        "मद्रिद"@hi,
+        "Madrid"@hr,
+        "Madrid"@hu,
+        "Մադրիդ"@hy,
+        "Madrid"@ia,
+        "Madrid"@id,
+        "Madrid"@io,
+        "Madrid"@is,
+        "Madrid"@it,
+        "マドリード"@ja,
+        "მადრიდი"@ka,
+        "Мадрид"@kbd,
+        "Мадрид"@kk,
+        "ಮಡ್ರಿಡ್"@kn,
+        "마드리드"@ko,
+        "Мадрид"@koi,
+        "Madrîd"@ku,
+        "Мадрид"@kv,
+        "Мадрид"@ky,
+        "Matritum"@la,
+        "Madrid"@lad,
+        "Madrid"@lb,
+        "Мадрид"@lez,
+        "Madrid"@li,
+        "Madridas"@lt,
+        "Madride"@lv,
+        "Мадрид"@mhr,
+        "Мадрид"@mk,
+        "മാഡ്രിഡ്"@ml,
+        "Мадрид"@mn,
+        "माद्रिद"@mr,
+        "Мадрид"@mrj,
+        "မဒရစ်မြို့"@my,
+        "Мадрид ош"@myv,
+        "مادرید"@mzn,
+        "Madrid"@nds,
+        "माद्री"@new,
+        "Madrid"@nl,
+        "Madrid"@nn,
+        "Madrid"@no,
+        "Madrid"@oc,
+        "ମାଡ୍ରିଦ"@or,
+        "Мадрид"@os,
+        "ਮਾਦਰਿਦ"@pa,
+        "Madryt"@pl,
+        "میڈرڈ"@pnb,
+        "Madrid"@pt,
+        "Madrid"@qu,
+        "Madrid"@ro,
+        "Мадрид"@ru,
+        "Мадрід"@rue,
+        "मद्रिद्"@sa,
+        "Мадрид"@sah,
+        "Madrid"@sc,
+        "Madrid"@scn,
+        "Madrids"@sgs,
+        "Madrid"@sk,
+        "Madrid"@sl,
+        "Madrid"@sq,
+        "Мадрид"@sr,
+        "Madrid"@sv,
+        "Madryt"@szl,
+        "மத்ரித்"@ta,
+        "Madríd"@tet,
+        "Мадрид"@tg,
+        "มาดริด"@th,
+        "Lungsod ng Madrid"@tl,
+        "Madrid"@tr,
+        "Madrid"@ty,
+        "Мадрид"@udm,
+        "مادرىد"@ug,
+        "Мадрид"@uk,
+        "میدرد"@ur,
+        "Madrid"@vec,
+        "Madrid"@vi,
+        "Madrid"@vo,
+        "მადრიდი"@xmf,
+        "מאדריד"@yi,
+        "馬德里"@yue,
+        "马德里"@zh ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/3117735/madrid.html> ;
+    ns1:name "Madrid" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3117735/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns1:population "3255944" ;
+    ns1:postalCode "28040" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Madrid> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3117735/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Madrid> ;
+    ns2:lat "40.4165" ;
+    ns2:long "-3.70256" .
+
+<http://sws.geonames.org/3123329/> a ns1:Feature ;
+    ns1:alternateName "إل بارت دي يوبريغات"@ar,
+        "el Prat"@ca,
+        "el Prat de Llobregat"@en,
+        "El Prat de Llobregat"@es,
+        "el Prat de Llobregat"@eu,
+        "el Prat de Llobregat"@it,
+        "アル・プラ・ダ・リョブレガート"@ja,
+        "el Prat de Llobregat"@nl,
+        "el Prat de Llobregat"@no,
+        "Эль-Прат-де-Льобрегат"@ru,
+        "Прат де Љобрегат"@sr,
+        "el Prat de Llobregat"@sv,
+        "Ал-Прат-да-Любрагат"@uk,
+        "埃尔普拉特德略夫雷加特"@zh ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/3123329/el-prat-de-llobregat.html> ;
+    ns1:name "el Prat de Llobregat" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3123329/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns1:population "63418" ;
+    ns1:postalCode "08820" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/El_Prat_de_Llobregat> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3123329/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/El_Prat_de_Llobregat> ;
+    ns2:lat "41.32784" ;
+    ns2:long "2.09472" .
+
+<http://sws.geonames.org/3128760/> a ns1:Feature ;
+    ns1:alternateName "Barzelona"@an,
+        "برشلونة"@ar,
+        "بارسلونا"@arz,
+        "Barcelona"@ast,
+        "Barselona"@az,
+        "Горад Барселона"@be,
+        "Барселона"@bg,
+        "বার্সেলোনা"@bn,
+        "བྷར་སེ་ལོ་ནཱ།"@bo,
+        "বার্সেলোনা"@bpy,
+        "Barcelona"@br,
+        "Barcelona"@bs,
+        "Barcelona"@ca,
+        "بارسەلۆنا"@ckb,
+        "Barcelona"@cs,
+        "Барселона"@cv,
+        "Barcelona"@da,
+        "Barcelona"@de,
+        "Βαρκελώνη"@el,
+        "Barcelona"@en,
+        "Barcelono"@eo,
+        "Barcelona"@es,
+        "Barcelona"@et,
+        "Bartzelona"@eu,
+        "بارسلون"@fa,
+        "Barcelona"@fi,
+        "Barcelone"@fr,
+        "Barselona"@fy,
+        "Barcelona"@ga,
+        "Barcelona"@gl,
+        "Barselona"@hbs,
+        "ברצלונה"@he,
+        "बार्सिलोना"@hi,
+        "Barcelona"@hu,
+        "Բարսելոնա"@hy,
+        "Barcelona"@ia,
+        "Barcelona"@id,
+        "Barcelona"@io,
+        "Barselóna"@is,
+        "Barcellona"@it,
+        "バルセロナ"@ja,
+        "ბარსელონა"@ka,
+        "바르셀로나"@ko,
+        "Barselona"@ku,
+        "Barcino"@la,
+        "Barselona"@lad,
+        "Barcelona"@lb,
+        "Barçellonn-a"@lij,
+        "Barselona"@lt,
+        "Barselona"@lv,
+        "Barselona"@mg,
+        "Барселона"@mk,
+        "ബാര്‍സലോണ"@ml,
+        "बार्सिलोना"@mr,
+        "Barċellona"@mt,
+        "بارسلون"@mzn,
+        "Barcelona"@nds,
+        "Barcelona"@nl,
+        "Barcelona"@nn,
+        "Barcelona"@no,
+        "Barcelona"@oc,
+        "Барселонæ"@os,
+        "Barcelona"@pl,
+        "بارسیلونا"@pnb,
+        "Barcelona"@pt,
+        "Barcelona"@ro,
+        "Барселона"@ru,
+        "Barcellona"@sc,
+        "Barcillona"@scn,
+        "Barcelona"@sk,
+        "Barcelona"@sl,
+        "Barcelona"@sq,
+        "Барселона"@sr,
+        "Barcelona"@sv,
+        "Barcelůna"@szl,
+        "பார்செலோனா"@ta,
+        "บาร์เซโลนา"@th,
+        "Lungsod ng Barcelona"@tl,
+        "Barselona"@tr,
+        "Barcelona"@ty,
+        "Barsélona"@ug,
+        "Барселона"@uk,
+        "بارسلونا"@ur,
+        "Barcełona"@vec,
+        "בארצעלאנע"@yi ;
+    ns1:countryCode "ES" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/3128760/barcelona.html> ;
+    ns1:name "Barcelona" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3128760/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2510769/> ;
+    ns1:population "1621537" ;
+    ns1:postalCode "08035",
+        "08038" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Barcelona> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3128760/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Barcelona> ;
+    ns2:alt "15" ;
+    ns2:lat "41.38879" ;
+    ns2:long "2.15899" .
+
+<http://sws.geonames.org/3448439/> a ns1:Feature ;
+    ns1:alternateName "Сан-Паулу"@ab,
+        "São Paulo"@af,
+        "ሳው ፓውሉ"@am,
+        "ساو باولو"@ar,
+        "ܣܐܘ ܦܐܘܠܘ"@arc,
+        "ساو باولو"@arz,
+        "San Pauluw"@ay,
+        "Сан-Паулу"@ba,
+        "Сан-Паўлу"@be,
+        "Сао Пауло"@bg,
+        "সাঁউ পাউলু"@bn,
+        "সাও পাউলো"@bpy,
+        "Sao Paulo"@bs,
+        "São Paulo"@ca,
+        "São Paulo"@co,
+        "San Paulu"@crh,
+        "São Paulo"@cs,
+        "Сан-Паулу"@cv,
+        "São Paulo"@da,
+        "São Paulo"@de,
+        "ސައޮ ޕައުލޯ"@dv,
+        "Σάο Πάολο"@el,
+        "São Paulo"@en,
+        "San-Paŭlo"@eo,
+        "São Paulo"@es,
+        "São Paulo"@et,
+        "Sao Paulo"@eu,
+        "سائوپائولو"@fa,
+        "São Paulo"@fi,
+        "São Paulo"@fr,
+        "São Paulo"@ga,
+        "聖保羅"@gan,
+        "San Paulo"@gl,
+        "Sao Paulo"@hbs,
+        "סאו פאולו"@he,
+        "साओ पाउलो"@hi,
+        "São Paolo"@ht,
+        "São Paulo"@hu,
+        "Սան Պաուլու"@hy,
+        "São Paulo"@id,
+        "Sao Paulo"@io,
+        "San Paolo"@it,
+        "サンパウロ"@ja,
+        "sankt. paulos"@jbo,
+        "სან-პაულუ"@ka,
+        "ಸಾವೊ ಪಾಲೊ"@kn,
+        "상파울루"@ko,
+        "Сан-Паулу"@kv,
+        "Urbs Paulistana"@la,
+        "San Paulas"@lt,
+        "Sanpaulu"@lv,
+        "Сан-Паулу"@mhr,
+        "Сао Паоло"@mk,
+        "സാവോ പോളോ"@ml,
+        "साओ पाउलो"@mr,
+        "São Paulo"@ms,
+        "San Poulo"@mwl,
+        "ဆောပိုလိုမြို့"@my,
+        "سائوپائولو"@mzn,
+        "São Paulo"@nl,
+        "São Paulo"@nn,
+        "São Paulo"@no,
+        "San Paulu"@nrm,
+        "São Paulo"@oc,
+        "Сан-Паулу"@os,
+        "São Paulo"@pl,
+        "San Pàul ëd Brasil"@pms,
+        "ساؤ پولو"@pnb,
+        "São Paulo"@pt,
+        "São Paulo"@ro,
+        "Сан-Паулу"@ru,
+        "Сан Пауло"@rue,
+        "Сан Паулу"@sah,
+        "Sao Paulo"@sc,
+        "San Paulu dû Brasili"@scn,
+        "São Paulo"@sk,
+        "Сао Пауло"@sr,
+        "São Paulo"@sv,
+        "São Paulo"@sw,
+        "சாவோ பாவுலோ"@ta,
+        "శఒ పౌలొ"@te,
+        "Saun Paulu"@tet,
+        "Сан-Паулу"@tg,
+        "เซาเปาลู"@th,
+        "San-Paulu"@tk,
+        "San Paulu"@tpi,
+        "Sao Paulo"@tr,
+        "Сан-Паулу"@tt,
+        "San Pawlo"@ug,
+        "Сан-Паулу"@uk,
+        "ساؤ پالو"@ur,
+        "San Paulu"@uz,
+        "San Poło del Braxil"@vec,
+        "São Paulo"@vi,
+        "Sawo Pålo"@wa,
+        "聖保羅"@wuu,
+        "Сан-Паулу"@xal,
+        "סאו פאולא"@yi ;
+    ns1:countryCode "BR" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/3448439/sao-paulo.html> ;
+    ns1:name "São Paulo" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3448439/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/3469034/> ;
+    ns1:population "10021295" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/S%C3%A3o_Paulo> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3448439/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/S%C3%A3o_Paulo> ;
+    ns2:lat "-23.5475" ;
+    ns2:long "-46.63611" .
+
+<http://sws.geonames.org/3936456/> a ns1:Feature ;
+    ns1:alternateName "Лима"@ab,
+        "ሊማ"@am,
+        "ليما"@ar,
+        "ليما"@arz,
+        "Lima"@ay,
+        "Горад Ліма"@be,
+        "Лима"@bg,
+        "লিমা"@bn,
+        "ལི་མ།"@bo,
+        "Lima"@ca,
+        "Лима"@ce,
+        "Lima"@cs,
+        "Лима"@cv,
+        "Lima"@da,
+        "Lima"@de,
+        "Λίμα"@el,
+        "Lima"@en,
+        "Limo"@eo,
+        "Lima"@es,
+        "Lima"@et,
+        "Lima"@eu,
+        "لیما"@fa,
+        "Lima"@fi,
+        "Lima"@fr,
+        "Lima"@frp,
+        "Líoma"@ga,
+        "Lima"@gl,
+        "לימה"@he,
+        "लीमा"@hi,
+        "Lima"@hu,
+        "Լիմա"@hy,
+        "Lima"@ia,
+        "Lima"@id,
+        "Lima"@io,
+        "Líma"@is,
+        "Lima"@it,
+        "リマ"@ja,
+        "ლიმა"@ka,
+        "리마"@ko,
+        "Лима"@krc,
+        "Lîma"@ku,
+        "Lima"@la,
+        "Lìmma"@lij,
+        "Lima"@lt,
+        "Lima"@lv,
+        "Лиме"@mhr,
+        "Лима"@mk,
+        "ലിമ"@ml,
+        "लिमा"@mr,
+        "Lima"@nds,
+        "Lima"@nl,
+        "Lima"@nn,
+        "Lima"@no,
+        "Lima"@oc,
+        "ଲିମା"@or,
+        "Лимæ"@os,
+        "ਲੀਮਾ"@pa,
+        "Lima"@pl,
+        "لیما"@pnb,
+        "Lima"@pt,
+        "Limaq"@qu,
+        "Lima"@rm,
+        "Lima"@ro,
+        "Лима"@ru,
+        "Lima"@scn,
+        "Lima"@sk,
+        "Lima"@sl,
+        "Лима"@sr,
+        "Lima"@sv,
+        "லிமா"@ta,
+        "ลิมา"@th,
+        "Lungsod ng Lima"@tl,
+        "Lima"@tr,
+        "Лима"@tt,
+        "لىما"@ug,
+        "Ліма"@uk,
+        "لیما"@ur,
+        "Lima"@vi,
+        "ლიმა"@xmf,
+        "לימא"@yi,
+        "利馬"@yue,
+        "利馬"@zh ;
+    ns1:countryCode "PE" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/3936456/lima.html> ;
+    ns1:name "Lima" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/3936456/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/3932488/> ;
+    ns1:population "7737002" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Lima> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/3936456/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Lima> ;
+    ns2:lat "-12.04318" ;
+    ns2:long "-77.02824" .
+
+<http://sws.geonames.org/4140963/> a ns1:Feature ;
+    ns1:alternateName "Washington"@da,
+        "Washington"@de,
+        "Ουάσιγκτον"@el,
+        "Washington"@en,
+        "Washington"@es,
+        "Washington"@fi,
+        "Washington"@fr,
+        "Washington"@it,
+        "워싱턴 D.C."@ko,
+        "Vasingtonia"@la,
+        "Vašingtonas"@lt,
+        "Waszyngton"@pl,
+        "Washington"@pt,
+        "Вашингтон"@ru,
+        "Washington"@sv ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/4140963/washington-d-c.html> ;
+    ns1:name "Washington" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4140963/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "601723" ;
+    ns1:postalCode "20041" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Washington%2C_D.C.> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4140963/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Washington%2C_D.C.> ;
+    ns2:alt "7" ;
+    ns2:lat "38.89511" ;
+    ns2:long "-77.03637" .
+
+<http://sws.geonames.org/4148411/> a ns1:Feature ;
+    ns1:alternateName "Boca Raton"@de,
+        "Boca Raton"@en,
+        "Boca Ratón"@es,
+        "بوکا راتون، فلوریدا"@fa,
+        "Boca Raton"@io,
+        "ボカラトン"@ja,
+        "보카러톤"@ko,
+        "बोका रेटन"@new,
+        "Бока-Ратон"@ru,
+        "Бока Ратон"@sr,
+        "Бока-Ратон"@uk,
+        "באקא ראטאן"@yi,
+        "博卡拉頓"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4148411/boca-raton.html> ;
+    ns1:name "Boca Raton" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4148411/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "84392" ;
+    ns1:postalCode "33427" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Boca_Raton%2C_Florida> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4148411/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Boca_Raton%2C_Florida> ;
+    ns2:alt "4" ;
+    ns2:lat "26.35869" ;
+    ns2:long "-80.0831" .
+
+<http://sws.geonames.org/4164138/> a ns1:Feature ;
+    ns1:alternateName "ማያሚ"@am,
+        "ميامي، فلوريدا"@ar,
+        "مايامى"@arz,
+        "Mayami"@az,
+        "Горад Маямі"@be,
+        "Маями"@bg,
+        "মায়ামি"@bn,
+        "Miami"@ca,
+        "Майами"@ce,
+        "Miami"@da,
+        "Miami"@de,
+        "Μαϊάμι"@el,
+        "Miamo"@eo,
+        "Miami"@et,
+        "میامی"@fa,
+        "Miami"@fi,
+        "Miami"@fr,
+        "邁阿密"@gan,
+        "Miami"@gl,
+        "מיאמי"@he,
+        "मियामी"@hi,
+        "Miami"@hr,
+        "Miami"@hu,
+        "Մայամի"@hy,
+        "Miami"@id,
+        "Miami"@is,
+        "Miami"@it,
+        "マイアミ"@ja,
+        "მაიამი"@ka,
+        "Майами"@kk,
+        "ಮಿಯಾಮಿ"@kn,
+        "마이애미"@ko,
+        "Miamia"@la,
+        "Majamis"@lt,
+        "Maiami"@lv,
+        "Мајами"@mk,
+        "मायामी"@mr,
+        "Майами"@mrj,
+        "မိုင်ယာမီမြို့"@my,
+        "मायामी"@new,
+        "Miami"@nl,
+        "Miami"@nn,
+        "Miami"@no,
+        "Майами"@os,
+        "Miami"@pl,
+        "میامی"@pnb,
+        "Miami"@pt,
+        "Майами"@ru,
+        "Майами"@sah,
+        "Miami"@scn,
+        "Miami"@sq,
+        "Мајами"@sr,
+        "Miami"@sv,
+        "மயாமி"@ta,
+        "మయామి"@te,
+        "ไมแอมี"@th,
+        "Miami"@tr,
+        "Маямі"@uk,
+        "میامی"@ur,
+        "Majami"@vep,
+        "მაიამი"@xmf,
+        "מיאמי"@yi,
+        "迈阿密"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4164138/miami.html> ;
+    ns1:name "Miami" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4164138/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "399457" ;
+    ns1:postalCode "33162" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Miami> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4164138/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Miami> ;
+    ns2:alt "2" ;
+    ns2:lat "25.77427" ;
+    ns2:long "-80.19366" .
+
+<http://sws.geonames.org/4164186/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4164186/miami-lakes.html> ;
+    ns1:name "Miami Lakes" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4164186/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "29361" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Miami_Lakes%2C_Florida> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4164186/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Miami_Lakes%2C_Florida> ;
+    ns2:alt "1" ;
+    ns2:lat "25.90871" ;
+    ns2:long "-80.30866" .
+
+<http://sws.geonames.org/4174715/> a ns1:Feature ;
+    ns1:alternateName "تالاهاسي"@ar,
+        "Горад Талахасі"@be,
+        "Талахаси"@bg,
+        "টালাহাসি"@bn,
+        "Таллахасси"@ce,
+        "Tallahassee"@cs,
+        "Tallahassee"@da,
+        "Tallahassee"@de,
+        "Ταλαχάσι"@el,
+        "Tallahassee"@en,
+        "Tallahassee"@eo,
+        "Tallahassee"@es,
+        "Tallahassee"@eu,
+        "تالاهاسی"@fa,
+        "Tallahassee"@fi,
+        "Tallahassee"@fr,
+        "Tallahassee"@ga,
+        "טאלאהאסי"@he,
+        "Թալահասի"@hy,
+        "Tallahassee"@id,
+        "Tallahassee"@io,
+        "Tallahassee"@it,
+        "タラハシー"@ja,
+        "ტალაჰასი"@ka,
+        "탤러해시"@ko,
+        "Tallahassia"@la,
+        "Talahasis"@lt,
+        "Talahasī"@lv,
+        "Талахаси"@mk,
+        "ടലഹാസി"@ml,
+        "टॅलाहासी"@mr,
+        "Таллахасси"@mrj,
+        "तालाहासे"@new,
+        "Tallahassee"@nl,
+        "Tallahassee"@nn,
+        "Tallahassee"@no,
+        "Tallahassee"@oc,
+        "Таллахасси"@os,
+        "Tallahassee"@pl,
+        "ٹالیحسی"@pnb,
+        "Tallahassee"@pt,
+        "Таллахасси"@ru,
+        "Talahasis"@sgs,
+        "Талахаси"@sr,
+        "Tallahassee"@sv,
+        "டலஹாசி"@ta,
+        "แทลลาแฮสซี"@th,
+        "Таллахассі"@uk,
+        "塔拉赫西"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/4174715/tallahassee.html> ;
+    ns1:name "Tallahassee" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4174715/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "181376" ;
+    ns1:postalCode "32399" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Tallahassee%2C_Florida> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4174715/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Tallahassee%2C_Florida> ;
+    ns2:alt "62" ;
+    ns2:lat "30.43826" ;
+    ns2:long "-84.28073" .
+
+<http://sws.geonames.org/4180439/> a ns1:Feature ;
+    ns1:alternateName "Atlanta"@af,
+        "أتلانتا، جورجيا"@ar,
+        "Горад Атланта"@be,
+        "Атланта"@bg,
+        "ཨ་ཊི་ལཱན་ཊཱ།"@bo,
+        "Atlanta"@ca,
+        "Атланта"@ce,
+        "ئەتڵانتا"@ckb,
+        "Atlanta"@cs,
+        "Atlanta"@da,
+        "Atlanta"@de,
+        "Ατλάντα"@el,
+        "Atlanta"@en,
+        "Atlanta"@eo,
+        "Atlanta"@es,
+        "Atlanta"@et,
+        "Atlanta"@eu,
+        "آتلانتا"@fa,
+        "Atlanta"@fi,
+        "Atlanta"@fr,
+        "Atlanta"@ga,
+        "亞特蘭大"@gan,
+        "Atlanta"@gl,
+        "એટલાન્ટા"@gu,
+        "Atlanta"@hbs,
+        "אטלנטה"@he,
+        "अटलांटा"@hi,
+        "Atlanta"@hr,
+        "Ատլանտա"@hy,
+        "Atlanta"@id,
+        "Atlanta"@io,
+        "Atlanta"@is,
+        "Atlanta"@it,
+        "アトランタ"@ja,
+        "ატლანტა"@ka,
+        "ಅಟ್ಲಾಂಟಾ"@kn,
+        "애틀랜타"@ko,
+        "Atlanta"@la,
+        "Atlanta"@lt,
+        "Атланта"@mk,
+        "അറ്റ്ലാന്റാ നഗരം"@ml,
+        "अटलांटा"@mr,
+        "Атланта"@mrj,
+        "အတ္တလန္တာမြို့"@my,
+        "एत्लान्ता"@new,
+        "Atlanta"@nl,
+        "Atlanta"@no,
+        "Atlanta"@oc,
+        "Атлантæ"@os,
+        "Atlanta"@pl,
+        "اٹلانٹا"@pnb,
+        "Atlanta"@pt,
+        "Atlanta"@ro,
+        "Атланта"@ru,
+        "Атланта"@sah,
+        "Atlonta"@sgs,
+        "Atlanta"@sk,
+        "Атланта"@sr,
+        "Atlanta"@sv,
+        "அட்லான்டா"@ta,
+        "అట్లాంటా"@te,
+        "แอตแลนตา"@th,
+        "Atlanta"@tr,
+        "Атланта"@uk,
+        "اٹلانٹا، جارجیا"@ur,
+        "Atlanta"@vi,
+        "ათლანთა"@xmf,
+        "אטלאנטא"@yi,
+        "亞特蘭大"@yue,
+        "亚特兰大"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/4180439/atlanta.html> ;
+    ns1:name "Atlanta" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4180439/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "420003" ;
+    ns1:postalCode "30376" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Atlanta> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4180439/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Atlanta> ;
+    ns2:alt "320" ;
+    ns2:lat "33.749" ;
+    ns2:long "-84.38798" .
+
+<http://sws.geonames.org/4207783/> a ns1:Feature ;
+    ns1:alternateName "Мариета"@bg,
+        "Marietta"@de,
+        "Marietta"@en,
+        "Marietta"@io,
+        "マリエッタ"@ja,
+        "매리에타"@ko,
+        "Мариетта"@ru,
+        "Маријета"@sr,
+        "玛丽埃塔"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4207783/marietta.html> ;
+    ns1:name "Marietta" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4207783/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "56579" ;
+    ns1:postalCode "30090" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Marietta%2C_Georgia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4207783/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Marietta%2C_Georgia> ;
+    ns2:alt "344" ;
+    ns2:lat "33.9526" ;
+    ns2:long "-84.54993" .
+
+<http://sws.geonames.org/4347778/> a ns1:Feature ;
+    ns1:alternateName "بالتيمور، ماريلاند"@ar,
+        "Baltimor"@az,
+        "Горад Балтымар"@be,
+        "Балтимор"@bg,
+        "বাল্টিমোর"@bn,
+        "བྷལ་ཏྲི་མོར།"@bo,
+        "Baltimore"@cs,
+        "Baltimore"@da,
+        "Baltimore"@de,
+        "Βαλτιμόρη"@el,
+        "Baltimore"@en,
+        "Baltimore"@eo,
+        "Baltimore"@es,
+        "بالتیمور"@fa,
+        "Baltimore"@fi,
+        "Baltimore"@fr,
+        "Baltimore"@gl,
+        "בולטימור"@he,
+        "बाल्टीमोर"@hi,
+        "Բալթիմոր"@hy,
+        "Baltimore"@is,
+        "Baltimora"@it,
+        "ボルチモア"@ja,
+        "ბალტიმორი"@ka,
+        "ಬಾಲ್ಟಿಮೋರ್"@kn,
+        "볼티모어"@ko,
+        "Baltimora"@la,
+        "Baltimora"@lij,
+        "Baltimorė"@lt,
+        "Baltimora"@lv,
+        "Балтимор"@mk,
+        "ബാൾട്ടിമോർ"@ml,
+        "बॉल्टिमोर"@mr,
+        "Балтимор"@mrj,
+        "ဘော်လ်တီမိုးမြို့"@my,
+        "Baltimore"@nl,
+        "Baltimore"@no,
+        "Балтимор"@os,
+        "Baltimore"@pl,
+        "بالٹیمور"@pnb,
+        "Baltimore"@pt,
+        "Балтимор"@ru,
+        "Baltimore"@sk,
+        "Baltimore"@sl,
+        "Балтимор"@sr,
+        "Baltimore"@sv,
+        "பால்ட்டிமோர்"@ta,
+        "บอลทิมอร์"@th,
+        "Baltimore"@tr,
+        "Baltimor"@ug,
+        "Балтимор"@uk,
+        "Baltimor"@uz,
+        "Baltimore"@vi,
+        "ბალთიმორი"@xmf,
+        "באלטימאר"@yi,
+        "巴爾的摩"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4347778/baltimore.html> ;
+    ns1:name "Baltimore" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4347778/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "620961" ;
+    ns1:postalCode "21297" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Baltimore> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4347778/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Baltimore> ;
+    ns2:alt "10" ;
+    ns2:lat "39.29038" ;
+    ns2:long "-76.61219" .
+
+<http://sws.geonames.org/4460243/> a ns1:Feature ;
+    ns1:alternateName "تشارلوت، كارولاينا الشمالية"@ar,
+        "Şarlott"@az,
+        "Шарлът"@bg,
+        "Charlotte"@cs,
+        "Charlotte"@da,
+        "Charlotte"@de,
+        "Σάρλοτ"@el,
+        "Charlotte"@en,
+        "Charlotte"@es,
+        "شارلوت"@fa,
+        "Charlotte"@fi,
+        "Charlotte"@fr,
+        "שארלוט"@he,
+        "Շառլոթ"@hy,
+        "シャーロット"@ja,
+        "შარლოტი"@ka,
+        "ಷಾರ್ಲೆಟ್"@kn,
+        "샬럿"@ko,
+        "Carolinum"@la,
+        "Šarlotė"@lt,
+        "Šarlota"@lv,
+        "Шарлот"@mk,
+        "शार्लट"@mr,
+        "Шарлотт"@mrj,
+        "Charlotte"@nl,
+        "Charlotte i Nord-Carolina"@nn,
+        "Charlotte"@no,
+        "Шарлотт"@os,
+        "Charlotte"@pl,
+        "Charlotte"@pt,
+        "Charlotte"@ro,
+        "Шарлотт"@ru,
+        "Шарлот"@sr,
+        "Charlotte"@sv,
+        "சார்லட்"@ta,
+        "షార్లెట్"@te,
+        "ชาร์ลอตต์"@th,
+        "Sharlot"@ug,
+        "Шарлотт"@uk,
+        "შარლოთი"@xmf,
+        "夏洛特"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4460243/charlotte.html> ;
+    ns1:name "Charlotte" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4460243/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "731424" ;
+    ns1:postalCode "28270" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Charlotte%2C_North_Carolina> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4460243/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Charlotte%2C_North_Carolina> ;
+    ns2:alt "229" ;
+    ns2:lat "35.22709" ;
+    ns2:long "-80.84313" .
+
+<http://sws.geonames.org/4464368/> a ns1:Feature ;
+    ns1:alternateName "دورهام"@ar,
+        "Горад Дарэм"@be,
+        "Дърам"@bg,
+        "Durham"@de,
+        "Durham"@en,
+        "دورهام"@fa,
+        "ダーラム"@ja,
+        "더럼"@ko,
+        "Daremas"@lt,
+        "Durham"@nl,
+        "Durham"@pt,
+        "Дарем"@ru,
+        "Дарам"@sr,
+        "Durham"@sv,
+        "เดอแรม"@th,
+        "Дюрем"@uk,
+        "德罕"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4464368/durham.html> ;
+    ns1:name "Durham" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4464368/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "228330" ;
+    ns1:postalCode "27703",
+        "27707" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Durham%2C_North_Carolina> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4464368/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Durham%2C_North_Carolina> ;
+    ns2:alt "123" ;
+    ns2:lat "35.99403" ;
+    ns2:long "-78.89862" .
+
+<http://sws.geonames.org/4544349/> a ns1:Feature ;
+    ns1:alternateName "أوكلاهوما سيتي، أوكلاهوما"@ar,
+        "Oklahoma Siti"@az,
+        "Горад Аклахома-Сіці"@be,
+        "Оклахома Сити"@bg,
+        "Oklahoma City"@ca,
+        "Maxepónoe"@chy,
+        "Oklahoma City"@cs,
+        "Dinas Oklahoma"@cy,
+        "Oklahoma City"@da,
+        "Oklahoma City"@de,
+        "Οκλαχόμα Σίτι"@el,
+        "Oklahoma City"@en,
+        "Oklahomaurbo"@eo,
+        "Oklahoma City"@es,
+        "Oklahoma City"@eu,
+        "اکلاهما سیتی"@fa,
+        "Oklahoma City"@fi,
+        "Oklahoma City"@fr,
+        "Cathair Oklahoma"@ga,
+        "Caayr Oklahoma"@gv,
+        "אוקלהומה סיטי"@he,
+        "Օկլահոմա Սիթի"@hy,
+        "Kota Oklahoma"@id,
+        "Oklahoma City"@io,
+        "Oklahoma City"@it,
+        "オクラホマシティ"@ja,
+        "Kutha Oklahoma"@jv,
+        "ოკლაჰომა-სიტი"@ka,
+        "Оклахома"@kk,
+        "오클라호마시티"@ko,
+        "Oklahoma Sitis"@lt,
+        "Oklahomasitija"@lv,
+        "Оклахома Сити"@mk,
+        "ओक्लाहोमा सिटी"@mr,
+        "Оклахома-Сити"@mrj,
+        "ओक्लाहोमा सिटी"@new,
+        "Oklahoma City"@nl,
+        "Oklahoma City"@no,
+        "Oklahoma City"@oc,
+        "Оклахомæ-Сити"@os,
+        "Oklahoma City"@pl,
+        "Oklahoma City"@pt,
+        "Oklahoma llaqta"@qu,
+        "Оклахома Сити"@ru,
+        "Oklahoma Ceety"@sco,
+        "Oklahoma Sitės"@sgs,
+        "Oklahoma City"@sk,
+        "Оклахома Сити"@sr,
+        "Oklahoma City"@sv,
+        "ஓக்லஹோமா நகரம்"@ta,
+        "โอคลาโฮมาซิตี"@th,
+        "Lungsod ng Oklahoma"@tl,
+        "Oklaxoma Shehiri"@ug,
+        "Оклахома-Сіті"@uk,
+        "اوکلاہوما شہر، اوکلاہوما"@ur,
+        "ოქლაჰომა-სითი"@xmf,
+        "俄克拉荷馬城"@yue,
+        "奧克拉荷馬市"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/4544349/oklahoma-city.html> ;
+    ns1:name "Oklahoma City" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4544349/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "579999" ;
+    ns1:postalCode "73101",
+        "73190" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Oklahoma_City> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4544349/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Oklahoma_City> ;
+    ns2:alt "366" ;
+    ns2:lat "35.46756" ;
+    ns2:long "-97.51643" .
+
+<http://sws.geonames.org/4558942/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4558942/kennett-square.html> ;
+    ns1:name "Kennett Square" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4558942/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "6072" ;
+    ns1:postalCode "19348" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Kennett_Square%2C_Pennsylvania> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4558942/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Kennett_Square%2C_Pennsylvania> ;
+    ns2:alt "116" ;
+    ns2:lat "39.84678" ;
+    ns2:long "-75.7116" .
+
+<http://sws.geonames.org/4671654/> a ns1:Feature ;
+    ns1:alternateName "أوستن، تكساس"@ar,
+        "Ostin"@az,
+        "Горад Осцін"@be,
+        "Остин"@bg,
+        "ᎠᏍᏘᏂ"@chr,
+        "Austin"@cs,
+        "Austin"@da,
+        "Austin"@de,
+        "Ώστιν"@el,
+        "Austin"@en,
+        "Aŭstino"@eo,
+        "Austin"@es,
+        "Austin"@et,
+        "Austin"@eu,
+        "آستین، تگزاس"@fa,
+        "Austin"@fi,
+        "Austin"@fr,
+        "奧斯汀"@gan,
+        "אוסטין"@he,
+        "ऑस्टिन"@hi,
+        "Օստին"@hy,
+        "Austin"@ia,
+        "Austin"@id,
+        "Austin"@io,
+        "Austin"@is,
+        "Austin"@it,
+        "オースティン"@ja,
+        "ოსტინი"@ka,
+        "Остин"@kk,
+        "오스틴"@ko,
+        "Austinopolis"@la,
+        "Ostinas"@lt,
+        "Ostina"@lv,
+        "Остин"@mk,
+        "ഓസ്റ്റിൻ"@ml,
+        "ऑस्टिन"@mr,
+        "Остин"@mrj,
+        "Austin"@nl,
+        "Austin"@no,
+        "Austin"@oc,
+        "Остин"@os,
+        "Austin"@pl,
+        "آسٹن"@pnb,
+        "Austin"@pt,
+        "Austin"@ro,
+        "Остин"@ru,
+        "Остин"@sah,
+        "Ostins"@sgs,
+        "Austin"@sk,
+        "Остин"@sr,
+        "Austin"@sv,
+        "ஆஸ்டின்"@ta,
+        "ออสติน"@th,
+        "Austin"@tr,
+        "Остін"@uk,
+        "آسٹن، ٹیکساس"@ur,
+        "Ostin"@uz,
+        "Austin"@vi,
+        "ოსთინი"@xmf,
+        "柯士甸"@yue,
+        "奧斯汀"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/4671654/austin.html> ;
+    ns1:name "Austin" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4671654/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "790390" ;
+    ns1:postalCode "78727" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Austin%2C_Texas> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4671654/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Austin%2C_Texas> ;
+    ns2:alt "149" ;
+    ns2:lat "30.26715" ;
+    ns2:long "-97.74306" .
+
+<http://sws.geonames.org/4744709/> a ns1:Feature ;
+    ns1:alternateName "Arlington"@bs,
+        "Arlington"@de,
+        "Arlington"@en,
+        "Arlington"@eo,
+        "Arlington"@es,
+        "Arlington"@fr,
+        "Arlington"@it,
+        "アーリントン"@ja,
+        "Arlingtonas"@lt,
+        "Arlington"@nl,
+        "Arlington"@no,
+        "Arlington"@pt,
+        "Арлингтон"@ru,
+        "Arlington"@sv ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4744709/arlington.html> ;
+    ns1:name "Arlington" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4744709/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "207627" ;
+    ns1:postalCode "22218" ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4744709/about.rdf> ;
+    ns2:alt "71" ;
+    ns2:lat "38.88101" ;
+    ns2:long "-77.10428" .
+
+<http://sws.geonames.org/4751935/> a ns1:Feature ;
+    ns1:alternateName "Шантили"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4751935/chantilly.html> ;
+    ns1:name "Chantilly" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4751935/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "23039" ;
+    ns1:postalCode "22021" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Chantilly%2C_Virginia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4751935/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Chantilly%2C_Virginia> ;
+    ns2:alt "98" ;
+    ns2:lat "38.89428" ;
+    ns2:long "-77.4311" .
+
+<http://sws.geonames.org/4758102/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4758102/fairfax-station.html> ;
+    ns1:name "Fairfax Station" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4758102/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "12030" ;
+    ns1:postalCode "22039" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Fairfax_Station%2C_Virginia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4758102/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Fairfax_Station%2C_Virginia> ;
+    ns2:alt "122" ;
+    ns2:lat "38.80095" ;
+    ns2:long "-77.32554" .
+
+<http://sws.geonames.org/4772354/> a ns1:Feature ;
+    ns1:alternateName "Маклин"@ru,
+        "Маклејн"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4772354/mclean.html> ;
+    ns1:name "McLean" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4772354/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "48115" ;
+    ns1:postalCode "22108" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/McLean%2C_Virginia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4772354/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/McLean%2C_Virginia> ;
+    ns2:alt "87" ;
+    ns2:lat "38.93428" ;
+    ns2:long "-77.17748" .
+
+<http://sws.geonames.org/4781530/> a ns1:Feature ;
+    ns1:alternateName "Reston"@de,
+        "Reston"@en,
+        "レストン"@ja,
+        "Рестон"@ru,
+        "Рестон"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4781530/reston.html> ;
+    ns1:name "Reston" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4781530/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "58404" ;
+    ns1:postalCode "22090" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Reston%2C_Virginia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4781530/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Reston%2C_Virginia> ;
+    ns2:alt "100" ;
+    ns2:lat "38.96872" ;
+    ns2:long "-77.3411" .
+
+<http://sws.geonames.org/4787117/> a ns1:Feature ;
+    ns1:alternateName "Спрингфилд"@ru,
+        "Спрингфилд"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4787117/springfield.html> ;
+    ns1:name "Springfield" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4787117/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "30484" ;
+    ns1:postalCode "22151" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Springfield%2C_Virginia> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4787117/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Springfield%2C_Virginia> ;
+    ns2:alt "75" ;
+    ns2:lat "38.78928" ;
+    ns2:long "-77.1872" .
+
+<http://sws.geonames.org/479441/> a ns1:Feature ;
+    ns1:alternateName "Uk"@en,
+        "Uk"@no,
+        "Ук"@ru ;
+    ns1:countryCode "RU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/479441/uk.html> ;
+    ns1:name "Uk" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/479441/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2017370/> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/479441/about.rdf> ;
+    ns2:lat "54.9426" ;
+    ns2:long "57.2634" .
+
+<http://sws.geonames.org/4887398/> a ns1:Feature ;
+    ns1:alternateName "ሺካጎ"@am,
+        "شيكاغو"@ar,
+        "ܫܝܩܓܘ"@arc,
+        "شيكاجو"@arz,
+        "Çikaqo"@az,
+        "Горад Чыкага"@be,
+        "Чикаго"@bg,
+        "শিকাগো"@bn,
+        "Chicago"@bs,
+        "Chicago"@ca,
+        "Чикаго"@ce,
+        "شیکاگۆ"@ckb,
+        "Chicago"@cs,
+        "Chicago"@cy,
+        "Chicago"@da,
+        "Chicago"@de,
+        "Σικάγο"@el,
+        "Chicago"@en,
+        "Ĉikago"@eo,
+        "Chicago"@es,
+        "Chicago"@et,
+        "Chicago"@eu,
+        "شیکاگو"@fa,
+        "Chicago"@fi,
+        "Chicago"@fr,
+        "芝加哥"@gan,
+        "Chicago"@gl,
+        "Chikago"@gn,
+        "𐍄𐍃𐌾𐌹𐌺𐌰𐌲𐍉"@got,
+        "Chi-kâ-kô"@hak,
+        "Kikako"@haw,
+        "Chicago"@hbs,
+        "שיקגו"@he,
+        "शिकागो"@hi,
+        "Chicago"@hr,
+        "Chikago"@ht,
+        "Chicago"@hu,
+        "Չիկագո"@hy,
+        "Chicago"@id,
+        "Chicago"@io,
+        "Chicago"@is,
+        "Chicago"@it,
+        "ᓰᖄᑯ"@iu,
+        "シカゴ"@ja,
+        "ჩიკაგო"@ka,
+        "Чикаго"@kk,
+        "시카고"@ko,
+        "Sicagum"@la,
+        "Čikaga"@lt,
+        "Čikāga"@lv,
+        "Чикаго"@mk,
+        "ഷിക്കാഗോ"@ml,
+        "Чикаго"@mn,
+        "शिकागो"@mr,
+        "Чикаго"@mrj,
+        "ရှီကာဂိုမြို့"@my,
+        "شیکاگو"@mzn,
+        "शिकागो"@ne,
+        "शिकागो"@new,
+        "Chicago"@nl,
+        "Chicago"@no,
+        "Chicago"@oc,
+        "Чикаго"@os,
+        "ਸ਼ਿਕਾਗੋ"@pa,
+        "Chicago"@pl,
+        "شکاگو"@pnb,
+        "Chicago"@pt,
+        "Chicago"@ro,
+        "Чикаго"@ru,
+        "Чикаго"@sah,
+        "Chicagu"@scn,
+        "Čėkaga"@sgs,
+        "Chicago"@sk,
+        "Chicago"@sl,
+        "Chicago"@sq,
+        "Чикаго"@sr,
+        "Chicago"@sv,
+        "சிகாகோ"@ta,
+        "చికాగో"@te,
+        "Чикаго"@tg,
+        "ชิคาโก"@th,
+        "Tsikago"@tl,
+        "Şikago"@tr,
+        "Çikago"@tt,
+        "Chikago"@ug,
+        "Чикаґо"@uk,
+        "شکاگو"@ur,
+        "Chicago"@vi,
+        "ჩიკაგო"@xmf,
+        "שיקאגא"@yi,
+        "Ṣìkágò"@yo,
+        "芝加哥"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/4887398/chicago.html> ;
+    ns1:name "Chicago" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4887398/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "2695598" ;
+    ns1:postalCode "60660" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Chicago> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4887398/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Chicago> ;
+    ns2:alt "179" ;
+    ns2:lat "41.85003" ;
+    ns2:long "-87.65005" .
+
+<http://sws.geonames.org/4896075/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4896075/hoffman-estates.html> ;
+    ns1:name "Hoffman Estates" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4896075/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "51895" ;
+    ns1:postalCode "60179" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Hoffman_Estates%2C_Illinois> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4896075/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Hoffman_Estates%2C_Illinois> ;
+    ns2:alt "239" ;
+    ns2:lat "42.04281" ;
+    ns2:long "-88.0798" .
+
+<http://sws.geonames.org/4930956/> a ns1:Feature ;
+    ns1:alternateName "بوسطن"@ar,
+        "ܒܘܣܛܘܢ"@arc,
+        "Бостон"@ba,
+        "Горад Бостан"@be,
+        "Бостън"@bg,
+        "বস্টন"@bn,
+        "བོ་སེ་ཊོན།"@bo,
+        "Boston"@ca,
+        "Бостон"@ce,
+        "بۆستن"@ckb,
+        "Boston"@cs,
+        "Boston"@da,
+        "Boston"@de,
+        "Βοστωνη"@el,
+        "Βοστώνη"@el,
+        "Boston"@en,
+        "Bostono"@eo,
+        "Boston"@es,
+        "Boston"@et,
+        "Boston"@eu,
+        "بوستون، ماساچوست"@fa,
+        "Boston"@fi,
+        "Boston"@fr,
+        "Bostún"@ga,
+        "波士頓"@gan,
+        "Boston"@gl,
+        "Pokekona"@haw,
+        "בוסטון"@he,
+        "बोस्टन"@hi,
+        "Boston"@hu,
+        "Բոստոն"@hy,
+        "Boston"@id,
+        "Boston"@io,
+        "Boston"@is,
+        "Boston"@it,
+        "ボストン"@ja,
+        "ბოსტონი"@ka,
+        "Бостон"@kk,
+        "ಬಾಸ್ಟನ್"@kn,
+        "보스턴"@ko,
+        "Bostonia"@la,
+        "Bostonas"@lt,
+        "Bostona"@lv,
+        "Бостон"@mk,
+        "ബോസ്റ്റൺ"@ml,
+        "बॉस्टन"@mr,
+        "Бостон"@mrj,
+        "ဘော့စတွန်မြို့"@my,
+        "बस्तन"@new,
+        "Boston"@nl,
+        "Boston"@no,
+        "Boston"@oc,
+        "Бостон"@os,
+        "ਬੋਸਟਨ"@pa,
+        "Boston"@pl,
+        "بوسٹن"@pnb,
+        "Βοστώνη"@pnt,
+        "Boston"@pt,
+        "Boston"@ro,
+        "Бостон"@ro,
+        "Бостон"@ru,
+        "Бостон"@sah,
+        "Bostons"@sgs,
+        "Boston"@sk,
+        "Boston"@sl,
+        "Boston"@sq,
+        "Бостон"@sr,
+        "Boston"@sv,
+        "பாஸ்டன்"@ta,
+        "బోస్టన్"@te,
+        "บอสตัน"@th,
+        "Boston"@tr,
+        "بوستون"@ug,
+        "Бостон"@uk,
+        "بوسٹن"@ur,
+        "Boston"@vi,
+        "波士顿"@wuu,
+        "ბოსთონი"@xmf,
+        "באסטאן"@yi,
+        "波士頓"@yue,
+        "波士顿"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/4930956/boston.html> ;
+    ns1:name "Boston" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4930956/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "617594" ;
+    ns1:postalCode "02101",
+        "02112" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Boston> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4930956/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Boston> ;
+    ns2:alt "14" ;
+    ns2:lat "42.35843" ;
+    ns2:long "-71.05977" .
+
+<http://sws.geonames.org/4931972/> a ns1:Feature ;
+    ns1:alternateName "كامبريدج، ماساتشوستس"@ar,
+        "Горад Кембрыдж"@be,
+        "Кеймбридж"@bg,
+        "Cambridge"@de,
+        "Κέμπριτζ"@el,
+        "Cambridge"@en,
+        "Cambridge"@eo,
+        "Cambridge"@es,
+        "کمبریج، ماساچوست"@fa,
+        "Cambridge"@fi,
+        "Cambridge"@fr,
+        "קיימברידג"@he,
+        "Քեմբրիջ"@hy,
+        "ケンブリッジ"@ja,
+        "Кэмбридж"@kk,
+        "케임브리지"@ko,
+        "Cantabrigia"@la,
+        "Kembridžas"@lt,
+        "Keimbridža"@lv,
+        "केंब्रिज"@mr,
+        "Cambridge"@nl,
+        "Cambridge"@pl,
+        "Cambridge"@pt,
+        "Кеймбридж"@ru,
+        "Кембриџ"@sr,
+        "Cambridge"@sv,
+        "கேம்பிரிஜ்"@ta,
+        "Кембриҷ"@tg,
+        "เคมบริดจ์"@th,
+        "Cambridge"@tr,
+        "Кембридж"@uk,
+        "קעמברידזש"@yi,
+        "剑桥"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4931972/cambridge.html> ;
+    ns1:name "Cambridge" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4931972/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "105162" ;
+    ns1:postalCode "02138",
+        "02142" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Cambridge%2C_Massachusetts> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4931972/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Cambridge%2C_Massachusetts> ;
+    ns2:alt "5" ;
+    ns2:lat "42.3751" ;
+    ns2:long "-71.10561" .
+
+<http://sws.geonames.org/4945121/> a ns1:Feature ;
+    ns1:alternateName "نيو بدفورد"@ar,
+        "New Bedford"@de,
+        "New Bedford"@en,
+        "بدفورد جدید، ماساچوست"@fa,
+        "ニューベッドフォード"@ja,
+        "Нью Бэдфорд"@kk,
+        "뉴베드퍼드"@ko,
+        "New Bedford"@pl,
+        "New Bedford"@pt,
+        "Нью-Бедфорд"@ru,
+        "Њу Бедфорд"@sr,
+        "New Bedford"@sv,
+        "Нью-Бедфорд"@uk,
+        "新贝德福德"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4945121/new-bedford.html> ;
+    ns1:name "New Bedford" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4945121/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "95072" ;
+    ns1:postalCode "02744" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/New_Bedford%2C_Massachusetts> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4945121/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/New_Bedford%2C_Massachusetts> ;
+    ns2:alt "29" ;
+    ns2:lat "41.63622" ;
+    ns2:long "-70.93421" .
+
+<http://sws.geonames.org/4951257/> a ns1:Feature ;
+    ns1:alternateName "Съмървил"@bg,
+        "Somerville"@de,
+        "Somerville"@en,
+        "Somerville"@eo,
+        "سامرویل، ماساچوست"@fa,
+        "Somerville"@fr,
+        "サマービル"@ja,
+        "Сомэрвилл"@kk,
+        "Somerville"@pt,
+        "Сомервилл"@ru,
+        "Самервил"@sr,
+        "Somerville"@sv,
+        "萨默维尔"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/4951257/somerville.html> ;
+    ns1:name "Somerville" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/4951257/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "75754" ;
+    ns1:postalCode "02143" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Somerville%2C_Massachusetts> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/4951257/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Somerville%2C_Massachusetts> ;
+    ns2:alt "28" ;
+    ns2:lat "42.3876" ;
+    ns2:long "-71.0995" .
+
+<http://sws.geonames.org/5006059/> a ns1:Feature ;
+    ns1:alternateName "Плимут"@ru,
+        "Плимут"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5006059/plymouth.html> ;
+    ns1:name "Plymouth" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5006059/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "9132" ;
+    ns1:postalCode "48170" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Plymouth%2C_Michigan> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5006059/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Plymouth%2C_Michigan> ;
+    ns2:alt "221" ;
+    ns2:lat "42.37143" ;
+    ns2:long "-83.47021" .
+
+<http://sws.geonames.org/5026506/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5026506/finland.html> ;
+    ns1:name "Finland" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5026506/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "195" ;
+    ns1:postalCode "55603" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Finland%2C_Minnesota> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5026506/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Finland%2C_Minnesota> ;
+    ns2:alt "405" ;
+    ns2:lat "47.41464" ;
+    ns2:long "-91.24905" .
+
+<http://sws.geonames.org/5101798/> a ns1:Feature ;
+    ns1:alternateName "نيوآرك، نيوجيرسي"@ar,
+        "Горад Ньюарк"@be,
+        "Нюарк"@bg,
+        "Newark"@da,
+        "Newark"@de,
+        "Νιούαρκ"@el,
+        "Newark"@en,
+        "Newark"@es,
+        "Newark"@et,
+        "نیوآرک، نیوجرزی"@fa,
+        "Newark"@fi,
+        "Newark"@fr,
+        "ניוארק"@he,
+        "न्यूर्क"@hi,
+        "Newark"@id,
+        "Newark"@it,
+        "ニューアーク"@ja,
+        "ნიუარკი"@ka,
+        "Ньюарк"@kk,
+        "뉴어크"@ko,
+        "Novarcum"@la,
+        "Niuarkas"@lt,
+        "Ņuarka"@lv,
+        "न्यूअर्क"@mr,
+        "Ньюарк"@mrj,
+        "Newark"@nl,
+        "Newark"@no,
+        "Newark"@pl,
+        "Newark"@pt,
+        "Ньюарк"@ru,
+        "Newark"@sk,
+        "Њуарк"@sr,
+        "Newark"@sv,
+        "நியூவர்க்"@ta,
+        "నెవార్క్"@te,
+        "นวร์ก"@th,
+        "Ньюарк"@uk,
+        "紐華克"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5101798/newark.html> ;
+    ns1:name "Newark" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5101798/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "277140" ;
+    ns1:postalCode "07105" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Newark%2C_New_Jersey> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5101798/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Newark%2C_New_Jersey> ;
+    ns2:alt "9" ;
+    ns2:lat "40.73566" ;
+    ns2:long "-74.17237" .
+
+<http://sws.geonames.org/5102922/> a ns1:Feature ;
+    ns1:alternateName "Принстън"@bg,
+        "Принстон"@ce,
+        "Princeton"@da,
+        "Princeton"@de,
+        "Princeton"@en,
+        "Princeton"@eo,
+        "Princeton"@es,
+        "پرینستون، نیوجرسی"@fa,
+        "Princeton"@fr,
+        "פרינסטון"@he,
+        "Փրինսթոն"@hy,
+        "Princeton"@it,
+        "プリンストン"@ja,
+        "Принстон"@kk,
+        "프린스턴"@ko,
+        "Princetonia"@la,
+        "Prinstona"@lv,
+        "Princeton"@no,
+        "Princeton"@pl,
+        "Princeton"@pt,
+        "Принстон"@ru,
+        "Принстон"@sr,
+        "Princeton"@sv,
+        "Принстон"@uk,
+        "普林斯顿"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5102922/princeton.html> ;
+    ns1:name "Princeton" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5102922/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "12307" ;
+    ns1:postalCode "08540" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Princeton%2C_New_Jersey> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5102922/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Princeton%2C_New_Jersey> ;
+    ns2:alt "62" ;
+    ns2:lat "40.34872" ;
+    ns2:long "-74.65905" .
+
+<http://sws.geonames.org/5115926/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5115926/east-ithaca.html> ;
+    ns1:name "East Ithaca" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5115926/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "2231" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/East_Ithaca%2C_New_York> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5115926/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/East_Ithaca%2C_New_York> ;
+    ns2:alt "245" ;
+    ns2:lat "42.43952" ;
+    ns2:long "-76.47855" .
+
+<http://sws.geonames.org/5128581/> a ns1:Feature ;
+    ns1:alternateName "New York Stad"@af,
+        "Nueva York"@an,
+        "نيويورك"@ar,
+        "Нью-Ёрк"@be,
+        "Ню Йорк"@bg,
+        "নিউ ইয়র্ক সিটি"@bn,
+        "New York"@br,
+        "New York City"@bs,
+        "Nova York"@ca,
+        "New York"@cs,
+        "Efrog Newydd"@cy,
+        "New York"@da,
+        "New York City"@de,
+        "Νέα Υόρκη"@el,
+        "New York"@en,
+        "Nov-Jorko"@eo,
+        "Novjorko"@eo,
+        "Nueva York"@es,
+        "New York"@et,
+        "New York"@eu,
+        "نیویورک"@fa,
+        "New York"@fi,
+        "New York"@fr,
+        "New York"@frp,
+        "Cathair Nua Eabhraic"@ga,
+        "Nua-Eabhrac"@ga,
+        "Eabhraig Nuadh"@gd,
+        "Nova Iorque"@gl,
+        "Nova York"@gl,
+        "New York"@hbs,
+        "ניו יורק"@he,
+        "न्यूयॉर्क"@hi,
+        "New York"@hr,
+        "New York"@hu,
+        "New York"@ia,
+        "New York City"@id,
+        "New York"@io,
+        "Nova-York"@io,
+        "New York-borg"@is,
+        "Nýja Jórvík"@is,
+        "New York"@it,
+        "マンハッタン"@ja,
+        "ნიუ-იორკი"@ka,
+        "뉴욕"@ko,
+        "New York City"@ku,
+        "Evrek Nowydh"@kw,
+        "Novum Eboracum"@la,
+        "New York City"@lb,
+        "New York"@li,
+        "Niujorkas"@lt,
+        "Ņujorka"@lv,
+        "Њу Јорк"@mk,
+        "Њујорк"@mk,
+        "Bandar Raya New York"@ms,
+        "New York"@nb,
+        "New York"@nds,
+        "New York City"@nl,
+        "New York"@nn,
+        "New York"@no,
+        "Nouvieau York"@nrm,
+        "Nòva York"@oc,
+        "Нью-Йорк"@os,
+        "Nei Yarrick Schtadt"@pdc,
+        "Nowy Jork"@pl,
+        "New York"@pms,
+        "Nova Iorque"@pt,
+        "New York"@qu,
+        "New York City"@ro,
+        "Нью-Йорк"@ru,
+        "Nova York"@scn,
+        "New York"@sk,
+        "New York"@sl,
+        "New York City"@sq,
+        "Њујорк"@sr,
+        "New York"@sv,
+        "நியூயார்க் நகரம்"@ta,
+        "นครนิวยอร์ก"@th,
+        "Lungsod ng New York"@tl,
+        "New York"@tr,
+        "Nyu York Shehiri"@ug,
+        "Нью-Йорк"@uk,
+        "نیویارک شہر"@ur,
+        "Thành phố New York"@vi,
+        "ניו יארק"@yi,
+        "ניו־יאָרק"@yi,
+        "紐約市"@zh,
+        "纽约"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5128581/new-york-city.html> ;
+    ns1:name "New York" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5128581/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "8175133" ;
+    ns1:postalCode "10016",
+        "10022" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/New_York_City> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5128581/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/New_York_City> ;
+    ns2:alt "10" ;
+    ns2:lat "40.71427" ;
+    ns2:long "-74.00597" .
+
+<http://sws.geonames.org/5132143/> a ns1:Feature ;
+    ns1:alternateName "بوكيبسي"@ar,
+        "Пъкипсий"@bg,
+        "پوگکیپسی، نیویورک"@fa,
+        "ポキプシー"@ja,
+        "포킵시"@ko,
+        "Покипси"@sr,
+        "波啟浦夕市"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5132143/poughkeepsie.html> ;
+    ns1:name "Poughkeepsie" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5132143/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "32736" ;
+    ns1:postalCode "12603" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Poughkeepsie%2C_New_York> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5132143/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Poughkeepsie%2C_New_York> ;
+    ns2:alt "62" ;
+    ns2:lat "41.70037" ;
+    ns2:long "-73.92097" .
+
+<http://sws.geonames.org/5139865/> a ns1:Feature ;
+    ns1:alternateName "스토니브룩"@ko,
+        "Стони Брук"@sr ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5139865/stony-brook.html> ;
+    ns1:name "Stony Brook" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5139865/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "13740" ;
+    ns1:postalCode "11790" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Stony_Brook%2C_New_York> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5139865/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Stony_Brook%2C_New_York> ;
+    ns2:alt "27" ;
+    ns2:lat "40.92565" ;
+    ns2:long "-73.14094" .
+
+<http://sws.geonames.org/5178225/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5178225/ambler.html> ;
+    ns1:name "Ambler" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5178225/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "6417" ;
+    ns1:postalCode "19002" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Ambler%2C_Pennsylvania> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5178225/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ambler%2C_Pennsylvania> ;
+    ns2:alt "65" ;
+    ns2:lat "40.15455" ;
+    ns2:long "-75.22157" .
+
+<http://sws.geonames.org/5261457/> a ns1:Feature ;
+    ns1:alternateName "Madison"@af,
+        "ماديسون، ويسكنسن"@ar,
+        "Мадисън"@bg,
+        "Madison"@da,
+        "Madison"@de,
+        "Μάντισον"@el,
+        "Madison"@en,
+        "Madison"@eo,
+        "Madison"@es,
+        "Madison"@eu,
+        "مدیسن، ویسکانسین"@fa,
+        "Madison"@fi,
+        "Madison"@fr,
+        "מדיסון"@he,
+        "मैडिसन"@hi,
+        "Մեդիսոն"@hy,
+        "Madison"@id,
+        "Madison"@io,
+        "Madison"@it,
+        "マディソン"@ja,
+        "მადისონი"@ka,
+        "매디슨"@ko,
+        "Madisonia"@la,
+        "Madisonas"@lt,
+        "Medisona"@lv,
+        "Медисон"@mk,
+        "मॅडिसन"@mr,
+        "Мэдисон"@mrj,
+        "Madison"@nl,
+        "Madison"@nn,
+        "Madison"@no,
+        "Madison"@oc,
+        "Madison"@pl,
+        "Madison"@pt,
+        "Мадисон"@ru,
+        "Madisons"@sgs,
+        "Медисон"@sr,
+        "Madison"@sv,
+        "மேடிசன்"@ta,
+        "Madison"@tl,
+        "Медісон"@uk,
+        "麦迪逊"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/5261457/madison.html> ;
+    ns1:name "Madison" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5261457/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "233209" ;
+    ns1:postalCode "53719" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Madison%2C_Wisconsin> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5261457/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Madison%2C_Wisconsin> ;
+    ns2:alt "267" ;
+    ns2:lat "43.07305" ;
+    ns2:long "-89.40123" .
+
+<http://sws.geonames.org/5327684/> a ns1:Feature ;
+    ns1:alternateName "بيركيلي، كاليفورنيا"@ar,
+        "Горад Берклі"@be,
+        "Бъркли"@bg,
+        "Berkeley"@cs,
+        "Berkeley"@da,
+        "Berkeley"@de,
+        "Berkeley"@en,
+        "Berkeley"@es,
+        "برکلی، کالیفرنیا"@fa,
+        "Berkeley"@fi,
+        "Berkeley"@fr,
+        "ברקלי"@he,
+        "बर्कली"@hi,
+        "Berkeley"@id,
+        "Berkeley"@it,
+        "バークレー"@ja,
+        "ბერკლი"@ka,
+        "버클리"@ko,
+        "Berkeleia"@la,
+        "Bērkli"@lv,
+        "बर्केली"@new,
+        "Berkeley"@nl,
+        "Berkeley"@no,
+        "Беркли"@os,
+        "Berkeley"@pl,
+        "برکلے"@pnb,
+        "Berkeley"@pt,
+        "Беркли"@ru,
+        "Беркли"@sr,
+        "Berkeley"@sv,
+        "Берклі"@uk,
+        "伯克利"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5327684/berkeley.html> ;
+    ns1:name "Berkeley" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5327684/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "112580" ;
+    ns1:postalCode "94705" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Berkeley%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5327684/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Berkeley%2C_California> ;
+    ns2:alt "52" ;
+    ns2:lat "37.87159" ;
+    ns2:long "-122.27275" .
+
+<http://sws.geonames.org/5328041/> a ns1:Feature ;
+    ns1:alternateName "Beverly Hills"@ast,
+        "Бевърли Хилс"@bg,
+        "Beverly Hills"@da,
+        "Beverly Hills"@de,
+        "Beverly Hills"@en,
+        "Beverly Hills"@eo,
+        "Beverly Hills"@es,
+        "بورلی هیلز"@fa,
+        "Beverly Hills"@fi,
+        "Beverly Hills"@fr,
+        "Beverly Hills"@fy,
+        "בוורלי הילס"@he,
+        "Beverly Hills"@io,
+        "Beverly Hills"@it,
+        "ビバリーヒルズ"@ja,
+        "ბევერლი ჰილსი"@ka,
+        "Beverly Hills"@nl,
+        "Beverly Hills"@no,
+        "Beverly Hills"@oc,
+        "Beverly Hills"@pl,
+        "Beverly Hills"@pt,
+        "Beverly Hills"@sq,
+        "Beverly Hills"@sv ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5328041/beverly-hills.html> ;
+    ns1:name "Beverly Hills" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5328041/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "34109" ;
+    ns1:postalCode "90211" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Beverly_Hills%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5328041/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Beverly_Hills%2C_California> ;
+    ns2:alt "79" ;
+    ns2:lat "34.07362" ;
+    ns2:long "-118.40036" .
+
+<http://sws.geonames.org/5333180/> a ns1:Feature ;
+    ns1:alternateName "كاماريلو، فينتورا، كاليفورنيا"@ar,
+        "Камарильо"@bg,
+        "Camarillo"@de,
+        "Camarillo"@en,
+        "کاماریلو، کالیفرنیا"@fa,
+        "캐머릴로"@ko,
+        "क्यामारिल्लो"@new,
+        "Камарило"@sr,
+        "Камарільйо"@uk,
+        "卡马里奥"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5333180/camarillo.html> ;
+    ns1:name "Camarillo" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5333180/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "65201" ;
+    ns1:postalCode "93012" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Camarillo%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5333180/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Camarillo%2C_California> ;
+    ns2:alt "54" ;
+    ns2:lat "34.21639" ;
+    ns2:long "-119.0376" .
+
+<http://sws.geonames.org/5339840/> a ns1:Feature ;
+    ns1:alternateName "كوستا ميسا، أورانج، كاليفورنيا"@ar,
+        "Коста Меса"@bg,
+        "Costa Mesa"@de,
+        "Costa Mesa"@en,
+        "کوستا مسا، کالیفرنیا"@fa,
+        "Costa Mesa"@it,
+        "コスタメサ"@ja,
+        "कोस्टा मेसा"@new,
+        "Costa Mesa"@nl,
+        "کوسٹا میسا"@pnb,
+        "Коста-Меса"@ru,
+        "Коста Меса"@sr,
+        "科斯塔梅薩"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5339840/costa-mesa.html> ;
+    ns1:name "Costa Mesa" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5339840/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "109960" ;
+    ns1:postalCode "92626" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Costa_Mesa%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5339840/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Costa_Mesa%2C_California> ;
+    ns2:alt "30" ;
+    ns2:lat "33.64113" ;
+    ns2:long "-117.91867" .
+
+<http://sws.geonames.org/5341145/> a ns1:Feature ;
+    ns1:alternateName "كوبيرتينو، سانتا كلارا، كاليفورنيا"@ar,
+        "Купертино"@bg,
+        "Cupertino"@de,
+        "Cupertino"@en,
+        "کوپرتینو، کالیفرنیا"@fa,
+        "Cupertino"@fr,
+        "קופרטינו"@he,
+        "कूपर्टीनो"@hi,
+        "Cupertino"@it,
+        "クパチーノ"@ja,
+        "쿠퍼티노"@ko,
+        "कुपर्तिनो"@mr,
+        "क्युपरटिनो"@new,
+        "Cupertino"@pl,
+        "کپرٹینو"@pnb,
+        "Купертино"@ru,
+        "Купертино"@sr,
+        "Cupertino"@sv,
+        "Купертіно"@uk,
+        "庫比蒂諾"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5341145/cupertino.html> ;
+    ns1:name "Cupertino" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5341145/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "58302" ;
+    ns1:postalCode "95014" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Cupertino%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5341145/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Cupertino%2C_California> ;
+    ns2:alt "72" ;
+    ns2:lat "37.323" ;
+    ns2:long "-122.03218" .
+
+<http://sws.geonames.org/5346462/> a ns1:Feature ;
+    ns1:alternateName "إميريفيلي، ألاميدا، كاليفورنيا"@ar,
+        "Емеривил"@bg,
+        "امری ویل، کالیفرنیا"@fa,
+        "エメリービル"@ja,
+        "एमेरीभिल"@new,
+        "Емеривил"@sr,
+        "Emerivill"@uz,
+        "愛莫利維爾"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5346462/emeryville.html> ;
+    ns1:name "Emeryville" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5346462/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "10080" ;
+    ns1:postalCode "94608" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Emeryville%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5346462/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Emeryville%2C_California> ;
+    ns2:alt "7" ;
+    ns2:lat "37.83132" ;
+    ns2:long "-122.28525" .
+
+<http://sws.geonames.org/5359777/> a ns1:Feature ;
+    ns1:alternateName "إرفاين، كاليفورنيا"@ar,
+        "Ървайн"@bg,
+        "Irvine"@de,
+        "Irvine"@eo,
+        "ارواین، کالیفرنیا"@fa,
+        "Irvine"@fi,
+        "Irvine"@fr,
+        "Irvine"@it,
+        "アーバイン"@ja,
+        "어바인"@ko,
+        "Irvinas"@lt,
+        "Irvine"@nl,
+        "اروائن"@pnb,
+        "Irvine"@pt,
+        "Ирвин"@ru,
+        "Ервајн"@sr,
+        "Irvine"@sv,
+        "Ервайн"@uk,
+        "歐文"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5359777/irvine.html> ;
+    ns1:name "Irvine" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5359777/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "212375" ;
+    ns1:postalCode "92709" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Irvine%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5359777/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Irvine%2C_California> ;
+    ns2:alt "17" ;
+    ns2:lat "33.66946" ;
+    ns2:long "-117.82311" .
+
+<http://sws.geonames.org/5367440/> a ns1:Feature ;
+    ns1:alternateName "ليفيرموري، ألاميدا، كاليفورنيا"@ar,
+        "Ливърмор"@bg,
+        "Livermore"@de,
+        "Livermore"@en,
+        "لیورمور، کالیفرنیا"@fa,
+        "Livermore"@fr,
+        "リバモア"@ja,
+        "리버모어"@ko,
+        "लिभरमोर"@new,
+        "Livermore"@nl,
+        "لیورمور"@pnb,
+        "Ливермор"@ru,
+        "Ливермор"@sr,
+        "利佛摩"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5367440/livermore.html> ;
+    ns1:name "Livermore" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5367440/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "80968" ;
+    ns1:postalCode "94551" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Livermore%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5367440/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Livermore%2C_California> ;
+    ns2:alt "150" ;
+    ns2:lat "37.68187" ;
+    ns2:long "-121.76801" .
+
+<http://sws.geonames.org/5368335/> a ns1:Feature ;
+    ns1:alternateName "Los Altos"@an,
+        "لوس ألتوس، سانتا كلارا، كاليفورنيا"@ar,
+        "Los Altos"@ast,
+        "Лос Алтос"@bg,
+        "Los Altos"@ca,
+        "Los Altos"@da,
+        "Los Altos"@de,
+        "Los Altos"@en,
+        "Los Altos"@es,
+        "لس‌آلتوس"@fa,
+        "לוס אלטוס"@he,
+        "Los Altos"@hu,
+        "Los Altos"@it,
+        "ロスアルトス"@ja,
+        "로스앨토스"@ko,
+        "Los Altos"@kw,
+        "लस एल्टोस"@new,
+        "Los Altos"@nl,
+        "Los Altos"@no,
+        "Los Altos"@pl,
+        "Лос Алтос"@sr,
+        "Los Altos"@sv,
+        "Los Altos"@tr,
+        "洛斯拉图斯"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5368335/los-altos.html> ;
+    ns1:name "Los Altos" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5368335/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "28976" ;
+    ns1:postalCode "94024" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Los_Altos%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5368335/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Los_Altos%2C_California> ;
+    ns2:alt "48" ;
+    ns2:lat "37.38522" ;
+    ns2:long "-122.11413" .
+
+<http://sws.geonames.org/5368361/> a ns1:Feature ;
+    ns1:alternateName "Лос-Анџелес"@ab,
+        "Los Angeles"@af,
+        "ሎስ አንጄሌስ"@am,
+        "Los Ángeles"@an,
+        "لوس أنجلوس"@ar,
+        "لوس انجليس"@arz,
+        "Los Ángeles"@ast,
+        "Los Anceles"@az,
+        "Лос-Анджелес"@ba,
+        "Горад Лос-Анджэлес"@be,
+        "Лос Анджелис"@bg,
+        "লস অ্যাঞ্জেলেস"@bn,
+        "Los Angeles"@bs,
+        "Los Angeles"@ca,
+        "Лос-Анджелес"@ce,
+        "لۆس ئانجلەس"@ckb,
+        "Los Angeles"@cs,
+        "Лос-Анджелес"@cv,
+        "Los Angeles"@da,
+        "Los Angeles"@de,
+        "Λος Άντζελες"@el,
+        "Los Angeles"@en,
+        "Los-Anĝeleso"@eo,
+        "Los Ángeles"@es,
+        "Los Angeles"@et,
+        "Los Angeles"@eu,
+        "Los Ángeles"@ext,
+        "لس آنجلس"@fa,
+        "Los Angeles"@fi,
+        "Los Angeles"@fr,
+        "洛杉磯"@gan,
+        "Os Ánxeles"@gl,
+        "Los Ángeles"@gn,
+        "Lo̍k-chhám-kî"@hak,
+        "Los Angeles"@hbs,
+        "לוס אנגלס"@he,
+        "लॉस ऐन्जेलिस"@hi,
+        "Los Angeles"@hr,
+        "Los Angeles"@hu,
+        "Լոս Անջելես"@hy,
+        "Los Angeles"@id,
+        "Los Angeles"@io,
+        "Los Angeles"@is,
+        "Los Angeles"@it,
+        "ロサンゼルス"@ja,
+        "ლოს-ანჯელესი"@ka,
+        "Лос Анжелес"@kk,
+        "ಲಾಸ್ ಎಂಜಲೀಸ್"@kn,
+        "로스앤젤레스"@ko,
+        "Лос-Анджелес"@krc,
+        "Los Angeles"@kw,
+        "Angelopolis"@la,
+        "Лос-Анджелес"@lez,
+        "Los Andželas"@lt,
+        "Losandželosa"@lv,
+        "Лос-Анджелес"@mhr,
+        "Лос Анџелес"@mk,
+        "ലോസ് ആഞ്ചെലെസ്"@ml,
+        "Лос-Анжелес"@mn,
+        "लॉस एंजेल्स"@mr,
+        "Лос-Анджелес"@mrj,
+        "လော့စ်အိန်ဂျယ်လိစ်မြို့"@my,
+        "لس آنجلس"@mzn,
+        "लस एन्जलस"@ne,
+        "लस एञ्जेल्स"@new,
+        "Los Angeles"@nl,
+        "Los Angeles"@nn,
+        "Los Angeles"@no,
+        "Los Angeles"@oc,
+        "Лос-Анджелес"@os,
+        "ਲਾਸ ਐਂਜਲਸ"@pa,
+        "Los Angeles"@pl,
+        "لاس اینجلس"@pnb,
+        "Los Angeles"@pt,
+        "Лос Анӂелес"@ro,
+        "Лос-Анджелес"@ru,
+        "Лос Анджелес"@rue,
+        "लास एंजलस"@sa,
+        "Лос Андьелес"@sah,
+        "Los Angeles"@scn,
+        "Luos Andžels"@sgs,
+        "Los Angeles"@sk,
+        "Los Angeles"@sl,
+        "Los Angeles"@sq,
+        "Лос Анђелес"@sr,
+        "Los Angeles"@sv,
+        "லாஸ் ஏஞ்சலஸ்"@ta,
+        "లాస్ ఏంజలెస్"@te,
+        "Лос Анҷелес"@tg,
+        "ลอสแอนเจลิส"@th,
+        "Los-Anjeles"@tk,
+        "Los Angeles"@tl,
+        "Lungsod ng Los Angeles"@tl,
+        "Los Angeles"@tr,
+        "Лос-Анджелес"@tt,
+        "Los Anjélés"@ug,
+        "لوس ئانجېلېس"@ug,
+        "Лос-Анджелес"@uk,
+        "لاس اینجلس"@ur,
+        "Los Anjeles"@uz,
+        "Los Angeles"@vi,
+        "洛杉矶"@wuu,
+        "ლოს-ანჯელესი"@xmf,
+        "לאס אנדזשעלעס"@yi,
+        "洛杉磯"@yue,
+        "洛杉矶"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5368361/los-angeles.html> ;
+    ns1:name "Los Angeles" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5368361/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "3792621" ;
+    ns1:postalCode "90060",
+        "90074" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Los_Angeles> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5368361/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Los_Angeles> ;
+    ns2:alt "89" ;
+    ns2:lat "34.05223" ;
+    ns2:long "-118.24368" .
+
+<http://sws.geonames.org/5372223/> a ns1:Feature ;
+    ns1:alternateName "مينلو بارك، سان ماتيو، كاليفورنيا"@ar,
+        "Менло Парк"@bg,
+        "Menlo Park"@de,
+        "Menlo Park"@en,
+        "منلو پارک، کالیفرنیا"@fa,
+        "Menlo Park"@fr,
+        "メンローパーク"@ja,
+        "멘로파크"@ko,
+        "मेन्लो पार्क"@new,
+        "Menlo Park"@pl,
+        "Менло-Парк"@ru,
+        "Менло Парк"@sr,
+        "Menlo Park"@sv,
+        "เมนโลพาร์ก"@th,
+        "门洛帕克"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5372223/menlo-park.html> ;
+    ns1:name "Menlo Park" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5372223/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "32026" ;
+    ns1:postalCode "94026" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Menlo_Park%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5372223/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Menlo_Park%2C_California> ;
+    ns2:alt "22" ;
+    ns2:lat "37.45383" ;
+    ns2:long "-122.18219" .
+
+<http://sws.geonames.org/5380748/> a ns1:Feature ;
+    ns1:alternateName "بالو ألتو، كاليفورنيا"@ar,
+        "Горад Пала-Альта"@be,
+        "Пало Алто"@bg,
+        "Palo Alto"@de,
+        "Πάλο Άλτο"@el,
+        "Palo Alto"@en,
+        "Palo Alto"@es,
+        "پالو آلتو، کالیفرنیا"@fa,
+        "Palo Alto"@fi,
+        "Palo Alto"@fr,
+        "פאלו אלטו"@he,
+        "パロアルト"@ja,
+        "Пало Альто"@kk,
+        "팰로앨토"@ko,
+        "पालो एल्टो"@new,
+        "Palo Alto"@nl,
+        "Palo Alto"@nn,
+        "Palo Alto"@no,
+        "Palo Alto"@pl,
+        "Palo Alto"@pt,
+        "Пало Альто"@ru,
+        "Пало Альто"@sah,
+        "Пало Алто"@sr,
+        "Palo Alto"@sv,
+        "Пало-Альто"@uk,
+        "Palo-Alto"@uz,
+        "帕羅奧圖"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5380748/palo-alto.html> ;
+    ns1:name "Palo Alto" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5380748/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "64403" ;
+    ns1:postalCode "94301" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Palo_Alto%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5380748/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Palo_Alto%2C_California> ;
+    ns2:alt "9" ;
+    ns2:lat "37.44188" ;
+    ns2:long "-122.14302" .
+
+<http://sws.geonames.org/5381396/> a ns1:Feature ;
+    ns1:alternateName "باسادينا، كاليفورنيا"@ar,
+        "Горад Пасадэна"@be,
+        "Пасадина"@bg,
+        "Pasadena"@de,
+        "Pasadena"@en,
+        "Pasadena"@es,
+        "پاسادینا، کالیفرنیا"@fa,
+        "Pasadena"@fi,
+        "Pasadena"@fr,
+        "פסדינה"@he,
+        "Փասադենա"@hy,
+        "Pasadena"@it,
+        "パサデナ"@ja,
+        "패서디나"@ko,
+        "पासादेना"@new,
+        "Pasadena"@nl,
+        "Pasadena"@pl,
+        "پاساڈینا"@pnb,
+        "Pasadena"@pt,
+        "Пасадина"@ru,
+        "Пасадена"@sr,
+        "Pasadena"@sv,
+        "แพซาดีนา"@th,
+        "Пасадена"@uk,
+        "帕萨迪纳"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5381396/pasadena.html> ;
+    ns1:name "Pasadena" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5381396/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "137122" ;
+    ns1:postalCode "91105" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Pasadena%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5381396/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Pasadena%2C_California> ;
+    ns2:alt "263" ;
+    ns2:lat "34.14778" ;
+    ns2:long "-118.14452" .
+
+<http://sws.geonames.org/5383777/> a ns1:Feature ;
+    ns1:alternateName "بليسانتون، ألاميدا، كاليفورنيا"@ar,
+        "Плезантън"@bg,
+        "Pleasanton"@de,
+        "Pleasanton"@en,
+        "پلیزانتون، کالیفرنیا"@fa,
+        "प्लिजेन्टटन"@new,
+        "Pleasanton"@nl,
+        "Плезантон"@ru,
+        "Плезантон"@sr,
+        "普莱森顿"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5383777/pleasanton.html> ;
+    ns1:name "Pleasanton" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5383777/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "70285" ;
+    ns1:postalCode "94566" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Pleasanton%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5383777/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Pleasanton%2C_California> ;
+    ns2:alt "106" ;
+    ns2:lat "37.66243" ;
+    ns2:long "-121.87468" .
+
+<http://sws.geonames.org/5386834/> a ns1:Feature ;
+    ns1:alternateName "ريدوود، كاليفورنيا"@ar,
+        "Редуд Сити"@bg,
+        "Redwood City"@en,
+        "ردوود سیتی، کالیفرنیا"@fa,
+        "レッドウッドシティ"@ja,
+        "레드우드시티"@ko,
+        "रेडवूड सिटी"@new,
+        "Redwood Lakanbalen"@pam,
+        "Редвуд Сити"@ru,
+        "Редвуд Сити"@sr,
+        "紅木城"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5386834/redwood-city.html> ;
+    ns1:name "Redwood City" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5386834/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "76815" ;
+    ns1:postalCode "94059" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Redwood_City%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5386834/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Redwood_City%2C_California> ;
+    ns2:alt "6" ;
+    ns2:lat "37.48522" ;
+    ns2:long "-122.23635" .
+
+<http://sws.geonames.org/5391811/> a ns1:Feature ;
+    ns1:alternateName "San Diego"@af,
+        "ሳንዲየጎ"@am,
+        "سان دييغو، كاليفورنيا"@ar,
+        "San Dieqo"@az,
+        "Горад Сан-Дыега"@be,
+        "Сан Диего"@bg,
+        "স্যান ডিয়েগো"@bn,
+        "Сан-Диего"@ce,
+        "San Diego"@cs,
+        "San Diego"@da,
+        "San Diego"@de,
+        "Σαν Ντιέγκο"@el,
+        "San Diego"@en,
+        "San-Diego"@eo,
+        "San Diego"@es,
+        "San Diego"@eu,
+        "سن دیگو"@fa,
+        "San Diego"@fi,
+        "San Diego"@fr,
+        "聖地牙哥"@gan,
+        "סן דייגו"@he,
+        "सैन डिएगो"@hi,
+        "San Diego"@hu,
+        "Սան Դիեգո"@hy,
+        "San Diego"@id,
+        "San Diego"@it,
+        "サンディエゴ"@ja,
+        "სან-დიეგო"@ka,
+        "샌디에이고"@ko,
+        "Didacopolis"@la,
+        "San Diegas"@lt,
+        "Sandjego"@lv,
+        "Сан Диего"@mk,
+        "सॅन डियेगो"@mr,
+        "स्यान डिएगो"@new,
+        "San Diego"@nl,
+        "San Diego"@no,
+        "Сан-Диего"@os,
+        "San Diego"@pl,
+        "سان ڈیاگو"@pnb,
+        "San Diego"@pt,
+        "San Diego"@ro,
+        "Сан-Диего"@ru,
+        "Сан Диего"@sah,
+        "San Diegu"@scn,
+        "San Diego"@sk,
+        "Сан Дијего"@sr,
+        "San Diego"@sv,
+        "சான் டியேகோ"@ta,
+        "శాన్ డియాగో"@te,
+        "Сан Диего"@tg,
+        "แซนดีเอโก"@th,
+        "Lungsod ng San Diego"@tl,
+        "San Diego"@tl,
+        "San Diego"@tr,
+        "San Diyégo"@ug,
+        "Сан-Дієго"@uk,
+        "San Diego"@vi,
+        "სან-დიეგო"@xmf,
+        "聖地牙哥"@yue,
+        "聖地牙哥"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5391811/san-diego.html> ;
+    ns1:name "San Diego" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5391811/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "1307402" ;
+    ns1:postalCode "92159",
+        "92179" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/San_Diego> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5391811/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/San_Diego> ;
+    ns2:alt "20" ;
+    ns2:lat "32.71533" ;
+    ns2:long "-117.15726" .
+
+<http://sws.geonames.org/5391959/> a ns1:Feature ;
+    ns1:alternateName "San Francisco"@af,
+        "سان فرانسيسكو"@ar,
+        "سان فرانسيسكو"@arz,
+        "San Francisco"@ast,
+        "San-Fransisko"@az,
+        "Горад Сан-Францыска"@be,
+        "Сан Франциско"@bg,
+        "সান ফ্রান্সিস্কো"@bn,
+        "སན་ཧྥུ་རན་སིས་ཁོ"@bo,
+        "সান ফ্রান্সিসকো কাউন্টি"@bpy,
+        "San Francisco"@bs,
+        "San Francisco"@ca,
+        "Сан-Франциско"@ce,
+        "سان فرانسیسکۆ"@ckb,
+        "San Francisco"@cs,
+        "Сан-Франциско"@cv,
+        "San Francisco"@cy,
+        "San Francisco"@da,
+        "San Francisco"@de,
+        "Σαν Φρανσίσκο"@el,
+        "San Francisco"@en,
+        "San Francisco"@eo,
+        "Sanfrancisko"@eo,
+        "San Francisco"@es,
+        "San Francisco"@et,
+        "San Frantzisko"@eu,
+        "San Franciscu"@ext,
+        "سان فرانسیسکو"@fa,
+        "San Francisco"@fi,
+        "San Francisco"@fr,
+        "San Fransisko"@fy,
+        "San Francisco"@ga,
+        "舊金山"@gan,
+        "San Francisco"@gd,
+        "San Francisco"@gl,
+        "Khiu-kîm-sân"@hak,
+        "Kapalakiko"@haw,
+        "San Francisco"@hbs,
+        "סן פרנסיסקו"@he,
+        "सैन फ्रांसिस्को"@hi,
+        "San Francisco"@hu,
+        "Սան Ֆրանցիսկո"@hy,
+        "San Francisco"@id,
+        "San Francisco"@is,
+        "San Francisco"@it,
+        "サンフランシスコ"@ja,
+        "სან-ფრანცისკო"@ka,
+        "Сан Франсиско"@kk,
+        "샌프란시스코"@ko,
+        "Сан-Франциско"@krc,
+        "Franciscopolis"@la,
+        "San Fransiskas"@lt,
+        "Sanfrancisko"@lv,
+        "Сан-Франциско"@mhr,
+        "Сан Франциско"@mk,
+        "സാൻ ഫ്രാൻസിസ്കോ"@ml,
+        "Сан-Франциско"@mn,
+        "सॅन फ्रान्सिस्को"@mr,
+        "ဆန်ဖရန်စစ္စကိုမြို့"@my,
+        "San Francisco"@nds,
+        "स्यान फ्रान्सिस्को"@new,
+        "San Francisco"@nl,
+        "San Francisco"@nn,
+        "San Francisco"@no,
+        "Сан-Франциско"@os,
+        "ਸੈਨ ਫਰਾਂਸਿਸਕੋ"@pa,
+        "San Francisco"@pl,
+        "سان فرانسسکو"@pnb,
+        "São Francisco"@pt,
+        "Сан Франциско"@ro,
+        "Сан-Франциско"@ru,
+        "Сан Франсиско"@sah,
+        "San Franciscu"@scn,
+        "සැන් ෆ්‍රැන්සිස්කෝ"@si,
+        "San Francisco"@sk,
+        "San Francisco"@sl,
+        "San Francisco"@sq,
+        "Сан Франциско"@sr,
+        "San Francisco"@sv,
+        "சான் பிரான்சிஸ்கோ"@ta,
+        "శాన్ ఫ్రాన్సిస్కో"@te,
+        "ซานฟรานซิสโก"@th,
+        "Lungsod ng San Francisco"@tl,
+        "San Francisco"@tl,
+        "San Francisco"@tr,
+        "Сан-Франциско"@tt,
+        "San Fransisko"@ug,
+        "Сан-Франциско"@uk,
+        "Сан-Франціско"@uk,
+        "سان فرانسسکو"@ur,
+        "San Fransisko"@uz,
+        "San Francisko"@vep,
+        "San Francisco"@vi,
+        "旧金山"@wuu,
+        "სან-ფრანცისკო"@xmf,
+        "סאן פראנציסקא"@yi,
+        "三藩市"@yue,
+        "旧金山"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5391959/san-francisco.html> ;
+    ns1:name "San Francisco" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5391959/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "805235" ;
+    ns1:postalCode "94152",
+        "94157" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/San_Francisco> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5391959/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/San_Francisco> ;
+    ns2:alt "16" ;
+    ns2:lat "37.77493" ;
+    ns2:long "-122.41942" .
+
+<http://sws.geonames.org/5392423/> a ns1:Feature ;
+    ns1:alternateName "سان ماتيو، كاليفورنيا"@ar,
+        "Сан Матео"@bg,
+        "San Mateo"@de,
+        "San Mateo"@en,
+        "سان ماتیو، کالیفرنیا"@fa,
+        "サンマテオ"@ja,
+        "샌머테이오"@ko,
+        "Matthaeopolis"@la,
+        "स्यान म्याटियो"@new,
+        "سانماٹیو"@pnb,
+        "Сан-Матео"@ru,
+        "Сан Матео"@sr,
+        "聖馬刁"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5392423/san-mateo.html> ;
+    ns1:name "San Mateo" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5392423/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "97207" ;
+    ns1:postalCode "94404",
+        "94405" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/San_Mateo%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5392423/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/San_Mateo%2C_California> ;
+    ns2:alt "13" ;
+    ns2:lat "37.56299" ;
+    ns2:long "-122.32553" .
+
+<http://sws.geonames.org/5393212/> a ns1:Feature ;
+    ns1:alternateName "سانتا مونيكا، كاليفورنيا"@ar,
+        "Santa Monika"@az,
+        "Горад Санта-Моніка"@be,
+        "Santa Monica"@bg,
+        "Santa Monica"@ca,
+        "سانتا مۆنیکا"@ckb,
+        "Santa Monica"@de,
+        "Σάντα Μόνικα"@el,
+        "Santa Monica"@en,
+        "Santa Mónica"@es,
+        "سنتا مونیکا، کالیفرنیا"@fa,
+        "Santa Monica"@fi,
+        "Santa Monica"@fr,
+        "Santa Mónica"@gd,
+        "סנטה מוניקה"@he,
+        "Santa Monica"@it,
+        "サンタモニカ"@ja,
+        "샌타모니카"@ko,
+        "Sancta Monica"@la,
+        "Santa Monika"@lt,
+        "Santamonika"@lv,
+        "Санта-Моника"@mn,
+        "स्यान्टा मोनिका"@new,
+        "Santa Monica"@nl,
+        "Santa Monica"@no,
+        "Santa Monica"@pl,
+        "سانٹا مونیکا"@pnb,
+        "Santa Mônica"@pt,
+        "Санта-Моника"@ru,
+        "Santa Monica"@sco,
+        "Santa Monica"@sk,
+        "Санта Моника"@sr,
+        "Santa Monica"@sv,
+        "சாந்தா மொனிக்கா"@ta,
+        "แซนตามอนิกา"@th,
+        "Санта-Моніка"@uk,
+        "سانٹا مونیکا"@ur,
+        "圣莫尼卡"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5393212/santa-monica.html> ;
+    ns1:name "Santa Monica" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5393212/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "89736" ;
+    ns1:postalCode "90403" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Santa_Monica%2C_California> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5393212/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Santa_Monica%2C_California> ;
+    ns2:alt "32" ;
+    ns2:lat "34.01945" ;
+    ns2:long "-118.49119" .
+
+<http://sws.geonames.org/5415035/> a ns1:Feature ;
+    ns1:alternateName "Broomfield"@en ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5415035/broomfield.html> ;
+    ns1:name "Broomfield" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5415035/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "55889" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Broomfield%2C_Colorado> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5415035/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Broomfield%2C_Colorado> ;
+    ns2:alt "1644" ;
+    ns2:lat "39.92054" ;
+    ns2:long "-105.08665" .
+
+<http://sws.geonames.org/5419384/> a ns1:Feature ;
+    ns1:alternateName "دنفر، كولورادو"@ar,
+        "Горад Дэнвер"@be,
+        "Денвър"@bg,
+        "ডেনভার কাউন্টি"@bpy,
+        "Denver"@br,
+        "Денвер"@ce,
+        "Denver"@da,
+        "Denver"@de,
+        "Ντένβερ"@el,
+        "Denver"@en,
+        "Denvero"@eo,
+        "Denver"@es,
+        "Denver"@eu,
+        "دنور، کلرادو"@fa,
+        "Denver"@fi,
+        "Denver"@fr,
+        "Denver"@ga,
+        "丹佛"@gan,
+        "Denver"@gl,
+        "דנוור"@he,
+        "डॅनवर"@hi,
+        "Դենվեր"@hy,
+        "Denver"@id,
+        "Denver"@io,
+        "Denver"@it,
+        "デンバー"@ja,
+        "დენვერი"@ka,
+        "Дэнвер"@kk,
+        "덴버"@ko,
+        "Denverium"@la,
+        "Denveris"@lt,
+        "Denvera"@lv,
+        "Денвер"@mk,
+        "ഡെൻവർ"@ml,
+        "Денвер"@mn,
+        "डेन्व्हर"@mr,
+        "Денвер"@mrj,
+        "Denver County"@nds,
+        "देन्भर"@new,
+        "Denver"@nl,
+        "Denver"@no,
+        "Denver"@oc,
+        "Денвер"@os,
+        "ਡੈਨਵਰ"@pa,
+        "Denver"@pl,
+        "ڈینور"@pnb,
+        "Denver"@pt,
+        "Denver"@ro,
+        "Денвер"@ru,
+        "डेन्वर्"@sa,
+        "Денвер"@sah,
+        "Denverės"@sgs,
+        "Денвер"@sr,
+        "Denver"@sv,
+        "டென்வர்"@ta,
+        "డెన్వర్"@te,
+        "เดนเวอร์"@th,
+        "Denber"@tl,
+        "Denver"@tr,
+        "Dénwér"@ug,
+        "Денвер"@uk,
+        "Denver"@vi,
+        "დენვერი"@xmf,
+        "丹佛"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/5419384/denver.html> ;
+    ns1:name "Denver" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5419384/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "600158" ;
+    ns1:postalCode "80217" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Denver> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5419384/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Denver> ;
+    ns2:alt "1609" ;
+    ns2:lat "39.73915" ;
+    ns2:long "-104.9847" .
+
+<http://sws.geonames.org/5440838/> a ns1:Feature ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5440838/superior.html> ;
+    ns1:name "Superior" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5440838/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "12483" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Superior%2C_Colorado> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5440838/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Superior%2C_Colorado> ;
+    ns2:alt "1675" ;
+    ns2:lat "39.95276" ;
+    ns2:long "-105.1686" .
+
+<http://sws.geonames.org/5511077/> a ns1:Feature ;
+    ns1:alternateName "رينو، نيفادا"@ar,
+        "Рино"@bg,
+        "Рино"@ce,
+        "Reno"@da,
+        "Reno"@de,
+        "Ρίνο"@el,
+        "Reno"@en,
+        "Reno"@es,
+        "رینو، نوادا"@fa,
+        "Reno"@fi,
+        "Reno"@fr,
+        "רינו"@he,
+        "リノ"@ja,
+        "Рэно"@kk,
+        "리노"@ko,
+        "Rynas"@lt,
+        "Rīno"@lv,
+        "रिनो"@mr,
+        "Reno"@nl,
+        "Reno"@pl,
+        "رینو"@pnb,
+        "Reno"@pt,
+        "Рино"@ru,
+        "Reno"@sk,
+        "Рино"@sr,
+        "Reno"@sv,
+        "Рино"@uk,
+        "רינא"@yi,
+        "雷諾"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5511077/reno.html> ;
+    ns1:name "Reno" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5511077/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "225221" ;
+    ns1:postalCode "89599" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Reno%2C_Nevada> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5511077/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Reno%2C_Nevada> ;
+    ns2:alt "1373" ;
+    ns2:lat "39.52963" ;
+    ns2:long "-119.8138" .
+
+<http://sws.geonames.org/5774001/> a ns1:Feature ;
+    ns1:alternateName "Дрейпър"@bg,
+        "دراپر، یوتا"@fa,
+        "Дрејпер"@sr,
+        "德雷珀"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5774001/draper.html> ;
+    ns1:name "Draper" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5774001/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "42274" ;
+    ns1:postalCode "84020" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Draper%2C_Utah> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5774001/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Draper%2C_Utah> ;
+    ns2:alt "1373" ;
+    ns2:lat "40.52467" ;
+    ns2:long "-111.86382" .
+
+<http://sws.geonames.org/5780993/> a ns1:Feature ;
+    ns1:alternateName "سولت ليك سيتي"@ar,
+        "Solt Leyk Siti"@az,
+        "Горад Солт-Лэйк-Сіці"@be,
+        "Солт Лейк Сити"@bg,
+        "Sol Lek Siti"@bi,
+        "ཚྭ་མཚོའི་གྲོང་ཁྱེར།"@bo,
+        "Salt Lake City"@ca,
+        "Salt Lake City"@da,
+        "Salt Lake City"@de,
+        "Σολτ Λέικ Σίτι"@el,
+        "Salt Lake City"@en,
+        "Sallaga Urbo"@eo,
+        "Salt Lake City"@es,
+        "Salt Lake City"@eu,
+        "سالت‌لیک‌سیتی"@fa,
+        "Salt Lake City"@fi,
+        "Salt Lake City"@fr,
+        "Salt Lake City"@gl,
+        "Salt Lake City"@hbs,
+        "סולט לייק סיטי"@he,
+        "सॉल्ट लेक सिटी"@hi,
+        "Salt Lake City"@hr,
+        "Սոլթ Լեյք Սիթի"@hy,
+        "Salt Lake City"@id,
+        "Salt Lake City"@io,
+        "Salt Lake City"@it,
+        "ソルトレイクシティ"@ja,
+        "სოლტ-ლეიკ-სიტი"@ka,
+        "ಸಾಲ್ಟ್ ಲೇಕ್ ಸಿಟಿ"@kn,
+        "솔트레이크시티"@ko,
+        "Urbs Lacus Salsi"@la,
+        "Solt Leik Sitis"@lt,
+        "Soltleiksitija"@lv,
+        "Солт Лејк Сити"@mk,
+        "सॉल्ट लेक सिटी"@mr,
+        "Солт-Лейк-Сити"@mrj,
+        "Salt Lake City"@nl,
+        "Salt Lake City"@no,
+        "Salt Lake City"@oc,
+        "Солт-Лейк-Сити"@os,
+        "ਸਾਲਟ ਲੇਕ ਸਿਟੀ"@pa,
+        "Salt Lake City"@pl,
+        "سالٹ لیک سٹی"@pnb,
+        "Salt Lake City"@pt,
+        "Солт-Лейк-Сити"@ru,
+        "Salt Lake Ceety"@sco,
+        "Solt Leik Sitės"@sgs,
+        "Salt Lake City"@sq,
+        "Солт Лејк Сити"@sr,
+        "Salt Lake City"@sv,
+        "சால்ட் லேக் நகரம்"@ta,
+        "ซอลต์เลกซิตี"@th,
+        "Lungsod ng Salt Lake"@tl,
+        "Salt Lake City"@tr,
+        "Солт-Лейк-Сіті"@uk,
+        "سالٹ لیک سٹی، یوٹاہ"@ur,
+        "Thành phố Salt Lake"@vi,
+        "盐湖城"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/5780993/salt-lake-city.html> ;
+    ns1:name "Salt Lake City" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5780993/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "186440" ;
+    ns1:postalCode "84111" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Salt_Lake_City> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5780993/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Salt_Lake_City> ;
+    ns2:alt "1299" ;
+    ns2:lat "40.76078" ;
+    ns2:long "-111.89105" .
+
+<http://sws.geonames.org/5786882/> a ns1:Feature ;
+    ns1:alternateName "بالفيو، واشنطن"@ar,
+        "Белвю"@bg,
+        "Bellevue"@da,
+        "Bellevue"@de,
+        "Bellevue"@en,
+        "Bellevue"@eo,
+        "بلویو، واشینگتن"@fa,
+        "ベルビュー"@ja,
+        "벨뷰"@ko,
+        "Belvju"@lt,
+        "बेलव्ह्यू"@mr,
+        "Bellevue"@nl,
+        "Bellevue"@pt,
+        "Белвью"@ru,
+        "Белвју"@sr,
+        "Белвю"@uk,
+        "贝尔维尤"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5786882/bellevue.html> ;
+    ns1:name "Bellevue" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5786882/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "122363" ;
+    ns1:postalCode "98015" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Bellevue%2C_Washington> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5786882/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Bellevue%2C_Washington> ;
+    ns2:alt "26" ;
+    ns2:lat "47.61038" ;
+    ns2:long "-122.20068" .
+
+<http://sws.geonames.org/5799841/> a ns1:Feature ;
+    ns1:alternateName "كيركلاند، واشنطن"@ar,
+        "Къркланд"@bg,
+        "کرکلند، واشینگتن"@fa,
+        "カークランド"@ja,
+        "Kirklandas"@lt,
+        "Керкланд"@sr,
+        "柯克兰"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5799841/kirkland.html> ;
+    ns1:name "Kirkland" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5799841/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "48787" ;
+    ns1:postalCode "98033" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Kirkland%2C_Washington> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5799841/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Kirkland%2C_Washington> ;
+    ns2:alt "47" ;
+    ns2:lat "47.68149" ;
+    ns2:long "-122.20874" .
+
+<http://sws.geonames.org/5809844/> a ns1:Feature ;
+    ns1:alternateName "ስያትል"@am,
+        "سياتل، واشنطن"@ar,
+        "Sietl"@az,
+        "Сиэтл"@ba,
+        "Горад Сіэтл"@be,
+        "Сиатъл"@bg,
+        "Seattle"@ca,
+        "Сиэтл"@ce,
+        "Seattle"@cs,
+        "Seattle"@da,
+        "Seattle"@de,
+        "Σιάτλ"@el,
+        "Seattle"@en,
+        "Seattle"@eo,
+        "Seattle"@es,
+        "سیاتل"@fa,
+        "Seattle"@fi,
+        "Seattle"@fr,
+        "西雅圖"@gan,
+        "Seattle"@gd,
+        "Seattle"@gl,
+        "סיאטל"@he,
+        "सीऐटल"@hi,
+        "Seattle"@hu,
+        "Սիեթլ"@hy,
+        "Seattle"@id,
+        "Seattle"@io,
+        "Seattle"@is,
+        "Seattle"@it,
+        "シアトル"@ja,
+        "სიეტლი"@ka,
+        "ស៊ីតថល"@km,
+        "시애틀"@ko,
+        "Seattlum"@la,
+        "Sietlas"@lt,
+        "Sietla"@lv,
+        "Сиетл"@mk,
+        "सिअ‍ॅटल"@mr,
+        "Сиэтл"@mrj,
+        "Seattle"@nds,
+        "Seattle"@nl,
+        "Seattle"@nn,
+        "Seattle"@no,
+        "Seattle"@oc,
+        "Сиэтл"@os,
+        "Seattle"@pl,
+        "سیاٹل"@pnb,
+        "Seattle"@pt,
+        "Seattle"@ro,
+        "Сиэтл"@ru,
+        "Сиэтл"@sah,
+        "Seattle"@sk,
+        "Seattle"@sl,
+        "Сијетл"@sr,
+        "Seattle"@sv,
+        "Seattle"@sw,
+        "சியாட்டில்"@ta,
+        "Сиэтл"@tg,
+        "ซีแอตเทิล"@th,
+        "Seattle"@tr,
+        "Сиэтл"@tt,
+        "Séatl"@ug,
+        "Сієтл"@uk,
+        "Sietl"@uz,
+        "Seattle"@vi,
+        "სიეთლი"@xmf,
+        "סיאטל"@yi,
+        "西雅圖"@yue,
+        "西雅圖"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/5809844/seattle.html> ;
+    ns1:name "Seattle" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5809844/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "608660" ;
+    ns1:postalCode "98178",
+        "98194" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Seattle> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5809844/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Seattle> ;
+    ns2:alt "56" ;
+    ns2:lat "47.60621" ;
+    ns2:long "-122.33207" .
+
+<http://sws.geonames.org/5844096/> a ns1:Feature ;
+    ns1:alternateName "Американ Форк"@bg,
+        "آمریکن فورک، یوتا"@fa,
+        "Американ Форк"@sr,
+        "美国福克"@zh ;
+    ns1:countryCode "US" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5844096/american-fork.html> ;
+    ns1:name "American Fork" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5844096/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6252001/> ;
+    ns1:population "26263" ;
+    ns1:postalCode "84003" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/American_Fork%2C_Utah> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5844096/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/American_Fork%2C_Utah> ;
+    ns2:alt "1404" ;
+    ns2:lat "40.3769" ;
+    ns2:long "-111.79576" .
+
+<http://sws.geonames.org/5913490/> a ns1:Feature ;
+    ns1:alternateName "Calgary"@af,
+        "كالغاري"@ar,
+        "Kalqari"@az,
+        "Горад Калгары"@be,
+        "Калгари"@bg,
+        "Калгари"@ce,
+        "Calgary"@da,
+        "Calgary"@de,
+        "Κάλγκαρι"@el,
+        "Calgary"@en,
+        "Kalgario"@eo,
+        "Calgary"@es,
+        "Calgary"@et,
+        "Calgary"@eu,
+        "کلگری"@fa,
+        "Calgary"@fi,
+        "Calgary"@fr,
+        "Kelgery"@fy,
+        "Calgary"@hbs,
+        "קלגרי"@he,
+        "कैलगरी"@hi,
+        "Կալգարի"@hy,
+        "Calgary"@id,
+        "Calgary"@io,
+        "Calgary"@it,
+        "カルガリー"@ja,
+        "კალგარი"@ka,
+        "ಕ್ಯಾಲ್ಗರಿ"@kn,
+        "캘거리"@ko,
+        "Calgaria"@la,
+        "Kalgaris"@lt,
+        "Kalgari"@lv,
+        "Калгари"@mn,
+        "कॅल्गारी"@mr,
+        "ကယ်လ်ဂရီမြို့"@my,
+        "Calgary"@nl,
+        "Calgary"@nn,
+        "Calgary"@no,
+        "Калгари"@os,
+        "ਕੈਲਗਰੀ"@pa,
+        "Calgary"@pl,
+        "کالگری"@pnb,
+        "Calgary"@pt,
+        "Calgary"@ro,
+        "Калгари"@ru,
+        "Калгари"@sah,
+        "Calgary"@sk,
+        "Калгари"@sr,
+        "Calgary"@sv,
+        "கால்கரி"@ta,
+        "కాల్గరీ"@te,
+        "Калгари"@tg,
+        "แคลกะรี"@th,
+        "Calgary"@tr,
+        "Kalgari"@ug,
+        "Калгарі"@uk,
+        "Calgary"@vi,
+        "卡加利"@yue,
+        "卡尔加里"@zh ;
+    ns1:countryCode "CA" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/5913490/calgary.html> ;
+    ns1:name "Calgary" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/5913490/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6251999/> ;
+    ns1:population "1019942" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Calgary> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/5913490/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Calgary> ;
+    ns2:alt "1048" ;
+    ns2:lat "51.05011" ;
+    ns2:long "-114.08529" .
+
+<http://sws.geonames.org/6077243/> a ns1:Feature ;
+    ns1:alternateName "Montréal"@af,
+        "Монреал"@bg,
+        "Montreal"@bs,
+        "Mont-real"@ca,
+        "Montreal"@cs,
+        "Montreal"@cy,
+        "Montreal"@da,
+        "Montreal"@de,
+        "Μόντρεαλ"@el,
+        "Montreal"@en,
+        "Montrealo"@eo,
+        "Montreal"@es,
+        "Montréal"@et,
+        "Montreal"@eu,
+        "مونتریال"@fa,
+        "Montreal"@fi,
+        "Montréal"@fr,
+        "Montréal"@ga,
+        "Montreal - Montréal"@gl,
+        "Montreal"@hbs,
+        "מונטריאול"@he,
+        "Montreal"@hr,
+        "Monreyal"@ht,
+        "Montreal"@id,
+        "Montréal"@io,
+        "Montréal"@is,
+        "Montréal"@it,
+        "ᒧᕆᐊᓪ"@iu,
+        "モントリオール"@ja,
+        "მონრეალი"@ka,
+        "몬트리올"@ko,
+        "Mons Regius"@la,
+        "Montréal"@ln,
+        "Monrealis"@lt,
+        "Monreāla"@lv,
+        "Montréal"@nl,
+        "Montreal"@no,
+        "Montreal"@oc,
+        "Montreal"@pl,
+        "Montreal"@pt,
+        "Montreal"@ro,
+        "Монреаль"@ru,
+        "Montreal"@sl,
+        "Montreali"@sq,
+        "Монтреал"@sr,
+        "Montreal"@sv,
+        "Lungsod ng Montréal"@tl,
+        "Montreal"@tr,
+        "مونترېئال"@ug,
+        "Монреаль"@uk,
+        "Montréal"@vi ;
+    ns1:countryCode "CA" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA2 ;
+    ns1:locationMap <http://www.geonames.org/6077243/montreal.html> ;
+    ns1:name "Montreal" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/6077243/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6251999/> ;
+    ns1:population "1600000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Montreal> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6077243/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Montreal> ;
+    ns2:lat "45.50884" ;
+    ns2:long "-73.58781" .
+
+<http://sws.geonames.org/6167865/> a ns1:Feature ;
+    ns1:alternateName "Toronto"@af,
+        "Toronto"@ang,
+        "تورونتو"@ar,
+        "Горад Таронта"@be,
+        "Торонто"@bg,
+        "টরোন্টো"@bn,
+        "Toronto"@ca,
+        "Toronto"@cs,
+        "Торонто"@cv,
+        "Toronto"@cy,
+        "Toronto"@da,
+        "Toronto"@de,
+        "Τορόντο"@el,
+        "Toronto"@en,
+        "Toronto"@eo,
+        "Toronto"@es,
+        "Toronto"@et,
+        "Toronto"@eu,
+        "تورنتو"@fa,
+        "Toronto"@fi,
+        "Toronto"@fr,
+        "Toronto"@frp,
+        "Torontó"@ga,
+        "Toronto"@gl,
+        "Toronto"@hbs,
+        "טורונטו"@he,
+        "टोरण्टो"@hi,
+        "Toronto"@hr,
+        "Toronto"@hu,
+        "Տորոնտո"@hy,
+        "Toronto"@id,
+        "Toronto"@io,
+        "Toronto"@is,
+        "Toronto"@it,
+        "トロント"@ja,
+        "ტორონტო"@ka,
+        "ಟೊರಾಂಟೋ"@kn,
+        "토론토"@ko,
+        "Toronto"@kw,
+        "Torontum"@la,
+        "Torontas"@lt,
+        "Toronto"@lv,
+        "Торонто"@mk,
+        "ടോറോണ്ടോ"@ml,
+        "Торонто"@mn,
+        "टोराँटो"@mr,
+        "တိုရွန်တိုမြို့"@my,
+        "टोरन्टो"@ne,
+        "तोरन्तो"@new,
+        "Toronto"@nl,
+        "Toronto"@nn,
+        "Toronto"@no,
+        "Торонто"@os,
+        "ਟੋਰਾਂਟੋ"@pa,
+        "Toronto"@pl,
+        "ٹورنٹو"@pnb,
+        "Toronto"@pt,
+        "Toronto"@ro,
+        "Торонто"@ru,
+        "Торонто"@sah,
+        "Torontu"@scn,
+        "Toronto"@sk,
+        "Toronto"@sl,
+        "Торонто"@sr,
+        "Toronto"@sv,
+        "ரொறன்ரோ"@ta,
+        "టొరంటో"@te,
+        "โทรอนโต"@th,
+        "Toronto"@tr,
+        "Торонто"@tt,
+        "تورونتو"@ug,
+        "Торонто"@uk,
+        "ٹورانٹو"@ur,
+        "Toronto"@vi,
+        "טאראנטא"@yi,
+        "多伦多"@zh ;
+    ns1:countryCode "CA" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLA ;
+    ns1:locationMap <http://www.geonames.org/6167865/toronto.html> ;
+    ns1:name "Toronto" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/6167865/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6251999/> ;
+    ns1:population "2600000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Toronto> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6167865/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Toronto> ;
+    ns2:lat "43.70011" ;
+    ns2:long "-79.4163" .
+
+<http://sws.geonames.org/6173331/> a ns1:Feature ;
+    ns1:alternateName "Vancouver"@af,
+        "فانكوفر"@ar,
+        "فانكوفر"@arz,
+        "Vankuver"@az,
+        "Горад Ванкувер"@be,
+        "Ванкувър"@bg,
+        "ভ্যানকুভার"@bn,
+        "ཝན་ཁུ་ཝེར།"@bo,
+        "Vancouver"@ca,
+        "Ванкувер"@ce,
+        "Vancouver"@cs,
+        "Vancouver"@cy,
+        "Vancouver"@da,
+        "Vancouver"@de,
+        "Βανκούβερ"@el,
+        "Vancouver"@en,
+        "Vankuvero"@eo,
+        "Vancouver"@es,
+        "Vancouver"@et,
+        "Vancouver"@eu,
+        "ونکوور"@fa,
+        "Vancouver"@fi,
+        "Vancouver"@fr,
+        "Fankoever"@fy,
+        "Vancouver"@ga,
+        "Vancouver"@gl,
+        "Vancouver"@hbs,
+        "ונקובר"@he,
+        "वैंकूवर"@hi,
+        "Vancouver"@hr,
+        "Վանկուվեր"@hy,
+        "Vancouver"@id,
+        "Vancouver"@io,
+        "Vancouver"@it,
+        "バンクーバー"@ja,
+        "ვანკუვერი"@ka,
+        "밴쿠버"@ko,
+        "Ванкувер"@koi,
+        "Venkûver"@ku,
+        "Vancuverium"@la,
+        "Vankuveris"@lt,
+        "Vankūvera"@lv,
+        "Ванкувер"@mn,
+        "व्हँकूव्हर"@mr,
+        "ဗန်ကူးဗားမြို့"@my,
+        "Vancouver"@nl,
+        "Vancouver"@no,
+        "Ванкувер"@os,
+        "ਵੈਨਕੂਵਰ"@pa,
+        "Vancouver"@pl,
+        "وینکوور"@pnb,
+        "Vancouver"@pt,
+        "Vancouver"@ro,
+        "Ванкувер"@ru,
+        "Ванкувер"@sah,
+        "Vancouver"@sk,
+        "Ванкувер"@sr,
+        "Vancouver"@sv,
+        "வான்கூவர்"@ta,
+        "แวนคูเวอร์"@th,
+        "Vancouver"@tr,
+        "Ванкувер"@tt,
+        "Wankuwér"@ug,
+        "Ванкувер"@uk,
+        "Vankuver"@uz,
+        "Vancouver"@vi,
+        "溫哥華"@yue,
+        "溫哥華"@zh ;
+    ns1:countryCode "CA" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/6173331/vancouver.html> ;
+    ns1:name "Vancouver" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/6173331/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6251999/> ;
+    ns1:population "600000" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Vancouver> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6173331/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Vancouver> ;
+    ns2:lat "49.24966" ;
+    ns2:long "-123.11934" .
+
+<http://sws.geonames.org/6176823/> a ns1:Feature ;
+    ns1:alternateName "واترلو"@ar,
+        "واترلو"@fa,
+        "ウォータールー"@ja,
+        "워털루"@ko,
+        "Ватерлоо"@ru,
+        "Вотерлу"@sr,
+        "Ватерлоо"@uk,
+        "滑鐵盧"@zh ;
+    ns1:countryCode "CA" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/6176823/waterloo.html> ;
+    ns1:name "Waterloo" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/6176823/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/6251999/> ;
+    ns1:population "97475" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Waterloo%2C_Ontario> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/6176823/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Waterloo%2C_Ontario> ;
+    ns2:lat "43.4668" ;
+    ns2:long "-80.51639" .
+
+<http://sws.geonames.org/658225/> a ns1:Feature ;
+    ns1:alternateName "Hèlsinki"@ace,
+        "Helsinki"@af,
+        "ሄልሲንኪ"@am,
+        "هلسنكي"@ar,
+        "ܗܠܣܢܩܝ"@arc,
+        "هيلسينكى"@arz,
+        "Ḥélsinki"@ast,
+        "Helsinki"@bar,
+        "Горад Хельсінкі"@be,
+        "Хелзинки"@bg,
+        "হেলসিঙ্কি"@bn,
+        "ཧེལ་སིན་ཀི།"@bo,
+        "Helsinki"@br,
+        "Helsinki"@bs,
+        "Hèlsinki"@ca,
+        "Хельсинки"@ce,
+        "ھێلسینکی"@ckb,
+        "Helsinky"@cs,
+        "Хельсинки"@cv,
+        "Helsinki"@da,
+        "Helsinki"@de,
+        "Ελσίνκι"@el,
+        "Helsinki"@en,
+        "Helsinko"@eo,
+        "Helsinki"@es,
+        "Helsingi"@et,
+        "Helsinki"@eu,
+        "هلسینکی"@fa,
+        "Helsinki"@fi,
+        "Helsinki"@fr,
+        "Helsinky"@fy,
+        "Heilsincí"@ga,
+        "Helsinki"@gd,
+        "Helsinqui"@gl,
+        "Helsinki"@hbs,
+        "הלסינקי"@he,
+        "हेलसिंकी"@hi,
+        "Helsinki"@hr,
+        "Èlzinki"@ht,
+        "Helsinki"@hu,
+        "Հելսինկի"@hy,
+        "Helsinki"@id,
+        "Helsinki"@io,
+        "Helsinki"@is,
+        "Helsinki"@it,
+        "ヘルシンキ"@ja,
+        "ჰელსინკი"@ka,
+        "Хельсинки"@kk,
+        "ಹೆಲ್ಸಿಂಕಿ"@kn,
+        "헬싱키"@ko,
+        "Хельсинки"@koi,
+        "Helsînkî"@ku,
+        "Хельсинки"@kv,
+        "Helsingia"@la,
+        "Helsinkium"@la,
+        "Helsinki"@lb,
+        "Helsinkis"@lt,
+        "Helsinki"@lv,
+        "Хельсинки"@mdf,
+        "Хельсинки"@mhr,
+        "Хелсинки"@mk,
+        "ഹെൽസിങ്കി"@ml,
+        "हेलसिंकी"@mr,
+        "Хельсинки"@mrj,
+        "Ħelsinki"@mt,
+        "ဟယ်လ်ဆင်ကီမြို့"@my,
+        "Хельсинки ош"@myv,
+        "Helsinki"@na,
+        "Helsinqui"@nah,
+        "Helsinki"@nds,
+        "हेल्सिन्कि"@ne,
+        "Helsinki"@nl,
+        "Helsingfors"@nn,
+        "Helsingfors"@no,
+        "Helsinki"@oc,
+        "Хельсинки"@os,
+        "ਹੈਲਸਿੰਕੀ"@pa,
+        "Helsinki"@pl,
+        "ہیلسنکی"@pnb,
+        "Helsínquia"@pt,
+        "Helsinki"@qu,
+        "Helsinki"@ro,
+        "Хельсинки"@ru,
+        "Хельсинки"@sah,
+        "Helsset"@se,
+        "Helsėnkis"@sgs,
+        "Helsinki"@sk,
+        "Helsinki"@sl,
+        "Helsinki"@sq,
+        "Хелсинки"@sr,
+        "Helsingfors"@sv,
+        "Helsinki"@sw,
+        "ஹெல்சின்கி"@ta,
+        "Ҳелсинкӣ"@tg,
+        "เฮลซิงกิ"@th,
+        "Lungsod ng Helsinki"@tl,
+        "Helsinki"@tr,
+        "Һельсинки"@tt,
+        "Хельсинки"@udm,
+        "Xélsinki"@ug,
+        "Гельсінкі"@uk,
+        "ہلسنکی"@ur,
+        "Hel'sinki"@vep,
+        "Elsinki"@wo,
+        "העלסינקי"@yi,
+        "赫爾辛基"@yue,
+        "赫尔辛基"@zh ;
+    ns1:countryCode "FI" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/658225/helsinki.html> ;
+    ns1:name "Helsinki" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/658225/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/660013/> ;
+    ns1:population "558457" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Helsinki> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/658225/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Helsinki> ;
+    ns2:lat "60.16952" ;
+    ns2:long "24.93545" .
+
+<http://sws.geonames.org/7535963/> a ns1:Feature ;
+    ns1:alternateName "Ню Олесун"@bg,
+        "נו אלסון"@he,
+        "ニーオーレスン"@ja,
+        "뉘올레순"@ko,
+        "Niu Olesiundas"@lt,
+        "Ny-Aalesund"@ro,
+        "Ню-Олесунн"@ru,
+        "Ню-Олесунн"@uk ;
+    ns1:countryCode "SJ" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPL ;
+    ns1:locationMap <http://www.geonames.org/7535963/ny-alesund.html> ;
+    ns1:name "Ny-Ålesund" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/7535963/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/607072/> ;
+    ns1:population "35" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Ny-%C3%85lesund> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/7535963/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Ny-%C3%85lesund> ;
+    ns2:lat "78.92373" ;
+    ns2:long "11.92497" .
+
+<http://sws.geonames.org/756135/> a ns1:Feature ;
+    ns1:alternateName "Warskou"@af,
+        "ዋርሶው"@am,
+        "وارسو"@ar,
+        "ܘܪܣܘ"@arc,
+        "Варшава"@be,
+        "Варшава"@bg,
+        "Varsovia"@br,
+        "Varšava"@bs,
+        "Varsòvia"@ca,
+        "Varšava"@cs,
+        "Warszawa"@csb,
+        "Варшава"@cu,
+        "Варшава"@cv,
+        "Warsaw"@cy,
+        "Warszawa"@da,
+        "Warschau"@de,
+        "Βαρσοβία"@el,
+        "Warsaw"@en,
+        "Varsovio"@eo,
+        "Varsovia"@es,
+        "Varssavi"@et,
+        "Barsobia"@eu,
+        "ورشو"@fa,
+        "Varsova"@fi,
+        "Varsovie"@fr,
+        "Varsovie"@frp,
+        "Vársá"@ga,
+        "Warsaw"@gd,
+        "Varsovia - Warszawa"@gl,
+        "Varšava"@hbs,
+        "ורשה"@he,
+        "Varšava"@hr,
+        "Waršawa"@hsb,
+        "Varsó"@hu,
+        "Վարշավա"@hy,
+        "Varsovia"@ia,
+        "Warsawa"@id,
+        "Warszawa"@io,
+        "Varsjá"@is,
+        "Varsavia"@it,
+        "ワルシャワ"@ja,
+        "Warsawa"@jv,
+        "ვარშავა"@ka,
+        "바르샤바"@ko,
+        "Varsovia"@la,
+        "Warschau"@lb,
+        "Warschau"@li,
+        "Varšuva"@lt,
+        "Варшава"@mk,
+        "वॉर्सो"@mr,
+        "Varsavja"@mt,
+        "Warsaw"@na,
+        "Varsavia"@nap,
+        "Warschau"@nds,
+        "Warschau"@nl,
+        "Warszawa"@nn,
+        "Warszawa"@no,
+        "Варшавæ"@os,
+        "Warszawa"@pl,
+        "Varsóvia"@pt,
+        "Varșovia"@ro,
+        "Варшава"@ru,
+        "Varsavia"@scn,
+        "Varšava"@sk,
+        "Varšava"@sl,
+        "Varshava"@sq,
+        "Варшава"@sr,
+        "Warszawa"@sv,
+        "Varsóvia"@tet,
+        "วอร์ซอ"@th,
+        "Varşova"@tr,
+        "Варшава"@udm,
+        "ۋارشاۋا"@ug,
+        "Варшава"@uk,
+        "Warszawa"@vi,
+        "Warszawa"@vo,
+        "ווארשע"@yi,
+        "华沙"@zh ;
+    ns1:countryCode "PL" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLC ;
+    ns1:locationMap <http://www.geonames.org/756135/warsaw.html> ;
+    ns1:name "Warsaw" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/756135/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/798544/> ;
+    ns1:population "1702139" ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Warsaw> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/756135/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Warsaw> ;
+    ns2:lat "52.22977" ;
+    ns2:long "21.01178" .
+
+<http://sws.geonames.org/8349165/> a ns1:Feature ;
+    ns1:countryCode "AU" ;
+    ns1:featureClass ns1:P ;
+    ns1:featureCode ns1:P.PPLX ;
+    ns1:locationMap <http://www.geonames.org/8349165/braddon.html> ;
+    ns1:name "Braddon" ;
+    ns1:nearbyFeatures <http://sws.geonames.org/8349165/nearby.rdf> ;
+    ns1:parentCountry <http://sws.geonames.org/2077456/> ;
+    ns1:wikipediaArticle <http://en.wikipedia.org/wiki/Braddon%2C_Australian_Capital_Territory> ;
+    rdfs:isDefinedBy <http://sws.geonames.org/8349165/about.rdf> ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Braddon%2C_Australian_Capital_Territory> ;
+    ns2:lat "-35.27078" ;
+    ns2:long "149.13569" .
+
