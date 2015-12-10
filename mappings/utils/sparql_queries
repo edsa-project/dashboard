@@ -53,3 +53,6 @@ select ?job ?title ?hiringOrganization ?locationName ?lat ?long ?countryName (gr
 }
 group by ?job ?title ?hiringOrganization ?locationName ?lat ?long ?countryName
 order by ?countryName
+
+
+

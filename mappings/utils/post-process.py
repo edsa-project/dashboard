@@ -37,12 +37,12 @@ def add_skills(dataset,skilldict):
 def main(argv):
     args = args_process(argv)
     dataset = Graph()
-    dataset.load(args.dataset, format='turtle')
+    dataset.load(args.dataset)
 
     #filter_non_exact(dataset)
     skilldict = get_skill_dict("datasets/skillNames.ttl")
     add_skills(dataset,skilldict)
-    dataset.serialize(destination=args.outputfile, format='turtle')
+    dataset.serialize(destination=args.outputfile)
 
 
 if __name__ == "__main__":

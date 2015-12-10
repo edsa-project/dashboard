@@ -20,30 +20,31 @@ URL="http://api.indeed.com/ads/apisearch"
 
 
 #keywords = ['Data Science',
-#    'Data Scientist',
-#    'Data Analyst',
-#    'Data Analysis',
-#    'Data Engineer',
-#    'Data Engineering',
-#    'Data Mining']
+#   'Data Scientist',
+#   'Data Analyst',
+#   'Data Analysis',
+#   'Data Engineer',
+#   'Data Engineering',
+#   'Data Mining',
+#   'Big Data']
 
-#keywords = ['Ciencia de Datos',
-#    'Científico de datos',
-#    'Analista de datos',
-#    'análisis de datos',
-#    'Ingeniero de datos',
-#    'Ingeniería de datos',
-#    'Minería de datos',
-#    ]
-
-keywords = ['Science des données',
-    'Scientifique des données',
-    'Analyst des données',
-    'Analyse des données',
-    'Ingenieur des données',
-    'Ingenierie des données',
-    'Fouille des données'
+keywords = ['Ciencia de Datos',
+    'Científico de datos',
+    'Analista de datos',
+    'análisis de datos',
+    'Ingeniero de datos',
+    'Ingeniería de datos',
+    'Minería de datos',
     ]
+
+# keywords = ['Science des données',
+#   'Scientifique des données',
+#   'Analyst des données',
+#   'Analyse des données',
+#   'Ingenieur des données',
+#   'Ingenierie des données',
+#   'Fouille des données'
+#   ]
 countries = [
          'at','be','cz','dk','fi','fr','de','gr','hu', 'gb',
          'ie', 'it', 'lu', 'nl', 'pl', 'ro', 'es', 'se', 

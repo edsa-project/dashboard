@@ -12,3 +12,14 @@ def is_duplicate(graph,url):
         return (None,ns.schema.url,url) in graph
     else:
         return (None,ns.schema.url,URIRef(url)) in graph
+
+def set_expiry_date(currentbase,newbase):
+    """
+    Pre: The merge was already done
+    """
+    # TODO: Substitute for type
+    for job in currentbase.subject(ns.schema.jobtitle,None):
+        if (job,None,None) not in newbase:
+            d = date.today()
+            literaldate = Literal(date.isoformat(),datatype=XSD.Date)
+            currentbase.add((job,ns.edsa.date_expired,literaldate))
